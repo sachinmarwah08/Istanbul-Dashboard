@@ -1,0 +1,187 @@
+.global-regions-wrapper {
+  width: 100%;
+
+  .global-regions-container {
+    width: auto;
+    margin: 1.3rem;
+    height: 100%;
+    // padding: 1.5rem;
+    border: 4px solid rgba(180, 179, 222, 0.23);
+    border-radius: 32px;
+
+    .global-filter-wrapper {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1.5rem;
+
+      .selection {
+        display: flex;
+        background: #191961 !important;
+        border-radius: 0.5rem;
+        height: 100%;
+
+        .earth-icon {
+          width: 1.5rem;
+          height: 1.5rem;
+          cursor: pointer;
+          padding: 0.55rem;
+
+          &:hover {
+            background: #4251ff;
+            border-radius: 0.25rem;
+          }
+        }
+
+        .earth-icon-colored {
+          width: 1.5rem;
+          height: 1.5rem;
+          cursor: pointer;
+          padding: 0.55rem;
+          background: #4251ff;
+          border-radius: 0.25rem;
+        }
+
+        .earth-icon-btn {
+          background: transparent;
+          border: none;
+          margin: 0;
+          padding: 0;
+          height: 0;
+        }
+
+        .Table-icon {
+          width: 1.5rem;
+          height: 1.5rem;
+          cursor: pointer;
+          padding: 0.55rem;
+
+          &:hover {
+            background: #4251ff;
+            border-radius: 0.25rem;
+          }
+        }
+        .Arrow-icon {
+          width: 1.5rem;
+          height: 1.5rem;
+          cursor: pointer;
+          padding: 0.55rem;
+
+          &:hover {
+            background: #4251ff;
+            border-radius: 0.25rem;
+          }
+        }
+      }
+    }
+
+    .global-main-wrapper {
+      width: 100%;
+      height: 100%;
+
+      .global-bg-image {
+        // border: 4px solid rgba(180, 179, 222, 0.23);
+        background: linear-gradient(
+            90deg,
+            #14144b 0%,
+            rgba(8, 8, 30, 0.405919) 29.7%,
+            rgba(0, 0, 0, 0) 50%
+          ),
+          linear-gradient(
+            180deg,
+            #14144b 0%,
+            rgba(8, 8, 30, 0.405919) 26.15%,
+            rgba(0, 0, 0, 0) 44.01%
+          ),
+          linear-gradient(0deg, rgba(20, 20, 75, 0.2), rgba(20, 20, 75, 0.2)),
+          url(../../Images/istanbul-img.jpg);
+        height: 40rem;
+        border-radius: 30px;
+        // margin-top: 1.8rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        padding: 2rem;
+
+        .globe-container-wrapper {
+          position: absolute;
+          display: flex;
+          justify-content: space-around;
+          // width: 100%;
+
+          .globe-left {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin-top: 2rem;
+
+            .range-btn {
+              width: max-content;
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 24px;
+              border: none;
+              padding: 1rem 2rem;
+              text-align: center;
+              color: #ffffff;
+              background: #4251ff;
+              backdrop-filter: blur(8px);
+              border-radius: 50px;
+            }
+
+            .esg-heading-globe {
+              font-weight: 700;
+              font-size: 24px;
+              width: 20rem;
+              line-height: 32px;
+              color: #ffffff;
+            }
+
+            .media {
+              font-size: 16px;
+              line-height: 20px;
+              color: #ffffff;
+              .interest {
+                margin: 0;
+                font-weight: 400;
+              }
+              .score {
+                margin: 0;
+                font-weight: 700;
+              }
+            }
+          }
+          .globe-right {
+            width: 100%;
+
+            .bar-one {
+              position: absolute;
+              right: 18rem;
+              top: 14rem;
+              width: 5rem;
+              margin: 0;
+              padding: 0;
+            }
+            .bar-two {
+              position: absolute;
+              left: 25rem;
+              top: 12rem;
+              width: 5rem;
+              margin: 0;
+              padding: 0;
+            }
+
+            .bar-three {
+              position: absolute;
+              left: 45rem;
+              top: 2rem;
+              width: 5rem;
+              margin: 0;
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

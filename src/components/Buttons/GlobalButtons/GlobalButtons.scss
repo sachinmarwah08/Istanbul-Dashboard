@@ -1,0 +1,35 @@
+.global-regions-btn-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+
+  .global-regions-btn {
+    width: 100%;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Sora" !important;
+    line-height: 24px;
+    padding: 10px 14px;
+    background: rgba(20, 20, 75, 0.6);
+    border: 1px solid #fec84b;
+    backdrop-filter: blur(4px);
+    border-radius: 50px;
+    cursor: pointer;
+
+    &:hover {
+      background: linear-gradient(
+        144.98deg,
+        #ffc500 12.82%,
+        #ffc500 44.81%,
+        #ffa800 80%
+      );
+      border: 1px solid #fedf89;
+      box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1),
+        0px 1px 2px rgba(16, 24, 40, 0.06);
+      cursor: pointer;
+      color: #000000;
+      transition: all 250ms ease;
+    }
+  }
+}
