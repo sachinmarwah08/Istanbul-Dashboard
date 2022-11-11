@@ -17,7 +17,7 @@ const Main = () => {
     <>
       <FilterProvider>
         <Header />
-        <GlobalFilter />
+        {/* <GlobalFilter /> */}
         <GlobeRegions />
         <MapAndLineChart />
         <WorldAnalysis />
