@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 // import FilterButton from "../Buttons/FilterButton/FilterButton";
 // import earthIcon from "../../Images/Earth-icon.svg";
 // import earthIconColored from "../../Images/Earth-iconColored.svg";
 // import tableIcon from "../../Images/Table-icon.svg";
 // import arrowIcon from "../../Images/Arrow-icon.svg";
 // import SearchBar from "../SearchBar/SearchBar";
-// import bar from "../../Images/bars.svg";
+import bar from "../../Images/istanbul-bar.png";
 import "./GlobeRegions.scss";
 import GlobalButtons from "../Buttons/GlobalButtons/GlobalButtons";
 
@@ -17,6 +17,21 @@ const GlobeRegions = () => {
   return (
     <div className="global-regions-wrapper">
       <div className="global-regions-container">
+        <img className="global-bar" src={bar}></img>
+        <div className="globar-bar-text-wrapper">
+          <span className="globar-bar-text">Media Interest</span>
+          <span className="globar-bar-text-count">5.5K</span>
+        </div>
+        <img className="global-bar-two" src={bar}></img>
+        <div className="globar-bar-two-text-wrapper">
+          <span className="globar-bar-text">Overall Sentiment</span>
+          <span className="globar-bar-text-count">80% (Positive)</span>
+        </div>
+        <img className="global-bar-three" src={bar}></img>
+        <div className="globar-bar-three-text-wrapper">
+          <span className="globar-bar-text">Top Related Topics</span>
+          <span className="globar-bar-text-count">50</span>
+        </div>
         {/* <div className="global-filter-wrapper">
           <SearchBar />
           <FilterButton
@@ -76,11 +91,6 @@ const GlobeRegions = () => {
                   <p className="score">50</p>
                 </div>
               </div>
-              {/* <div className="globe-right">
-                <img className="bar-one" src={bar}></img>
-                <img className="bar-two" src={bar}></img>
-                <img className="bar-three" src={bar}></img>
-              </div> */}
             </div>
           </div>
         </div>

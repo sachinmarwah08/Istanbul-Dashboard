@@ -118,6 +118,7 @@ const Chart = () => {
             dataKey="date"
             axisLine={false}
             tickLine={false}
+            dy={12}
             tickFormatter={(str) => {
               const date = parseISO(str);
               if (date.getDate() % 3 === 0) {

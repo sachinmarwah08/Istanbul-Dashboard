@@ -8,6 +8,111 @@
     // padding: 1.5rem;
     border: 4px solid rgba(180, 179, 222, 0.23);
     border-radius: 32px;
+    position: relative;
+
+    .global-bar {
+      position: absolute;
+      top: 18rem;
+      // width: 5.169rem;
+      // height: 14.461rem;
+      z-index: 1;
+      left: 30rem;
+    }
+
+    .globar-bar-text-wrapper {
+      position: absolute;
+      top: 20.5rem;
+      z-index: 1;
+      left: 30rem;
+      text-align: center;
+      width: 5.2rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      .globar-bar-text {
+        font-weight: 400;
+        font-size: 12px;
+        // line-height: 20px;
+        color: #ffffff;
+      }
+
+      .globar-bar-text-count {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+        color: #ffffff;
+      }
+    }
+
+    .global-bar-two {
+      position: absolute;
+      top: 17rem;
+      // width: 5.169rem;
+      // height: 14.461rem;
+      z-index: 1;
+      right: 20rem;
+    }
+
+    .globar-bar-two-text-wrapper {
+      position: absolute;
+      top: 20.5rem;
+      z-index: 1;
+      right: 19.9rem;
+      text-align: center;
+      width: 5.2rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      .globar-bar-text {
+        font-weight: 400;
+        font-size: 12px;
+        color: #ffffff;
+      }
+
+      .globar-bar-text-count {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        color: #ffffff;
+      }
+    }
+
+    .global-bar-three {
+      position: absolute;
+      top: 10rem;
+      // width: 5.169rem;
+      // height: 14.461rem;
+      z-index: 1;
+      right: 40rem;
+    }
+
+    .globar-bar-three-text-wrapper {
+      position: absolute;
+      top: 13rem;
+      z-index: 1;
+      right: 40.3rem;
+      text-align: center;
+      width: 4.5rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      .globar-bar-text {
+        font-weight: 400;
+        font-size: 12px;
+        color: #ffffff;
+      }
+
+      .globar-bar-text-count {
+        font-weight: 700;
+        font-size: 20px;
+        padding-top: 0.5rem;
+        line-height: 16px;
+        color: #ffffff;
+      }
+    }
 
     .global-filter-wrapper {
       display: flex;
@@ -149,35 +254,6 @@
                 margin: 0;
                 font-weight: 700;
               }
-            }
-          }
-          .globe-right {
-            width: 100%;
-
-            .bar-one {
-              position: absolute;
-              right: 18rem;
-              top: 14rem;
-              width: 5rem;
-              margin: 0;
-              padding: 0;
-            }
-            .bar-two {
-              position: absolute;
-              left: 25rem;
-              top: 12rem;
-              width: 5rem;
-              margin: 0;
-              padding: 0;
-            }
-
-            .bar-three {
-              position: absolute;
-              left: 45rem;
-              top: 2rem;
-              width: 5rem;
-              margin: 0;
-              padding: 0;
             }
           }
         }
