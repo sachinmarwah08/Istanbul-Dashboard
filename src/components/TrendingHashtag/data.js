@@ -78,6 +78,91 @@ export const Trendingdata = {
     ],
   },
 
+  Traffic: {
+    topFourHasgtag: ["#coaching", "#leadership", "#act", "#inspire"],
+
+    topFourHtagCount: {
+      coachingCount: 200,
+      leadershipCount: 117,
+      actCount: 112,
+      inspireCount: 104,
+    },
+    topFourHObj: {
+      istanbulhtag: "#coaching",
+      ekkanHTag: "#leadership",
+      duybeniHtag: "#act",
+      turkeyHtag: "#inspire",
+    },
+
+    istanbulhtag: [
+      "leadership",
+      "act",
+      "alwayslearning",
+      "leaders",
+      "businessmanagement",
+      "questions",
+      "professionaldevelopment",
+      "legacy",
+    ],
+
+    ekkanHTag: [
+      "productivity",
+      "sunak",
+      "uk",
+      "leaders",
+      "businessmanagement",
+      "digitalemployeeexperience",
+      "professionaldevelopment",
+      "legacy",
+    ],
+
+    duybeniHtag: [
+      "coaching",
+      "leaders",
+      "career",
+      "board",
+      "careermanagement",
+      "consistency",
+      "digitaltransformation",
+      "hardwork",
+      "businessmanagement",
+      "professionaldevelopment",
+      "legacy",
+    ],
+
+    turkeyHtag: [
+      "act",
+      "leaders",
+      "motivation",
+      "businessmanagement",
+      "professionaldevelopment",
+      "legacy",
+    ],
+
+    topTwentyHtag: [
+      "leadership",
+      "act",
+      "alwayslearning",
+      "productivity",
+      "sunak",
+      "uk",
+      "coaching",
+      "leaders",
+      "career",
+      "board",
+      "careermanagement",
+      "consistency",
+      "digitaltransformation",
+      "hardwork",
+      "motivation",
+      "businessmanagement",
+      "questions",
+      "digitalemployeeexperience",
+      "professionaldevelopment",
+      "legacy",
+    ],
+  },
+
   Government: {
     topFourHasgtag: ["#coaching", "#leadership", "#act", "#inspire"],
 

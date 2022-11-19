@@ -32,7 +32,7 @@ const RealTimeTweets = () => {
 
   const onRadioChange = (cat) => {
     let tempData = data.filter(
-      (item) => item.SentimentAll === cat || item.Sentiment_Category === cat
+      (item) => item.CategoryAll === cat || item.SentimentCategory === cat
     );
     setRadioCheck(cat);
     setLocalData(tempData);
@@ -102,7 +102,6 @@ const RealTimeTweets = () => {
         {localData.map((item) => (
           <div className="left-content-tweets">
             <a
-              //   href={item.url}
               rel="noreferrer"
               target="_blank"
               className="left-content-heading"
@@ -110,7 +109,7 @@ const RealTimeTweets = () => {
               {item.Event}
             </a>
 
-            <p className="hashtags">{item.htag}</p>
+            <p className="hashtags">{item.Htag}</p>
 
             <p className="url-link">
               <a className="url-link" target="_blank" href={item.URL}>

@@ -5,7 +5,7 @@ export const data = [
     Event:
       "#Alabastaclinic #turkey #istanbul #clinic #clinicinistanbul #dentalclinicinistanbul #dental #dentist #hollywoodsmile #Hollywood_smile #hollywoodsmileinturkey #teeth #teethwhitening #dentalrestoration #veneers #dentalphotography #dentalesthetics #dentistry #Smile_design #Alabasta",
     URL: "https://twitter.com/Alabastaclinic/status/1576173082590736384",
-    htag: [
+    Htag: [
       "#alabastaclinic",
       "#turkey",
       "#istanbul",
@@ -27,6 +27,9 @@ export const data = [
       "#smile design",
       "#alabasta",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/01/2022",
@@ -34,7 +37,10 @@ export const data = [
     Event:
       "Nouveau rich #Istanbul cats eagerly awaiting for the Louis Vuitton store to open...",
     URL: "https://twitter.com/DTriantaphyllou/status/1576114726982979584",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/01/2022",
@@ -42,7 +48,10 @@ export const data = [
     Event:
       "Hungary and #Turkiye last 2 of 30 NATO members still to ratify their membership through parliament.\n\nErdogan says he's still following process closely- but no indication of when it might come to parliament yet ",
     URL: "https://twitter.com/Mounzawi/status/1576191439079616513",
-    htag: ["#turkiye"],
+    Htag: ["#turkiye"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/01/2022",
@@ -50,7 +59,7 @@ export const data = [
     Event:
       "Land of Hair Transplant center in Turkey 🇹🇷\n\n�??��??��??��??��??��??��???�??? : \n\n +90 530 488 18 07\n\n#hair #hairtransplant #hairtransformation #fue #dhi #fuetecnigue \n#hairtransplantturkey \n#hairtransplantistanbul #landofhair #hairtransplantbeforeafter #instagram #keşfet #tiktok #saçekimi ",
     URL: "https://twitter.com/Landofhairr/status/1576125102630240257",
-    htag: [
+    Htag: [
       "#hair",
       "#hairtransplant",
       "#hairtransformation",
@@ -66,6 +75,9 @@ export const data = [
       "#tiktok",
       "#saçekimi",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/01/2022",
@@ -73,7 +85,7 @@ export const data = [
     Event:
       "Land of Hair Transplant center in Turkey 🇹🇷\n\n�??��??��??��??��??��??��???�??? : \n\n +90 530 488 18 07\n\n#hair #hairtransplant #hairtransformation #fue #dhi #fuetecnigue \n#hairtransplantturkey \n#hairtransplantistanbul #landofhair #hairtransplantbeforeafter #instagram #keşfet #saçekimi #twitter ",
     URL: "https://twitter.com/Landofhairr/status/1576064499135565825",
-    htag: [
+    Htag: [
       "#hair",
       "#hairtransplant",
       "#hairtransformation",
@@ -89,6 +101,9 @@ export const data = [
       "#saçekimi",
       "#twitter",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/02/2022",
@@ -96,13 +111,16 @@ export const data = [
     Event:
       "The great behind secrets Suleymaniye.\nA master comes to mind when it comes to secrets; \nArchitect Sinan and The Golden Age of the Ottoman Architecture..\n\n#süleymaniyecami #mimarsinan #architecture #mosque #istanbul ",
     URL: "https://twitter.com/akifsarier/status/1576663801961025536",
-    htag: [
+    Htag: [
       "#süleymaniyecami",
       "#mimarsinan",
       "#architecture",
       "#mosque",
       "#istanbul",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/02/2022",
@@ -110,28 +128,40 @@ export const data = [
     Event:
       "Alhamdulilah, closed my rings this week in #Istanbul at 50 kms, an average of 7.15 kms daily. Total number of calories burned, 2500",
     URL: "https://twitter.com/AbdulBillowAli/status/1576649045048971264",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/02/2022",
     Username: "yolgezerkadir",
     Event: "#istanbul",
     URL: "https://twitter.com/yolgezerkadir/status/1576579312899088384",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/02/2022",
     Username: "Hafz000777",
     Event: "#Istanbul🇹🇷 Welcomes You\nThe City that connects Asia and Europe ",
     URL: "https://twitter.com/Hafz000777/status/1576577437206732805",
-    htag: ["#istanbul🇹🇷"],
+    Htag: ["#istanbul🇹🇷"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/02/2022",
     Username: "MariaRamosUK",
     Event: "Günaydın! \nLove the Bosphorus when it’s silver . #Istanbul ���? ",
     URL: "https://twitter.com/MariaRamosUK/status/1576456420475645952",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/02/2022",
@@ -139,7 +169,7 @@ export const data = [
     Event:
       "Francisco Serrano 2/2 - A #HairTransplant Review in #Istanbul #Turkiye\n\n#ShiftHairTransplantTurkeyReviews #SHIFT_Hair_Transplant_Turkey_Reviews #HairTransplant #HairTransplantation #HairTransplantTurkey #HairTransplantIstanbul #HairTranspalntInTurkey #HairTransplantSurgery ",
     URL: "https://twitter.com/shifthairtrans/status/1576438869842853888",
-    htag: [
+    Htag: [
       "#hairtransplant",
       "#istanbul",
       "#turkiye",
@@ -152,6 +182,9 @@ export const data = [
       "#hairtranspalntinturkey",
       "#hairtransplantsurgery",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/02/2022",
@@ -159,7 +192,7 @@ export const data = [
     Event:
       "Land of Hair Transplant center in Turkey 🇹🇷\n\n�??��??��??��??��??��??��???�??? : \n\n +90 530 488 18 07\n\n#hair #hairtransplant #hairtransformation #fue #dhi #fuetecnigue \n#hairtransplantturkey \n#hairtransplantistanbul #landofhair #hairtransplantbeforeafter #instagram #keşfet #tiktok #saçekimi ",
     URL: "https://twitter.com/Landofhairr/status/1576496682958979072",
-    htag: [
+    Htag: [
       "#hair",
       "#hairtransplant",
       "#hairtransformation",
@@ -175,20 +208,29 @@ export const data = [
       "#tiktok",
       "#saçekimi",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/03/2022",
     Username: "yunusemre_erd",
     Event: "#istanbul",
     URL: "https://twitter.com/yunusemre_erd/status/1577056585301471232",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/03/2022",
     Username: "judicious99",
     Event: "Agoraphobia hitting me hard in metro stations of #istanbul",
     URL: "https://twitter.com/judicious99/status/1576842968752758784",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/03/2022",
@@ -196,7 +238,7 @@ export const data = [
     Event:
       "Land of Hair Transplant center in Turkey 🇹🇷\n\n�??��??��??��??��??��??��???�??? : \n\n +90 530 488 18 07\n\n#hair #hairtransplant #hairtransformation #fue #dhi #fuetecnigue \n#hairtransplantturkey \n#hairtransplantistanbul #landofhair #hairtransplantbeforeafter #instagram #keşfet #Twitter #saçekimi ",
     URL: "https://twitter.com/Landofhairr/status/1576995274299318272",
-    htag: [
+    Htag: [
       "#hair",
       "#hairtransplant",
       "#hairtransformation",
@@ -212,6 +254,9 @@ export const data = [
       "#twitter",
       "#saçekimi",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/03/2022",
@@ -219,7 +264,7 @@ export const data = [
     Event:
       "Titanic�?���?\n\nTuval üzerine akrilik\n“Acrylic on canvas��?\n\n35x50 cm\n\n“ If you are interested in the painting, you can contact me via dm.��? #resim #painting #titanik #titanic #acrylic #tuval #canvas #sanat #art #artist #deniz #sea #ocean #akrilik #tablo #gemi #ship #Peinture #Malerei",
     URL: "https://twitter.com/art_of_anil/status/1576962130552664064",
-    htag: [
+    Htag: [
       "#resim",
       "#painting",
       "#titanik",
@@ -240,20 +285,29 @@ export const data = [
       "#peinture",
       "#malerei",
     ],
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/03/2022",
     Username: "",
     Event: "Istanbul now allows pets on mass transportation",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbul-now-allows-pets-on-mass-transportation",
-    htag: "",
+    Htag: "",
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/03/2022",
     Username: "",
     Event: "Two wheels, two worlds: Turkish mufti rides high with youth",
     URL: "https://www.dailysabah.com/turkey/istanbul/two-wheels-two-worlds-turkish-mufti-rides-high-with-youth",
-    htag: "",
+    Htag: "",
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/04/2022",
@@ -261,7 +315,7 @@ export const data = [
     Event:
       "Located in the central areas of Istanbul, the Skyland project is quite suitable for those who want comfort and luxury together. You can reach us now to take your place in this project.\n\n#turkeyrealestate #realestate #vipproperty #turkishcitizenship #investment #turkish #luxury",
     URL: "https://twitter.com/vippropertycom/status/1577301876667813889",
-    htag: [
+    Htag: [
       "#turkeyrealestate",
       "#realestate",
       "#vipproperty",
@@ -270,6 +324,9 @@ export const data = [
       "#turkish",
       "#luxury",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/04/2022",
@@ -277,7 +334,7 @@ export const data = [
     Event:
       "Land of Hair Transplant center in Turkey 🇹🇷\n\n�??��??��??��??��??��??��???�??? : \n\n +90 530 488 18 07\n\n#hair #hairtransplant #hairtransformation #fue #dhi #fuetecnigue \n#hairtransplantturkey \n#hairtransplantistanbul #landofhair #hairtransplantbeforeafter #instagram #keşfet #tiktok #saçekimi ",
     URL: "https://twitter.com/Landofhairr/status/1577204890761584640",
-    htag: [
+    Htag: [
       "#hair",
       "#hairtransplant",
       "#hairtransformation",
@@ -293,6 +350,9 @@ export const data = [
       "#tiktok",
       "#saçekimi",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/05/2022",
@@ -300,7 +360,7 @@ export const data = [
     Event:
       "With its central location, High Residence provides many advantages. Its proximity to shopping centers and social activity areas makes it an excellent alternative for living.\n\n#turkeyrealestate #realestate #realestateistanbul #turkishcitizenship #investment #vip #turkish #istanbul",
     URL: "https://twitter.com/vippropertycom/status/1577664756877590535",
-    htag: [
+    Htag: [
       "#turkeyrealestate",
       "#realestate",
       "#realestateistanbul",
@@ -310,6 +370,9 @@ export const data = [
       "#turkish",
       "#istanbul",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/05/2022",
@@ -317,7 +380,10 @@ export const data = [
     Event:
       "This #Database job might be a great fit for you. Click the link in our bio to see it and more. EU Sr. Systems Programming Analyst at UPS #Istanbul, İstanbul",
     URL: "https://twitter.com/tmj_tur_jobs/status/1577621798010486785",
-    htag: ["#database", "#istanbul"],
+    Htag: ["#database", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/05/2022",
@@ -325,7 +391,7 @@ export const data = [
     Event:
       "Correlate , compozite+wood,170cm, 2022\n\n#woodworker #sculptures #art #artstudio @contemporaryistanbul #contemporaryart #modernartist #modernart ##artgallery #artstudio #i̇stanbul #@pgartgallery @piiriil #tersaneistanbul",
     URL: "https://twitter.com/mhtaydin/status/1577591221651968000",
-    htag: [
+    Htag: [
       "#woodworker",
       "#sculptures",
       "#art",
@@ -339,20 +405,29 @@ export const data = [
       "# pgartgallery",
       "#tersaneistanbul",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/05/2022",
     Username: "idoles357",
     Event: "#AN",
     URL: "https://twitter.com/idoles357/status/1577671466052632576",
-    htag: ["#an"],
+    Htag: ["#an"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/05/2022",
     Username: "yumuk_ferhat",
     Event: "#kesfet",
     URL: "https://twitter.com/yumuk_ferhat/status/1577748552075431939",
-    htag: ["#kesfet"],
+    Htag: ["#kesfet"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/05/2022",
@@ -360,19 +435,25 @@ export const data = [
     Event:
       "‘Taking care of yourself is the most powerful way to begin to take care of others’ Bryant McGill @BryantMcGill #selfcare #healthylifestyle #CardioTwitter #TwitterFriends",
     URL: "https://twitter.com/KemalogluOz/status/1577732965651693589",
-    htag: [
+    Htag: [
       "#selfcare",
       "#healthylifestyle",
       "#cardiotwitter",
       "#twitterfriends",
     ],
+    Category: "Lifestyle",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/05/2022",
     Username: "",
     Event: "Restoration underway for Istanbul’s Byzantine cistern",
     URL: "https://www.dailysabah.com/turkey/istanbul/restoration-underway-for-istanbuls-byzantine-cistern",
-    htag: "",
+    Htag: "",
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/06/2022",
@@ -380,7 +461,10 @@ export const data = [
     Event:
       "My photographs will be exhibited in Istanbul Muze Gazhane @MuzeGazhane for three months. Thank you @kultur_istanbul. #exhibition #istanbul #streetphotography",
     URL: "https://twitter.com/enginguneysu/status/1578082662408912896",
-    htag: ["#exhibition", "#istanbul", "#streetphotography"],
+    Htag: ["#exhibition", "#istanbul", "#streetphotography"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/06/2022",
@@ -388,7 +472,7 @@ export const data = [
     Event:
       "#Alabasta_clinic #Alabastaclinic #turkey #istanbul #clinic #clinicinistanbul #dentalclinicinistanbul #dentist #hollywoodsmile #teethwhitening #dentalrestoration #veneers #dentalphotography #dentalesthetics #dentistry #Smile_design #smiledesign #dentaltreatment #turkeyseason",
     URL: "https://twitter.com/Alabastaclinic/status/1577976602729893891",
-    htag: [
+    Htag: [
       "#alabasta clinic",
       "#alabastaclinic",
       "#turkey",
@@ -409,6 +493,9 @@ export const data = [
       "#dentaltreatment",
       "#turkeyseason",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/06/2022",
@@ -416,21 +503,30 @@ export const data = [
     Event:
       "Twice as much as other currencies dollar and euros which continuning to rape us #istanbul #Turkey #curencies #dollar #euro.",
     URL: "https://twitter.com/ersincon/status/1577812008468193280",
-    htag: ["#istanbul", "#turkey", "#curencies", "#dollar", "#euro"],
+    Htag: ["#istanbul", "#turkey", "#curencies", "#dollar", "#euro"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/06/2022",
     Username: "MertKarakocc",
     Event: "#Turkey We can come suddenly one night.. #greece",
     URL: "https://twitter.com/MertKarakocc/status/1578102730811318272",
-    htag: ["#turkey", "#greece"],
+    Htag: ["#turkey", "#greece"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/06/2022",
     Username: "ersincon",
     Event: "The man who sold the world bro #world",
     URL: "https://twitter.com/ersincon/status/1578079220986789894",
-    htag: ["#world"],
+    Htag: ["#world"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/06/2022",
@@ -438,7 +534,7 @@ export const data = [
     Event:
       "Land of Hair Transplant center in Turkey 🇹🇷\n\n�??��??��??��??��??��??��???�??? : \n\n +90 530 488 18 07\n\n#hair #hairtransplant #hairtransformation #fue #dhi #fuetecnigue \n#hairtransplantturkey \n#hairtransplantistanbul #landofhair #hairtransplantbeforeafter #instagram #keşfet #tiktok #saçekimi ",
     URL: "https://twitter.com/Landofhairr/status/1578118214831460352",
-    htag: [
+    Htag: [
       "#hair",
       "#hairtransplant",
       "#hairtransformation",
@@ -454,6 +550,9 @@ export const data = [
       "#tiktok",
       "#saçekimi",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/06/2022",
@@ -461,7 +560,7 @@ export const data = [
     Event:
       "Waiting\n.\n.\n#shotoniphone #iphone14promax \n.\n.\n#apple #ballet #dance #dancer #ballerina #balletdancer #dancers #balletphotography #balletlife #dancing #dancersofinstagram #a #dancelife #art #jazz #pointe #balletclass ",
     URL: "https://twitter.com/Enginyavuz/status/1578110569751740425",
-    htag: [
+    Htag: [
       "#shotoniphone",
       "#iphone14promax",
       "#apple",
@@ -482,13 +581,19 @@ export const data = [
       "#pointe",
       "#balletclass",
     ],
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/06/2022",
     Username: "",
     Event: "Istanbul traffic to come to deadlock soon, experts warn",
     URL: "https://www.hurriyetdailynews.com/istanbul-traffic-to-come-to-deadlock-soon-experts-warn-177501",
-    htag: "",
+    Htag: "",
+    Category: "Traffic",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/06/2022",
@@ -496,7 +601,10 @@ export const data = [
     Event:
       "Once a safe haven, Iranians in Turkey say civil liberties are at risk",
     URL: "https://www.al-monitor.com/originals/2022/10/once-safe-haven-iranians-turkey-say-civil-liberties-are-risk",
-    htag: "",
+    Htag: "",
+    Category: "Lifestyle",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/06/2022",
@@ -504,14 +612,20 @@ export const data = [
     Event:
       "Soaring inflation and a collapsing currency: Why is Turkey's economy in such a mess?",
     URL: "https://www.euronews.com/2022/10/05/everything-is-overheating-why-is-turkeys-economy-in-such-a-mess",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/06/2022",
     Username: "",
     Event: "The Culture and Arts Hub at Istanbul Airport",
     URL: "https://travelradar.aero/the-culture-and-arts-hub-at-istanbul-airport/",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/06/2022",
@@ -519,21 +633,30 @@ export const data = [
     Event:
       "When Hate Becomes an Instrument: 4 Queer Culture Workers From Turkey Respond to the Anti-LGBT+ Rally in Istanbul",
     URL: "https://news.artnet.com/art-world/when-hate-becomes-an-instrument-4-queer-culture-workers-from-turkey-respond-to-the-anti-lgbt-rally-in-istanbul-2187477",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/06/2022",
     Username: "",
     Event: "Ten most popular street foods you shouldn’t miss in Istanbul",
     URL: "https://thepeninsulaqatar.com/article/06/10/2022/ten-most-popular-street-foods-you-shouldnt-miss-in-istanbul",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/06/2022",
     Username: "",
     Event: "Türkiye's culture road stretches to Diyarbakır, reviving heritage",
     URL: "https://www.dailysabah.com/arts/events/turkiyes-culture-road-stretches-to-diyarbakir-reviving-heritage",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/06/2022",
@@ -541,7 +664,10 @@ export const data = [
     Event:
       "Türkiye to form institutional body to address Alevi citizens' problems",
     URL: "https://www.dailysabah.com/politics/legislation/turkiye-to-form-institutional-body-to-address-alevi-citizens-problems",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/06/2022",
@@ -549,7 +675,10 @@ export const data = [
     Event:
       "Returning to Istanbul, a Place of Competing Identities • T Australia",
     URL: "https://taustralia.com.au/istanbul-competing-identities/",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/07/2022",
@@ -557,7 +686,7 @@ export const data = [
     Event:
       "Fresh #fruit , #vegetables and #fish from the local #market of #Kadıköy , #Asian side of #Istanbul .\nMore information on  and  @ Kadiköy",
     URL: "https://twitter.com/allaboutturkey/status/1578362400331415552",
-    htag: [
+    Htag: [
       "#fruit",
       "#vegetables",
       "#fish",
@@ -566,13 +695,19 @@ export const data = [
       "#asian",
       "#istanbul",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/07/2022",
     Username: "intstuoffice",
     Event: "#goodmorning #iau #students \n#studyinturkey #turkiye ",
     URL: "https://twitter.com/intstuoffice/status/1578243637796040705",
-    htag: ["#goodmorning", "#iau", "#students", "#studyinturkey", "#turkiye"],
+    Htag: ["#goodmorning", "#iau", "#students", "#studyinturkey", "#turkiye"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/07/2022",
@@ -580,7 +715,7 @@ export const data = [
     Event:
       "Land of Hair Transplant center in Turkey 🇹🇷\n\n�??��??��??��??��??��??��???�??? : \n\n +90 530 488 18 07\n\n#hair #hairtransplant #hairtransformation #fue #dhi #fuetecnigue \n#hairtransplantturkey \n#hairtransplantistanbul #landofhair #hairtransplantbeforeafter #instagram #keşfet #tiktok #saçekimi ",
     URL: "https://twitter.com/Landofhairr/status/1578467198120521728",
-    htag: [
+    Htag: [
       "#hair",
       "#hairtransplant",
       "#hairtransformation",
@@ -596,6 +731,9 @@ export const data = [
       "#tiktok",
       "#saçekimi",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/07/2022",
@@ -603,7 +741,7 @@ export const data = [
     Event:
       "Land of Hair Transplant center in Turkey 🇹🇷\n\n�??��??��??��??��??��??��???�??? : \n\n +90 530 488 18 07\n\n#hair #hairtransplant #hairtransformation #fue #dhi #fuetecnigue \n#hairtransplantturkey \n#hairtransplantistanbul #landofhair #hairtransplantbeforeafter #instagram #keşfet #tiktok #saçekimi ",
     URL: "https://twitter.com/Landofhairr/status/1578425591971590144",
-    htag: [
+    Htag: [
       "#hair",
       "#hairtransplant",
       "#hairtransformation",
@@ -619,6 +757,9 @@ export const data = [
       "#tiktok",
       "#saçekimi",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/08/2022",
@@ -626,7 +767,7 @@ export const data = [
     Event:
       "Emaar, which is in one of the most popular regions of the Anatolian side, offers great opportunities. With this project, you can also have an investment opportunity.\n\n#turkeyrealestate #realestate #realestateistanbul #turkishcitizenship #investment #project #turkish #istanbul",
     URL: "https://twitter.com/vippropertycom/status/1578692179350147072",
-    htag: [
+    Htag: [
       "#turkeyrealestate",
       "#realestate",
       "#realestateistanbul",
@@ -636,6 +777,9 @@ export const data = [
       "#turkish",
       "#istanbul",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/08/2022",
@@ -643,14 +787,20 @@ export const data = [
     Event:
       'Join the UPS team! See our latest #Automotive job openings, including "Oto Tamir Bakım Mekatronik Teknisyeni", via the link in our bio. #Istanbul, İstanbul',
     URL: "https://twitter.com/tmj_tur_jobs/status/1578689227549683713",
-    htag: ["#automotive", "#istanbul"],
+    Htag: ["#automotive", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/08/2022",
     Username: "GenkSafi",
     Event: "Just a wonderful sunny day walk. #istanbul @ Istanbul, Turkey",
     URL: "https://twitter.com/GenkSafi/status/1578677444504326144",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/08/2022",
@@ -658,7 +808,7 @@ export const data = [
     Event:
       "for the country of Turkey it has been announced that it does not issue a residence permit. #Yasak 🚫 #keşfet  #ikamet #closed  #Turkiye  #geçmişolsun",
     URL: "https://twitter.com/Devilangel501/status/1578591870556327937",
-    htag: [
+    Htag: [
       "#yasak",
       "#keşfet",
       "#ikamet",
@@ -666,6 +816,9 @@ export const data = [
       "#turkiye",
       "#geçmişolsun",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/08/2022",
@@ -673,14 +826,20 @@ export const data = [
     Event:
       "for the country of Turkey it has been announced that it does not issue a residence permit. #keşfet  #geçmişolsun",
     URL: "https://twitter.com/Devilangel501/status/1578592123137363968",
-    htag: ["#keşfet", "#geçmişolsun"],
+    Htag: ["#keşfet", "#geçmişolsun"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/09/2022",
     Username: "",
     Event: "99 passengers injured in metrobus crash in Istanbul",
     URL: "https://www.dailysabah.com/turkey/istanbul/99-passengers-injured-in-metrobus-crash-in-istanbul",
-    htag: "",
+    Htag: "",
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/10/2022",
@@ -688,7 +847,10 @@ export const data = [
     Event:
       "Saloon car age has closen in city of Istanbul. Bad roads, pothole roads, high sidewalks prevents you from opening doors of the car, narrow streets, Saloon cars are out SUV’s are in , in Istanbul. Saloon cars are for different countries\n#istanbul #badroad #city",
     URL: "https://twitter.com/GundogarEmir/status/1579388664726945792",
-    htag: ["#istanbul", "#badroad", "#city"],
+    Htag: ["#istanbul", "#badroad", "#city"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/10/2022",
@@ -696,7 +858,10 @@ export const data = [
     Event:
       'UPS is looking for teammates like you. See our latest #Sales job openings, including "Inside Sales Account Associate", via the link in our bio. #Istanbul, İstanbul',
     URL: "https://twitter.com/tmj_tur_jobs/status/1579367489007325185",
-    htag: ["#sales", "#istanbul"],
+    Htag: ["#sales", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/10/2022",
@@ -704,13 +869,16 @@ export const data = [
     Event:
       "The use of scooters in cities with traffic has become vere common. Of you live in a crowded city like Istanbul, you can save time with scooter. There are many applications where you can rent scooters.\n#turkeyrealestate #realestate #vipproperty #turkishcitizenship #investment",
     URL: "https://twitter.com/vippropertycom/status/1579470284868161536",
-    htag: [
+    Htag: [
       "#turkeyrealestate",
       "#realestate",
       "#vipproperty",
       "#turkishcitizenship",
       "#investment",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/11/2022",
@@ -718,7 +886,10 @@ export const data = [
     Event:
       "Life Just Got Better. At best Deal #realtor #realestate #tower #istanbul +905345555262 @ Istanbul, Turkey",
     URL: "https://twitter.com/kockanturkey/status/1579959614929412096",
-    htag: ["#realtor", "#realestate", "#tower", "#istanbul"],
+    Htag: ["#realtor", "#realestate", "#tower", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/11/2022",
@@ -726,7 +897,7 @@ export const data = [
     Event:
       "Quasar was designed with an innovative perspective. You can watch Istanbul from above with its magnificent Bosphorus view. Contact us now for take part of this excellent project.\n\n#realestateistanbul #istanbul #propertyistanbul #propertyturkey #salepropertyturkey #property ",
     URL: "https://twitter.com/vippropertycom/status/1579839676625879040",
-    htag: [
+    Htag: [
       "#realestateistanbul",
       "#istanbul",
       "#propertyistanbul",
@@ -734,6 +905,9 @@ export const data = [
       "#salepropertyturkey",
       "#property",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/11/2022",
@@ -741,21 +915,30 @@ export const data = [
     Event:
       "We're hiring in #Istanbul, İstanbul! Click the link in our bio to apply to this job and more: HR Geo Services Associate at UPS #HR",
     URL: "https://twitter.com/tmj_tur_jobs/status/1579780956939907073",
-    htag: ["#istanbul", "#hr"],
+    Htag: ["#istanbul", "#hr"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/11/2022",
     Username: "",
     Event: "Russian couple finds refuge from war in Istanbul's bookstore",
     URL: "https://www.dailysabah.com/turkey/istanbul/russian-couple-finds-refuge-from-war-in-istanbuls-bookstore",
-    htag: "",
+    Htag: "",
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/12/2022",
     Username: "caliskanali",
     Event: "#istanbul",
     URL: "https://twitter.com/caliskanali/status/1580265227756576768",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/12/2022",
@@ -763,7 +946,10 @@ export const data = [
     Event:
       "UPS is hiring in #Istanbul, İstanbul! Read about our latest #Engineering job opening via the link in our bio: TSG Supervisor",
     URL: "https://twitter.com/tmj_tur_jobs/status/1580099961852547072",
-    htag: ["#istanbul", "#engineering"],
+    Htag: ["#istanbul", "#engineering"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/12/2022",
@@ -771,7 +957,10 @@ export const data = [
     Event:
       "Interested in a job in #Istanbul, İstanbul? This could be a great fit:  #Accounting",
     URL: "https://twitter.com/tmj_tur_jobs/status/1580082139093028864",
-    htag: ["#istanbul", "#accounting"],
+    Htag: ["#istanbul", "#accounting"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/12/2022",
@@ -779,14 +968,20 @@ export const data = [
     Event:
       "Little time left for Turkey-Greece war #turkey #greece #war #islands",
     URL: "https://twitter.com/jarfi35/status/1580085545769660417",
-    htag: ["#turkey", "#greece", "#war", "#islands"],
+    Htag: ["#turkey", "#greece", "#war", "#islands"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/12/2022",
     Username: "",
     Event: "Istanbul blast reveals revenge plot, ties to Swiss murders",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbul-blast-reveals-revenge-plot-ties-to-swiss-murders",
-    htag: "",
+    Htag: "",
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/13/2022",
@@ -794,7 +989,7 @@ export const data = [
     Event:
       "FED may increase interest rates to 5% in 2023. I don't think there will be an economic recession in US. #DXY #EURUSD #GBPUSD #StockMarkets #ElonMusk #Bitcoin",
     URL: "https://twitter.com/OguzTAkpinar/status/1580493834311507970",
-    htag: [
+    Htag: [
       "#dxy",
       "#eurusd",
       "#gbpusd",
@@ -802,6 +997,9 @@ export const data = [
       "#elonmusk",
       "#bitcoin",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/13/2022",
@@ -809,7 +1007,7 @@ export const data = [
     Event:
       "Moscow - Ercan International Airport direct flights are starting on 15th November.\nMotiva DMC Kyrenia office is ready for Russian guests.\ncyprus@motivadmc.com\n#russia #Travel #EVENT #meeting #mice #siteglobal #imex22 #imexamerica ",
     URL: "https://twitter.com/DmcMotiva/status/1580578124202287104",
-    htag: [
+    Htag: [
       "#russia",
       "#travel",
       "#event",
@@ -819,34 +1017,49 @@ export const data = [
       "#imex22",
       "#imexamerica",
     ],
+    Category: "Lifestyle",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/13/2022",
     Username: "",
     Event: "Ukraine grain ships stuck in Istanbul traffic jam",
     URL: "https://www.bangkokpost.com/world/2413083/ukraine-grain-ships-stuck-in-istanbul-traffic-jam",
-    htag: "",
+    Htag: "",
+    Category: "Traffic",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/13/2022",
     Username: "",
     Event: "Ukraine grain ships stuck in Istanbul traffic jam",
     URL: "https://uk.news.yahoo.com/ukraine-grain-ships-stuck-istanbul-152117383.html",
-    htag: "",
+    Htag: "",
+    Category: "Traffic",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/13/2022",
     Username: "",
     Event: "Istanbul Strait Closed to Ship Traffic!",
     URL: "https://expatguideturkey.com/istanbul-strait-closed-to-ship-traffic/",
-    htag: "",
+    Htag: "",
+    Category: "Traffic",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/13/2022",
     Username: "",
     Event: "Design for Living: The e-scooters of Istanbul",
     URL: "https://www.nzherald.co.nz/nz/design-for-living-the-e-scooters-of-istanbul/NWNV3VQWGXALWEQDIBBDSLXRC4/",
-    htag: "",
+    Htag: "",
+    Category: "Traffic",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/13/2022",
@@ -854,7 +1067,10 @@ export const data = [
     Event:
       "Indians flocking to Turkiye for destination weddings! Country expected to have most destination weddings in 2022",
     URL: "https://www.financialexpress.com/lifestyle/travel-tourism/indians-flocking-to-turkiye-for-destination-weddings-country-expected-to-have-most-destination-weddings-in-2022/2705920/",
-    htag: "",
+    Htag: "",
+    Category: "Lifestyle",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/13/2022",
@@ -862,14 +1078,20 @@ export const data = [
     Event:
       "Experts of the Committee on the Elimination of Discrimination against Women Commend Armenia on Continuing to Uphold International Obligations Despite the Conflict, Raise Questions on Violence against",
     URL: "https://www.ohchr.org/en/news/2022/10/experts-committee-elimination-discrimination-against-women-commend-armenia-continuing",
-    htag: "",
+    Htag: "",
+    Category: "Education",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/13/2022",
     Username: "",
     Event: "Exemplary Turkish exhibition highlights harms of smoking",
     URL: "https://www.dailysabah.com/turkey/education/exemplary-turkish-exhibition-highlights-harms-of-smoking",
-    htag: "",
+    Htag: "",
+    Category: "Education",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/13/2022",
@@ -877,14 +1099,20 @@ export const data = [
     Event:
       "Turkish scientists develop 'fiber sensor' shoes for early diagnosis",
     URL: "https://www.dailysabah.com/turkey/education/turkish-scientists-develop-fiber-sensor-shoes-for-early-diagnosis",
-    htag: "",
+    Htag: "",
+    Category: "Education",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/13/2022",
     Username: "",
     Event: "IndiGo to launch Mumbai-Istanbul flights from Jan 1",
     URL: "https://m.economictimes.com/industry/transportation/airlines-/-aviation/indigo-to-launch-mumbai-istanbul-flights-from-jan-1/articleshow/94794672.cms",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/13/2022",
@@ -892,7 +1120,10 @@ export const data = [
     Event:
       "Turkish, int’l business world to gather in Istanbul for MÜSIAD EXPO",
     URL: "https://www.dailysabah.com/business/economy/turkish-intl-business-world-to-gather-in-istanbul-for-musiad-expo",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/13/2022",
@@ -900,14 +1131,20 @@ export const data = [
     Event:
       "International Flights: Indigo Announces Direct Flights to Istanbul From Mumbai. Check Full Schedule Here",
     URL: "https://www.india.com/business/international-flights-latest-news-today-12-october-2022-indigo-announces-direct-flights-to-istanbul-from-mumbai-check-air-fare-full-schedule-heres-how-to-book-tickets-5682797/",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/13/2022",
     Username: "",
     Event: "Show reveals Picasso’s inspiration",
     URL: "https://www.hurriyetdailynews.com/show-reveals-picassos-inspiration-177676",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/14/2022",
@@ -915,7 +1152,10 @@ export const data = [
     Event:
       "Stay strong, brother #Türkiye 😢💔🇹🇷 Rest in peace to the people who died in the explosion in coal mine in #bartin in #Turkiye..",
     URL: "https://twitter.com/StylesLimited/status/1581025885859516416",
-    htag: ["#türkiye", "#bartin", "#turkiye"],
+    Htag: ["#türkiye", "#bartin", "#turkiye"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/14/2022",
@@ -923,7 +1163,7 @@ export const data = [
     Event:
       "#sherunsforever #love #happyhour #memyselfandi #health #fitness #healthylifestyle #wellness #healthy #motivation #workout #gym #love #lifestyle #fit #fitnessmotivation #training #nutrition #exercise",
     URL: "https://twitter.com/Elif__Numanoglu/status/1580821173847277569",
-    htag: [
+    Htag: [
       "#sherunsforever",
       "#love",
       "#happyhour",
@@ -944,6 +1184,9 @@ export const data = [
       "#nutrition",
       "#exercise",
     ],
+    Category: "Health",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/15/2022",
@@ -951,7 +1194,10 @@ export const data = [
     Event:
       "@Xadeejournalist Sir, welcome to #Istanbul. Let me know if I am of any use.",
     URL: "https://twitter.com/riyazulkhaliq/status/1581222641033416704",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/15/2022",
@@ -959,7 +1205,10 @@ export const data = [
     Event:
       "Woke up to this news. My condolences to the victims’ families. One day soon, I hope we won’t need coal mines but #Turkey has a serious energy need.",
     URL: "https://twitter.com/faribanawa/status/1581203764022628352",
-    htag: ["#turkey"],
+    Htag: ["#turkey"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/16/2022",
@@ -967,7 +1216,7 @@ export const data = [
     Event:
       "Serenata.\n\nNow available on 1stDibs.\nBy Hasan Samet Bizimyer.\n\nDiscover the product: \nCheck out the store: \nInstagram: \n\n#design #furniture #chandelier #1stdibs #1stdibsdealer #Istanbul #bronze #stainlesssteel ",
     URL: "https://twitter.com/sametbizimyer/status/1581437110091149312",
-    htag: [
+    Htag: [
       "#design",
       "#furniture",
       "#chandelier",
@@ -977,13 +1226,19 @@ export const data = [
       "#bronze",
       "#stainlesssteel",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/17/2022",
     Username: "HEmredoner",
     Event: "#istanbul",
     URL: "https://twitter.com/HEmredoner/status/1582079358621319169",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/17/2022",
@@ -991,7 +1246,7 @@ export const data = [
     Event:
       "#botox #beauty #fillers #skincare #filler #juvederm #antiaging #lips #aesthetics #lipfiller #estetica #plasticsurgery #dysport #microneedling #prp #aesthetic #facial #skin #lipfillers #İstanbul",
     URL: "https://twitter.com/stepestetik/status/1582014856475316224",
-    htag: [
+    Htag: [
       "#botox",
       "#beauty",
       "#fillers",
@@ -1013,6 +1268,9 @@ export const data = [
       "#lipfillers",
       "#i̇stanbul",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/17/2022",
@@ -1020,7 +1278,7 @@ export const data = [
     Event:
       "The Grand Bazaar is one of the most important historical symbols of Istanbul. It is possible to find many kinds of products such as jewelry, traditional clothes and carpets in this bazaar.\n#istanbul #istanbulrealestate #realestate #property #investment\n#propertyinturkey",
     URL: "https://twitter.com/vippropertycom/status/1582005374982717441",
-    htag: [
+    Htag: [
       "#istanbul",
       "#istanbulrealestate",
       "#realestate",
@@ -1028,6 +1286,9 @@ export const data = [
       "#investment",
       "#propertyinturkey",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/18/2022",
@@ -1035,7 +1296,7 @@ export const data = [
     Event:
       "Mayor of Ankara: If water discount is applied, we will not be able to pay staff salaries  \n\n#Ankara #ASKI #water #company #price #discount #mayor",
     URL: "https://twitter.com/businessturkey/status/1582439476403441665",
-    htag: [
+    Htag: [
       "#ankara",
       "#aski",
       "#water",
@@ -1044,6 +1305,9 @@ export const data = [
       "#discount",
       "#mayor",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/18/2022",
@@ -1051,7 +1315,7 @@ export const data = [
     Event:
       "Located #EyupSultan with close distance to many hospitals, universities, public and private schools, #Evinpark #Kemerburgaz offers #city life advantages in nature with its #apartments ranging from 1+1 to 4+1. #house #sale #housesale #göktürk #istanbul #turkey #turkiye #invest",
     URL: "https://twitter.com/bazaarmixx/status/1582412174211026944",
-    htag: [
+    Htag: [
       "#eyupsultan",
       "#evinpark",
       "#kemerburgaz",
@@ -1066,6 +1330,9 @@ export const data = [
       "#turkiye",
       "#invest",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/18/2022",
@@ -1073,7 +1340,10 @@ export const data = [
     Event:
       "#GoodMorning #Istanbul is Partly Cloudy #today. With a high of  C /  F and a low of 16 C / 60 F #Enjoy #ttot",
     URL: "https://twitter.com/Galata1875/status/1582402737005678594",
-    htag: ["#goodmorning", "#istanbul", "#today", "#enjoy", "#ttot"],
+    Htag: ["#goodmorning", "#istanbul", "#today", "#enjoy", "#ttot"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/18/2022",
@@ -1081,7 +1351,10 @@ export const data = [
     Event:
       "It was our pleasure to host young Engineers from #Qatar for the program 'Turning Project Management Knowledge into Action' in #istanbul",
     URL: "https://twitter.com/SaharaTraining/status/1582363026367295489",
-    htag: ["#qatar", "#istanbul"],
+    Htag: ["#qatar", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/18/2022",
@@ -1089,7 +1362,10 @@ export const data = [
     Event:
       "Russian businessman Roman Abramovich, who was included in the sanctions due to the Ukraine invasion, was seen yesterday in Bebek, #Istanbul.\nRussian businessman Abramovic, who has been coming and going to Istanbul for a while, was caught on camera in Istanbul Bebek yesterday.\n📸",
     URL: "https://twitter.com/metesohtaoglu/status/1582362050377883648",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/18/2022",
@@ -1097,13 +1373,16 @@ export const data = [
     Event:
       "About Us:\nOur Company Specializes in Numerous #InsuranceSectors, Both #National and #International, and Our Services Cover All #Turkish Cities, #Nationalities, and Age Groups.",
     URL: "https://twitter.com/Sihhatsigorta/status/1582431318905737216",
-    htag: [
+    Htag: [
       "#insurancesectors",
       "#national",
       "#international",
       "#turkish",
       "#nationalities",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/18/2022",
@@ -1111,7 +1390,10 @@ export const data = [
     Event:
       "#MahsaAminin / there are some people who Strike on work in oil and Petrochimy, #world did you accept the revolution of Iran yet or not?\n#مهسا_امینی",
     URL: "https://twitter.com/Mardounyeh/status/1582406762673864704",
-    htag: ["#mahsaaminin", "#world", "#مهسا امینی"],
+    Htag: ["#mahsaaminin", "#world", "#مهسا امینی"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/18/2022",
@@ -1119,7 +1401,10 @@ export const data = [
     Event:
       "〰��?�?���?��?🔥🔗🎦〰��? Türkiye’s president #Erdoğan “The added value provided by these services to our country is calculated as ₺20 billion &amp; the benefit to carbon emissions is calculated as 136 thousand tons per year.��? #education",
     URL: "https://twitter.com/cover_up8d/status/1582390127690944512",
-    htag: ["#erdoğan", "#education"],
+    Htag: ["#erdoğan", "#education"],
+    Category: "Education",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/18/2022",
@@ -1127,7 +1412,10 @@ export const data = [
     Event:
       "〰��?🎓🔗♥��? Türkiye’s president RT #Erdoğan | #Erdogan @RTErdogan “we devote all our attention &amp; resources to improving the quality of #education, increasing the employment opportunities of our UNI’s graduates.��? #TeşekkürlerErdoğan || #Ai Science || HigherEducatin",
     URL: "https://twitter.com/cover_up8d/status/1582379712336527363",
-    htag: ["#erdoğan", "#erdogan", "#education", "#teşekkürlererdoğan", "#ai"],
+    Htag: ["#erdoğan", "#erdogan", "#education", "#teşekkürlererdoğan", "#ai"],
+    Category: "Education",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/18/2022",
@@ -1135,7 +1423,7 @@ export const data = [
     Event:
       "Welcome to join our webinar to explore more about our fire alarm systems, solutions and technologies 👉\nThe link: \n#maxlogic #mavigard #firealarm #firealarmsystem #gasalarmsystems #webinar #freewebinar #education #seminar #onlinewebinar #onlineeducation",
     URL: "https://twitter.com/Mavili_Global/status/1582353954994016261",
-    htag: [
+    Htag: [
       "#maxlogic",
       "#mavigard",
       "#firealarm",
@@ -1148,6 +1436,9 @@ export const data = [
       "#onlinewebinar",
       "#onlineeducation",
     ],
+    Category: "Education",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/18/2022",
@@ -1155,7 +1446,7 @@ export const data = [
     Event:
       "Whiteboards are no longer a sign of old fashion learning thanks to progressive Perculus which is a digital training platform. Perculus instructors know that interactivity is the key!\n\n#perculus #onlineclassrooms #liveclassrooms #learning #experience #digitaltraining ",
     URL: "https://twitter.com/perculus/status/1582394713105059840",
-    htag: [
+    Htag: [
       "#perculus",
       "#onlineclassrooms",
       "#liveclassrooms",
@@ -1163,13 +1454,19 @@ export const data = [
       "#experience",
       "#digitaltraining",
     ],
+    Category: "Education",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/18/2022",
     Username: "ozgurcelebi6034",
     Event: "#Azerbaycan #EbulfezElcibey",
     URL: "https://twitter.com/ozgurcelebi6034/status/1582427808261099521",
-    htag: ["#azerbaycan", "#ebulfezelcibey"],
+    Htag: ["#azerbaycan", "#ebulfezelcibey"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/18/2022",
@@ -1177,7 +1474,7 @@ export const data = [
     Event:
       "CIOs, also referred to as ‘Digital Leaders’ are interpreted as changemakers now.\n\n#technology #cio #digitalemployeeexperience #business #artificialintelligence #machinelearning #automation #digitaltransformation #leadership #productivity #effectiveness",
     URL: "https://twitter.com/pinko_creative/status/1582494331134693376",
-    htag: [
+    Htag: [
       "#technology",
       "#cio",
       "#digitalemployeeexperience",
@@ -1190,13 +1487,19 @@ export const data = [
       "#productivity",
       "#effectiveness",
     ],
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/18/2022",
     Username: "bassil_taleb",
     Event: "Equilibrium\n\nAvailable @makersplace \n\n#nft #art ",
     URL: "https://twitter.com/bassil_taleb/status/1582404774770905093",
-    htag: ["#nft", "#art"],
+    Htag: ["#nft", "#art"],
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/18/2022",
@@ -1204,7 +1507,7 @@ export const data = [
     Event:
       "Acrylic on Canvas,  @nirmak\n#artgallery #art #painting #portrait #colorful #womanpower #acrylicpainting #NFTCommunity #nft #WomensArt #NFTartist #NFTartwork #WomenPower",
     URL: "https://twitter.com/nirmak/status/1582375670683815937",
-    htag: [
+    Htag: [
       "#artgallery",
       "#art",
       "#painting",
@@ -1219,6 +1522,9 @@ export const data = [
       "#nftartwork",
       "#womenpower",
     ],
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/18/2022",
@@ -1226,7 +1532,7 @@ export const data = [
     Event:
       "#buttons #apparelbuttons #clothingbrand #garmentmanufacturing #fashionstyle #fashion #moda #apparelbrand",
     URL: "https://twitter.com/ApparelButtons/status/1582429805156655104",
-    htag: [
+    Htag: [
       "#buttons",
       "#apparelbuttons",
       "#clothingbrand",
@@ -1236,41 +1542,59 @@ export const data = [
       "#moda",
       "#apparelbrand",
     ],
+    Category: "Lifestyle",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
     Username: "HSYNYLMZ",
     Event: "#ankara #sis #fog #foggyday",
     URL: "https://twitter.com/HSYNYLMZ/status/1582600077075369984",
-    htag: ["#ankara", "#sis", "#fog", "#foggyday"],
+    Htag: ["#ankara", "#sis", "#fog", "#foggyday"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
     Username: "_duybeniekkan",
     Event: "Kanat  looking at ekim like that 👀 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1582808859634454529",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
     Username: "_duybeniekkan",
     Event: "This was unforgettable 😻�?���? #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1582808717317505024",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
     Username: "_duybeniekkan",
     Event: "When is this going to happen ??? @diziduybeni  #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1582797500150603776",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
     Username: "MoonAlev",
     Event: "The question is who's holding the phone ????? 😌😌😌\n#EkKan ",
     URL: "https://twitter.com/MoonAlev/status/1582792084519469057",
-    htag: ["#ekkan"],
+    Htag: ["#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1278,7 +1602,10 @@ export const data = [
     Event:
       "-just close ur eyes and stay with me forever he said.���?#ekkan #DuyBeni",
     URL: "https://twitter.com/_duybeniekkan/status/1582741599531909121",
-    htag: ["#duybeni"],
+    Htag: ["#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1286,21 +1613,30 @@ export const data = [
     Event:
       "We didn’t give that much attention to this scene as we should have, but Kanat Günay deserves the world 😔\n\n#duybeni • #ekkan",
     URL: "https://twitter.com/lauxdby/status/1582726418500177920",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
     Username: "_duybeniekkan",
     Event: "He only smiles with HER.�?���? #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1582724506908381184",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
     Username: "_duybeniekkan",
     Event: "They can’t stay away from each other 😩 #ekkan #DUYBENI",
     URL: "https://twitter.com/_duybeniekkan/status/1582722797092372480",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1308,49 +1644,70 @@ export const data = [
     Event:
       "If ekkan doesn’t do this I swear I will die and cry and I don’t know we need ekkan like this not melisa and kanat🤦��?���?♀��? #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1582698946975084545",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
     Username: "_duybeniekkan",
     Event: "The way kanat touches ekim-#ekkan #duybeni #hearme",
     URL: "https://twitter.com/_duybeniekkan/status/1582601130215112704",
-    htag: ["#duybeni", "#hearme"],
+    Htag: ["#duybeni", "#hearme"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
     Username: "_duybeniekkan",
     Event: "Husband and wife vibe #EkKan #DUYBENI",
     URL: "https://twitter.com/_duybeniekkan/status/1582522390709678082",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
     Username: "HitBid_tr",
     Event: "#hitbid #turkishdelights #istanbul",
     URL: "https://twitter.com/HitBid_tr/status/1582820871370309633",
-    htag: ["#hitbid", "#turkishdelights", "#istanbul"],
+    Htag: ["#hitbid", "#turkishdelights", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
     Username: "HitBid_tr",
     Event: "#hitbid #istanbul",
     URL: "https://twitter.com/HitBid_tr/status/1582820285937766400",
-    htag: ["#hitbid", "#istanbul"],
+    Htag: ["#hitbid", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
     Username: "HitBid_tr",
     Event: "#istanbul #turkey #turkishdelights",
     URL: "https://twitter.com/HitBid_tr/status/1582820171026030592",
-    htag: ["#istanbul", "#turkey", "#turkishdelights"],
+    Htag: ["#istanbul", "#turkey", "#turkishdelights"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
     Username: "akmalahs",
     Event: "#Yusufislam’s in town\n #AKM #Taksim #istanbul ",
     URL: "https://twitter.com/akmalahs/status/1582800170009300992",
-    htag: ["#yusufislam’s", "#akm", "#taksim", "#istanbul"],
+    Htag: ["#yusufislam’s", "#akm", "#taksim", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1358,7 +1715,7 @@ export const data = [
     Event:
       "First day of Istanbul Fintech Week in its 4th year is all about Blockchain on 8 Feb 2023. Web3 solutions, tokenization, crypto assets, DeFi, CBDCs and so on.\n\n#istanbulfintechweek #theopenfinance #ifw23 #istanbul #fintech #conference #blockchainfest #digitalfinancesummit",
     URL: "https://twitter.com/Fintech_TR/status/1582782004810027013",
-    htag: [
+    Htag: [
       "#istanbulfintechweek",
       "#theopenfinance",
       "#ifw23",
@@ -1368,6 +1725,9 @@ export const data = [
       "#blockchainfest",
       "#digitalfinancesummit",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1375,7 +1735,10 @@ export const data = [
     Event:
       "#GoodMorning #Istanbul is Partly Cloudy #today. With a high of  C /  F and a low of 11 C / 52 F #Enjoy #ttot",
     URL: "https://twitter.com/Galata1875/status/1582765298872365056",
-    htag: ["#goodmorning", "#istanbul", "#today", "#enjoy", "#ttot"],
+    Htag: ["#goodmorning", "#istanbul", "#today", "#enjoy", "#ttot"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1383,7 +1746,10 @@ export const data = [
     Event:
       "Check out my report on #Istanbul’s first Michelin star restaurants ��?��?👇��?� @trtworld \n@MichelinGuideUK #MichelinStars \n\n",
     URL: "https://twitter.com/kubrakkoc/status/1582750034873155587",
-    htag: ["#istanbul’s", "#michelinstars"],
+    Htag: ["#istanbul’s", "#michelinstars"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1391,7 +1757,7 @@ export const data = [
     Event:
       "Tennis Bracelet 925 Silver Sterling Jewelry\n\n#tennisbracelet #bracelet #jewelry #silverjewelry #finejewelry #jewellery #turkishjewelry #wholesalejewelry #trendy #fashion #dainty #zircon #trendyjewelry #newtrend #handcrafted #turkey #istanbul #grandbazaar ",
     URL: "https://twitter.com/TheiaSilver/status/1582717183926624256",
-    htag: [
+    Htag: [
       "#tennisbracelet",
       "#bracelet",
       "#jewelry",
@@ -1411,6 +1777,9 @@ export const data = [
       "#istanbul",
       "#grandbazaar",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1418,7 +1787,7 @@ export const data = [
     Event:
       "Türkiye is likely to attract more foreign tourists and generate more tourism revenues than foreseen in revised targets set for 2022, Culture and Tourism Minister Mehmet Nuri Ersoy has said.\n\n#investinturkey #realestateinvestment #turkisheconomy #turkey #istanbul  #turkeynews",
     URL: "https://twitter.com/mira_pazarlama/status/1582711050876891136",
-    htag: [
+    Htag: [
       "#investinturkey",
       "#realestateinvestment",
       "#turkisheconomy",
@@ -1426,6 +1795,9 @@ export const data = [
       "#istanbul",
       "#turkeynews",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1433,7 +1805,7 @@ export const data = [
     Event:
       "Offering wide 2+1, 3+1, and 4+1 #apartments, Luxera #Nevbahar by #Luxera #Gayrimenkul is located at #Basaksehir. It is in between the nature with a %70 of its space being green hence suitable for families raising childern. It is 1 min away from the highway. #istanbul #turkey",
     URL: "https://twitter.com/bazaarmixx/status/1582698544053772289",
-    htag: [
+    Htag: [
       "#apartments",
       "#nevbahar",
       "#luxera",
@@ -1442,6 +1814,9 @@ export const data = [
       "#istanbul",
       "#turkey",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1449,7 +1824,7 @@ export const data = [
     Event:
       "Located at #Uskudar district pinewoods of Buyuk Camlica and Kucuk #Camlica Hills, Ala Camlica Konaklari offers you a breathtaking view of #Istanbul and #Bosphorus. The #project is near to #mosques, educational institutions, and medical clinics. #turkey #turkiye #invest",
     URL: "https://twitter.com/bazaarmixx/status/1582698244249096195",
-    htag: [
+    Htag: [
       "#uskudar",
       "#camlica",
       "#istanbul",
@@ -1460,6 +1835,9 @@ export const data = [
       "#turkiye",
       "#invest",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1467,7 +1845,7 @@ export const data = [
     Event:
       "#AlyaDream #Project is located #Beylikdüzü, near to #transportation, public and private schools is suitable for families. 3+1 164 sm #apartments with a view of the city are offered for 265.000$ in cash. #istanbul #estate #realestate",
     URL: "https://twitter.com/bazaarmixx/status/1582697780597772291",
-    htag: [
+    Htag: [
       "#alyadream",
       "#project",
       "#beylikdüzü",
@@ -1477,6 +1855,9 @@ export const data = [
       "#estate",
       "#realestate",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1484,7 +1865,10 @@ export const data = [
     Event:
       "Six more #ships have left #Ukrainian #ports under the #Istanbul #grainexportdeal, Türkiye's National Defense Ministry said on Wednesday.",
     URL: "https://twitter.com/anews/status/1582676827339898880",
-    htag: ["#ships", "#ukrainian", "#ports", "#istanbul", "#grainexportdeal"],
+    Htag: ["#ships", "#ukrainian", "#ports", "#istanbul", "#grainexportdeal"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1492,7 +1876,10 @@ export const data = [
     Event:
       "Artu Real Estate offers you  \n 1-  4+ 2 Dublex \n\n 2-  3 + 1 \n\n 3- 2+1 \n\n 4- 1+1 \n For more details and information, contact us\n WhatsApp\n\n#Apartmentfo #Istanbul #realestate #realestate",
     URL: "https://twitter.com/arturealestate/status/1582670421874610176",
-    htag: ["#apartmentfo", "#istanbul", "#realestate", "#realestate"],
+    Htag: ["#apartmentfo", "#istanbul", "#realestate", "#realestate"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1500,7 +1887,10 @@ export const data = [
     Event:
       "8-Hour Private Tour of Istanbul - If you’re looking for an in-depth, personalized tour of Istanbul.  #istanbul",
     URL: "https://twitter.com/OneNationTravel/status/1582530669921521664",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1508,7 +1898,10 @@ export const data = [
     Event:
       "Apart From being a Crypto Investor and trader!���?📊\n\n   I import kids footwears,sneakers,crocs and beautiful kids scandal from #Turkey 🇹🇷\n I am my own CEO!! \n Do well to patronize me WhatsApp:\n👇👇👇👇👇👇",
     URL: "https://twitter.com/iamike_e/status/1582828496975695874",
-    htag: ["#turkey"],
+    Htag: ["#turkey"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1516,7 +1909,7 @@ export const data = [
     Event:
       "Nestled on the Mediterranean coast, Kas is a historic fishing village that’s easily up there as one of the best places in Turkey to explore. And not just because of its gorgeous coastline! \n\n#turkey #travelturkey #investinturkey #visitturkey #tourism #turkeytour #tourisminturkey",
     URL: "https://twitter.com/mira_pazarlama/status/1582763518612250627",
-    htag: [
+    Htag: [
       "#turkey",
       "#travelturkey",
       "#investinturkey",
@@ -1525,6 +1918,9 @@ export const data = [
       "#turkeytour",
       "#tourisminturkey",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1532,7 +1928,7 @@ export const data = [
     Event:
       "Greek experts: the probability of war with Turkey is increasing  \n\n#Greece #Turkey #Aegean #conflict #war #possibility",
     URL: "https://twitter.com/businessturkey/status/1582747610171183104",
-    htag: [
+    Htag: [
       "#greece",
       "#turkey",
       "#aegean",
@@ -1540,6 +1936,9 @@ export const data = [
       "#war",
       "#possibility",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1547,7 +1946,10 @@ export const data = [
     Event:
       "#Russia's Rosatom: We began negotiations with Turkey for the nuclear energy plant in #Sinop.\nRussia and Türkiye have started negotiations regarding the construction of a second nuclear power plant on the Black Sea coast.\n#Turkey\nVia @savunmaisleri",
     URL: "https://twitter.com/metesohtaoglu/status/1582729353003433984",
-    htag: ["#russia's", "#sinop", "#turkey"],
+    Htag: ["#russia's", "#sinop", "#turkey"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1555,7 +1957,10 @@ export const data = [
     Event:
       "Turkish Navy's TCG BURGAZADA war ship, which set out to participate in the FIFA-2022 World Cup Shield Operation to be held in #Qatar between 01 November and 18 December 2022, passed through the #Suez Canal, #Egypt.\n#Turkey #Türkiye\n📸 @savunmaisleri",
     URL: "https://twitter.com/metesohtaoglu/status/1582716517967593474",
-    htag: ["#qatar", "#suez", "#egypt", "#turkey", "#türkiye"],
+    Htag: ["#qatar", "#suez", "#egypt", "#turkey", "#türkiye"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1563,7 +1968,10 @@ export const data = [
     Event:
       "Are #hair #transplants in #Turkey safe? Well, It depends. Here's what you need to know before you take the plunge.\nNew article from the #BodyExpert Blog!",
     URL: "https://twitter.com/Bodyexperttweet/status/1582647273171070976",
-    htag: ["#hair", "#transplants", "#turkey", "#bodyexpert"],
+    Htag: ["#hair", "#transplants", "#turkey", "#bodyexpert"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1571,7 +1979,10 @@ export const data = [
     Event:
       "FMA stands in solidarity with @RSF_inter's #Turkey rep @ErolOnderoglu &amp; his co-defendants, journalist @AhmetNesin1 &amp; activist @SKorurFincanci, as their trial resumes today, 19 Oct, in Turkish court. They face 14 yrs in jail for participating in a solidarity campaign in 2016. 1/2",
     URL: "https://twitter.com/fma_tr/status/1582647054077394944",
-    htag: ["#turkey"],
+    Htag: ["#turkey"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1579,7 +1990,7 @@ export const data = [
     Event:
       "Currency prices in Turkey on  19\\10\\2022\n\n\n\n#turkey #investinturkey #realestateinvestment #turkisheconomy #exchangerate #dollartl ",
     URL: "https://twitter.com/mira_pazarlama/status/1582639920417427456",
-    htag: [
+    Htag: [
       "#turkey",
       "#investinturkey",
       "#realestateinvestment",
@@ -1587,6 +1998,9 @@ export const data = [
       "#exchangerate",
       "#dollartl",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1594,7 +2008,10 @@ export const data = [
     Event:
       "People banging on pots and pans, yelling from their balconies, chatting from their homes are ways to protest when your government will arrest and kill you for being on the streets. It's done in #Turkey as well. #IranRevolution2022",
     URL: "https://twitter.com/faribanawa/status/1582633744040882176",
-    htag: ["#turkey", "#iranrevolution2022"],
+    Htag: ["#turkey", "#iranrevolution2022"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1602,13 +2019,16 @@ export const data = [
     Event:
       "Unique sea view properties for sale in Atakoy Bakirkoy Istanbul.\n\nWebsite: \nWhatsapp: \n\nWatch our new portfolio video!\n\n\n\n#turkishcitizenship #propertyforsaleinistanbul #seaview #propertyfinderturkey #property",
     URL: "https://twitter.com/saleinistanbul/status/1582714696662011904",
-    htag: [
+    Htag: [
       "#turkishcitizenship",
       "#propertyforsaleinistanbul",
       "#seaview",
       "#propertyfinderturkey",
       "#property",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1616,7 +2036,10 @@ export const data = [
     Event:
       "Happy to announce that our Defense Program Director Dr. Can Kasapoglu @ckasapoglu1 penned the #Turkiye as a #NATO nation chapter in this important effort. Special thanks to Oxford Uni. Press, @NATO_DefCollege @thierrytardy",
     URL: "https://twitter.com/EdamDefense/status/1582812704628097024",
-    htag: ["#turkiye", "#nato"],
+    Htag: ["#turkiye", "#nato"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1624,7 +2047,7 @@ export const data = [
     Event:
       "#Turkiye #external #assets exhibited an #increase of 2.7 percent from the end of 2021 to reach $296.1 billion as of the end of #August, data from the #CentralBank have shown.",
     URL: "https://twitter.com/bazaartimes/status/1582741134081937408",
-    htag: [
+    Htag: [
       "#turkiye",
       "#external",
       "#assets",
@@ -1632,6 +2055,9 @@ export const data = [
       "#august",
       "#centralbank",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1639,7 +2065,10 @@ export const data = [
     Event:
       "#TurkishAirlines (#THY) has “brought $14 billion of #foreign #currency to #Turkiye this year,��? said the chairperson of the flag carrier’s board, Ahmet Bolat, noting that in 2023",
     URL: "https://twitter.com/bazaartimes/status/1582740878367420416",
-    htag: ["#turkishairlines", "#foreign", "#currency", "#turkiye"],
+    Htag: ["#turkishairlines", "#foreign", "#currency", "#turkiye"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1647,7 +2076,10 @@ export const data = [
     Event:
       "#world, watch this in case you need a translator for this video. Government news channels are changing the subject as it is. her family are in danger, so she said what it need to say, Be her voice to others, please. #MahsaAmini  #OpIran #مهسا_امینی",
     URL: "https://twitter.com/Mardounyeh/status/1582658276830760961",
-    htag: ["#world", "#mahsaamini", "#opiran", "#مهسا امینی"],
+    Htag: ["#world", "#mahsaamini", "#opiran", "#مهسا امینی"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1655,7 +2087,7 @@ export const data = [
     Event:
       "Determining the size of the nail before leg-lengthening surgery is one of the pre-operative plans.\n#orthopedicsurgery\n#cosmeticlimblengthening\n#leglengtheningsurgery\n#information\n#preciceimplant\n#bone\n#xray\n#radiograph ",
     URL: "https://twitter.com/wannabetallert1/status/1582808808253837313",
-    htag: [
+    Htag: [
       "#orthopedicsurgery",
       "#cosmeticlimblengthening",
       "#leglengtheningsurgery",
@@ -1665,6 +2097,9 @@ export const data = [
       "#xray",
       "#radiograph",
     ],
+    Category: "Education",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1672,7 +2107,10 @@ export const data = [
     Event:
       "Why is Social #Learning so powerful? Simple - it puts students at the heart of the classroom experience.\n\nIn this short blog we explain how tools like Rainbow™ Classroom bring improved engagement and better results.\n\n#ELearning #WhereEverythingConnects  ",
     URL: "https://twitter.com/AYDINALPMustafa/status/1582699888155860992",
-    htag: ["#learning", "#elearning", "#whereeverythingconnects"],
+    Htag: ["#learning", "#elearning", "#whereeverythingconnects"],
+    Category: "Education",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1680,7 +2118,7 @@ export const data = [
     Event:
       "Hair study\n.\n.\n.\n.\n.\n.\n.\n.\n.\n\n#sketches #sketchaday #sketchart #sketchbook\n#doodlesofinstagram #doodleart #doodle #art #artist\n#artwork #digitalart #digitaldesign #design #concept\n#conceptart #style #dtiys #artvsartist \n#drawings #originalart  #illustration\n#comic ",
     URL: "https://twitter.com/mermerArt/status/1582837343005790208",
-    htag: [
+    Htag: [
       "#sketches",
       "#sketchaday",
       "#sketchart",
@@ -1704,6 +2142,9 @@ export const data = [
       "#illustration",
       "#comic",
     ],
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1711,7 +2152,7 @@ export const data = [
     Event:
       "Creative Compositing / Poster Design services for all professionals. Contact: \n____\n\n#keyart #posterdesign #compositing #creativeretouching #photomanipulation #art #ArtistOnTwitter #movieposterdesign ",
     URL: "https://twitter.com/retouchlab/status/1582758099622199297",
-    htag: [
+    Htag: [
       "#keyart",
       "#posterdesign",
       "#compositing",
@@ -1721,6 +2162,9 @@ export const data = [
       "#artistontwitter",
       "#movieposterdesign",
     ],
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1728,7 +2172,7 @@ export const data = [
     Event:
       "In the modern age, we are egomaniacs stuck in hunter-gatherer bodies. In this collection, we will see works that depict primitive impulses in an aesthetic and dramatic way.\n\n\n\n#NFT #NFTCommunity #NFTCollectors #ETH #OpenSea #Art #AI #Monkey",
     URL: "https://twitter.com/CaveArtNFT/status/1582712548415377408",
-    htag: [
+    Htag: [
       "#nft",
       "#nftcommunity",
       "#nftcollectors",
@@ -1738,6 +2182,9 @@ export const data = [
       "#ai",
       "#monkey",
     ],
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1745,7 +2192,10 @@ export const data = [
     Event:
       "This performance may be one of the most obvious experiments that #art has a superman existence on this #planet:a human-centered art actually minimizes the existence level of art #Beethoven @GrimArtGroup 🇬🇧 @GrimReality0 🇬🇧 @melisoss 🇹🇷 @pomeryan 🇹🇷 @ZbCqh3D4Y2GGjRA 🇯🇵 #Musique",
     URL: "https://twitter.com/ahb651/status/1582646861940535296",
-    htag: ["#art", "#planet a", "#beethoven", "#musique"],
+    Htag: ["#art", "#planet a", "#beethoven", "#musique"],
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1753,7 +2203,10 @@ export const data = [
     Event:
       "#youtube Real GDP growth projection for G20 economies #economy #growth #gdp #g20",
     URL: "https://twitter.com/zdurranii/status/1582634924850307072",
-    htag: ["#youtube", "#economy", "#growth", "#gdp", "#g20"],
+    Htag: ["#youtube", "#economy", "#growth", "#gdp", "#g20"],
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1761,7 +2214,10 @@ export const data = [
     Event:
       "🇬🇧_||~ℹ��?〰��? UK inflation rose to a 40-year high in September as the soaring cost of food squeezed household budgets .. #inflation",
     URL: "https://twitter.com/cover_up8d/status/1582664186118557697",
-    htag: ["#inflation"],
+    Htag: ["#inflation"],
+    Category: "Economics",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1769,7 +2225,10 @@ export const data = [
     Event:
       "UK inflation returns to 40-year high of 10.1% in September\n\n#UnitedKingdom #Britain #Inflation #Prices ",
     URL: "https://twitter.com/TRTMoneyTalks/status/1582641449249787906",
-    htag: ["#unitedkingdom", "#britain", "#inflation", "#prices"],
+    Htag: ["#unitedkingdom", "#britain", "#inflation", "#prices"],
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1777,14 +2236,20 @@ export const data = [
     Event:
       "Inflation in the UK rises to double digits again  \n\n#inflation #UK #rises",
     URL: "https://twitter.com/businessturkey/status/1582623869369581569",
-    htag: ["#inflation", "#uk", "#rises"],
+    Htag: ["#inflation", "#uk", "#rises"],
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
     Username: "melo_mire",
     Event: "#ellafitzgerald 💕\n#music \n#jazzfestival \n",
     URL: "https://twitter.com/melo_mire/status/1582800352763871232",
-    htag: ["#ellafitzgerald", "#music", "#jazzfestival"],
+    Htag: ["#ellafitzgerald", "#music", "#jazzfestival"],
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/19/2022",
@@ -1792,13 +2257,16 @@ export const data = [
     Event:
       "Campus-wide #DigitalTransformation allows your school to be as agile and responsive as possible to support every student’s preferred way of learning. Download this free white paper to empower #StudentSuccess now. #WhereEverythingConnects #EdTech #eLearning",
     URL: "https://twitter.com/AYDINALPMustafa/status/1582699593824751616",
-    htag: [
+    Htag: [
       "#digitaltransformation",
       "#studentsuccess",
       "#whereeverythingconnects",
       "#edtech",
       "#elearning",
     ],
+    Category: "Education",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -1806,14 +2274,20 @@ export const data = [
     Event:
       "#Türkiye🇹🇷 and #Israel🇮🇱 discuss cooperation in various fields\n\nTürkiye’s Industry and Technology Minister Mustafa #Varank met with his Israeli counterpart in #Ankara. The two countries expressed a mutual desire to diversify their cooperation and increase investment and trade. ",
     URL: "https://twitter.com/trtworldforum/status/1583045636860956673",
-    htag: ["#türkiye🇹🇷", "#israel🇮🇱", "#varank", "#ankara"],
+    Htag: ["#türkiye🇹🇷", "#israel🇮🇱", "#varank", "#ankara"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "_duybeniekkan",
     Event: "They didn’t kiss off ja 😠 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583212292409544705",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -1821,7 +2295,10 @@ export const data = [
     Event:
       "Sure I would have loved to see finally some remorse in Kanat for the Luna Park situation but I don’t think we’ll ever gonna get that. Sucks! But I hope that the writers make it up to us by giving us some more topnotch #EkKan scenes! #DuyBeni #herşeyerağmen 2/2",
     URL: "https://twitter.com/LorenaLavinia/status/1583205601353822211",
-    htag: ["#ekkan", "#duybeni", "#herşeyerağmen"],
+    Htag: ["#ekkan", "#duybeni", "#herşeyerağmen"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -1829,7 +2306,10 @@ export const data = [
     Event:
       "I agree. I figured they wouldn’t kiss tbh. The chemistry that #EkKan has is just from another world that’s why I’m ok with no kiss. I get that some ppl are disappointed with the scene bc there wasn’t a kiss &amp; the fake acc convos but for me it was okay. #DuyBeni #herşeyerağmen 1/2",
     URL: "https://twitter.com/LorenaLavinia/status/1583205599071739904",
-    htag: ["#ekkan", "#duybeni", "#herşeyerağmen"],
+    Htag: ["#ekkan", "#duybeni", "#herşeyerağmen"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -1837,7 +2317,10 @@ export const data = [
     Event:
       "Or at least not have him saying “o gundu dımı��? when she said thats why she didn’t come, as if it was nothing \n#herşeyerağmen  #ekkan",
     URL: "https://twitter.com/dizissp/status/1583204448171864064",
-    htag: ["#herşeyerağmen", "#ekkan"],
+    Htag: ["#herşeyerağmen", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -1845,14 +2328,20 @@ export const data = [
     Event:
       "Now when episode is over I can say that instead of the first love and fake account talk you could’ve just written Kanat’s apology for the caroussel and we would’ve been satisfyed 🥰🥰🥰\n\n#herşeyerağmen • #duybeni • #ekkan ",
     URL: "https://twitter.com/lauxdby/status/1583199662844301312",
-    htag: ["#herşeyerağmen", "#duybeni", "#ekkan"],
+    Htag: ["#herşeyerağmen", "#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "_duybeniekkan",
     Event: "They both want this.🥵 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583192966193377281",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -1860,7 +2349,10 @@ export const data = [
     Event:
       "E: You are the most beautiful thing that happened in my life.�?���?��?🔥 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583191837149659136",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -1868,7 +2360,10 @@ export const data = [
     Event:
       "E: You are the most beautiful thing that happened in my life. ���?\n\n#herşeyerağmen • #duybeni • #ekkan ",
     URL: "https://twitter.com/lauxdby/status/1583187465179103233",
-    htag: ["#herşeyerağmen", "#duybeni", "#ekkan"],
+    Htag: ["#herşeyerağmen", "#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -1876,7 +2371,10 @@ export const data = [
     Event:
       "I wanted to watch the detective ekkan era and them side by side since the beginning 💞💗���?💕💖💘\n\n#herşeyerağmen • #ekkan • #duybeni ",
     URL: "https://twitter.com/lauxdby/status/1583176369562734592",
-    htag: ["#herşeyerağmen", "#ekkan", "#duybeni"],
+    Htag: ["#herşeyerağmen", "#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -1884,14 +2382,20 @@ export const data = [
     Event:
       "My theory is they only overload us with content when the episode will be bad to keep us happy lol  #EkKan #DuyBeni #herşeyerağmen",
     URL: "https://twitter.com/HeartlessLovahh/status/1583137523793989642",
-    htag: ["#ekkan", "#duybeni", "#herşeyerağmen"],
+    Htag: ["#ekkan", "#duybeni", "#herşeyerağmen"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "_duybeniekkan",
     Event: "If they dont kiss. Im gona d*e fr. #ekkan #duybeni #herseyeragmen",
     URL: "https://twitter.com/_duybeniekkan/status/1583116596981411840",
-    htag: ["#ekkan", "#duybeni", "#herseyeragmen"],
+    Htag: ["#ekkan", "#duybeni", "#herseyeragmen"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -1899,7 +2403,10 @@ export const data = [
     Event:
       "Pretending like I don’t want RabCan and BTS content so they drop it 😭💀 #DuyBeni #EkKan",
     URL: "https://twitter.com/HeartlessLovahh/status/1583108337620525056",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -1907,21 +2414,30 @@ export const data = [
     Event:
       "Yes, you are definitely making good sense, but we will enjoy the scenes to the maximum while we can.���? \n\nI still can't believe that we are getting our very own rain scenes.���?\n\n#DuyBeni #EkKan",
     URL: "https://twitter.com/loosemoose97/status/1582979646840193025",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "_duybeniekkan",
     Event: "Who wants to get in this group? #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1582954273872048128",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "_duybeniekkan",
     Event: "The way ekim looks at kanat&gt; #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1582944225598922752",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -1929,7 +2445,7 @@ export const data = [
     Event:
       "Tesla shares fall as CEO Musk warns firm will miss sales target 👇\n\n#Tesla #TSLA #ElectricVehicles #EV #ElonMusk #Musk #TeslaEarnings ",
     URL: "https://twitter.com/TRTMoneyTalks/status/1583015075144556545",
-    htag: [
+    Htag: [
       "#tesla",
       "#tsla",
       "#electricvehicles",
@@ -1938,13 +2454,19 @@ export const data = [
       "#musk",
       "#teslaearnings",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "HalilBilsel",
     Event: "#istanbul #E5 #otoyol #kaza",
     URL: "https://twitter.com/HalilBilsel/status/1583219306934202368",
-    htag: ["#istanbul", "#e5", "#otoyol", "#kaza"],
+    Htag: ["#istanbul", "#e5", "#otoyol", "#kaza"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -1952,7 +2474,10 @@ export const data = [
     Event:
       "#GoodMorning #Istanbul is Partly Cloudy #today. With a high of 19 C / 67 F and a low of 11 C / 52 F #Enjoy #ttot",
     URL: "https://twitter.com/Galata1875/status/1583128294165446657",
-    htag: ["#goodmorning", "#istanbul", "#today", "#enjoy", "#ttot"],
+    Htag: ["#goodmorning", "#istanbul", "#today", "#enjoy", "#ttot"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -1960,7 +2485,7 @@ export const data = [
     Event:
       "Hello everyone!😊 Our new video testimonial series begin🎊 Hear what one of our International student is gonna say about experience at the Kadir Has Üniversitesi💙\n\n#testimonial #education #international #students #kadirhasüniversitesi #turkey #istanbul #internationalstudents ",
     URL: "https://twitter.com/KHASintoffice/status/1583094657764192256",
-    htag: [
+    Htag: [
       "#testimonial",
       "#education",
       "#international",
@@ -1970,6 +2495,9 @@ export const data = [
       "#istanbul",
       "#internationalstudents",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -1977,7 +2505,7 @@ export const data = [
     Event:
       "The results one year after the Hair Transplant ✨\n.\n.\n.\n.\n.\n.\n#hairtransplant #bluemagicgroup #hairtransplantclinic #besthairtransplantclinic #istanbul #beforeandafter ",
     URL: "https://twitter.com/bluemagic_group/status/1583084821600837632",
-    htag: [
+    Htag: [
       "#hairtransplant",
       "#bluemagicgroup",
       "#hairtransplantclinic",
@@ -1985,6 +2513,9 @@ export const data = [
       "#istanbul",
       "#beforeandafter",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -1992,7 +2523,7 @@ export const data = [
     Event:
       "#istanbul #turkey #streetphotographer #streetphotographers #street #streetphotographer #urbanphotography",
     URL: "https://twitter.com/mcenzura/status/1583082621848162306",
-    htag: [
+    Htag: [
       "#istanbul",
       "#turkey",
       "#streetphotographer",
@@ -2001,6 +2532,9 @@ export const data = [
       "#streetphotographer",
       "#urbanphotography",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2008,7 +2542,7 @@ export const data = [
     Event:
       "In Türkiye, house sales decreased by 22.9% in September compared to the same month of the previous year and became 113 thousand 402. \n\n#realestateturkey #realestatecompany #investinturkey #turkisheconomy #turkey #istanbul  #turkeyproperty #propertynews #turkeynews",
     URL: "https://twitter.com/mira_pazarlama/status/1583079291059056642",
-    htag: [
+    Htag: [
       "#realestateturkey",
       "#realestatecompany",
       "#investinturkey",
@@ -2019,6 +2553,9 @@ export const data = [
       "#propertynews",
       "#turkeynews",
     ],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2026,7 +2563,7 @@ export const data = [
     Event:
       "Beautiful 5+1 appartment with direct seaview \n#istanbul #turkey #property #villas #appartments #shops #lands #beautifulistanbul #beautifulview #ottomanproperty #citizenshipoffer #explore #special #offer #price ",
     URL: "https://twitter.com/ottomanesatate/status/1582992450980716544",
-    htag: [
+    Htag: [
       "#istanbul",
       "#turkey",
       "#property",
@@ -2043,6 +2580,9 @@ export const data = [
       "#offer",
       "#price",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2050,7 +2590,7 @@ export const data = [
     Event:
       "Looking forward to see you at #SAHA #EXPO #Fair taking place at #İstanbul Fair Center(IFM).\n\n25-28 October 2022\nHall: 2 / Booth: 2B-01\n\nOnline registration is now : \n\n#sahaexpo #sahaexpo2022 #defence #military #batterypack #Battery #batterystorage ",
     URL: "https://twitter.com/BatteryBpm/status/1582990118998065152",
-    htag: [
+    Htag: [
       "#saha",
       "#expo",
       "#fair",
@@ -2063,6 +2603,9 @@ export const data = [
       "#battery",
       "#batterystorage",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2070,13 +2613,16 @@ export const data = [
     Event:
       "We are a medical tourism agency facilitator that helps patients to access high quality, affordable treatment in a globalised healthcare marketplace. #aesthetics #turkeyteeth #bestdoctorturkye #chirurgie #İstanbul",
     URL: "https://twitter.com/NNisantasi/status/1582946976366493697",
-    htag: [
+    Htag: [
       "#aesthetics",
       "#turkeyteeth",
       "#bestdoctorturkye",
       "#chirurgie",
       "#i̇stanbul",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2084,7 +2630,7 @@ export const data = [
     Event:
       "Story Board of InGoExpo 2023\n\nBusiness Goal\nPROCESS TO ACHIEVE\nLet's Join Indonesia Go Expo - Istanbul 2023.\nFor registration information click here :\n\n\n#tradeexpo2022 #marmaraid #InGoExpo\n#SmartEconomySmartFuture #Istanbul #Indonesia ",
     URL: "https://twitter.com/ingoex_istanbul/status/1582938812199862272",
-    htag: [
+    Htag: [
       "#tradeexpo2022",
       "#marmaraid",
       "#ingoexpo",
@@ -2092,6 +2638,9 @@ export const data = [
       "#istanbul",
       "#indonesia",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2099,7 +2648,10 @@ export const data = [
     Event:
       "Turkey's response to Greek bad joke\nDistance from İstanbul to Athens is 561 km\nTurkey test-fired a locally made, ballistic missile flew 561 km\nThe retired Greek General Yannis Egolfopoulos threatened to bomb iconic İstanbul Bridge\n#Greece #Turkey #USA #Russia #Ukraine��?",
     URL: "https://twitter.com/hsbicer/status/1583176713810644992",
-    htag: ["#greece", "#turkey", "#usa", "#russia", "#ukraine��?"],
+    Htag: ["#greece", "#turkey", "#usa", "#russia", "#ukraine��?"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2107,7 +2659,10 @@ export const data = [
     Event:
       "#Sweden's new Prime Minister Ulf Kristersson says he is ready to head to Ankara to urge #Turkey to back bids by #Sweden and #Finland to join the #NATO alliance @AFP",
     URL: "https://twitter.com/FulyaOzerkan/status/1583123145527275520",
-    htag: ["#sweden's", "#turkey", "#sweden", "#finland", "#nato"],
+    Htag: ["#sweden's", "#turkey", "#sweden", "#finland", "#nato"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2115,7 +2670,7 @@ export const data = [
     Event:
       "Star Design Zircon Stone Women Adjustable Ring Handmade Turkish Wholesale 925 Sterling Silver Jewelry\n\n\n#star #rings #jewelry #silverjewelry #finejewelry #jewellery #turkishjewelry #wholesalejewelry #trendy #fashion #dainty #zircon #handcrafted #turkey ",
     URL: "https://twitter.com/TheiaSilver/status/1583111189118083078",
-    htag: [
+    Htag: [
       "#star",
       "#rings",
       "#jewelry",
@@ -2131,6 +2686,9 @@ export const data = [
       "#handcrafted",
       "#turkey",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2138,14 +2696,20 @@ export const data = [
     Event:
       "#Turkey's central bank cut its policy rate for the third consecutive month despite a plunging lira and an annual #inflation rate that has soared over 83 percent. Our @AFP story:",
     URL: "https://twitter.com/FulyaOzerkan/status/1583079490120343553",
-    htag: ["#turkey's", "#inflation"],
+    Htag: ["#turkey's", "#inflation"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "businessturkey",
     Event: "#Turkey #economy #CBRT #CentralBank #interestrate",
     URL: "https://twitter.com/businessturkey/status/1583075981820329984",
-    htag: ["#turkey", "#economy", "#cbrt", "#centralbank", "#interestrate"],
+    Htag: ["#turkey", "#economy", "#cbrt", "#centralbank", "#interestrate"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2153,7 +2717,10 @@ export const data = [
     Event:
       "@AFP Her meetings 'affirmed the importance of close partnership between #US and #Turkey in addressing the risks caused by #sanctions evasion and other illicit financial activities,\"  Treasury says",
     URL: "https://twitter.com/FulyaOzerkan/status/1583062621242081282",
-    htag: ["#us", "#turkey", "#sanctions"],
+    Htag: ["#us", "#turkey", "#sanctions"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2161,7 +2728,7 @@ export const data = [
     Event:
       'Today\'s Quote: "If you’re not going to put money in real estate, where else?" - Tamir Sapir\n\n#NestInvest #quote #realestate #investment #turkey #money',
     URL: "https://twitter.com/NestInvestHQ/status/1583055407324413952",
-    htag: [
+    Htag: [
       "#nestinvest",
       "#quote",
       "#realestate",
@@ -2169,6 +2736,9 @@ export const data = [
       "#turkey",
       "#money",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2176,7 +2746,10 @@ export const data = [
     Event:
       "Introducing a new #IBW22 confirmed speaker!\n@berdamar is the founder and Director of \n@BCISTCenter the first university research and development centre in #Turkey for #Blockchain Technology, he's also one of the Bahçeşehir University's professors.\nTickets:",
     URL: "https://twitter.com/IstanbulBlockWk/status/1583013955399995392",
-    htag: ["#ibw22", "#turkey", "#blockchain"],
+    Htag: ["#ibw22", "#turkey", "#blockchain"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2184,7 +2757,7 @@ export const data = [
     Event:
       "Leaf Design Shiny Zircon Stone Stud Earrings Turkish Handmade 925 Sterling Silver Jewelry\n\n\n\n#leaf #earrings #jewelry #silverjewelry #finejewelry #jewellery #turkishjewelry #wholesalejewelry #trendy #fashion #dainty #zircon #handcrafted #turkey #grandbazaar ",
     URL: "https://twitter.com/TheiaSilver/status/1583001465324380160",
-    htag: [
+    Htag: [
       "#leaf",
       "#earrings",
       "#jewelry",
@@ -2201,6 +2774,9 @@ export const data = [
       "#turkey",
       "#grandbazaar",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2208,7 +2784,7 @@ export const data = [
     Event:
       "Currency prices in Turkey on  20\\10\\2022\n\n\n\n#realestateturkey #realestatecompany #turkey #investinturkey #realestateinvestment #turkisheconomy #exchangerate #dollartl ",
     URL: "https://twitter.com/mira_pazarlama/status/1582997350946963457",
-    htag: [
+    Htag: [
       "#realestateturkey",
       "#realestatecompany",
       "#turkey",
@@ -2218,6 +2794,9 @@ export const data = [
       "#exchangerate",
       "#dollartl",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2225,7 +2804,7 @@ export const data = [
     Event:
       "#Russia #Turkey #naturalgas #hub #Putin #Erdogan #Europe #flow #balances #GreekPress",
     URL: "https://twitter.com/businessturkey/status/1582990643303182337",
-    htag: [
+    Htag: [
       "#russia",
       "#turkey",
       "#naturalgas",
@@ -2237,6 +2816,9 @@ export const data = [
       "#balances",
       "#greekpress",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2244,7 +2826,7 @@ export const data = [
     Event:
       "Putin’s suggestion for natural gas hub establishment in Turkey could change balances  \n\n#Russia #Turkey #naturalgas #hub #Putin #Erdogan #Europe #flow #balances #GreekPress",
     URL: "https://twitter.com/businessturkey/status/1582990442333102080",
-    htag: [
+    Htag: [
       "#russia",
       "#turkey",
       "#naturalgas",
@@ -2256,6 +2838,9 @@ export const data = [
       "#balances",
       "#greekpress",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2263,7 +2848,7 @@ export const data = [
     Event:
       "Good Morning ☀��? Wake up to the day refreshed with great energy.\n\n���? \n☎��? +90 212 458 62 00\n\n#byzantiumhotel #istanbulhotel #sultanahmet #hotels #turkey #traveller #energy #goodmorning #goodday #turkiye ",
     URL: "https://twitter.com/HotelByzantium/status/1582987469691453440",
-    htag: [
+    Htag: [
       "#byzantiumhotel",
       "#istanbulhotel",
       "#sultanahmet",
@@ -2275,13 +2860,19 @@ export const data = [
       "#goodday",
       "#turkiye",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "dirk_drainhead",
     Event: "ITS HAPPENING #Turkey",
     URL: "https://twitter.com/dirk_drainhead/status/1582986795020533760",
-    htag: ["#turkey"],
+    Htag: ["#turkey"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2289,7 +2880,7 @@ export const data = [
     Event:
       "Villas for sale in Pendik Istanbul with private garden. \n\nWebsite: \nWhatsapp: \n\nWatch our new portfolio video!\n\n\n\n#turkishcitizenship #propertyforsaleinistanbul #propertyturkey #pendik #villa #buyhomeistanbul",
     URL: "https://twitter.com/saleinistanbul/status/1583075250165940226",
-    htag: [
+    Htag: [
       "#turkishcitizenship",
       "#propertyforsaleinistanbul",
       "#propertyturkey",
@@ -2297,13 +2888,19 @@ export const data = [
       "#villa",
       "#buyhomeistanbul",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "FulyaOzerkan",
     Event: "#Turkish central bank cuts rates for third month @AFP",
     URL: "https://twitter.com/FulyaOzerkan/status/1583052201269768193",
-    htag: ["#turkish"],
+    Htag: ["#turkish"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2311,7 +2908,10 @@ export const data = [
     Event:
       "In #TRTWorldForum2020's Expert Roundtable session ''#Turkish Foreign Policy: Tradition, Geopolitics and Ideology in A Changing World Order'', @tkucukcan hosted @frkkymkc, @burhanduran, Francis Joseph Ricciardone Jr. and Joachim Bitterlich. Watch here:",
     URL: "https://twitter.com/trtworldforum/status/1583018992028901376",
-    htag: '["#trtworldforum2020\'s"]',
+    Htag: '["#trtworldforum2020\'s"]',
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2319,7 +2919,10 @@ export const data = [
     Event:
       "Hello the #world people, this activities are not main subject in exist #iran #revolution, they are able to say and act as they want, but the #regime trying to say this is the only target for people, to get naked. But we are not. With all respect for this ladies #MahsaAmini",
     URL: "https://twitter.com/Mardounyeh/status/1583195363867250688",
-    htag: ["#world", "#iran", "#revolution", "#regime", "#mahsaamini"],
+    Htag: ["#world", "#iran", "#revolution", "#regime", "#mahsaamini"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2327,7 +2930,10 @@ export const data = [
     Event:
       "#Learning without purpose will only lead to disaster. \n\n“Not only do you not gain anything valuable, you’ll also be wasting a lot of time.��?",
     URL: "https://twitter.com/OzgulErkisGozum/status/1583104717697167360",
-    htag: ["#learning"],
+    Htag: ["#learning"],
+    Category: "Education",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2335,7 +2941,10 @@ export const data = [
     Event:
       "Medical tourism creates an opportunity to get high-quality healthcare services along with a chance to visit a new country. 🤩\nWe are here���?Istanbul, Turkey\n#medical_tourism #o2care #quality #medical #travels",
     URL: "https://twitter.com/O2Care_tur/status/1583093435187462151",
-    htag: ["#medical tourism", "#o2care", "#quality", "#medical", "#travels"],
+    Htag: ["#medical tourism", "#o2care", "#quality", "#medical", "#travels"],
+    Category: "Health",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2343,7 +2952,7 @@ export const data = [
     Event:
       "Making - Roof Repair &amp; Roofing WordPress Theme\n\n#architecture #building #business #company #construction #corporate #design #engineering #garden #house #landscape #lawn #maintenance #repair #roof #roofing #exteriordesign #roofrepair #roofingservices ",
     URL: "https://twitter.com/garantiwebt/status/1583157722127556608",
-    htag: [
+    Htag: [
       "#architecture",
       "#building",
       "#business",
@@ -2364,6 +2973,9 @@ export const data = [
       "#roofrepair",
       "#roofingservices",
     ],
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2371,7 +2983,10 @@ export const data = [
     Event:
       "Architect Tufan Okul analyzed for  the impact of the reinforced concrete for nature and humanity. #Reinforcedconcrete #architecture @OkulTufan",
     URL: "https://twitter.com/anews/status/1582963634900467715",
-    htag: ["#reinforcedconcrete", "#architecture"],
+    Htag: ["#reinforcedconcrete", "#architecture"],
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2379,7 +2994,7 @@ export const data = [
     Event:
       "Film still drawing from Avatar (2009) #3\n.\n.\n.\n.\n#avatar #avatar2 #jamescameron #jamescameronsavatar #filmstill #drawing #drawingexercise #storyboard #storyboarding #art #avatarfanart #fanart #FanArtFriday ",
     URL: "https://twitter.com/venmious7/status/1583174475449012224",
-    htag: [
+    Htag: [
       "#3",
       "#avatar",
       "#avatar2",
@@ -2395,6 +3010,9 @@ export const data = [
       "#fanart",
       "#fanartfriday",
     ],
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2402,7 +3020,10 @@ export const data = [
     Event:
       'Colombian President Gustavo Petro said that the global economic crisis is approaching and that "the United States is overturning all world economies, sometimes without thinking about what will happen, just protecting themselves." #Colombia #US #economy',
     URL: "https://twitter.com/anews/status/1583235416416608256",
-    htag: ["#colombia", "#us", "#economy"],
+    Htag: ["#colombia", "#us", "#economy"],
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2410,7 +3031,10 @@ export const data = [
     Event:
       "The #TitaniumEconomy | �?�@McKinsey�?� on #Books | #McKinsey &amp; Company #economy",
     URL: "https://twitter.com/OzgulErkisGozum/status/1583103894346792961",
-    htag: ["#titaniumeconomy", "#books", "#mckinsey", "#economy"],
+    Htag: ["#titaniumeconomy", "#books", "#mckinsey", "#economy"],
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2418,7 +3042,7 @@ export const data = [
     Event:
       "Chic Textile Hangtag\n\nChic Textile sustainable hangtag.\n\nFor more: \n\n#Chictextile #hangtag #ecofriendly #vegan\n#Recycled #sustainable #Recycledmaterials #reuse\n#branding #labeling #oekotex\n#fashionbranding #patch #colorful #fashion #fsc #oekotex ",
     URL: "https://twitter.com/TextileChic/status/1583054702518108163",
-    htag: [
+    Htag: [
       "#chictextile",
       "#hangtag",
       "#ecofriendly",
@@ -2437,6 +3061,9 @@ export const data = [
       "#fsc",
       "#oekotex",
     ],
+    Category: "Lifestyle",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2444,7 +3071,10 @@ export const data = [
     Event:
       "🇬🇧_||~🎦 Breaking :  When Rishi Sunak told everybody about the pitfalls of UK PM’s Liz Truss’ plans?\n#LizTruss  #Resigned #inflation  ",
     URL: "https://twitter.com/cover_up8d/status/1583146258616975362",
-    htag: ["#liztruss", "#resigned", "#inflation"],
+    Htag: ["#liztruss", "#resigned", "#inflation"],
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2452,7 +3082,10 @@ export const data = [
     Event:
       "The last 4 editions of “Sophie��? \n0.03 ETH each\n🔗⬇��? #nftphotography #photography #streetphotography @StreetEvolution @urban_addicts @StreetPhotoInt @Street_Hunters  ",
     URL: "https://twitter.com/minemanapturel/status/1583087068015890433",
-    htag: ["#nftphotography", "#photography", "#streetphotography"],
+    Htag: ["#nftphotography", "#photography", "#streetphotography"],
+    Category: "Lifestyle",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2460,7 +3093,10 @@ export const data = [
     Event:
       "Bengaluru-bound Lufthansa flight diverted to Istanbul for THIS reason, passengers stuck for over 24 hours",
     URL: "https://zeenews.india.com/aviation/breaking-india-bound-lufthansa-flight-diverted-to-istanbul-passengers-stuck-in-turkey-for-over-24-hours-2524359.html",
-    htag: "",
+    Htag: "",
+    Category: "Traffic",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2468,7 +3104,10 @@ export const data = [
     Event:
       "Bengaluru-bound Lufthansa flight diverted to Istanbul; '31 hours later - no hotel, no staff,' claims Grammy winner Ricky Kej",
     URL: "https://www.msn.com/en-in/lifestyle/travel/bengaluru-bound-lufthansa-flight-diverted-to-istanbul-31-hours-later-no-hotel-no-staff-claims-grammy-winner-ricky-kej/ar-AA13a2g7",
-    htag: "",
+    Htag: "",
+    Category: "Lifestyle",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2476,28 +3115,40 @@ export const data = [
     Event:
       "‘I feel dumb and ashamed’: Woman slams Istanbul Airport for not stocking a single menstrual product",
     URL: "https://www.msn.com/en-gb/lifestyle/travel/i-feel-dumb-and-ashamed-woman-slams-istanbul-airport-for-not-stocking-a-single-menstrual-product/ar-AA13607h",
-    htag: "",
+    Htag: "",
+    Category: "Lifestyle",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "",
     Event: "Mask mandatory only in health facilities: Cabinet",
     URL: "https://thepeninsulaqatar.com/article/20/10/2022/mask-mandatory-only-in-health-facilities-cabinet",
-    htag: "",
+    Htag: "",
+    Category: "Health",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "",
     Event: "Bartın mine fire under control as victim support continues to grow",
     URL: "https://www.dailysabah.com/turkey/bartin-mine-fire-under-control-as-victim-support-continues-to-grow/news",
-    htag: "",
+    Htag: "",
+    Category: "Education",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "",
     Event: "As the dollar soars, it spreads pain globally",
     URL: "https://www.aljazeera.com/economy/2022/10/18/as-the-dollar-soars-it-spreads-pain-globally",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2505,14 +3156,20 @@ export const data = [
     Event:
       "Professor Max Gillman invited to speak at Turkish summit on 'Economic Transformation and New Paradigms' - UMSL Daily",
     URL: "https://blogs.umsl.edu/news/2022/10/17/max-gillman-speaks-at-turkish-economic-summit/",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "",
     Event: "The best free economic zones for buying real estate in Istanbul",
     URL: "https://www.luxurytravelmagazine.com/news-articles/the-best-free-economic-zones-for-buying-real-estate-in-istanbul",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
@@ -2520,42 +3177,60 @@ export const data = [
     Event:
       "Prof Khurshid Ahmad Bestowed With Turkey's Prestigious Islamic Economics Award",
     URL: "https://www.urdupoint.com/en/pakistan/prof-khurshid-ahmad-bestowed-with-turkeys-pr-1579798.html",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "",
     Event: "Meet Fatih Tutak, Turkey's first 2-Michelin Star chef in Istanbul",
     URL: "https://www.euronews.com/culture/2022/10/17/meet-fatih-tutak-turkeys-first-2-michelin-star-chef-in-istanbul",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "",
     Event: "A deep dive into Istanbul's glorious art offerings",
     URL: "https://www.freepressjournal.in/lifestyle/a-deep-dive-into-istanbuls-glorious-art-offerings",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "",
     Event: "Istanbul State Opera and Ballet brings 'Don Quixote' to stage",
     URL: "https://www.dailysabah.com/arts/performing-arts/istanbul-state-opera-and-ballet-brings-don-quixote-to-stage",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "",
     Event: "Turkish celebrities publish messages of condolences for Bartın",
     URL: "https://www.hurriyetdailynews.com/turkish-celebrities-publish-messages-of-condolences-for-bartin-177743",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/20/2022",
     Username: "",
     Event: "Art meets craftsmanship on 'Tree of Life' as ode to artistry",
     URL: "https://www.dailysabah.com/arts/events/art-meets-craftsmanship-on-tree-of-life-as-ode-to-artistry",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2563,7 +3238,7 @@ export const data = [
     Event:
       "#Ankara ready to help end war via talks\n\n#Russia's new round of intensified air strikes has cut power and water supplies, says #Zelenskyy. #Türkiye is prepared to make all contributions needed to end the war through talks, President #Erdogan has told his #Ukrainian counterpart.",
     URL: "https://twitter.com/trtworldforum/status/1583452994003034112",
-    htag: [
+    Htag: [
       "#ankara",
       "#russia's",
       "#zelenskyy",
@@ -2571,13 +3246,19 @@ export const data = [
       "#erdogan",
       "#ukrainian",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
     Username: "_duybeniekkan",
     Event: "The dad and his kids😂�?���? #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583594892324122624",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2585,7 +3266,10 @@ export const data = [
     Event:
       "So pool scene and ekkan azley at melisas house??? Wtf is going on😭 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583564962441502720",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2593,21 +3277,30 @@ export const data = [
     Event:
       "Rabias  hair is wet so that means we are getting an pool scene???🧿🕯 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583556466208014336",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
     Username: "_duybeniekkan",
     Event: "Caner looking at rabia  that wayyy😼🫶��?�  #ekkan #rabcan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583555663669891072",
-    htag: ["#ekkan", "#rabcan", "#duybeni"],
+    Htag: ["#ekkan", "#rabcan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
     Username: "_duybeniekkan",
     Event: "They all will be stunning at the party👀💘 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583529609491931136",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2615,7 +3308,10 @@ export const data = [
     Event:
       "E: You are the best thing that has happened to me in life\nK: You were the second. The first was falling in love with you, and this friendship lit a spark                            Me blushing the hole time watching this  �?���?��?🔥 #ekkan #duybeni #Herseyerağmen",
     URL: "https://twitter.com/_duybeniekkan/status/1583461132311805953",
-    htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2623,7 +3319,10 @@ export const data = [
     Event:
       "So after what kanat did to Ekim he shows up in the music room????? And just like poof forgets what he did? I’m also mad about the “ I thought I loved two girls at the same time “ boi stfu u. #ekkan #duybeni #Herseyerağmen",
     URL: "https://twitter.com/_duybeniekkan/status/1583460060965269507",
-    htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2631,7 +3330,10 @@ export const data = [
     Event:
       "Duy beni fandom when they see this be like😹 #ekkan #duybeni #rabcan #Herseyerağmen",
     URL: "https://twitter.com/_duybeniekkan/status/1583458126816124929",
-    htag: ["#ekkan", "#duybeni", "#rabcan", "#herseyerağmen"],
+    Htag: ["#ekkan", "#duybeni", "#rabcan", "#herseyerağmen"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2639,7 +3341,10 @@ export const data = [
     Event:
       "“Are you hurt��?  jsjsjsjs the way they care about eacother luvlis🥺��?� #ekkan #duybeni #Herseyerağmen",
     URL: "https://twitter.com/_duybeniekkan/status/1583447512173928450",
-    htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2647,7 +3352,10 @@ export const data = [
     Event:
       "Can we have a dance please?🥺 #ekkan #duybeni #Herseyerağmen @diziduybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583445003472633858",
-    htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2655,7 +3363,10 @@ export const data = [
     Event:
       "I think leyla will come back so melisa will  throw a party foe her…#ekkan #duybeni #Herseyerağmen",
     URL: "https://twitter.com/_duybeniekkan/status/1583443577795129344",
-    htag: ["#duybeni", "#herseyerağmen"],
+    Htag: ["#duybeni", "#herseyerağmen"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2663,7 +3374,10 @@ export const data = [
     Event:
       "Hey guys I’m  moving houses so I won’t be active and I will not have internet for 3 days😭 so yeah see ya! #ekkan #duybeni #Herseyerağmen",
     URL: "https://twitter.com/_duybeniekkan/status/1583436044443058177",
-    htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2671,7 +3385,10 @@ export const data = [
     Event:
       "Their smiles , their eyes , EVERYTHING looks beautiful on them. EVERYTHING. #ekkan #duybeni #Herseyerağmen",
     URL: "https://twitter.com/_duybeniekkan/status/1583434428617228289",
-    htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2679,7 +3396,10 @@ export const data = [
     Event:
       "To 1000% agreed! Not to mention that we had to compete yet with another show they added to the Thursday line up. I would say all things considered we are doing good since we are stable in two out of the three categories! #DuyBeni #EkKan",
     URL: "https://twitter.com/LorenaLavinia/status/1583410801708535808",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2687,7 +3407,10 @@ export const data = [
     Event:
       "I know that kanat got  hella scared in this😭😂 #ekkan #duybeni #Herseyerağmen",
     URL: "https://twitter.com/_duybeniekkan/status/1583393492738326528",
-    htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2695,7 +3418,10 @@ export const data = [
     Event:
       "#DuyBeni \n#azley\n#ekkan\n\nFinally this guy in the place where he belongs to. Hope he will stay here forever for trying to kill his brother and kidnapping his girlfriend. ",
     URL: "https://twitter.com/sharlizen/status/1583392026967490560",
-    htag: ["#duybeni", "#azley", "#ekkan"],
+    Htag: ["#duybeni", "#azley", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2703,7 +3429,10 @@ export const data = [
     Event:
       "To get your minds away from the reyting and the f word thing, I’ll write my thread about Deniz Yıldız because it’s been stuck in me since last night ��?��?�\n\n#duybeni • #ekkan",
     URL: "https://twitter.com/lauxdby/status/1583389383016648704",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2711,7 +3440,10 @@ export const data = [
     Event:
       "The Height difference is hot&amp;cute both at the same time!🤧🫶��?� #ekkan #duybeni #Herseyerağmen",
     URL: "https://twitter.com/_duybeniekkan/status/1583358590756478976",
-    htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2719,7 +3451,10 @@ export const data = [
     Event:
       "K: if that  will be a problem for your mother, I'll go alone\nE:No! We said we're together on this road. Ya ekim!�?���?😭 #ekkan #duybeni #Herseyerağmen",
     URL: "https://twitter.com/_duybeniekkan/status/1583356394354659329",
-    htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2727,7 +3462,10 @@ export const data = [
     Event:
       "If an EX lover of kanat comes in the show I’m gona punch them really hard cuz NO. We don’t want new characters coming and ruining  our ekkan #ekkan #duybeni #Herseyerağmen",
     URL: "https://twitter.com/_duybeniekkan/status/1583326987157876736",
-    htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Htag: ["#ekkan", "#duybeni", "#herseyerağmen"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2735,7 +3473,7 @@ export const data = [
     Event:
       "Elon Musk reportedly wants to lay off most of Twitter's employees  via @engadget \n#twitter #twitternews #elonmusk #layoffs #elonmusknews #staffing #employees #socialmedia #socialmediaplatforms",
     URL: "https://twitter.com/YenipinarZeynep/status/1583543011014676481",
-    htag: [
+    Htag: [
       "#twitter",
       "#twitternews",
       "#elonmusk",
@@ -2746,6 +3484,9 @@ export const data = [
       "#socialmedia",
       "#socialmediaplatforms",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2753,7 +3494,10 @@ export const data = [
     Event:
       "@NatalieAmiri @elonmusk And the moment the #Starlink provides its services to #Iran , the regime takes the lead on that and uses that against the people or selling from their own sources and the story is clear…\nI hope #ElonMusk can find a practical solution for it!",
     URL: "https://twitter.com/KambizShojaei/status/1583438901359759361",
-    htag: ["#starlink", "#iran", "#elonmusk"],
+    Htag: ["#starlink", "#iran", "#elonmusk"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2761,7 +3505,10 @@ export const data = [
     Event:
       "#ElonMusk plans to cut nearly 75% of jobs at social network platform #Twitter if he takes over the company, the Washington Post reported on Thursday.",
     URL: "https://twitter.com/anews/status/1583401511220301824",
-    htag: ["#elonmusk", "#twitter"],
+    Htag: ["#elonmusk", "#twitter"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2769,7 +3516,10 @@ export const data = [
     Event:
       "#GoodMorning #Istanbul is Mostly Clear #today. With a high of  C /  F and a low of 8 C / 47 F #Enjoy #ttot",
     URL: "https://twitter.com/Galata1875/status/1583489871246553090",
-    htag: ["#goodmorning", "#istanbul", "#today", "#enjoy", "#ttot"],
+    Htag: ["#goodmorning", "#istanbul", "#today", "#enjoy", "#ttot"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2777,7 +3527,10 @@ export const data = [
     Event:
       "Nine more #ships have left Ukrainian ports under the #Istanbul #grain #export #deal, Türkiye's National Defense Ministry said on Friday.",
     URL: "https://twitter.com/anews/status/1583484559483551744",
-    htag: ["#ships", "#istanbul", "#grain", "#export", "#deal"],
+    Htag: ["#ships", "#istanbul", "#grain", "#export", "#deal"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2785,7 +3538,10 @@ export const data = [
     Event:
       "This 8-Hour Private Guided Tour in Istanbul visits sites in the historic area of Istanbul including Haghia Sophia, the Blue Mosque, the Underground Basilica Cistern, Topkapi Palace, and the Grand Bazaar. More details at \n\n#Istanbul #Turkey #Istanbultour",
     URL: "https://twitter.com/OneNationTravel/status/1583473945290104834",
-    htag: ["#istanbul", "#turkey", "#istanbultour"],
+    Htag: ["#istanbul", "#turkey", "#istanbultour"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2793,7 +3549,10 @@ export const data = [
     Event:
       "#Villa for sale in #Istanbul , Sarıyer, Zekeriyaköy\n15 minutes to the Bosporus\n20 minutes to city center\nIn a compound consisting of 4 villas\n350m2 land area\n500m2 building area\n3 floors\n5 bedrooms,2 living rooms and 5 bathrooms\nLarge garden and a terrace",
     URL: "https://twitter.com/ElegantHome_/status/1583451076224634880",
-    htag: ["#villa", "#istanbul"],
+    Htag: ["#villa", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2801,7 +3560,10 @@ export const data = [
     Event:
       'Join the UPS team! See our latest #Marketing job openings, including "Revenue Mgt Pricing Specialist", via the link in our bio. #Istanbul, İstanbul',
     URL: "https://twitter.com/tmj_tur_jobs/status/1583440438077272064",
-    htag: ["#marketing", "#istanbul"],
+    Htag: ["#marketing", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2809,13 +3571,16 @@ export const data = [
     Event:
       "Excitement for forthcoming #AyurvedaDay2022 is building up in #Istanbul with CG @sudhic212000 distributing #Ayurveda kits to enthusiasts.\n\n#HarDinHarGharAyurveda\n#7thAyurvedaDay\n\n@MEAIndia @IndianDiplomacy @moayush @AIIA_NDelhi @sarbanandsonwal @IndianEmbassyTR ",
     URL: "https://twitter.com/CGI_Istanbul/status/1583426022808047616",
-    htag: [
+    Htag: [
       "#ayurvedaday2022",
       "#istanbul",
       "#ayurveda",
       "#hardinhargharayurveda",
       "#7thayurvedaday",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2823,7 +3588,7 @@ export const data = [
     Event:
       "Gazprom CEO Alexei Miller said Russia plans to boost gas exports via the Black Sea and Türkiye, adding that talks on the proposals could start as soon as next week.\n\n#realestateturkey #realestatecompany #investinturkey #turkisheconomy #turkey #istanbul #turkeynews",
     URL: "https://twitter.com/mira_pazarlama/status/1583421480607834112",
-    htag: [
+    Htag: [
       "#realestateturkey",
       "#realestatecompany",
       "#investinturkey",
@@ -2832,6 +3597,9 @@ export const data = [
       "#istanbul",
       "#turkeynews",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2839,7 +3607,10 @@ export const data = [
     Event:
       "Luxury villas for sale in #Istanbul\n A unique project, where you can enjoy your life in the center of Nature\nLand Area:1,157,000 M²  1,400 villas\n(Duplex, Triplex, Private)\n153M²– 440M²\n2-3 Floors\nOpen Lagoon,Indoor Pool,Gym,Steam Room,Turkish Bathroom,Spa",
     URL: "https://twitter.com/ElegantHome_/status/1583415512465145856",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2847,7 +3618,10 @@ export const data = [
     Event:
       "Interested in a job in #Istanbul, İstanbul? This could be a great fit. Click the link in our bio to apply: Import Agent at UPS",
     URL: "https://twitter.com/tmj_tur_jobs/status/1583405460945707009",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2855,7 +3629,10 @@ export const data = [
     Event:
       "That look 👀 \nIt wasn’t me that just ate another pair of your favourite work shoes — on such a busy news day! #dog #Istanbul ",
     URL: "https://twitter.com/MariaRamosUK/status/1583391703532113921",
-    htag: ["#dog", "#istanbul"],
+    Htag: ["#dog", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2863,7 +3640,10 @@ export const data = [
     Event:
       "UPS is hiring in #Istanbul, İstanbul! Read about our latest #Transportation job opening via the link in our bio: Operasyon/Otopark memuru",
     URL: "https://twitter.com/tmj_tur_jobs/status/1583387972770013184",
-    htag: ["#istanbul", "#transportation"],
+    Htag: ["#istanbul", "#transportation"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2871,14 +3651,20 @@ export const data = [
     Event:
       "Happy Friday!\n#istanbul #turkey \n#ottomanproperty \n#citizenshipoffer ",
     URL: "https://twitter.com/ottomanesatate/status/1583373888637259776",
-    htag: ["#istanbul", "#turkey", "#ottomanproperty", "#citizenshipoffer"],
+    Htag: ["#istanbul", "#turkey", "#ottomanproperty", "#citizenshipoffer"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
     Username: "tmj_tur_jobs",
     Event: "Want to work in #Istanbul, İstanbul? View our latest opening:",
     URL: "https://twitter.com/tmj_tur_jobs/status/1583341944800804864",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2886,7 +3672,7 @@ export const data = [
     Event:
       "I do get a kick out of meeting new people around the world as well as guiding tourists in my hometown 👻🥳 #travel #traveling #istanbul #tourguide #tourism #tourist",
     URL: "https://twitter.com/gencguide/status/1583315275310452737",
-    htag: [
+    Htag: [
       "#travel",
       "#traveling",
       "#istanbul",
@@ -2894,6 +3680,9 @@ export const data = [
       "#tourism",
       "#tourist",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2901,7 +3690,7 @@ export const data = [
     Event:
       "#Turkey #travel #Bodrum #tourism #popular #prices #mayor #interview",
     URL: "https://twitter.com/businessturkey/status/1583506480577531909",
-    htag: [
+    Htag: [
       "#turkey",
       "#travel",
       "#bodrum",
@@ -2911,6 +3700,9 @@ export const data = [
       "#mayor",
       "#interview",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2918,7 +3710,7 @@ export const data = [
     Event:
       "Mayor of Bodrum finds 200 TL price for a single lahmacun, normal  \n\n#Turkey #travel #Bodrum #tourism #popular #prices #mayor #interview",
     URL: "https://twitter.com/businessturkey/status/1583506319105200128",
-    htag: [
+    Htag: [
       "#turkey",
       "#travel",
       "#bodrum",
@@ -2928,6 +3720,9 @@ export const data = [
       "#mayor",
       "#interview",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2935,7 +3730,7 @@ export const data = [
     Event:
       "If you’re looking for an amazing and unique day trip from Istanbul, look no further than the Pamukkale Day Trip! Visit the website for tour details:  \n\n#Turkey #Pamukkale #Hierapolis #HotSprings #Travel #NaturalWonder #TouristDestination #PlaceToVisit",
     URL: "https://twitter.com/OneNationTravel/status/1583506191841656833",
-    htag: [
+    Htag: [
       "#turkey",
       "#pamukkale",
       "#hierapolis",
@@ -2945,6 +3740,9 @@ export const data = [
       "#touristdestination",
       "#placetovisit",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2952,7 +3750,10 @@ export const data = [
     Event:
       "In the first 9 months of the year, 3.3 million tons of #grain were #exported to 169 countries from Southeast #Anatolia . #turkey #trade\n\n➡��?",
     URL: "https://twitter.com/bazaartimes/status/1583484700458307585",
-    htag: ["#grain", "#exported", "#anatolia", "#turkey", "#trade"],
+    Htag: ["#grain", "#exported", "#anatolia", "#turkey", "#trade"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2960,7 +3761,10 @@ export const data = [
     Event:
       "Introducing Fexobit, sponsor of #IBW2022!\nFexobit is Turkey's new crypto exchange where everyone can easily and safely invest.\nFexobit leverages the financial transformation started with #crypto technology for building the future.\n#web3 #blockchain #turkey",
     URL: "https://twitter.com/IstanbulBlockWk/status/1583473429969502208",
-    htag: ["#ibw2022", "#crypto", "#web3", "#blockchain", "#turkey"],
+    Htag: ["#ibw2022", "#crypto", "#web3", "#blockchain", "#turkey"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2968,14 +3772,20 @@ export const data = [
     Event:
       'Scoop: In 14-point letter, #Sweden lists "concrete actions" to ease #Turkey\'s concerns over #NATO bid including stepped-up counter-terrorism',
     URL: "https://twitter.com/jonathanspicer/status/1583448067692322816",
-    htag: ["#sweden", "#turkey's", "#nato"],
+    Htag: ["#sweden", "#turkey's", "#nato"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
     Username: "businessturkey",
     Event: "#Turkey #consumer #confidence #rising #bottom",
     URL: "https://twitter.com/businessturkey/status/1583394646918516736",
-    htag: ["#turkey", "#consumer", "#confidence", "#rising", "#bottom"],
+    Htag: ["#turkey", "#consumer", "#confidence", "#rising", "#bottom"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2983,7 +3793,10 @@ export const data = [
     Event:
       "Consumer confidence, rising for four months is still at the bottom  \n\n#Turkey #consumer #confidence #rising #bottom",
     URL: "https://twitter.com/businessturkey/status/1583394295289368576",
-    htag: ["#turkey", "#consumer", "#confidence", "#rising", "#bottom"],
+    Htag: ["#turkey", "#consumer", "#confidence", "#rising", "#bottom"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2991,7 +3804,10 @@ export const data = [
     Event:
       "Erdogan says will discuss NATO bid with #Swedish PM in #Turkey @AFP",
     URL: "https://twitter.com/FulyaOzerkan/status/1583387842239090691",
-    htag: ["#swedish", "#turkey"],
+    Htag: ["#swedish", "#turkey"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -2999,7 +3815,10 @@ export const data = [
     Event:
       "One million pensioners are coming to Turkey  \n\n#Turkey #travel #pensioners #come #holiday #winter",
     URL: "https://twitter.com/businessturkey/status/1583387575917871104",
-    htag: ["#turkey", "#travel", "#pensioners", "#come", "#holiday", "#winter"],
+    Htag: ["#turkey", "#travel", "#pensioners", "#come", "#holiday", "#winter"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -3007,7 +3826,7 @@ export const data = [
     Event:
       "#Turkey #economy #program #new #Treasury #minister #Nebati #painful",
     URL: "https://twitter.com/businessturkey/status/1583379677229436928",
-    htag: [
+    Htag: [
       "#turkey",
       "#economy",
       "#program",
@@ -3017,6 +3836,9 @@ export const data = [
       "#nebati",
       "#painful",
     ],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -3024,7 +3846,7 @@ export const data = [
     Event:
       "Turkey’s Treasury Minister: We had calculated it would be painful  \n\n#Turkey #economy #program #new #Treasury #minister #Nebati #painful",
     URL: "https://twitter.com/businessturkey/status/1583376906506088448",
-    htag: [
+    Htag: [
       "#turkey",
       "#economy",
       "#program",
@@ -3034,6 +3856,9 @@ export const data = [
       "#nebati",
       "#painful",
     ],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -3041,7 +3866,7 @@ export const data = [
     Event:
       "Currency prices in Turkey on  21\\10\\2022\n\n\n\n#realestateturkey #realestatecompany #turkey #investinturkey #realestateinvestment #turkisheconomy #exchangerate #dollartl ",
     URL: "https://twitter.com/mira_pazarlama/status/1583359301544181760",
-    htag: [
+    Htag: [
       "#realestateturkey",
       "#realestatecompany",
       "#turkey",
@@ -3051,6 +3876,9 @@ export const data = [
       "#exchangerate",
       "#dollartl",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -3058,12 +3886,15 @@ export const data = [
     Event:
       "Peaceful Villas for sale in Silivri Istanbul with sea view\n\nWebsite: \nWhatsapp: \n\nWatch our new portfolio video!\n\n\n\n#turkishcitizenship #propertyforsaleinistanbul #buyvillainistanbul #propertyfinderturkey",
     URL: "https://twitter.com/saleinistanbul/status/1583422116283572226",
-    htag: [
+    Htag: [
       "#turkishcitizenship",
       "#propertyforsaleinistanbul",
       "#buyvillainistanbul",
       "#propertyfinderturkey",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -3071,7 +3902,10 @@ export const data = [
     Event:
       "#Turkish foreign minister says  the lifting of Western sanctions on countries including #Iran and #Venezuela would alleviate the global energy crisis triggered by #Russia's invasion of #Ukraine @AFP",
     URL: "https://twitter.com/FulyaOzerkan/status/1583389952720543744",
-    htag: ["#turkish", "#iran", "#venezuela", "#russia's", "#ukraine"],
+    Htag: ["#turkish", "#iran", "#venezuela", "#russia's", "#ukraine"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -3079,7 +3913,7 @@ export const data = [
     Event:
       "According to the #housing #price index of the #CentralBank of the Republic of #Turkiye (CBRT) for #August, #prices increased by 185%\n\n➡��?",
     URL: "https://twitter.com/bazaartimes/status/1583484531642073088",
-    htag: [
+    Htag: [
       "#housing",
       "#price",
       "#centralbank",
@@ -3087,6 +3921,9 @@ export const data = [
       "#august",
       "#prices",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -3094,7 +3931,10 @@ export const data = [
     Event:
       "Turkiye’s president RT #Erdogan @RTErdogan | @presidentaz We’re ready to stand by Azerbaijan in all projects��? #energy | #Turkiye | #Azerbaijan",
     URL: "https://twitter.com/cover_up8d/status/1583453064727756801",
-    htag: ["#erdogan", "#energy", "#turkiye", "#azerbaijan"],
+    Htag: ["#erdogan", "#energy", "#turkiye", "#azerbaijan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -3102,7 +3942,10 @@ export const data = [
     Event:
       "H.E. Hissein Brahim Taha, Secretary General of the @OIC_OCI, paid a visit to #IRCICA Director General Prof. Dr. Mahmud Erol Kılıç at IRCICA’s headquarters on 21.10. 2022, on his arrival to Istanbul to attend the 12th Session of the #Islamic #Conference of #Information #Ministers.",
     URL: "https://twitter.com/IRCICA/status/1583562867181510657",
-    htag: ["#ircica", "#islamic", "#conference", "#information", "#ministers"],
+    Htag: ["#ircica", "#islamic", "#conference", "#information", "#ministers"],
+    Category: "Education",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -3110,7 +3953,7 @@ export const data = [
     Event:
       "#leaders #leadership #coaching #act #inspire #motivation #empower #legacy #trust #empathy #change #inspiration #teams #selfdevelopment #professionaldevelopment #emotional #resilience #enhance #spirit #focus #blessing #marketing #businessmanagement",
     URL: "https://twitter.com/SouzanBachir/status/1583381495409803264",
-    htag: [
+    Htag: [
       "#leaders",
       "#leadership",
       "#coaching",
@@ -3135,6 +3978,9 @@ export const data = [
       "#marketing",
       "#businessmanagement",
     ],
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -3142,7 +3988,7 @@ export const data = [
     Event:
       "Hi Friends! \nHope you are doing well! \nThat is new portrait studies! \nFor more, check my #artstation page! \n👇\n\n\n#portrait #theringsofpower #sketch #sketchart #drawing #nori #isdar #art #photoshop",
     URL: "https://twitter.com/Burak__Colak/status/1583462051791667201",
-    htag: [
+    Htag: [
       "#artstation",
       "#portrait",
       "#theringsofpower",
@@ -3154,6 +4000,9 @@ export const data = [
       "#art",
       "#photoshop",
     ],
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -3161,7 +4010,7 @@ export const data = [
     Event:
       "new release #FromScratch @NetflixFilm  #new #italian #limitedseries  full of #beauty of #Italiano  #italiacultures  ���?☘��?",
     URL: "https://twitter.com/gozdekoc_82/status/1583547793527873536",
-    htag: [
+    Htag: [
       "#fromscratch",
       "#new",
       "#italian",
@@ -3170,6 +4019,9 @@ export const data = [
       "#italiano",
       "#italiacultures",
     ],
+    Category: "Lifestyle",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -3177,7 +4029,7 @@ export const data = [
     Event:
       "��?�Hello #etsy \n#bracelet #jewelry #handmade #fashion #bracelets #accessories #handmadejewelry #silver #style #love #jewelrydesigner #jewels #jewelrydesign #instajewelry #beads #naturalstone ",
     URL: "https://twitter.com/BraceletPappu/status/1583426463495122944",
-    htag: [
+    Htag: [
       "#etsy",
       "#bracelet",
       "#jewelry",
@@ -3196,6 +4048,9 @@ export const data = [
       "#beads",
       "#naturalstone",
     ],
+    Category: "Lifestyle",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -3203,7 +4058,10 @@ export const data = [
     Event:
       "Indian market is important to us, says Turkish Airlines CEO Bilal Eksi",
     URL: "https://www.business-standard.com/article/companies/india-is-important-to-us-turkish-airlines-ceo-bilal-ek%C5%9Fi-122102001028_1.html",
-    htag: "",
+    Htag: "",
+    Category: "Traffic",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -3211,28 +4069,40 @@ export const data = [
     Event:
       "Capital Hair Center in Istanbul Draws Attention in Turkiye's Rising Hair Transplant Sector With Its Cutting-edge Ozone Therapy",
     URL: "https://www.businesswire.com/news/home/20221020005585/en/Capital-Hair-Center-in-Istanbul-Draws-Attention-in-Turkiyes-Rising-Hair-Transplant-Sector-With-Its-Cutting-edge-Ozone-Therapy",
-    htag: "",
+    Htag: "",
+    Category: "Health",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
     Username: "",
     Event: "Turkey slams allegations of chemical weapons use in northern Iraq",
     URL: "https://www.msn.com/en-gb/news/world/turkey-slams-allegations-of-chemical-weapons-use-in-northern-iraq/ar-AA13bmzo",
-    htag: "",
+    Htag: "",
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
     Username: "",
     Event: "From Gaza to Istanbul in search of a future",
     URL: "https://electronicintifada.net/content/gaza-istanbul-search-future/36496",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
     Username: "",
     Event: "Turkish central bank cuts rates again as inflation rockets",
     URL: "https://www.khaleejtimes.com/business/turkish-central-bank-cuts-rates-again-as-inflation-rockets",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -3240,7 +4110,10 @@ export const data = [
     Event:
       "To Deepen Relations With Uzbekistan, Turkey Leans on Cultural Appeal",
     URL: "https://thediplomat.com/2022/10/to-deepen-relations-with-uzbekistan-turkey-leans-on-cultural-appeal/",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/21/2022",
@@ -3248,7 +4121,10 @@ export const data = [
     Event:
       "The Costs of a Presidential System: The Impact of Hyper-centralization on Turkey’s Educational and Cultural Affairs",
     URL: "https://www.mei.edu/publications/costs-presidential-system-impact-hyper-centralization-turkeys-educational-and-cultural",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3256,7 +4132,10 @@ export const data = [
     Event:
       "#Ankara does not consider the peace, stability, and well-being of neighboring #Iraq as separate from its own, Turkish President #RecepTayyipErdoğan on Saturday told his new Iraqi counterpart.",
     URL: "https://twitter.com/anews/status/1583816769558364160",
-    htag: ["#ankara", "#iraq", "#receptayyiperdoğan"],
+    Htag: ["#ankara", "#iraq", "#receptayyiperdoğan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3264,7 +4143,10 @@ export const data = [
     Event:
       "They look absolutely beautiful🥹😊 can’t wait to see them on my screen on Thuesday🔥 #DarmaDuman",
     URL: "https://twitter.com/AYCEMSUPREMACY/status/1583745947825152002",
-    htag: ["#darmaduman"],
+    Htag: ["#darmaduman"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3272,21 +4154,30 @@ export const data = [
     Event:
       "Hazal and bekir dancing TOGETHER??? What happened to Ceyda and orinjal���? #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583948078184529922",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
     Username: "Duybenifansss",
     Event: "They look so cute together ���?#babies #RabCan #DUYBENI #ekkan",
     URL: "https://twitter.com/Duybenifansss/status/1583929109977059328",
-    htag: ["#rabcan", "#duybeni", "#ekkan"],
+    Htag: ["#rabcan", "#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
     Username: "_duybeniekkan",
     Event: "Only this matters  the other one can go fck away. #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583901607183667201",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3294,7 +4185,10 @@ export const data = [
     Event:
       "Does it ever drive you crazy just how fast the night changes? 🌓\n\n#duybeni • #ekkan ",
     URL: "https://twitter.com/lauxdby/status/1583895983213412352",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3302,7 +4196,10 @@ export const data = [
     Event:
       "Does anyone know the new girl’s ig  ?😂I need to stalker her ig 😅#DuyBeni #ekkan #duybenidizi",
     URL: "https://twitter.com/Duybenifansss/status/1583895324758011904",
-    htag: ["#ekkan", "#duybenidizi"],
+    Htag: ["#ekkan", "#duybenidizi"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3310,7 +4207,10 @@ export const data = [
     Event:
       "We’re all assuming it’s an ex-gf but could it be someone related to him? They never showed who he was talking to here. He ended that call saying “wait from news from me��? so I don’t think it was his mom. So who was he talking to?? #DuyBeni #EkKan",
     URL: "https://twitter.com/HeartlessLovahh/status/1583890896885403648",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3318,7 +4218,10 @@ export const data = [
     Event:
       "The only plot i’m accepting is gaye making ekim and kanat’s love stronger for each other and trusting each other more\n#EkKan • #duybeni",
     URL: "https://twitter.com/dizissp/status/1583890758268243968",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3326,7 +4229,10 @@ export const data = [
     Event:
       "How does duy beni manages to make me excited and disappointed every time \n#DuyBeni • #EkKan",
     URL: "https://twitter.com/dizissp/status/1583890283531763712",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3334,7 +4240,10 @@ export const data = [
     Event:
       "Azley is back but i dont know abt ekkan tho😭 ( ur time to shine and do those azley edits u were wating for @azleyfavorite ) #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583888335642144768",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3342,28 +4251,40 @@ export const data = [
     Event:
       "Ok hear me out, #EkKan dance ���?,  #AzLey full of love 🫰and a new girl coming🔥 ????? I'm living for the fragman 😱\n#DuyBeni",
     URL: "https://twitter.com/MoonAlev/status/1583883114278838272",
-    htag: ["#ekkan", "#azley", "#duybeni"],
+    Htag: ["#ekkan", "#azley", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
     Username: "_duybeniekkan",
     Event: "Only albanias would understand…🦦 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583855942713905152",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
     Username: "_duybeniekkan",
     Event: "We need another pool scene rn💘 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583777909088452608",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
     Username: "_duybeniekkan",
     Event: "He  was  definitely thinking about ekim…🫢🤭 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583772385236250625",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3371,7 +4292,10 @@ export const data = [
     Event:
       "Kanat was like “ I should be the one ur hugging right now not the bear😒��?  #ekkan #duybeni @rsoyyturk @canrtpcu",
     URL: "https://twitter.com/_duybeniekkan/status/1583759592869498880",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3379,7 +4303,10 @@ export const data = [
     Event:
       "Just imagine what would happen if they would kiss…😺 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583714692920246273",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3387,7 +4314,7 @@ export const data = [
     Event:
       "#Saklıvadi project by European Konutları #estate offers 2+1 133 sm houses with the view of the #city and the nature, the price is flexible due to its different range of installment packages. #istanbul #apartment #house #villa #invest #property #turkey",
     URL: "https://twitter.com/bazaarmixx/status/1583903487066222595",
-    htag: [
+    Htag: [
       "#saklıvadi",
       "#estate",
       "#city",
@@ -3399,6 +4326,9 @@ export const data = [
       "#property",
       "#turkey",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3406,7 +4336,7 @@ export const data = [
     Event:
       "Located at Bahcesehir, Akzirve Strada Project offers 2+1 apartments for 204.000 USD, the project includes many social facilities from a swimming pool to a gym. #bahçeşehir #bahcesehir #istanbul #başakşehir #basaksehir #invest #house #apartment #villa #property #turkey",
     URL: "https://twitter.com/bazaarmixx/status/1583903420179968002",
-    htag: [
+    Htag: [
       "#bahçeşehir",
       "#bahcesehir",
       "#istanbul",
@@ -3419,6 +4349,9 @@ export const data = [
       "#property",
       "#turkey",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3426,7 +4359,7 @@ export const data = [
     Event:
       "#GoneButNotForgotten #OldCity #AncientCity #istanbul #Tarih #History #LoveYouForeverAndADay ���?���?���?",
     URL: "https://twitter.com/sonnurbabayigit/status/1583878904804098050",
-    htag: [
+    Htag: [
       "#gonebutnotforgotten",
       "#oldcity",
       "#ancientcity",
@@ -3435,6 +4368,9 @@ export const data = [
       "#history",
       "#loveyouforeverandaday",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3442,7 +4378,10 @@ export const data = [
     Event:
       "The Organization of Islamic Cooperation (#OIC) adopted a declaration to #fight against #disinformation and #Islamophobia at the end of a meeting in #Istanbul, Türkiye's communications director said on Saturday.",
     URL: "https://twitter.com/anews/status/1583862076346601472",
-    htag: ["#fight", "#disinformation", "#islamophobia", "#istanbul"],
+    Htag: ["#fight", "#disinformation", "#islamophobia", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3450,7 +4389,10 @@ export const data = [
     Event:
       "#GoodMorning #Istanbul is Clear #today. With a high of  C /  F and a low of 12 C / 53 F #Enjoy #ttot",
     URL: "https://twitter.com/Galata1875/status/1583851995122704384",
-    htag: ["#goodmorning", "#istanbul", "#today", "#enjoy", "#ttot"],
+    Htag: ["#goodmorning", "#istanbul", "#today", "#enjoy", "#ttot"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3458,7 +4400,10 @@ export const data = [
     Event:
       'Join the UPS team! See our latest job openings, including "Freight Clerk", via the link in our bio. #Istanbul, İstanbul',
     URL: "https://twitter.com/tmj_tur_jobs/status/1583833108587360256",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3466,7 +4411,7 @@ export const data = [
     Event:
       "In September, Russian citizens bought thousand 196 houses from Türkiye. The followers of Russian citizens were Iran citizens with 592 house sales and Iraq citizens with 433 house sales.\n\n#realestateturkey #turkisheconomy #turkey #istanbul #turkeyproperty #propertynews",
     URL: "https://twitter.com/mira_pazarlama/status/1583801111131324416",
-    htag: [
+    Htag: [
       "#realestateturkey",
       "#turkisheconomy",
       "#turkey",
@@ -3474,6 +4419,9 @@ export const data = [
       "#turkeyproperty",
       "#propertynews",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3481,7 +4429,10 @@ export const data = [
     Event:
       "Can you recommend anyone for this #Accounting job in #Istanbul, İstanbul? Click the link in our bio to see it and more. F&amp;A Team Leader at UPS",
     URL: "https://twitter.com/tmj_tur_jobs/status/1583797465676857344",
-    htag: ["#accounting", "#istanbul"],
+    Htag: ["#accounting", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3489,7 +4440,10 @@ export const data = [
     Event:
       "Interested in a job in #Istanbul, İstanbul? This could be a great fit. Click the link in our bio to apply: Freight Specialist at UPS",
     URL: "https://twitter.com/tmj_tur_jobs/status/1583779646398529536",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3497,7 +4451,10 @@ export const data = [
     Event:
       "Don't be shy. Score a job like \"Customer Relations Specialist\" at UPS by asking for referrals. It's a great way to get a meeting with HR. Check out the link in our bio to apply. #Sales #Istanbul, İstanbul",
     URL: "https://twitter.com/tmj_tur_jobs/status/1583761817590845443",
-    htag: ["#sales", "#istanbul"],
+    Htag: ["#sales", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3505,7 +4462,7 @@ export const data = [
     Event:
       "#İstanbul #hatay #Siyaset #Politica #facebook #igers #Like #instagramlive #Live #twins #Twitter #news #photographer",
     URL: "https://twitter.com/mehmethilmi_/status/1583754238278045698",
-    htag: [
+    Htag: [
       "#i̇stanbul",
       "#hatay",
       "#siyaset",
@@ -3520,6 +4477,9 @@ export const data = [
       "#news",
       "#photographer",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3527,7 +4487,7 @@ export const data = [
     Event:
       "My son and I are discussing Greek Mythology history at the Indian Restaurant in Istanbul :)\n\n#medusa #poseidon\n#Athena #artemis #greekmythology #indianfood #İstanbul\n\n",
     URL: "https://twitter.com/sagistgrup/status/1583750993254064128",
-    htag: [
+    Htag: [
       "#medusa",
       "#poseidon",
       "#athena",
@@ -3536,6 +4496,9 @@ export const data = [
       "#indianfood",
       "#i̇stanbul",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3543,7 +4506,10 @@ export const data = [
     Event:
       'Stop staring at the clock every day. It\'s time for a new career. Follow us to view jobs with titles like "Operation Support Specialist" in #Istanbul, İstanbul. #SupplyChain',
     URL: "https://twitter.com/tmj_tur_jobs/status/1583743991912091648",
-    htag: ["#istanbul", "#supplychain"],
+    Htag: ["#istanbul", "#supplychain"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3551,7 +4517,7 @@ export const data = [
     Event:
       "In the second day, we will talk about “The Open Finance��? including digital transformation, mobile banking, customer data, cybersecurity, open banking and so on.\n\n #istanbulfintechweek #theopenfinance\n #ifw23 #istanbul #fintech #conference\n #blockchainfest #digitalfinancesummit",
     URL: "https://twitter.com/Fintech_TR/status/1583717455448326144",
-    htag: [
+    Htag: [
       "#istanbulfintechweek",
       "#theopenfinance",
       "#ifw23",
@@ -3561,6 +4527,9 @@ export const data = [
       "#blockchainfest",
       "#digitalfinancesummit",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3568,7 +4537,10 @@ export const data = [
     Event:
       "#Turkey will establish military separation points near the al-Gazzaviyya border gate in rural Aleppo and the Deir Balut Border Gate in the north of #Idlib.\nThe gates connect Syrian National Army areas in rural Aleppo with areas controlled by Tahrir Al-Sham in #Idlib.\n#Türkiye\n📸 ",
     URL: "https://twitter.com/metesohtaoglu/status/1583893444338266112",
-    htag: ["#turkey", "#idlib", "#idlib", "#türkiye"],
+    Htag: ["#turkey", "#idlib", "#idlib", "#türkiye"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3576,7 +4548,10 @@ export const data = [
     Event:
       "Record increase in hotel room prices in Turkey  \n\n#hotels #Turkey #prices #increase",
     URL: "https://twitter.com/businessturkey/status/1583862296686002177",
-    htag: ["#hotels", "#turkey", "#prices", "#increase"],
+    Htag: ["#hotels", "#turkey", "#prices", "#increase"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3584,7 +4559,7 @@ export const data = [
     Event:
       "Meteorology daily forecast report: Temperature to fall with two strong rainfall warnings  \n\n#Turkey #travel #weather #meteorology #report #rain #precipitation #winds #snow",
     URL: "https://twitter.com/businessturkey/status/1583725363766521857",
-    htag: [
+    Htag: [
       "#turkey",
       "#travel",
       "#weather",
@@ -3595,6 +4570,9 @@ export const data = [
       "#winds",
       "#snow",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3602,7 +4580,7 @@ export const data = [
     Event:
       "Currency prices in Turkey on  22\\10\\2022\n\n\n\n#realestateturkey #realestatecompany #turkey #investinturkey #realestateinvestment #turkisheconomy #exchangerate #dollartl ",
     URL: "https://twitter.com/mira_pazarlama/status/1583716590637355009",
-    htag: [
+    Htag: [
       "#realestateturkey",
       "#realestatecompany",
       "#turkey",
@@ -3612,6 +4590,9 @@ export const data = [
       "#exchangerate",
       "#dollartl",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3619,13 +4600,16 @@ export const data = [
     Event:
       "Brand new houses for sale in Basaksehir Istanbul Turkey\n\nWebsite: \nWhatsapp: \n\nWatch our new portfolio video!\n\n\n\n#turkishcitizenship #propertyforsaleinistanbul #propertyfinderturkey #basaksehir #buyhomeistanbul",
     URL: "https://twitter.com/saleinistanbul/status/1583778497373143040",
-    htag: [
+    Htag: [
       "#turkishcitizenship",
       "#propertyforsaleinistanbul",
       "#propertyfinderturkey",
       "#basaksehir",
       "#buyhomeistanbul",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3633,7 +4617,7 @@ export const data = [
     Event:
       "Turkish female cardiac surgeon performs full artificial heart transplant  \n\n#Heart #surgeon #lady #Turkish #DilekGürsoy #artificialhheart #transplant",
     URL: "https://twitter.com/businessturkey/status/1583827579189923841",
-    htag: [
+    Htag: [
       "#heart",
       "#surgeon",
       "#lady",
@@ -3642,13 +4626,19 @@ export const data = [
       "#artificialhheart",
       "#transplant",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
     Username: "mustafacopur",
     Event: "#Turkiye",
     URL: "https://twitter.com/mustafacopur/status/1583933684452761600",
-    htag: ["#turkiye"],
+    Htag: ["#turkiye"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3656,7 +4646,7 @@ export const data = [
     Event:
       "The #world major #automotive #manufacturer plan to spend around $1.2 trillion by 2030 on #raw #materials used in the #manufacture of #electric #vehicles and #batteries.\n\n➡��?   ",
     URL: "https://twitter.com/bazaartimes/status/1583933360170184707",
-    htag: [
+    Htag: [
       "#world",
       "#automotive",
       "#manufacturer",
@@ -3667,6 +4657,9 @@ export const data = [
       "#vehicles",
       "#batteries",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3674,7 +4667,10 @@ export const data = [
     Event:
       "#world, do you have any explanation for this, how it can happening in streets of #iran\nI do know the answer, but do you?\n#MahsaAmini #OpIran",
     URL: "https://twitter.com/Mardounyeh/status/1583709199741001728",
-    htag: ["#world", "#iran", "#mahsaamini", "#opiran"],
+    Htag: ["#world", "#iran", "#mahsaamini", "#opiran"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3682,7 +4678,10 @@ export const data = [
     Event:
       "#world please read this,\nif its not against the human rights, how you can explain it to me??\nHow you can see this things and do nothing about it?\nHow your not our voice to ask your country about closing the consulates in iran and take they witkers out? #MahsaAmini #مهسا_امینی",
     URL: "https://twitter.com/Mardounyeh/status/1583675148581756928",
-    htag: ["#world", "#mahsaamini", "#مهسا امینی"],
+    Htag: ["#world", "#mahsaamini", "#مهسا امینی"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3690,7 +4689,7 @@ export const data = [
     Event:
       "I’d like to congrat again Can Oral, his team and our students for such an amazing work ���?\n\n@BAU_HUB @bau_iletisim @bauglobal   #adventure #gameindustry #indie #incubation #gamedesign #gamedevelopment #education",
     URL: "https://twitter.com/guvencat/status/1583759223833628673",
-    htag: [
+    Htag: [
       "#adventure",
       "#gameindustry",
       "#indie",
@@ -3699,6 +4698,9 @@ export const data = [
       "#gamedevelopment",
       "#education",
     ],
+    Category: "Education",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3706,7 +4708,10 @@ export const data = [
     Event:
       "Great insights on why questions are so valuable.  And why questions are characteristically human.   #questions #alwayslearning #coaching #leadership",
     URL: "https://twitter.com/oneworldconsult/status/1583689107552993281",
-    htag: ["#questions", "#alwayslearning", "#coaching", "#leadership"],
+    Htag: ["#questions", "#alwayslearning", "#coaching", "#leadership"],
+    Category: "Government",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3714,14 +4719,20 @@ export const data = [
     Event:
       '"The best way to predict future is to create it." Abraham Lincoln #careermanagement #leadership #career ',
     URL: "https://twitter.com/BurcuBicakci/status/1583680803942567936",
-    htag: ["#careermanagement", "#leadership", "#career"],
+    Htag: ["#careermanagement", "#leadership", "#career"],
+    Category: "Government",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
     Username: "nevitdilmen",
     Event: "The latest Health Paper Daily!  #protect #health",
     URL: "https://twitter.com/nevitdilmen/status/1583694775009521670",
-    htag: ["#protect", "#health"],
+    Htag: ["#protect", "#health"],
+    Category: "Health",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3729,7 +4740,10 @@ export const data = [
     Event:
       "My perfect self-portrait on a Monday morning 🤣\n#Crypto #Art #NFTs ",
     URL: "https://twitter.com/AllaMariaBella/status/1583843835343687680",
-    htag: ["#crypto", "#art", "#nfts"],
+    Htag: ["#crypto", "#art", "#nfts"],
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3737,7 +4751,7 @@ export const data = [
     Event:
       "Solidarity #Economy, thanks to the fact that our #industry has existed for 30 years and the trust it has gained with its current position. \n#fuzul #fuzulev #fuzularaba #finance\n\n➡��?",
     URL: "https://twitter.com/bazaartimes/status/1583933505242660865",
-    htag: [
+    Htag: [
       "#economy",
       "#industry",
       "#fuzul",
@@ -3745,6 +4759,9 @@ export const data = [
       "#fuzularaba",
       "#finance",
     ],
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3752,7 +4769,7 @@ export const data = [
     Event:
       "Hollow Heart Design Charm Zircon Stone Pendant Turkish Handmade 925 Sterling Silver Jewelry\n\n#heart #pendant #jewelry #silverjewelry #finejewelry #jewellery #turkishjewelry #wholesalejewelry #trendy #fashion #dainty #zircon #handcrafted #turkey#necklace#925 ",
     URL: "https://twitter.com/TheiaSilver/status/1583739389712076801",
-    htag: [
+    Htag: [
       "#heart",
       "#pendant",
       "#jewelry",
@@ -3768,6 +4785,9 @@ export const data = [
       "#handcrafted",
       "#turkey#necklace#925",
     ],
+    Category: "Lifestyle",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3775,7 +4795,7 @@ export const data = [
     Event:
       '#Britain\'s #economic #outlook has been downgraded from "stable" to "negative" by the ratings agency #Moody\'s due to #political #instability and high #inflation. ',
     URL: "https://twitter.com/anews/status/1583748804930854912",
-    htag: [
+    Htag: [
       "#britain's",
       "#economic",
       "#outlook",
@@ -3784,6 +4804,9 @@ export const data = [
       "#instability",
       "#inflation",
     ],
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3791,14 +4814,20 @@ export const data = [
     Event:
       "Turkish Airlines Adds Mid-Afternoon Wave Of Flights To The Far East",
     URL: "https://simpleflying.com/turkish-airlines-mid-afternoon-far-east-flight-wave/",
-    htag: "",
+    Htag: "",
+    Category: "Traffic",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
     Username: "",
     Event: "Turkish singer appears in court over religious schools joke",
     URL: "https://www.airdrietoday.com/lifestyle-news/turkish-singer-appears-in-court-over-religious-schools-joke-5987180",
-    htag: "",
+    Htag: "",
+    Category: "Lifestyle",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3806,7 +4835,10 @@ export const data = [
     Event:
       "Acıbadem Healthcare Group: The 10th hospital in Istanbul and 24th in the world",
     URL: "https://www.lbcgroup.tv/news/magazine/669520/acbadem-healthcare-group-the-10th-hospital-in-ista/en",
-    htag: "",
+    Htag: "",
+    Category: "Health",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3814,14 +4846,20 @@ export const data = [
     Event:
       "Election disruptions loom as social media giants likely to resist Turkey's new law",
     URL: "https://finance.yahoo.com/news/election-disruptions-loom-social-media-135947815.html",
-    htag: "",
+    Htag: "",
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
     Username: "",
     Event: "Turkish singer appears in court over religious schools joke",
     URL: "https://apnews.com/article/entertainment-turkey-middle-east-istanbul-government-and-politics-bbf5d4c349751384fa02983b62eb7c05",
-    htag: "",
+    Htag: "",
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3829,7 +4867,10 @@ export const data = [
     Event:
       "'Turkey has long been hell for journalists': Reporters slam country's new 'fake news' law",
     URL: "https://www.cnbc.com/2022/10/21/turkish-reporters-slam-countrys-new-fake-news-law.html",
-    htag: "",
+    Htag: "",
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3837,7 +4878,10 @@ export const data = [
     Event:
       "Rhinoplasty in Turkey explained - why clinics in Istanbul are so popular",
     URL: "https://www.lincolnshirelive.co.uk/special-features/rhinoplasty-turkey-explained-clinics-istanbul-7713075",
-    htag: "",
+    Htag: "",
+    Category: "Education",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3845,14 +4889,20 @@ export const data = [
     Event:
       "Election disruptions loom as social media giants likely to resist Turkey's new law",
     URL: "https://www.reuters.com/world/middle-east/election-disruptions-loom-social-media-giants-likely-resist-turkeys-new-law-2022-10-21/",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
     Username: "",
     Event: "Turkish consumer confidence up in October",
     URL: "https://www.aa.com.tr/en/economy/turkish-consumer-confidence-up-in-october/2717155",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3860,7 +4910,10 @@ export const data = [
     Event:
       "World’s oldest Ottoman documents offer window into Empire's early history",
     URL: "https://www.euronews.com/culture/2022/10/21/worlds-oldest-ottoman-documents-offer-window-into-empires-early-history",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/22/2022",
@@ -3868,14 +4921,20 @@ export const data = [
     Event:
       "Assassinated journalist Musa Anter's family applies to top court following dismissal of case",
     URL: "https://m.bianet.org/english/law/268853-assassinated-journalist-musa-anter-s-family-applies-to-top-court-following-dismissal-of-case",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
     Username: "HatemShu",
     Event: "Amazing, inspiring evening by @YusufCatStevens #Ankara",
     URL: "https://twitter.com/HatemShu/status/1584273647040008192",
-    htag: ["#ankara"],
+    Htag: ["#ankara"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -3883,7 +4942,10 @@ export const data = [
     Event:
       "@NessaPi20 😂😂😂\nThe Makbule unfollow wasn't enough so the fandom went and fixed the situation. Chaos at all times is required. #DuyBeni #EkKan",
     URL: "https://twitter.com/loosemoose97/status/1584247573254090754",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -3891,21 +4953,30 @@ export const data = [
     Event:
       "I haven’t recovered from the rain scene yet. And you guys blessed us with another good scene! 🥹�?���?\n\n#DuyBeni #EkKan ",
     URL: "https://twitter.com/AConfusedLamb/status/1584244194398175233",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
     Username: "_duybeniekkan",
     Event: "Ekim and the  bear���?🫠 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1584228751889797120",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
     Username: "_duybeniekkan",
     Event: "Dreams flew to the sky for no reason…🫠💔 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1584218555637436419",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -3913,7 +4984,10 @@ export const data = [
     Event:
       "This song will always be in my heart�?���?#ylllimani #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1584213373566480386",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -3921,7 +4995,10 @@ export const data = [
     Event:
       "Us looking at dhe duybeni fragmant and we see ekkan&amp; azley dancing together🦩 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1584212678142496769",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -3929,14 +5006,20 @@ export const data = [
     Event:
       "Us trying to understand what is happening with duy beni 😭😭 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1584184642541789185",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
     Username: "_duybeniekkan",
     Event: "If anyone wants to come they are welcomed🥰�?���? #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1584141259517865984",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -3944,7 +5027,10 @@ export const data = [
     Event:
       "Please be kanats sister please be kanats sister pleaseeeee #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1584112778067218434",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -3952,7 +5038,10 @@ export const data = [
     Event:
       "Ekim looks upset, and kanat looks scared…what is happening😭 #ekkan #duybeni @diziduybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1584109361533943809",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -3960,7 +5049,10 @@ export const data = [
     Event:
       "I want to stay here in this type of fragmant forget about the other things🌗 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583996428925341696",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -3968,14 +5060,20 @@ export const data = [
     Event:
       "Their love has become so macigal now hoping nobody will ruin it..�?���?��?🩹 #ekkan #duybeni @rsoyyturk @canrtpcu @diziduybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1583992585471033344",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
     Username: "mcenzura",
     Event: "#streetphotographer #streetphotography #istanbul",
     URL: "https://twitter.com/mcenzura/status/1584333780911034368",
-    htag: ["#streetphotographer", "#streetphotography", "#istanbul"],
+    Htag: ["#streetphotographer", "#streetphotography", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -3983,7 +5081,7 @@ export const data = [
     Event:
       "Patterning Rugs.\n\n#Unitable #Constantinople #Istanbul #Aesthetic #Carpet #Rug #Fringe #Anatolian #Sculptural #Textile #Digital #Glitches #Tapestry @ Istanbul, Turkey",
     URL: "https://twitter.com/derabramo/status/1584258790811402240",
-    htag: [
+    Htag: [
       "#unitable",
       "#constantinople",
       "#istanbul",
@@ -3998,6 +5096,9 @@ export const data = [
       "#glitches",
       "#tapestry",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4005,7 +5106,10 @@ export const data = [
     Event:
       "Ministers and high level representatives from the Organisation of Islamic Cooperation @OIC_OCI countries gathered in #Istanbul to discuss combatting disinformation and Islamophobia @trtworld \n\n ",
     URL: "https://twitter.com/kubrakkoc/status/1584257909973999616",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4013,7 +5117,7 @@ export const data = [
     Event:
       "Flying Carpet One Thousand and One Nights. \n\n#Khayyam #Flying #Carpet #Hoepli #1001nights #Constantinople #Istanbul #Aesthetic #Carpet #Rug #istanbul #Sculptural #Textile #Digital #Glitches #Tapestry @ Istanbul, Turkey",
     URL: "https://twitter.com/derabramo/status/1584243525683585024",
-    htag: [
+    Htag: [
       "#khayyam",
       "#flying",
       "#carpet",
@@ -4031,6 +5135,9 @@ export const data = [
       "#glitches",
       "#tapestry",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4038,7 +5145,7 @@ export const data = [
     Event:
       "Surreal Carpet \n\n#Carpet #Rug #istanbul #Sculptural #Textile #Digital #Glitches #Tapestry @ Istanbul, Turkey",
     URL: "https://twitter.com/derabramo/status/1584238962628968448",
-    htag: [
+    Htag: [
       "#carpet",
       "#rug",
       "#istanbul",
@@ -4048,6 +5155,9 @@ export const data = [
       "#glitches",
       "#tapestry",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4055,7 +5165,10 @@ export const data = [
     Event:
       "#GoodMorning #Istanbul is Mostly Clear #today. With a high of  C /  F and a low of 12 C / 54 F #Enjoy #ttot",
     URL: "https://twitter.com/Galata1875/status/1584214532515168256",
-    htag: ["#goodmorning", "#istanbul", "#today", "#enjoy", "#ttot"],
+    Htag: ["#goodmorning", "#istanbul", "#today", "#enjoy", "#ttot"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4063,14 +5176,20 @@ export const data = [
     Event:
       "#Türkiye's Communications Director, and the Secretary-General of the #OIC, explain to #TRT عربي, the importance of the decisions of the 12th session of the of OIC information ministers held in #Istanbul under the theme ‘Combating Disinformation and Islamophobia",
     URL: "https://twitter.com/waelh45/status/1584205377314652160",
-    htag: ["#türkiye's", "#oic", "#trt", "#istanbul"],
+    Htag: ["#türkiye's", "#oic", "#trt", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
     Username: "FulyaOzerkan",
     Event: "Three cruise ships dock at Karakoy, #Istanbul",
     URL: "https://twitter.com/FulyaOzerkan/status/1584155158375673856",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4078,7 +5197,10 @@ export const data = [
     Event:
       "Interested in a job in #Istanbul, İstanbul? This could be a great fit. Click the link in our bio to apply: Freight Clerk at UPS",
     URL: "https://twitter.com/tmj_tur_jobs/status/1584151556697444353",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4086,7 +5208,7 @@ export const data = [
     Event:
       "You can explore our rooms where we offer a comfortable stay.\n\n#byzantiumhotel #sultanahmethotels #istanbul #travel #holiday #stay #hotelroom #traveller #turkeytrip #holiday #explorer #comfortable #accommodation #rooms ",
     URL: "https://twitter.com/HotelByzantium/status/1584140837843505152",
-    htag: [
+    Htag: [
       "#byzantiumhotel",
       "#sultanahmethotels",
       "#istanbul",
@@ -4102,6 +5224,9 @@ export const data = [
       "#accommodation",
       "#rooms",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4109,7 +5234,7 @@ export const data = [
     Event:
       "#politics #politika #Siyaset #ekonomi #FacebookLive #instagramlive #istanbul #Turkey #Twitter #swag #today #plan #Accidents",
     URL: "https://twitter.com/mehmethilmi_/status/1584130363575611394",
-    htag: [
+    Htag: [
       "#politics",
       "#politika",
       "#siyaset",
@@ -4124,6 +5249,9 @@ export const data = [
       "#plan",
       "#accidents",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4131,7 +5259,10 @@ export const data = [
     Event:
       'My #new #article "Surviving a Coma? Türkiye-EU Relations in Times of Crises (2005–2022)" published in Studia Europejskie - Studies in European Affairs is available online. 👇#Turkey #EU #enlargement  | ',
     URL: "https://twitter.com/erhanicener/status/1584227912785752066",
-    htag: ["#new", "#article", "#eu", "#enlargement"],
+    Htag: ["#new", "#article", "#eu", "#enlargement"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4139,7 +5270,10 @@ export const data = [
     Event:
       "Turkey’s Presidential Cabinet will meet tomorrow  \n\n#Turkey #presidential #meeting #cabinet #agenda",
     URL: "https://twitter.com/businessturkey/status/1584153444952473602",
-    htag: ["#turkey", "#presidential", "#meeting", "#cabinet", "#agenda"],
+    Htag: ["#turkey", "#presidential", "#meeting", "#cabinet", "#agenda"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4147,7 +5281,10 @@ export const data = [
     Event:
       "#Syria- Nine ISIS members, including four ringleaders, were captured in al-Bab, in the north of Syria, an area near Türkiye’s southern border.\n#Turkey\n📸",
     URL: "https://twitter.com/metesohtaoglu/status/1584150515985707010",
-    htag: ["#syria", "#turkey"],
+    Htag: ["#syria", "#turkey"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4155,7 +5292,10 @@ export const data = [
     Event:
       "Scooter accident in Antalya: Two high school students lost their lives  \n\n#Turkey #accident #scooter #deaths #students",
     URL: "https://twitter.com/businessturkey/status/1584149685417127936",
-    htag: ["#turkey", "#accident", "#scooter", "#deaths", "#students"],
+    Htag: ["#turkey", "#accident", "#scooter", "#deaths", "#students"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4163,7 +5303,10 @@ export const data = [
     Event:
       'My #new #article "Surviving a Coma? Türkiye-EU Relations in Times of Crises (2005–2022)" published in Studia Europejskie - Studies in European Affairs is available online. 👇#Turkey #EU #enlargement ',
     URL: "https://twitter.com/erhanicener/status/1584131181846876160",
-    htag: ["#new", "#article", "#eu", "#enlargement"],
+    Htag: ["#new", "#article", "#eu", "#enlargement"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4171,7 +5314,10 @@ export const data = [
     Event:
       "Doctor Mesut plans to quit his job at Istanbul hospital, take  language course and leave with his family for #Germany. He is one of a growing number of highly skilled professionals who are leaving #Turkey. @AFP looks into reasons for brain drain:",
     URL: "https://twitter.com/FulyaOzerkan/status/1584119802271973376",
-    htag: ["#germany", "#turkey"],
+    Htag: ["#germany", "#turkey"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4179,7 +5325,10 @@ export const data = [
     Event:
       "Did You Know You Can Get Turkish\nCitizenship With an Investment On a Property Worth a Minimum of $400,000\n\nBuying one or more houses accumulating to a minimum of 400,000 entitles you to Turkish citizenship.\n\nDm us for more\n\n#turkishcitizenship\n#citizenshipbyinvestment\n#realestate",
     URL: "https://twitter.com/jr_rileyglobal/status/1584093959567343617",
-    htag: ["#turkishcitizenship", "#citizenshipbyinvestment", "#realestate"],
+    Htag: ["#turkishcitizenship", "#citizenshipbyinvestment", "#realestate"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4187,7 +5336,10 @@ export const data = [
     Event:
       "Did You Know You Can Get Turkish\nCitizenship With an Investment On a Property Worth a Minimum of $400,000\n\nBuying one or more houses accumulating to a minimum of 400,000 entitles you to Turkish citizenship.\n\nDm us for more\n\n#turkishcitizenship\n#citizenshipbyinvestment\n#realestate",
     URL: "https://twitter.com/jr_rileyglobal/status/1584093837299175425",
-    htag: ["#turkishcitizenship", "#citizenshipbyinvestment", "#realestate"],
+    Htag: ["#turkishcitizenship", "#citizenshipbyinvestment", "#realestate"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4195,7 +5347,10 @@ export const data = [
     Event:
       "Did You Know You Can Get Turkish\nCitizenship With an Investment On a Property Worth a Minimum of $400,000\n\nBuying one or more houses accumulating to a minimum of 400,000 entitles you to Turkish citizenship.\n\nDm us for more\n\n#turkishcitizenship\n#citizenshipbyinvestment\n#realestate",
     URL: "https://twitter.com/jr_rileyglobal/status/1584093825274114048",
-    htag: ["#turkishcitizenship", "#citizenshipbyinvestment", "#realestate"],
+    Htag: ["#turkishcitizenship", "#citizenshipbyinvestment", "#realestate"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4203,7 +5358,10 @@ export const data = [
     Event:
       "#Turkiye tightened lending rules for many #companies with more than $500,000 in #foreign #currency cash on #Friday\n\n➡��?",
     URL: "https://twitter.com/bazaartimes/status/1584252656716902400",
-    htag: ["#turkiye", "#companies", "#foreign", "#currency", "#friday"],
+    Htag: ["#turkiye", "#companies", "#foreign", "#currency", "#friday"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4211,7 +5369,10 @@ export const data = [
     Event:
       "🇹🇷_||~ 🇮🇱 The ice btw Israel and Türkiye is melting!\n\nA first in 10 years! Israeli Minister arrives in Turkey\n🪖 Israeli Minister will meet with Hulusi #Akar!\n#Israel #Turkiye ",
     URL: "https://twitter.com/cover_up8d/status/1584231829355175939",
-    htag: ["#akar", "#israel", "#turkiye"],
+    Htag: ["#akar", "#israel", "#turkiye"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4219,21 +5380,30 @@ export const data = [
     Event:
       "🇹🇷📞🇷🇺 DEFENSE || DIPLOMACY : Minister of National Defense Hulusi #Akar held a phone call with Russian Defense Minister Sergey #Shoygu.\n#MSB #Turkiye | #Russia  ",
     URL: "https://twitter.com/cover_up8d/status/1584181908409585666",
-    htag: ["#akar", "#shoygu", "#msb", "#turkiye", "#russia"],
+    Htag: ["#akar", "#shoygu", "#msb", "#turkiye", "#russia"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
     Username: "Mirayfiliz___",
     Event: "#education\n",
     URL: "https://twitter.com/Mirayfiliz___/status/1584253620362436608",
-    htag: ["#education"],
+    Htag: ["#education"],
+    Category: "Education",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
     Username: "Mirayfiliz___",
     Event: "#education\n",
     URL: "https://twitter.com/Mirayfiliz___/status/1584229407140777985",
-    htag: ["#education"],
+    Htag: ["#education"],
+    Category: "Education",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4241,7 +5411,10 @@ export const data = [
     Event:
       "Suella Braverman, the former British home secretary who resigned the day before Prime Minister Liz Truss stepped down, has endorsed Rishi Sunak to be prime minister, she said in a Telegraph article published on Sunday. #UK #leadership #Sunak #Johnson",
     URL: "https://twitter.com/anews/status/1584186789472133123",
-    htag: ["#uk", "#leadership", "#sunak", "#johnson"],
+    Htag: ["#uk", "#leadership", "#sunak", "#johnson"],
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4249,7 +5422,7 @@ export const data = [
     Event:
       "#leaders #leadership #coaching #act #inspire #motivation #empower #legacy #trust #empathy #change #inspiration #teams #selfdevelopment #professionaldevelopment #emotional #resilience #enhance #spirit #focus #blessing #marketing #businessmanagement",
     URL: "https://twitter.com/SouzanBachir/status/1584112410742255616",
-    htag: [
+    Htag: [
       "#leaders",
       "#leadership",
       "#coaching",
@@ -4274,6 +5447,9 @@ export const data = [
       "#marketing",
       "#businessmanagement",
     ],
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4281,7 +5457,7 @@ export const data = [
     Event:
       "RAI Car Park in Amsterdam designed by Benthem Crouwel Architects, is characterized by a simple, rectangular shape and two remarkable helix-shaped towers.\n\n📸 Philipp Heer &amp; Virginia Duran\n\n#carpark #helix #amsterdam #netherlands #architecture #parametric",
     URL: "https://twitter.com/parametricarch/status/1584196126764593153",
-    htag: [
+    Htag: [
       "#carpark",
       "#helix",
       "#amsterdam",
@@ -4289,6 +5465,9 @@ export const data = [
       "#architecture",
       "#parametric",
     ],
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4296,7 +5475,7 @@ export const data = [
     Event:
       '"Originally drawn to experience and paint the landscape from direct #observation, #enpleinair ,his 🇺🇦#artisticpractice has expanded to adopt a more contemplative approach to #painting" @GrimReality0  🇬🇧 : #art is the only outlet on this planet #Ukraine🇺🇦 @melisoss 🇹🇷 #Ataturk',
     URL: "https://twitter.com/ahb651/status/1584099031768526850",
-    htag: [
+    Htag: [
       "#observation",
       "#enpleinair",
       '#painting"',
@@ -4304,6 +5483,9 @@ export const data = [
       "#ukraine🇺🇦",
       "#ataturk",
     ],
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4311,7 +5493,10 @@ export const data = [
     Event:
       "I had a great time with my son at the Istanbul Archeology Museum. I inhaled the scent of history, experiences,  pain and happiness.  I saved another wonderful memory for my personal and emotional development.\n\n#archeology #museum #history #art",
     URL: "https://twitter.com/sagistgrup/status/1584018801657806850",
-    htag: ["#archeology", "#museum", "#history", "#art"],
+    Htag: ["#archeology", "#museum", "#history", "#art"],
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4319,7 +5504,10 @@ export const data = [
     Event:
       "I had a great time with my son at the Istanbul Archeology Museum. I inhaled the scent of history, experiences,  pain and happiness.  I saved another wonderful memory for my personal and emotional development.\n\n#archeology #museum #history #art",
     URL: "https://twitter.com/sagistgrup/status/1584015457602138113",
-    htag: ["#archeology", "#museum", "#history", "#art"],
+    Htag: ["#archeology", "#museum", "#history", "#art"],
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4327,14 +5515,20 @@ export const data = [
     Event:
       "Social media companies might resist Turkey's new 'disinformation law'",
     URL: "https://www.duvarenglish.com/social-media-companies-might-resist-turkeys-new-disinformation-law-news-61458",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
     Username: "",
     Event: "'Lost hope': Inflation, abuse force doctors to quit Turkey",
     URL: "https://www.france24.com/en/live-news/20221023-lost-hope-inflation-abuse-force-doctors-to-quit-turkey",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4342,7 +5536,10 @@ export const data = [
     Event:
       "What to see and do in Istanbul and Ankara, from culture and art to fat cats",
     URL: "https://www.thestar.com.my/lifestyle/travel/2022/10/23/of-culture-art-and-fat-cats-what-to-see-and-do-in-istanbul-and-ankara",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4350,7 +5547,10 @@ export const data = [
     Event:
       "OIC Istanbul moot backs tech innovations to ‘present truth’ about Islam",
     URL: "https://www.aa.com.tr/en/world/oic-istanbul-moot-backs-tech-innovations-to-present-truth-about-islam/2718468",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/23/2022",
@@ -4358,7 +5558,10 @@ export const data = [
     Event:
       "Where did Gulsen study? Turkish popstar appears in court over dig at religious schools",
     URL: "https://www.sportskeeda.com/pop-culture/news-where-gulsen-study-turkish-popstar-appears-court-dig-religious-schools",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4366,7 +5569,7 @@ export const data = [
     Event:
       "#MagyarHonvédség 🇭🇺 #Ataturk 🇹🇷 #Anitkabir Today, there was the #HungarianMinisterofDefense and the Hungarian ambassador in #Ankara, #Anitkabir... They paid their respects at the grave monument of the great Turkish leader #Ataturk 🇹🇷🇭🇺",
     URL: "https://twitter.com/ahb651/status/1584645310282084352",
-    htag: [
+    Htag: [
       "#magyarhonvédség",
       "#ataturk",
       "#anitkabir",
@@ -4375,6 +5578,9 @@ export const data = [
       "#anitkabir",
       "#ataturk",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4382,14 +5588,20 @@ export const data = [
     Event:
       "#Ankara and #Budapest both stressed the importance of establishing a #cease-fire between #Russia and #Ukraine as soon as possible to stop the bloodshed, the Turkish national defense minister said on Monday.",
     URL: "https://twitter.com/anews/status/1584594408590147585",
-    htag: ["#ankara", "#budapest", "#cease fire", "#russia", "#ukraine"],
+    Htag: ["#ankara", "#budapest", "#cease fire", "#russia", "#ukraine"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "AYCEMSUPREMACY",
     Event: "This has digital show vibes🔥😈 #DarmaDuman",
     URL: "https://twitter.com/AYCEMSUPREMACY/status/1584625261919621121",
-    htag: ["#darmaduman"],
+    Htag: ["#darmaduman"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4397,14 +5609,20 @@ export const data = [
     Event:
       "If I could take you all to a digital platform and save you from fox and the rating system.. 🥺\n\n#darmaduman ",
     URL: "https://twitter.com/lauxdby/status/1584615203911921665",
-    htag: ["#darmaduman"],
+    Htag: ["#darmaduman"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "AdBorDogrusoz",
     Event: "@FOXTurkiye @Darmadumandizi Finally a great promo #DarmaDuman",
     URL: "https://twitter.com/AdBorDogrusoz/status/1584608126082613248",
-    htag: ["#darmaduman"],
+    Htag: ["#darmaduman"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4412,7 +5630,10 @@ export const data = [
     Event:
       "@Fadeelah_Dulloo @almaaaas19 Kanat throwing away this word of the dictionary 🤣 like \n\n#DuyBeni #EkKan ",
     URL: "https://twitter.com/AConfusedLamb/status/1584649574752604160",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4420,7 +5641,10 @@ export const data = [
     Event:
       "@diziduybeni  if u guys don’t do it we’ll do it then…#ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1584646879564173312",
-    htag: ["#duybeni"],
+    Htag: ["#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4428,7 +5652,10 @@ export const data = [
     Event:
       "@SultanAsiyah This one is better. I felt this one 😌\n\n#DuyBeni #EkKan ",
     URL: "https://twitter.com/AConfusedLamb/status/1584634822143926272",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4436,7 +5663,10 @@ export const data = [
     Event:
       "Not gonna lie. This is one of the hottest EkKan moments. The way Kanat took control and how Ekim didn't even pull away 🔥🫦\n\n#DuyBeni #EkKan #RabiaSoytürk #CanerTopçu ",
     URL: "https://twitter.com/AConfusedLamb/status/1584632763700809728",
-    htag: ["#duybeni", "#ekkan", "#rabiasoytürk", "#canertopçu"],
+    Htag: ["#duybeni", "#ekkan", "#rabiasoytürk", "#canertopçu"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4444,7 +5674,10 @@ export const data = [
     Event:
       "@thedgeofdream Nooo. He had, has and will always have Ekim 😌♾✌��?� \n\n#DuyBeni #EkKan",
     URL: "https://twitter.com/AConfusedLamb/status/1584607632798932993",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4452,7 +5685,10 @@ export const data = [
     Event:
       "And if he really has to choose the other woman. I'm sure he'll have a good reason. It will either be to protect someone he loves or he's being threatened.  \n\n#Duybeni #EkKan #RabiaSoytürk #CanerTopçu ",
     URL: "https://twitter.com/AConfusedLamb/status/1584560083211386885",
-    htag: ["#duybeni", "#ekkan", "#rabiasoytürk", "#canertopçu"],
+    Htag: ["#duybeni", "#ekkan", "#rabiasoytürk", "#canertopçu"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4460,7 +5696,10 @@ export const data = [
     Event:
       "Also remember these words. So even if someone tries to break them up again, it won’t be easy! 👊\n\n#Duybeni #EkKan #RabiaSoytürk #CanerTopçu",
     URL: "https://twitter.com/AConfusedLamb/status/1584557487034105856",
-    htag: ["#duybeni", "#ekkan", "#rabiasoytürk", "#canertopçu"],
+    Htag: ["#duybeni", "#ekkan", "#rabiasoytürk", "#canertopçu"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4468,7 +5707,10 @@ export const data = [
     Event:
       "You know what Kanat had to go through to finally have Ekim in his arms? To finally be HIS! �?���?\n\nHe ain’t gonna screw that up for an old fling! 👊\n\n#DuyBeni #EkKan #CanerTopçu #RabiaSoytürk ",
     URL: "https://twitter.com/AConfusedLamb/status/1584553765230628864",
-    htag: ["#duybeni", "#ekkan", "#canertopçu", "#rabiasoytürk"],
+    Htag: ["#duybeni", "#ekkan", "#canertopçu", "#rabiasoytürk"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4476,7 +5718,10 @@ export const data = [
     Event:
       "This hashtag had me cackling tho #GayKan 🤣🤣 Who came up with this?! \n\n#DuyBeni #EkKan",
     URL: "https://twitter.com/AConfusedLamb/status/1584536804673220608",
-    htag: ["#gaykan", "#duybeni", "#ekkan"],
+    Htag: ["#gaykan", "#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4484,7 +5729,10 @@ export const data = [
     Event:
       "The first photo is from another serie but do you see that is similar and looks like rabia surely this is rabia and they are making moments to get to know each other #DuyDeni #ekkan #duybeni̇ #DuyBeniTeori",
     URL: "https://twitter.com/Duybenifansss/status/1584530344640118784",
-    htag: ["#duydeni", "#ekkan", "#duybeni̇", "#duybeniteori"],
+    Htag: ["#duydeni", "#ekkan", "#duybeni̇", "#duybeniteori"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4492,14 +5740,20 @@ export const data = [
     Event:
       "Please be good  please be good. Please don’t be kanats ex PLEASE.☔��? #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1584521399225679872",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "AConfusedLamb",
     Event: "Burak’s glasses 🤓 First Caner then Rabia 🧡\n\n#DuyBeni #EkKan ",
     URL: "https://twitter.com/AConfusedLamb/status/1584514501260759040",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4507,21 +5761,30 @@ export const data = [
     Event:
       "Happy Duy Beni fragman day 🌞 Hoping there will be less chaos today, cuz last Saturday was hectic with the new character. \n\n#DuyBeni #EkKan",
     URL: "https://twitter.com/AConfusedLamb/status/1584509751433777154",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "_duybeniekkan",
     Event: "Them matching  outfits omg I love them. ���?🖤 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1584493122884894721",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "jiihad_ibnou",
     Event: "@animalist_human #istanbul",
     URL: "https://twitter.com/jiihad_ibnou/status/1584686868062695424",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4529,7 +5792,7 @@ export const data = [
     Event:
       "Insurance Innovation Now! Don’t miss this panel about Insurtech on 9 Feb 2023!\n\n#istanbulfintechweek #theopenfinance #ifw23 #istanbul #fintech #conference #blockchainfest #digitalfinancesummit ",
     URL: "https://twitter.com/Fintech_TR/status/1584617805139554304",
-    htag: [
+    Htag: [
       "#istanbulfintechweek",
       "#theopenfinance",
       "#ifw23",
@@ -4539,6 +5802,9 @@ export const data = [
       "#blockchainfest",
       "#digitalfinancesummit",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4546,7 +5812,10 @@ export const data = [
     Event:
       "Sights and sounds from #Istanbul's #Istiklal street and the famous #Taksim Square 🇹🇷",
     URL: "https://twitter.com/AbdulBillowAli/status/1584607919357956096",
-    htag: ["#istanbul's", "#istiklal", "#taksim"],
+    Htag: ["#istanbul's", "#istiklal", "#taksim"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4554,14 +5823,20 @@ export const data = [
     Event:
       "#GoodMorning #Istanbul is Mostly Sunny #today. With a high of 22 C / 72 F and a low of 11 C / 52 F #Enjoy #ttot",
     URL: "https://twitter.com/Galata1875/status/1584576925862879232",
-    htag: ["#goodmorning", "#istanbul", "#today", "#enjoy", "#ttot"],
+    Htag: ["#goodmorning", "#istanbul", "#today", "#enjoy", "#ttot"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "HSYNYLMZ",
     Event: "#istanbul",
     URL: "https://twitter.com/HSYNYLMZ/status/1584568329418571777",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4569,13 +5844,16 @@ export const data = [
     Event:
       "Gentrification under the name of urban renewal. The working class people in #Istanbul are kicked away further out to the periphery of the city as #luxuryrealestate projects and shopping malls replace poor neighbourhoods.\n#tozkoparandazulümvar\n#tozkoparan #Turkey ",
     URL: "https://twitter.com/eyluldenizjourn/status/1584566640523759617",
-    htag: [
+    Htag: [
       "#istanbul",
       "#luxuryrealestate",
       "#tozkoparandazulümvar",
       "#tozkoparan",
       "#turkey",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4583,7 +5861,10 @@ export const data = [
     Event:
       "We're hiring in #Istanbul, İstanbul! Click the link in our bio to apply to this job and more: HUB CLERK at UPS #Labor",
     URL: "https://twitter.com/tmj_tur_jobs/status/1584545353570742273",
-    htag: ["#istanbul", "#labor"],
+    Htag: ["#istanbul", "#labor"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4591,7 +5872,7 @@ export const data = [
     Event:
       "We are very honored🤩 to see such positive testimonials\nDrawing a smile on your face is our priority\n#Teeth #Dental_treatment #missing_teeth #hollywood #dental_implants #smile #miraclinic #implants #veneers #Turkey #Istanbul #Hollywoodsmile #facelift #testimonials #patientreview ",
     URL: "https://twitter.com/mira_clinic_net/status/1584528330401153031",
-    htag: [
+    Htag: [
       "#teeth",
       "#dental treatment",
       "#missing teeth",
@@ -4608,6 +5889,9 @@ export const data = [
       "#testimonials",
       "#patientreview",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4615,7 +5899,7 @@ export const data = [
     Event:
       "#visionlar #general_trade #comingsoon \n#shine_everywhere #Newlogo #turkey #Istanbul ",
     URL: "https://twitter.com/visonlar/status/1584527855223853057",
-    htag: [
+    Htag: [
       "#visionlar",
       "#general trade",
       "#comingsoon",
@@ -4624,6 +5908,9 @@ export const data = [
       "#turkey",
       "#istanbul",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4631,7 +5918,10 @@ export const data = [
     Event:
       "If you're looking for work in #Istanbul, İstanbul, check out this job:",
     URL: "https://twitter.com/tmj_tur_jobs/status/1584527158352834560",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4639,7 +5929,7 @@ export const data = [
     Event:
       "#OIC adopts #Istanbul declaration to fight disinformation and #Islamophobia\n\nFake news threatens the security of individuals, countries, and #Muslim communities, #Türkiye's communications director #Altun says following the Muslim body's meeting in Istanbul.",
     URL: "https://twitter.com/trtworldforum/status/1584521561805316097",
-    htag: [
+    Htag: [
       "#oic",
       "#istanbul",
       "#islamophobia",
@@ -4647,13 +5937,19 @@ export const data = [
       "#türkiye's",
       "#altun",
     ],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "tugcebabaeren",
     Event: "#istanbul",
     URL: "https://twitter.com/tugcebabaeren/status/1584518609111437312",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4661,13 +5957,16 @@ export const data = [
     Event:
       "House sales to foreigners decreased by 23.8% in September compared to the same month of the previous year and became 5 thousand 49. House sales to foreigners had a 4.5% share of all house sales in September.\n#turkey #istanbul #turkeyproperty \n#citizenship #turkeycitizenship ",
     URL: "https://twitter.com/mira_pazarlama/status/1584513658943479809",
-    htag: [
+    Htag: [
       "#turkey",
       "#istanbul",
       "#turkeyproperty",
       "#citizenship",
       "#turkeycitizenship",
     ],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4675,7 +5974,10 @@ export const data = [
     Event:
       "*Affordable apartment in #Istanbul, #Turkiye 👉Suitable for 75k USD property residency!🇹🇷*\n📞 Contact us for more details, \nPhone: +90 212 523 6198 / +90 552 567 95 71\nOur WhatsApp &amp; Telegram: +90 552 567 95 71\n Website:",
     URL: "https://twitter.com/TheAsiaGroupTr/status/1584513422368002049",
-    htag: ["#istanbul", "#turkiye"],
+    Htag: ["#istanbul", "#turkiye"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4683,7 +5985,7 @@ export const data = [
     Event:
       "Introducing @Deepcoin_global exchange, a new silver sponsor of #IBW22\nDeepcoin specializes in digital currencies and is committed to providing globalized and comprehensive financial services with digital currency at the core.\n#web3 #cryptocurrencies #blockchain #istanbul #crypto",
     URL: "https://twitter.com/IstanbulBlockWk/status/1584492387996291073",
-    htag: [
+    Htag: [
       "#ibw22",
       "#web3",
       "#cryptocurrencies",
@@ -4691,6 +5993,9 @@ export const data = [
       "#istanbul",
       "#crypto",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4698,7 +6003,10 @@ export const data = [
     Event:
       "This job is now open at UPS in #Istanbul, İstanbul. Follow us and turn on mobile alerts to hear about jobs like these as soon as they're posted: UFH Shipment Management",
     URL: "https://twitter.com/tmj_tur_jobs/status/1584490813186187264",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4706,7 +6014,7 @@ export const data = [
     Event:
       "#music #newmusic #soundcloud #spotify #youtube #electronic #istanbul\n",
     URL: "https://twitter.com/r0andl0/status/1584485226226405376",
-    htag: [
+    Htag: [
       "#music",
       "#newmusic",
       "#soundcloud",
@@ -4715,6 +6023,9 @@ export const data = [
       "#electronic",
       "#istanbul",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4722,7 +6033,10 @@ export const data = [
     Event:
       'UPS is looking for teammates like you. See our latest job openings, including "Freight Clerk", via the link in our bio. #Istanbul, İstanbul',
     URL: "https://twitter.com/tmj_tur_jobs/status/1584472644610445314",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4730,7 +6044,7 @@ export const data = [
     Event:
       "More #grain ships depart from #Ukraine under #Istanbul deal\n\nFour more ships have left Ukrainian ports under the landmark Istanbul grain export deal, Türkiye's officials said. #Türkiye🇹🇷, the #UN🇺🇳, #Russia🇷🇺, and #Ukraine🇺🇦 signed an agreement to resume grain exports.",
     URL: "https://twitter.com/trtworldforum/status/1584470970386984960",
-    htag: [
+    Htag: [
       "#grain",
       "#ukraine",
       "#istanbul",
@@ -4739,6 +6053,9 @@ export const data = [
       "#russia🇷🇺",
       "#ukraine🇺🇦",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4746,7 +6063,7 @@ export const data = [
     Event:
       "New offer!\n#istanbul #turkey #realestate #property #dreamhouse #appartments #lands #shops #hotel #investment #beautifulistanbul #beautifulview #explore #ottomanproperty #citizenshipoffer ",
     URL: "https://twitter.com/ottomanesatate/status/1584463423609352194",
-    htag: [
+    Htag: [
       "#istanbul",
       "#turkey",
       "#realestate",
@@ -4763,6 +6080,9 @@ export const data = [
       "#ottomanproperty",
       "#citizenshipoffer",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4770,7 +6090,7 @@ export const data = [
     Event:
       "Special offer!\n#istanbul #turkey #realestate #property #dreamhouse #appartments #lands #shops #hotel #househunting #investment #beautifulistanbul #beautifulview #explore #ottomanproperty #citizenshipoffer ",
     URL: "https://twitter.com/ottomanesatate/status/1584462928618524674",
-    htag: [
+    Htag: [
       "#istanbul",
       "#turkey",
       "#realestate",
@@ -4788,6 +6108,9 @@ export const data = [
       "#ottomanproperty",
       "#citizenshipoffer",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4795,7 +6118,10 @@ export const data = [
     Event:
       "Happy Monday!\n#istanbul #turkey \n#ottomanproperty \n#citizenshipoffer ",
     URL: "https://twitter.com/ottomanesatate/status/1584453239206182912",
-    htag: ["#istanbul", "#turkey", "#ottomanproperty", "#citizenshipoffer"],
+    Htag: ["#istanbul", "#turkey", "#ottomanproperty", "#citizenshipoffer"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4803,19 +6129,25 @@ export const data = [
     Event:
       "Hiring alert #Istanbul: Start-up Scorp seeks fluent speakers of Italian, Hindi, French, Spanish, Ukrainian, and Arabic. Positions are full-time:",
     URL: "https://twitter.com/Yabangee/status/1584426830903521280",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "mcenzura",
     Event: "#streetphotography #photography #istanbul #streetphotographer",
     URL: "https://twitter.com/mcenzura/status/1584361856604721152",
-    htag: [
+    Htag: [
       "#streetphotography",
       "#photography",
       "#istanbul",
       "#streetphotographer",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4823,7 +6155,7 @@ export const data = [
     Event:
       "According to TUIK, total house sales in Turkey reached 113,402 in Sept 2022. Moreover, 1,196 houses were bought by Russian citizens, making them the number one nationality to invest in Turkey. \n\n#NestInvest #realestate #investment #turkey #property #housesales #foreigner",
     URL: "https://twitter.com/NestInvestHQ/status/1584605649115222027",
-    htag: [
+    Htag: [
       "#nestinvest",
       "#realestate",
       "#investment",
@@ -4832,6 +6164,9 @@ export const data = [
       "#housesales",
       "#foreigner",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4839,7 +6174,7 @@ export const data = [
     Event:
       "#Forbes #Turkey #holiday #recommendation #suggestion #economical #prices",
     URL: "https://twitter.com/businessturkey/status/1584603041818415111",
-    htag: [
+    Htag: [
       "#forbes",
       "#turkey",
       "#holiday",
@@ -4848,6 +6183,9 @@ export const data = [
       "#economical",
       "#prices",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4855,7 +6193,7 @@ export const data = [
     Event:
       "Forbes: Turkey is a “great opportunity��? for a great holiday due to depreciation of Turkish lira  \n\n#Forbes #Turkey #holiday #recommendation #suggestion #economical #prices",
     URL: "https://twitter.com/businessturkey/status/1584602874545594369",
-    htag: [
+    Htag: [
       "#forbes",
       "#turkey",
       "#holiday",
@@ -4864,6 +6202,9 @@ export const data = [
       "#economical",
       "#prices",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4871,7 +6212,7 @@ export const data = [
     Event:
       "925 Sterling Silver Jewelry Bracelet Necklace Earring Ring Women Trendy Wholesale Handmade Turkish Jewellery\n\n\n\n#trendy #ring #women #womenring #bracelet #tennis #charm #wholesale #turkish #turkey #handmade #handcrafted #fashion #jewelry #finejewelry ",
     URL: "https://twitter.com/TheiaSilver/status/1584564987283927040",
-    htag: [
+    Htag: [
       "#trendy",
       "#ring",
       "#women",
@@ -4888,6 +6229,9 @@ export const data = [
       "#jewelry",
       "#finejewelry",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4895,7 +6239,7 @@ export const data = [
     Event:
       "Haider Nabi Hill, 1600 meters high, is one of Trabzon’s most beautiful tourist places, a destination for tourists who enjoy its charming, serene nature that combines green meadows, springs, and lakes.\n\n#visitturkey #tourism #turkeytour #tourisminturkey #turkey #travelturkey",
     URL: "https://twitter.com/mira_pazarlama/status/1584560348958363649",
-    htag: [
+    Htag: [
       "#visitturkey",
       "#tourism",
       "#turkeytour",
@@ -4903,6 +6247,9 @@ export const data = [
       "#turkey",
       "#travelturkey",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4910,12 +6257,15 @@ export const data = [
     Event:
       "Inflation and abuse force doctors to quit Turkey, our video for @AFP\nwith @VNakiboglu and @dirkaDemir:  \n\n\n#Turkey #inflation #SağlıktaŞiddeteHAYIR\n#doktorumadokunma",
     URL: "https://twitter.com/eyluldenizjourn/status/1584462125300604928",
-    htag: [
+    Htag: [
       "#turkey",
       "#inflation",
       "#sağlıktaşiddetehayir",
       "#doktorumadokunma",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4923,7 +6273,7 @@ export const data = [
     Event:
       "Currency prices in Turkey on  24\\10\\2022\n\n\n\n#realestateturkey #realestatecompany #turkey #investinturkey #realestateinvestment #turkisheconomy #exchangerate #dollartl ",
     URL: "https://twitter.com/mira_pazarlama/status/1584445532399087618",
-    htag: [
+    Htag: [
       "#realestateturkey",
       "#realestatecompany",
       "#turkey",
@@ -4933,6 +6283,9 @@ export const data = [
       "#exchangerate",
       "#dollartl",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4940,12 +6293,15 @@ export const data = [
     Event:
       "Luxury homes for sale in Basin Express Avenue, Istanbul Turkey.\n\nWebsite: \nWhatsapp: \n\nWatch our new portfolio video!\n\n\n\n#turkishcitizenship #propertyforsaleinistanbul #propertyfinderturkey #basinexpress",
     URL: "https://twitter.com/saleinistanbul/status/1584562598733053952",
-    htag: [
+    Htag: [
       "#turkishcitizenship",
       "#propertyforsaleinistanbul",
       "#propertyfinderturkey",
       "#basinexpress",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4953,7 +6309,7 @@ export const data = [
     Event:
       "Printing blocks - 1980s\n\n#Rug #Printing #vintage #carpet #tapestry #tiles #anatolian #motion #turkish #traditional #sculpture #designs #pattern #etsy #amazon @ Istanbul, Turkey",
     URL: "https://twitter.com/derabramo/status/1584642736359096321",
-    htag: [
+    Htag: [
       "#rug",
       "#printing",
       "#vintage",
@@ -4970,6 +6326,9 @@ export const data = [
       "#etsy",
       "#amazon",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4977,7 +6336,7 @@ export const data = [
     Event:
       "Team Catalonia #euroq2022 #ikfeuwkcqb #antalya #turkiye #korfball #korfbal #korfbol",
     URL: "https://twitter.com/TurkeyKorfball/status/1584526325448314880",
-    htag: [
+    Htag: [
       "#euroq2022",
       "#ikfeuwkcqb",
       "#antalya",
@@ -4986,6 +6345,9 @@ export const data = [
       "#korfbal",
       "#korfbol",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -4993,7 +6355,10 @@ export const data = [
     Event:
       "🇹🇷_||~ 🇧🇦 The Turkish army repairs &amp; develops a school in Bosnia &amp; Herzegovina .. #Education | Security #MSB",
     URL: "https://twitter.com/cover_up8d/status/1584588068891549696",
-    htag: ["#education", "#msb"],
+    Htag: ["#education", "#msb"],
+    Category: "Education",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -5001,13 +6366,16 @@ export const data = [
     Event:
       "Such a great video to remind us all that great things take time and patience, and when you are at the top, dont ever get spoiled....“Success isn't linear\" by Yoann Bourgeois \n\n#success #hardwork #leadership #consistency #determinat…",
     URL: "https://twitter.com/_burakpeker_/status/1584527822747447297",
-    htag: [
+    Htag: [
       "#success",
       "#hardwork",
       "#leadership",
       "#consistency",
       "#determinat",
     ],
+    Category: "Government",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -5015,7 +6383,7 @@ export const data = [
     Event:
       "Despite clear evidence connecting corporate performance with board diversity, tech firms don't take this as a priority. Sea Group and GoTo Group have all-male boards.\n\n #technology #career #leadership #board #diversity #SEA",
     URL: "https://twitter.com/BurcuBicakci/status/1584526376891473920",
-    htag: [
+    Htag: [
       "#technology",
       "#career",
       "#leadership",
@@ -5023,13 +6391,19 @@ export const data = [
       "#diversity",
       "#sea",
     ],
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "MoodistHospital",
     Event: "#Health #psychology #psychiatry",
     URL: "https://twitter.com/MoodistHospital/status/1584513879908192256",
-    htag: ["#health", "#psychology", "#psychiatry"],
+    Htag: ["#health", "#psychology", "#psychiatry"],
+    Category: "Health",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -5037,7 +6411,7 @@ export const data = [
     Event:
       "Realen - Real Estate &amp; Mortgage WordPress Theme\n\n#accounting #advisor #agency #agent #apartment #architecture #business #consulting #corporate #estate #finance #financial #home #house #investment #management #property #real #responsive #services ",
     URL: "https://twitter.com/garantiwebt/status/1584586207522353158",
-    htag: [
+    Htag: [
       "#accounting",
       "#advisor",
       "#agency",
@@ -5059,6 +6433,9 @@ export const data = [
       "#responsive",
       "#services",
     ],
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -5066,7 +6443,7 @@ export const data = [
     Event:
       "#nfts  #nft  #digitalart  #art  #cryptoart #raredigitalart #ethereum #nft_club #cryptoartist #blockchain #animation #modernart #rocket #cartooncaracter #cartoony #rocketbabe #liberty #statueofliberty #statue #monument #usa #usaburger #rocketdude #RocketDUDEart #nftspacerocket",
     URL: "https://twitter.com/metadistilland/status/1584573586232090624",
-    htag: [
+    Htag: [
       "#nfts",
       "#nft",
       "#digitalart",
@@ -5093,6 +6470,9 @@ export const data = [
       "#rocketdudeart",
       "#nftspacerocket",
     ],
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -5100,7 +6480,7 @@ export const data = [
     Event:
       "Gm 🌞\nAcrylic on Canvas,  @nirmak\n#artgallery #art #painting #portrait #colorful #womanpower #acrylicpainting #NFTCommunity #nft #WomensArt #NFTartist #NFTartwork #WomenPower #opalfaces",
     URL: "https://twitter.com/nirmak/status/1584512074549727234",
-    htag: [
+    Htag: [
       "#artgallery",
       "#art",
       "#painting",
@@ -5116,6 +6496,9 @@ export const data = [
       "#womenpower",
       "#opalfaces",
     ],
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -5123,7 +6506,7 @@ export const data = [
     Event:
       "Hello Monday,\nWe Are There\nWhere You Need Us.\n\n\n\n#Chictextile #trims #ecofriendly \n#Recycled #sustainable #Recycledmaterials #reuse\n#branding #labeling #label #art #picoftheday #oekotex #leather #vegan\n#fashion #patch #embroidery",
     URL: "https://twitter.com/TextileChic/status/1584436633062891522",
-    htag: [
+    Htag: [
       "#chictextile",
       "#trims",
       "#ecofriendly",
@@ -5143,13 +6526,19 @@ export const data = [
       "#patch",
       "#embroidery",
     ],
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "moon4art",
     Event: "@HamidSepehri7 Thats amazing #nft #art really good luck 😉",
     URL: "https://twitter.com/moon4art/status/1584359834283298816",
-    htag: ["#nft", "#art"],
+    Htag: ["#nft", "#art"],
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -5157,19 +6546,25 @@ export const data = [
     Event:
       "After a difficult day 😅 💪��?� no better way to kick the stress away 😂 #cardiotwitter #healthyhabits #healthylifestyle #TwitterFriends",
     URL: "https://twitter.com/KemalogluOz/status/1584589541067100160",
-    htag: [
+    Htag: [
       "#cardiotwitter",
       "#healthyhabits",
       "#healthylifestyle",
       "#twitterfriends",
     ],
+    Category: "Lifestyle",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "mcenzura",
     Event: "street\n\n#streetphotography #photography ",
     URL: "https://twitter.com/mcenzura/status/1584692157041950720",
-    htag: ["#streetphotography", "#photography"],
+    Htag: ["#streetphotography", "#photography"],
+    Category: "Lifestyle",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -5177,7 +6572,7 @@ export const data = [
     Event:
       "Food at Street\nStreet Food\nWhat do we eat at Türkiye?\nPlease welcome to experience 🇹🇷💙🧿\n\n#incentive #congress #event #eventpro #europe #travel #siteglobal #imex2022\n@ICCAWorld @IBTMevents  #LIVEevents #ibtmworld ",
     URL: "https://twitter.com/DmcMotiva/status/1584540412336742400",
-    htag: [
+    Htag: [
       "#incentive",
       "#congress",
       "#event",
@@ -5189,6 +6584,9 @@ export const data = [
       "#liveevents",
       "#ibtmworld",
     ],
+    Category: "Lifestyle",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -5196,7 +6594,7 @@ export const data = [
     Event:
       "One Nation Travel offers Egypt Vacation Packages from the USA. Our packages include hotels and excursions, so you can explore all that Egypt has to offer. Check out the amazing travel packages at \n\n#egypt #cairo #luxor #aswan #travel #onenationtravel",
     URL: "https://twitter.com/OneNationTravel/status/1584343201040986112",
-    htag: [
+    Htag: [
       "#egypt",
       "#cairo",
       "#luxor",
@@ -5204,55 +6602,79 @@ export const data = [
       "#travel",
       "#onenationtravel",
     ],
+    Category: "Lifestyle",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "",
     Event: "Pakistani suspects sentenced over ‘TikTok mugging’ in Istanbul",
     URL: "https://www.dailysabah.com/turkey/istanbul/pakistani-suspects-sentenced-over-tiktok-mugging-in-istanbul",
-    htag: "",
+    Htag: "",
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "",
     Event: "Turkey: Hundreds of Refugees Deported to Syria",
     URL: "https://www.hrw.org/news/2022/10/24/turkey-hundreds-refugees-deported-syria",
-    htag: "",
+    Htag: "",
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "",
     Event: "Istanbul Declaration calls for fighting disinformation",
     URL: "https://tribune.com.pk/story/2383249/istanbul-declaration-calls-for-fighting-disinformation",
-    htag: "",
+    Htag: "",
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "",
     Event: "Saraç becomes first female president of Istanbul Bar Association",
     URL: "https://www.hurriyetdailynews.com/sarac-becomes-first-female-president-of-istanbul-bar-association-177953",
-    htag: "",
+    Htag: "",
+    Category: "Education",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "",
     Event: "Be good ambassadors, top Mandera girls studying in Turkey urged",
     URL: "https://www.the-star.co.ke/counties/north-eastern/2022-10-23-be-good-ambassadors-top-mandera-girls-studying-in-turkey-urged/",
-    htag: "",
+    Htag: "",
+    Category: "Education",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "",
     Event: "Türkiye, EU to convene high-level business meeting after 3.5 years",
     URL: "https://www.hurriyetdailynews.com/turkiye-eu-to-convene-high-level-business-meeting-after-3-5-years-177913",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "",
     Event: "MÜSIAD recognizes int'l graduates contributions to Turkish trade",
     URL: "https://www.dailysabah.com/business/economy/musiad-recognizes-intl-graduates-contributions-to-turkish-trade",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -5260,14 +6682,20 @@ export const data = [
     Event:
       "Bangladesh eager for Iranian series to replace Turkish, Korean productions",
     URL: "https://www.tehrantimes.com/news/477909/Bangladesh-eager-for-Iranian-series-to-replace-Turkish-Korean",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
     Username: "",
     Event: "Exploring the hidden gems of Diyarbakir and Beyoglu in Turkey",
     URL: "https://thepeninsulaqatar.com/article/23/10/2022/exploring-the-hidden-gems-of-diyarbakir-and-beyoglu-in-turkey",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/24/2022",
@@ -5275,7 +6703,10 @@ export const data = [
     Event:
       "Somalia looks to Turkish support to help fight terror in communications domain",
     URL: "https://www.aa.com.tr/en/africa/somalia-looks-to-turkish-support-to-help-fight-terror-in-communications-domain/2718925",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5283,35 +6714,50 @@ export const data = [
     Event:
       '#Ankara follows "extremely transparent policy" towards #Israel, the Turkish national defense minister has said, adding that he will discuss bilateral issues with his Israeli counterpart.',
     URL: "https://twitter.com/anews/status/1584904004240396293",
-    htag: ["#ankara", "#israel"],
+    Htag: ["#ankara", "#israel"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "AYCEMSUPREMACY",
     Event: "Twins with Deniz(director)���? #DarmaDuman",
     URL: "https://twitter.com/AYCEMSUPREMACY/status/1584955844654862338",
-    htag: ["#darmaduman"],
+    Htag: ["#darmaduman"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "AYCEMSUPREMACY",
     Event: "Mert, Hafsa with director and crew🫠🫶 #DarmaDuman",
     URL: "https://twitter.com/AYCEMSUPREMACY/status/1584929607060717569",
-    htag: ["#darmaduman"],
+    Htag: ["#darmaduman"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "AYCEMSUPREMACY",
     Event: "Our girls are on fire🔥🥰 #DarmaDuman",
     URL: "https://twitter.com/AYCEMSUPREMACY/status/1584920319340560385",
-    htag: ["#darmaduman"],
+    Htag: ["#darmaduman"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "AYCEMSUPREMACY",
     Event: "Okay but how is he looking at her🫠🫠🫠🫠 #DarmaDuman #DerKer",
     URL: "https://twitter.com/AYCEMSUPREMACY/status/1584842980019798016",
-    htag: ["#darmaduman", "#derker"],
+    Htag: ["#darmaduman", "#derker"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5319,14 +6765,20 @@ export const data = [
     Event:
       "@Vicky_N99 @almaaaas19 You unlocked one of my next biggest fears when it comes to Duy Beni! 😒🤯\n\n#DuyBeni #EkKan ",
     URL: "https://twitter.com/AConfusedLamb/status/1585055745774477312",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "AConfusedLamb",
     Event: "When Caner read the script 😒\n\n#DuyBeni #EkKan #CanerTopçu ",
     URL: "https://twitter.com/AConfusedLamb/status/1584988603981369344",
-    htag: ["#duybeni", "#ekkan", "#canertopçu"],
+    Htag: ["#duybeni", "#ekkan", "#canertopçu"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5334,7 +6786,10 @@ export const data = [
     Event:
       "So we will have ekkan talking on the phone like lovely dovley copule 🫶��?�🥹��?� #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1584982231012937728",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5342,7 +6797,10 @@ export const data = [
     Event:
       "@Socialalertz So far they’ve given us very good scenes and progress with #EkKan lets hope that continues 🫶��?�",
     URL: "https://twitter.com/HeartlessLovahh/status/1584975989318115328",
-    htag: ["#ekkan"],
+    Htag: ["#ekkan"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5350,7 +6808,10 @@ export const data = [
     Event:
       "@moonchildsilvia Yesss, I agree!! The girl will cause conflict but he will choose Ekim. There’s zero doubt that Ekim is his one true love 💗 #EkKan #DuyBeni",
     URL: "https://twitter.com/HeartlessLovahh/status/1584974782067789824",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5358,7 +6819,10 @@ export const data = [
     Event:
       "@moonchildsilvia Yes exactly! He found what he was looking for in Ekim. He became a whole different person because of his love for Ekim. I’m not worried, besides they always make the bad boys players before they meet the girl, it was expected tbh #EkKan #DuyBeni",
     URL: "https://twitter.com/HeartlessLovahh/status/1584974361051955201",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5366,7 +6830,10 @@ export const data = [
     Event:
       "She's right, and she is right to be frustrated. This group spends so much time keeping our show afloat. Please help. All it would take is a few minutes each day if everyone participated.  #EkKan",
     URL: "https://twitter.com/loosemoose97/status/1584967542204137472",
-    htag: ["#ekkan"],
+    Htag: ["#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5374,7 +6841,10 @@ export const data = [
     Event:
       "Don’t be surprised if the ratings are dropping! @diziduybeni \n\n#DuyBeni #EkKan ",
     URL: "https://twitter.com/AConfusedLamb/status/1584946187341557760",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5382,7 +6852,10 @@ export const data = [
     Event:
       "“ we found each other on hard times..��?                                                         | @hearmeaziz • @hearmeleyla | #azley #duybeni #ekkan",
     URL: "https://twitter.com/_duybeniekkan/status/1584939865002496011",
-    htag: ["#azley", "#duybeni", "#ekkan"],
+    Htag: ["#azley", "#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5390,7 +6863,10 @@ export const data = [
     Event:
       "It’s been hinted since the beginning that Kanat was a major player. They mentioned it in episode 2 and Melisa said it herself in episode 6. The point is that he’s ONLY fallen in love with EKIM. He has ONLY felt jealousy for EKIM. It’s ONLY been EKIM  #EkKan #DuyBeni",
     URL: "https://twitter.com/HeartlessLovahh/status/1584925693497921536",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5398,7 +6874,10 @@ export const data = [
     Event:
       "@Vicky_N99 Sadly I have to agree!😔 It seems like the excitement about the new writer was short lived! Still better than M but also not great! This promotion will definitely not help them this Thursday especially with the new show starting! Not looking good for the #DuyBeni ratings! #EkKan",
     URL: "https://twitter.com/LorenaLavinia/status/1584905803244380166",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5406,7 +6885,10 @@ export const data = [
     Event:
       "2/2\n\nJust give us the #EkKan scenes we deserve after all of this uncalled BS we had in the past! And for gods sake finish up the plots that are still open before adding new ones!!! Was it really necessary to add another ex to Kanat’s list? I mean the boy is 17/18!!🤦��?���?♀��? #DuyBeni",
     URL: "https://twitter.com/LorenaLavinia/status/1584904948172595201",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5414,7 +6896,10 @@ export const data = [
     Event:
       "1/2 \nIm not sure it’s a good idea to add yet another character to the mix.There’re still many plots unsolved that need solving!This was imo not a good move especially with another show starting this Thursday #DuyBeni will have a hard time with the ratings. #EkKan +++ ",
     URL: "https://twitter.com/LorenaLavinia/status/1584904945677082626",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5422,7 +6907,10 @@ export const data = [
     Event:
       "@hanodakhokha Don’t give them ideas because the writer will be like 😒\n\n#DuyBeni #EkKan ",
     URL: "https://twitter.com/AConfusedLamb/status/1584894233869135872",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5430,7 +6918,10 @@ export const data = [
     Event:
       "The Fragman isn’t even bad, everyone is always so negative. SO what if she’s an ex, Kanat loves Ekim. His love is unquestionable at this point, he has been choosing her over every other girl and everyone since day 1. #EkKan have and will survive everything✨ #DuyBeni",
     URL: "https://twitter.com/HeartlessLovahh/status/1584893770696646656",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5438,7 +6929,10 @@ export const data = [
     Event:
       "Not me being dumb and quiting this acc…Mabye I will Mabye I won’t ?… #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1584892195861299200",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5446,7 +6940,10 @@ export const data = [
     Event:
       "I have nothing more to say about the fragman expect for the fact that Kanat pulled away his hand when that girl touched him. Like atta boy! 😉\n\n#DuyBeni #EkKan ",
     URL: "https://twitter.com/AConfusedLamb/status/1584892031947935744",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5454,7 +6951,10 @@ export const data = [
     Event:
       "Sayyyy Gaya must have been Kanat’s BIG regret/disappointment since he happily told Ekim about his 8 year old self fallen for a girl that literally kicked his behind!! Gaya was furthest from his mind….🤭#DuyBeni  #ekkan",
     URL: "https://twitter.com/Mia_1526/status/1584890899426775040",
-    htag: ["#ekkan"],
+    Htag: ["#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5462,7 +6962,10 @@ export const data = [
     Event:
       "My reaction to the new fragman 😒 @diziduybeni \n\n#DuyBeni #EkKan ",
     URL: "https://twitter.com/AConfusedLamb/status/1584890386014953473",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5470,14 +6973,20 @@ export const data = [
     Event:
       "When writers run out of ideas in what to write for the main leads…they invent an EX who really doesn’t fit into the story that was already told 🤷��?���?♀��? and fandom is left🤷��?���?♀��?🙄😳😵��?💫😮��?💨🤡#DuyBeni\n #ekkan ",
     URL: "https://twitter.com/Mia_1526/status/1584883047207313408",
-    htag: ["#ekkan"],
+    Htag: ["#ekkan"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "_duybeniekkan",
     Event: "Gurl shut up or ill make u. #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1584878594848743426",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5485,7 +6994,10 @@ export const data = [
     Event:
       "The beauty and the Beast…💛💙.                      |@hearmeaziz • @hearmeleyla| #azley #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1584875345651458048",
-    htag: ["#azley", "#ekkan", "#duybeni"],
+    Htag: ["#azley", "#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5493,7 +7005,10 @@ export const data = [
     Event:
       "First leyla now ekim???? Like he dosent want his kids to be happy he is up to something. #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1584872361224175616",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5501,7 +7016,10 @@ export const data = [
     Event:
       "K: There is someone in my life, someone who I love very much. ���?\n\n#duybeni • #ekkan",
     URL: "https://twitter.com/lauxdby/status/1584871443619368960",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5509,7 +7027,7 @@ export const data = [
     Event:
       "The way Men become unkind when they no longer love you #love #unkind #men #mentalhealth #istanbul #NigeriaFloods #NigeriaFlood #FloodsInNigeria",
     URL: "https://twitter.com/SugarMill_/status/1585001484097564672",
-    htag: [
+    Htag: [
       "#love",
       "#unkind",
       "#men",
@@ -5519,6 +7037,9 @@ export const data = [
       "#nigeriaflood",
       "#floodsinnigeria",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5526,7 +7047,10 @@ export const data = [
     Event:
       "Organized by Istanbul Defense and Aerospace Cluster Association (SAHA), a major Turkish defense event SAHA Expo began in Istanbul on Tuesday. #SAHAExpo #Istanbul",
     URL: "https://twitter.com/anews/status/1584964415719411723",
-    htag: ["#sahaexpo", "#istanbul"],
+    Htag: ["#sahaexpo", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5534,7 +7058,7 @@ export const data = [
     Event:
       "🌔 The second partial solar eclipse of 2022 was observed in Türkiye on Tuesday. \n\nPeople were urged not to look directly at the sun during the eclipse without proper eyewear to avoid hurting their eyes.\n\n#Türkiye #istanbul #eclipse #solareclipse #solareclipse2022 #anews ",
     URL: "https://twitter.com/anews/status/1584960480333791233",
-    htag: [
+    Htag: [
       "#türkiye",
       "#istanbul",
       "#eclipse",
@@ -5542,6 +7066,9 @@ export const data = [
       "#solareclipse2022",
       "#anews",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5549,7 +7076,7 @@ export const data = [
     Event:
       "Istanbul will make a move forward in congress tourism  \n\n#travel #Turkey #congress #tourism #Istanbul #hotels",
     URL: "https://twitter.com/businessturkey/status/1584955863323750400",
-    htag: [
+    Htag: [
       "#travel",
       "#turkey",
       "#congress",
@@ -5557,6 +7084,9 @@ export const data = [
       "#istanbul",
       "#hotels",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5564,7 +7094,10 @@ export const data = [
     Event:
       "Consul General @sudhic212000 had an excellent meeting with Prof. Dr. @sirin_karadeniz, Rector, Bahcesehir University, #Istanbul @Bahcesehir and discussed future cooperation.",
     URL: "https://twitter.com/CGI_Istanbul/status/1584952527979974656",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5572,7 +7105,10 @@ export const data = [
     Event:
       "#GoodMorning #Istanbul is Mostly Clear #today. With a high of  C /  F and a low of 13 C / 56 F #Enjoy #ttot",
     URL: "https://twitter.com/Galata1875/status/1584939691274653696",
-    htag: ["#goodmorning", "#istanbul", "#today", "#enjoy", "#ttot"],
+    Htag: ["#goodmorning", "#istanbul", "#today", "#enjoy", "#ttot"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5580,7 +7116,7 @@ export const data = [
     Event:
       "A woman with Burqa. \n\n#Persian #Burqa #Istanbul #Aesthetic #Carpet #Rug #Fringe #Anatolian #turkishrug #Sculptural #Textile #Digital #Glitches #Tapestry #Moroccan #Iranian #Tiles #Patterns @ Istanbul, Turkey",
     URL: "https://twitter.com/derabramo/status/1584919907338272774",
-    htag: [
+    Htag: [
       "#persian",
       "#burqa",
       "#istanbul",
@@ -5600,6 +7136,9 @@ export const data = [
       "#tiles",
       "#patterns",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5607,7 +7146,7 @@ export const data = [
     Event:
       "Four young #engineers based in #Istanbul aspire for mass #production of a #hydrogen powered #scooter they call first in the world, offering a better alternative to #electric scooters\n\n➡��?",
     URL: "https://twitter.com/bazaartimes/status/1584909383703662592",
-    htag: [
+    Htag: [
       "#engineers",
       "#istanbul",
       "#production",
@@ -5615,6 +7154,9 @@ export const data = [
       "#scooter",
       "#electric",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5622,7 +7164,7 @@ export const data = [
     Event:
       "Sales humor..\n#istanbul #turkey #realestate #property #dreamhouse #appartments #lands #shops #hotel #investment #beautifulistanbul #beautifulview #explore #ottomanproperty #citizenshipoffer ",
     URL: "https://twitter.com/ottomanesatate/status/1584906044362326018",
-    htag: [
+    Htag: [
       "#istanbul",
       "#turkey",
       "#realestate",
@@ -5639,6 +7181,9 @@ export const data = [
       "#ottomanproperty",
       "#citizenshipoffer",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5646,7 +7191,10 @@ export const data = [
     Event:
       "Can you recommend anyone for this job? ISE -  #Sales #Istanbul, İstanbul",
     URL: "https://twitter.com/tmj_tur_jobs/status/1584901324654903298",
-    htag: ["#sales", "#istanbul"],
+    Htag: ["#sales", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5654,7 +7202,7 @@ export const data = [
     Event:
       "#Apartments located at #Bahçeşehir are now offered for 434,000 USD as a limited launching campaing. The #project includes spacious 2+1 apartments with a city view.  \n\n#house #invest #istanbul #bahçelievler",
     URL: "https://twitter.com/bazaarmixx/status/1584887613889994752",
-    htag: [
+    Htag: [
       "#apartments",
       "#bahçeşehir",
       "#project",
@@ -5663,6 +7211,9 @@ export const data = [
       "#istanbul",
       "#bahçelievler",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5670,7 +7221,7 @@ export const data = [
     Event:
       "88 sm 1+1 #apartments are now sold for 1.000.000$, the #project offers you 30 months of installment for  50 percent downpayment. Location is next to the metrobus, do not miss the opportunity to #invest ! \n#turkey #istanbul #sale #house #property",
     URL: "https://twitter.com/bazaarmixx/status/1584887476904394752",
-    htag: [
+    Htag: [
       "#apartments",
       "#project",
       "#invest",
@@ -5680,6 +7231,9 @@ export const data = [
       "#house",
       "#property",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5687,7 +7241,7 @@ export const data = [
     Event:
       "Resale 77 sm 1+1 apartment from #SpradonVadi for 122,00$, the #apartment is at 7th floor with a convenient balcony. The #project offers many benefits from a swimming pool to a gym. \n#istanbul #turkey #house #sale #invest",
     URL: "https://twitter.com/bazaarmixx/status/1584887391948804096",
-    htag: [
+    Htag: [
       "#spradonvadi",
       "#apartment",
       "#project",
@@ -5697,6 +7251,9 @@ export const data = [
       "#sale",
       "#invest",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5704,7 +7261,7 @@ export const data = [
     Event:
       "In Türkiye, house sales decreased by 22.9% in September compared to the same month of the previous year and became 113 thousand 402. İstanbul had the highest share with 16.8% and 19 thousand 89 house sales.\n #turkey #istanbul #turkeyproperty #propertynews #turkeynews #citizenship",
     URL: "https://twitter.com/mira_pazarlama/status/1584862344525537281",
-    htag: [
+    Htag: [
       "#turkey",
       "#istanbul",
       "#turkeyproperty",
@@ -5712,13 +7269,19 @@ export const data = [
       "#turkeynews",
       "#citizenship",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "kartalbusemerke",
     Event: "#kartal #istanbul",
     URL: "https://twitter.com/kartalbusemerke/status/1584850125196644353",
-    htag: ["#kartal", "#istanbul"],
+    Htag: ["#kartal", "#istanbul"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5726,7 +7289,7 @@ export const data = [
     Event:
       "High-end apartments, quality constructions, state-of-the-art finishes, and social facilities! \nSearch for your opportunity through this link:\n\n\n#usa #Russia #uk #home #forsale #property #RealEstate #İstanbul #Turkey",
     URL: "https://twitter.com/lalegroupen/status/1584843497508548609",
-    htag: [
+    Htag: [
       "#usa",
       "#russia",
       "#uk",
@@ -5737,13 +7300,19 @@ export const data = [
       "#i̇stanbul",
       "#turkey",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "tmj_tur_jobs",
     Event: "Want to work in #Istanbul, İstanbul? View our latest opening:",
     URL: "https://twitter.com/tmj_tur_jobs/status/1584796846005755910",
-    htag: ["#istanbul"],
+    Htag: ["#istanbul"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5751,7 +7320,10 @@ export const data = [
     Event:
       "AS Concept is located at Basin Ekspres. The structure makes a point of maximizing the exposure to sunlight. The project has three 21-story blocks, have a total of 605 apartments ranging from 1+1 to 4+1 and include 3+1 2+1 duplexes.  \n#bağcılar #istanbul #house #sale #apartment",
     URL: "https://twitter.com/bazaarmixx/status/1584785550359134208",
-    htag: ["#bağcılar", "#istanbul", "#house", "#sale", "#apartment"],
+    Htag: ["#bağcılar", "#istanbul", "#house", "#sale", "#apartment"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5759,7 +7331,10 @@ export const data = [
     Event:
       "20L Bamboo 2 No Rectangular Basket Supplier\n#Exporter #Manufacturer #Turkey #Products\n ",
     URL: "https://twitter.com/turkeysupplier/status/1585002072172273664",
-    htag: ["#exporter", "#manufacturer", "#turkey", "#products"],
+    Htag: ["#exporter", "#manufacturer", "#turkey", "#products"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5767,7 +7342,7 @@ export const data = [
     Event:
       "Visa issue in Europe may turn out to be advantage for Turkey’s tourism  \n\n#travel #Turkey #Europe #visa #issue #advantage #tourism",
     URL: "https://twitter.com/businessturkey/status/1584977809516023808",
-    htag: [
+    Htag: [
       "#travel",
       "#turkey",
       "#europe",
@@ -5776,6 +7351,9 @@ export const data = [
       "#advantage",
       "#tourism",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5783,7 +7361,10 @@ export const data = [
     Event:
       "🚨11 journalists were detained in #Turkey today.\n\n🚨7 are correspondents for the Mesopotamia News Agency (MA) and JINNEWS.  \n\n🚨Numerous digital materials and documents in the raided offices were confiscated by the police.\n\n@CFWIJ\n#JournalismIsNotACrime ",
     URL: "https://twitter.com/SES_english/status/1584960394254163969",
-    htag: ["#turkey", "#journalismisnotacrime"],
+    Htag: ["#turkey", "#journalismisnotacrime"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5791,7 +7372,10 @@ export const data = [
     Event:
       "#Sweden will address #Turkey's concerns over #NATO bid: new FM tells @AFP",
     URL: "https://twitter.com/FulyaOzerkan/status/1584941738019684357",
-    htag: ["#sweden", "#turkey'", "#nato"],
+    Htag: ["#sweden", "#turkey's", "#nato"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5799,7 +7383,10 @@ export const data = [
     Event:
       "Footage shows how a woman journalist was mistreated as she was arrested this morning.\n#turkey ",
     URL: "https://twitter.com/eyluldenizjourn/status/1584868436337127424",
-    htag: ["#turkey"],
+    Htag: ["#turkey"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5807,7 +7394,7 @@ export const data = [
     Event:
       "Marquoise Cut Clear Zircon Stone Earrings Turkish 925 Sterling Silver Jewelry\n\n\n\n#Trendy #earrings #women #womenjewelry #silverjewelry #stud #wholesale #turkish #turkey #handmade #handcrafted #fashion #jewelry #finejewelry #studearrings ",
     URL: "https://twitter.com/TheiaSilver/status/1584860669060386817",
-    htag: [
+    Htag: [
       "#trendy",
       "#earrings",
       "#women",
@@ -5824,6 +7411,9 @@ export const data = [
       "#finejewelry",
       "#studearrings",
     ],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5831,7 +7421,10 @@ export const data = [
     Event:
       "Our university had a great visit from the Minister of Education of Lebanon. Dr. Abbas Halabi and his staff.\n\nThey took a tour of our university with our office Manager Mr. Selim Vardarbas and Our supervisor Mr. Alaeddine Hamouda\n\n#turkey \n#education \n#lebanon ",
     URL: "https://twitter.com/medipolint/status/1584856002004127745",
-    htag: ["#turkey", "#education", "#lebanon"],
+    Htag: ["#turkey", "#education", "#lebanon"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5839,7 +7432,7 @@ export const data = [
     Event:
       "#miraclinic #Turkey  #Hollywoodsmile #dental #zirconias #dentalimplant #veneers #Crowns #teeth #dentist #fyp #Tiktok #instagram  #video  #music #trend #emaxcad",
     URL: "https://twitter.com/mira_clinic_net/status/1584851568737734661",
-    htag: [
+    Htag: [
       "#miraclinic",
       "#turkey",
       "#hollywoodsmile",
@@ -5858,6 +7451,9 @@ export const data = [
       "#trend",
       "#emaxcad",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5865,7 +7461,10 @@ export const data = [
     Event:
       "The updated list of the 11 journalists detained in 6 cities of #Turkey",
     URL: "https://twitter.com/eyluldenizjourn/status/1584841057472479232",
-    htag: ["#turkey"],
+    Htag: ["#turkey"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5873,7 +7472,10 @@ export const data = [
     Event:
       "Yeni Yasam writes:\n\"Journalists were handcuffed from behind, they were kept waiting like that during the raids. Guns were pointed at them. 'Are you Turkish?' the police asked them.\"\n#turkey",
     URL: "https://twitter.com/eyluldenizjourn/status/1584840788344598530",
-    htag: ["#turkey"],
+    Htag: ["#turkey"],
+    Category: "General",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5881,7 +7483,7 @@ export const data = [
     Event:
       "Currency prices in Turkey on  25\\10\\2022\n\n\n\n#realestateturkey #realestatecompany #turkey #investinturkey #realestateinvestment #turkisheconomy #exchangerate #dollartl ",
     URL: "https://twitter.com/mira_pazarlama/status/1584817506010677253",
-    htag: [
+    Htag: [
       "#realestateturkey",
       "#realestatecompany",
       "#turkey",
@@ -5891,6 +7493,9 @@ export const data = [
       "#exchangerate",
       "#dollartl",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5898,7 +7503,7 @@ export const data = [
     Event:
       "6 party table starts taking action: Work will be carried out on field for election security  \n\n#Turkey #elections #security #check #control #votes #voters #residents",
     URL: "https://twitter.com/businessturkey/status/1584816733139128320",
-    htag: [
+    Htag: [
       "#turkey",
       "#elections",
       "#security",
@@ -5908,6 +7513,9 @@ export const data = [
       "#voters",
       "#residents",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5915,7 +7523,10 @@ export const data = [
     Event:
       "New day in #Turkey: Around 10 journalists arrested during the raids to their homes.",
     URL: "https://twitter.com/eyluldenizjourn/status/1584798482539257856",
-    htag: ["#turkey"],
+    Htag: ["#turkey"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5923,7 +7534,10 @@ export const data = [
     Event:
       "Behrooz Zaare,unsure about spelling in English, an #Iranian dissident in #Turkey was detained and may be deported back to #Iran. In the last few weeks since protests have spread to Turkey, the AKP government is keeping silent but disliking the secular ideals of #IranRevoIution",
     URL: "https://twitter.com/faribanawa/status/1584793981749116928",
-    htag: ["#iranian", "#turkey", "#iran", "#iranrevoiution"],
+    Htag: ["#iranian", "#turkey", "#iran", "#iranrevoiution"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5931,12 +7545,15 @@ export const data = [
     Event:
       "City center Properties for sale in Basaksehir Istanbul Turkey.\n\nWebsite: \nWhatsapp: \n\nWatch our new portfolio video!\n\n\n\n#turkishcitizenship #propertyforsaleinistanbul #propertyfinderturkey #basaksehircitycenter",
     URL: "https://twitter.com/saleinistanbul/status/1584979095980367872",
-    htag: [
+    Htag: [
       "#turkishcitizenship",
       "#propertyforsaleinistanbul",
       "#propertyfinderturkey",
       "#basaksehircitycenter",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5944,7 +7561,7 @@ export const data = [
     Event:
       "Peeling patterns. \n\n#pantone #salmon #pink #Traditional #Turkish #Tiles #Seramik #Mosque #Pattern #old #surface #central #asia #Anatolia #turquoise @ Istanbul, Turkey",
     URL: "https://twitter.com/derabramo/status/1585004719063318531",
-    htag: [
+    Htag: [
       "#pantone",
       "#salmon",
       "#pink",
@@ -5961,6 +7578,9 @@ export const data = [
       "#anatolia",
       "#turquoise",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5968,7 +7588,10 @@ export const data = [
     Event:
       "@Istanbul__Cats Bruh…it doesn't get more #Turkish than this.\nEating food with BREAD which is served on a traditional Turkish table called #sofra.\nIn #Türkiye you get in trouble with your parents when avoiding bread while eating.\nThis cat knows how to behave when having a Turkish meal…!\n���?���?",
     URL: "https://twitter.com/GaripTheCat/status/1584925690335531009",
-    htag: ["#turkish", "#sofra", "#türkiye"],
+    Htag: ["#turkish", "#sofra", "#türkiye"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5976,7 +7599,7 @@ export const data = [
     Event:
       "Turkish Tiles with Blue Ornaments.\n\n#Traditional #Turkish #Tiles #Seramik #Mosque #Pattern #old #surface #central #asia #Anatolia #turquoise @ Istanbul, Turkey",
     URL: "https://twitter.com/derabramo/status/1584917904889462784",
-    htag: [
+    Htag: [
       "#traditional",
       "#turkish",
       "#tiles",
@@ -5990,6 +7613,9 @@ export const data = [
       "#anatolia",
       "#turquoise",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -5997,7 +7623,7 @@ export const data = [
     Event:
       "In the #January #September period, 687 thousand 966 #vehicles were #exported from #Turkiye. Half of these vehicles came out of the factories established in #Kocaeli\n\n➡��?",
     URL: "https://twitter.com/bazaartimes/status/1584909192221048833",
-    htag: [
+    Htag: [
       "#january",
       "#september",
       "#vehicles",
@@ -6005,6 +7631,9 @@ export const data = [
       "#turkiye",
       "#kocaeli",
     ],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -6012,7 +7641,10 @@ export const data = [
     Event:
       "#world, watch this also incase you didn't start care about us.\n8 years old girl target by the bullet in #saravan (sistan &amp; balouchestan)  its time to believe us more than ever, be our voice to your own politicians.",
     URL: "https://twitter.com/Mardounyeh/status/1584772788484993025",
-    htag: ["#world", "#saravan"],
+    Htag: ["#world", "#saravan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -6020,7 +7652,10 @@ export const data = [
     Event:
       "5. How many people died during the #demonstrations?\n\nThe death toll of the #demonstrators is close to 250, including at least 23 #children.",
     URL: "https://twitter.com/trtworldforum/status/1584849325942657024",
-    htag: ["#demonstrations", "#demonstrators", "#children"],
+    Htag: ["#demonstrations", "#demonstrators", "#children"],
+    Category: "Education",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -6028,7 +7663,10 @@ export const data = [
     Event:
       "🇬🇧_||~🎙 Jim Chalmers' 'restraint' budget the first stage of a marathon for the treasurer Amid natural disasters, soaring power prices, horrifying interest rates and war, this is no galavanting spend-a-thon #auspol #budget",
     URL: "https://twitter.com/cover_up8d/status/1584945323432370176",
-    htag: ["#auspol", "#budget"],
+    Htag: ["#auspol", "#budget"],
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -6036,7 +7674,7 @@ export const data = [
     Event:
       "#leaders #leadership #coaching #act #inspire #motivation #empower #legacy #trust #empathy #change #inspiration #teams #selfdevelopment #professionaldevelopment #emotional #resilience #enhance #spirit #focus #blessing #marketing #businessmanagement",
     URL: "https://twitter.com/SouzanBachir/status/1584807624276865024",
-    htag: [
+    Htag: [
       "#leaders",
       "#leadership",
       "#coaching",
@@ -6061,6 +7699,9 @@ export const data = [
       "#marketing",
       "#businessmanagement",
     ],
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -6068,7 +7709,7 @@ export const data = [
     Event:
       "Don’t hesitate to smile with Aesthetic Smile Design!\n\n#bagcilarsafakglobal #health #healthcare #doctors #patientcare #medicare #urgentcare #globalhealth #medical #wellness #aesthetics #dentalcare #aestheticsmiledesign ",
     URL: "https://twitter.com/BagcilarGlobal/status/1584886918407344128",
-    htag: [
+    Htag: [
       "#bagcilarsafakglobal",
       "#health",
       "#healthcare",
@@ -6083,6 +7724,9 @@ export const data = [
       "#dentalcare",
       "#aestheticsmiledesign",
     ],
+    Category: "Health",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -6090,12 +7734,15 @@ export const data = [
     Event:
       "Epic #lifestyle show, #shoppingqueens coming soon in Africa! Stay tuned folks 📺 \n#GlobalAgency #ContentThatCreatesBuzz",
     URL: "https://twitter.com/miskoradojevic/status/1584838668908650497",
-    htag: [
+    Htag: [
       "#lifestyle",
       "#shoppingqueens",
       "#globalagency",
       "#contentthatcreatesbuzz",
     ],
+    Category: "Health",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -6103,7 +7750,10 @@ export const data = [
     Event:
       "#Flat24 by 24 Gayrimenkul is situated on #Ikitelli Avenue of #Halkalı. The architectural quality of the #project reflects a modern and youthful design. Glass and steel are the main products of the exterior #architecture of the building.",
     URL: "https://twitter.com/bazaarmixx/status/1584785221765201921",
-    htag: ["#flat24", "#ikitelli", "#halkalı", "#project", "#architecture"],
+    Htag: ["#flat24", "#ikitelli", "#halkalı", "#project", "#architecture"],
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -6111,7 +7761,10 @@ export const data = [
     Event:
       "GM ☀��?\nWorking on something exciting .. will be sharing more progress over the next few weeks. \n\nWIP B&amp;W still frame from an animated piece.\n#nft #art ",
     URL: "https://twitter.com/bassil_taleb/status/1584790363130036224",
-    htag: ["#nft", "#art"],
+    Htag: ["#nft", "#art"],
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -6119,7 +7772,10 @@ export const data = [
     Event:
       "Vietnam's central bank raises interest rates by 100 basis points to tame inflation\n\n#Vietnam #InterestRates #Inflation #StateBankofVietnam ",
     URL: "https://twitter.com/TRTMoneyTalks/status/1584820810182791170",
-    htag: ["#vietnam", "#interestrates", "#inflation", "#statebankofvietnam"],
+    Htag: ["#vietnam", "#interestrates", "#inflation", "#statebankofvietnam"],
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -6127,7 +7783,7 @@ export const data = [
     Event:
       "Why Niantic anticipates legal challenges from OOH companies and brands as it develops immersive AR activations\n@Digiday\n\n#technology #bigtech #augmentedreality #immersivetechnology #intellectualproperty #intellectualpropertyrights #physicalworld #legal",
     URL: "https://twitter.com/YenipinarZeynep/status/1584853351195643904",
-    htag: [
+    Htag: [
       "#technology",
       "#bigtech",
       "#augmentedreality",
@@ -6137,41 +7793,59 @@ export const data = [
       "#physicalworld",
       "#legal",
     ],
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "mcenzura",
     Event: "street\n\n#streetphotography #photography ",
     URL: "https://twitter.com/mcenzura/status/1585044464401547266",
-    htag: ["#streetphotography", "#photography"],
+    Htag: ["#streetphotography", "#photography"],
+    Category: "Lifestyle",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "ishootbw",
     Event: "I Like a Photo @viewbug.  #photography",
     URL: "https://twitter.com/ishootbw/status/1584891560788901890",
-    htag: ["#photography"],
+    Htag: ["#photography"],
+    Category: "Lifestyle",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "ishootbw",
     Event: "I uploaded a Photo @viewbug.  #photography",
     URL: "https://twitter.com/ishootbw/status/1584875447074045952",
-    htag: ["#photography"],
+    Htag: ["#photography"],
+    Category: "Lifestyle",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "ishootbw",
     Event: "I uploaded a Photo @viewbug.  #photography",
     URL: "https://twitter.com/ishootbw/status/1584862788845010944",
-    htag: ["#photography"],
+    Htag: ["#photography"],
+    Category: "Lifestyle",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "",
     Event: "Number of fatal traffic accidents remain high in Istanbul",
     URL: "https://www.dailysabah.com/turkey/istanbul/number-of-fatal-traffic-accidents-remain-high-in-istanbul",
-    htag: "",
+    Htag: "",
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -6179,7 +7853,10 @@ export const data = [
     Event:
       "A hair transplant at this clinic in Istanbul can be a more affordable cost",
     URL: "https://www.mylondon.news/special-features/hair-transplant-clinic-istanbul-can-25281076",
-    htag: "",
+    Htag: "",
+    Category: "Health",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -6187,7 +7864,10 @@ export const data = [
     Event:
       "Despite Khashoggi murder, these US universities still flush with Saudi money",
     URL: "https://responsiblestatecraft.org/2022/10/25/us-universities-saudi-income-flourishes-four-years-after-khashoggi-murder/",
-    htag: "",
+    Htag: "",
+    Category: "Education",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -6195,28 +7875,40 @@ export const data = [
     Event:
       "Axe falls on Japan’s economy minister over links to controversial Unification Church",
     URL: "https://www.aa.com.tr/en/asia-pacific/axe-falls-on-japan-s-economy-minister-over-links-to-controversial-unification-church/2720029",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "",
     Event: "Türkiye's Borsa Istanbul closes Monday with new record",
     URL: "https://www.aa.com.tr/en/economy/turkiyes-borsa-istanbul-closes-monday-with-new-record/2719718",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "",
     Event: "Business forum to focus on war-shadowed food security",
     URL: "https://www.dailysabah.com/business/economy/business-forum-to-focus-on-war-shadowed-food-security",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "",
     Event: "First-time visitors to Istanbul on the rise",
     URL: "https://www.hurriyetdailynews.com/first-time-visitors-to-istanbul-on-the-rise-177959",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -6224,21 +7916,30 @@ export const data = [
     Event:
       "Türkiye to align blockchain growth with its 'result-oriented' work culture",
     URL: "https://www.trtworld.com/magazine/t%C3%BCrkiye-to-align-blockchain-growth-with-its-result-oriented-work-culture-61917",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "",
     Event: "Sweet temptation: Istanbul's beloved 'brothel dessert'",
     URL: "https://www.bbc.com/travel/article/20221024-sweet-temptation-istanbuls-beloved-brothel-dessert",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "",
     Event: "Century of Türkiye biggest heritage to future generations: Erdoğan",
     URL: "https://www.hurriyetdailynews.com/century-of-turkiye-biggest-heritage-to-future-generations-erdogan-177978",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -6246,7 +7947,10 @@ export const data = [
     Event:
       "Archeologists discover grinding stones at Turkish site of Göbeklitepe",
     URL: "https://www.dailysabah.com/arts/archeologists-discover-grinding-stones-at-turkish-site-of-gobeklitepe/news",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -6254,14 +7958,20 @@ export const data = [
     Event:
       "State Rep. Colleen Burton faces Democrat newcomer Veysel Dokur for state Senate seat",
     URL: "https://www.theledger.com/story/news/politics/elections/candidate-profiles/2022/10/24/district-12-florida-senate-colleen-burton-veysel-dokur/10525655002/",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
     Username: "",
     Event: "‘Touched by Humankind’ at Kalyon Kültür",
     URL: "https://www.hurriyetdailynews.com/touched-by-humankind-at-kalyon-kultur-177954",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/25/2022",
@@ -6269,14 +7979,20 @@ export const data = [
     Event:
       "Recent findings in ancient Turkish site of Gobeklitepe set to shed new light on human history",
     URL: "https://www.aa.com.tr/en/turkiye/recent-findings-in-ancient-turkish-site-of-gobeklitepe-set-to-shed-new-light-on-human-history/2719760",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "HeartlessLovahh",
     Event: "In love with their love #EkKan #DuyBeni",
     URL: "https://twitter.com/HeartlessLovahh/status/1585420150307946496",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6284,7 +8000,10 @@ export const data = [
     Event:
       "Happy duy beni day I can’t wait to se my litte love birds talking to each other and dancing 🫶��?�🥺 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1585408657398824960",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6292,14 +8011,20 @@ export const data = [
     Event:
       "“Both a litte scared , neither one prepared, Beauty and the Beast…��?.             |@hearmekanat • @hearmekim | #ekkan #duybeni #EkKan",
     URL: "https://twitter.com/_duybeniekkan/status/1585330251634130944",
-    htag: ["#ekkan", "#duybeni", "#ekkan"],
+    Htag: ["#ekkan", "#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "loosemoose97",
     Event: "Bring back Ekim as the narrator.\n\n#DuyBeni #EkKan",
     URL: "https://twitter.com/loosemoose97/status/1585325654450458625",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6307,7 +8032,10 @@ export const data = [
     Event:
       "@someratr Apparently you guys can’t count! Ekkan has more that!! 😒😒\n\n#DuyBeni #EkKan",
     URL: "https://twitter.com/AConfusedLamb/status/1585304202448089088",
-    htag: ["#duybeni", "#ekkan"],
+    Htag: ["#duybeni", "#ekkan"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6315,28 +8043,40 @@ export const data = [
     Event:
       "Rabia soyturk will always be the main event and the main character. the most famous among them all. STAY MAD. #ekkan #rabcan #RabiaSoytürk #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1585278536390156288",
-    htag: ["#ekkan", "#rabcan", "#rabiasoytürk", "#duybeni"],
+    Htag: ["#ekkan", "#rabcan", "#rabiasoytürk", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "_duybeniekkan",
     Event: "Ekim is always there for him by sweet angel💓 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1585245389372141569",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "_duybeniekkan",
     Event: "No please don’t dot this to us @mericdem #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1585153160867217410",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "_duybeniekkan",
     Event: "Good morning to us with rabcannn💕 #ekkan #duybeni",
     URL: "https://twitter.com/_duybeniekkan/status/1585146195680595970",
-    htag: ["#ekkan", "#duybeni"],
+    Htag: ["#ekkan", "#duybeni"],
+    Category: "General",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6344,7 +8084,10 @@ export const data = [
     Event:
       "Thx #elonmusk ���?��?� my #Twitter stock has gone up📈 Now you can sell Twitter.✌��?�",
     URL: "https://twitter.com/aryagokkus/status/1585385457671888897",
-    htag: ["#elonmusk", "#twitter"],
+    Htag: ["#elonmusk", "#twitter"],
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6352,7 +8095,7 @@ export const data = [
     Event:
       "The Celine is located at Istanbul’s historic center, and moreover, it is part of the city’s immaculate cultural legacy.\n\n#celinehotel #sultanahmet #boutiquehotel #architecture #details #hotelphotography #hotels #hotelroom #bestvacations #moments #roomdecor",
     URL: "https://twitter.com/celinehotel_/status/1585218875754700801",
-    htag: [
+    Htag: [
       "#celinehotel",
       "#sultanahmet",
       "#boutiquehotel",
@@ -6365,6 +8108,9 @@ export const data = [
       "#moments",
       "#roomdecor",
     ],
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6372,7 +8118,10 @@ export const data = [
     Event:
       '"A Phase"\n\nAvailable @Ninfa_io \n\nLink in comments 👇\n#nft #art ',
     URL: "https://twitter.com/bassil_taleb/status/1585305952026529792",
-    htag: ["#nft", "#art"],
+    Htag: ["#nft", "#art"],
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6380,7 +8129,7 @@ export const data = [
     Event:
       "Here are 8 reasons to study in Istanbul! 🥳\n.\n.\n#education #university #turkey #istanbul #bosphorus  #history  #students #studentlife #study #economy #food  #socialmedia #social #social #life #fun #affordable  #art #erasmus #exchange #internationalstudents  #kadirhasüniversitesi ",
     URL: "https://twitter.com/KHASintoffice/status/1585240855086260224",
-    htag: [
+    Htag: [
       "#education",
       "#university",
       "#turkey",
@@ -6404,6 +8153,9 @@ export const data = [
       "#internationalstudents",
       "#kadirhasüniversitesi",
     ],
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6411,7 +8163,7 @@ export const data = [
     Event:
       "Here are 8 reasons to study in Istanbul! 🥳\n.\n.\n#education #university #turkey #istanbul #bosphorus  #history  #students #studentlife #study #economy #food  #socialmedia #social #social #life #fun #affordable  #art #erasmus #exchange #internationalstudents  #kadirhasüniversitesi ",
     URL: "https://twitter.com/KHASintoffice/status/1585240244948897792",
-    htag: [
+    Htag: [
       "#education",
       "#university",
       "#turkey",
@@ -6435,6 +8187,9 @@ export const data = [
       "#internationalstudents",
       "#kadirhasüniversitesi",
     ],
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6442,7 +8197,7 @@ export const data = [
     Event:
       "Soviet Share - USSR, Azerbaijan. \n\n#ussr #soviet #azerbaycan #vintage #autumn #fall #love #spooky #art #nature #photography #spookyseason #follow @ Istanbul, Turkey",
     URL: "https://twitter.com/derabramo/status/1585197823359959040",
-    htag: [
+    Htag: [
       "#ussr",
       "#soviet",
       "#azerbaycan",
@@ -6457,6 +8212,9 @@ export const data = [
       "#spookyseason",
       "#follow",
     ],
+    Category: "Culture",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6464,7 +8222,10 @@ export const data = [
     Event:
       "Gm ☀��?\nI might slowly reveal this one .. maybe tomorrow I'll share a short preview animation but not more 😂\n\nMore exciting stuff coming soon 👀\n#nft #art ",
     URL: "https://twitter.com/bassil_taleb/status/1585153312336142336",
-    htag: ["#nft", "#art"],
+    Htag: ["#nft", "#art"],
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6472,7 +8233,10 @@ export const data = [
     Event:
       "Miller Carter Education Series: S1:E1\n\nWhat is marketing reach? Why should your business measure it? \n\nMarketing reach refers to the estimated number of potential customers you can reach with your message or an entire campaign. \n#digitalmarketing #reach #KPI #education ",
     URL: "https://twitter.com/millercarterba/status/1585179628460802050",
-    htag: ["#digitalmarketing", "#reach", "#kpi", "#education"],
+    Htag: ["#digitalmarketing", "#reach", "#kpi", "#education"],
+    Category: "Education",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6480,7 +8244,7 @@ export const data = [
     Event:
       "Flower Shape Earrings Wholesale Handmade Turkish 925 Sterling Silver Jewelry\n\n\n\n#silver #earrings #women #flower #tiny #studearrings #handmade #handcrafted #business #jewelry #jewellery #wholesale #trendy #fashion #sterlingsilver #silverearrings #minimalist ",
     URL: "https://twitter.com/TheiaSilver/status/1585265875346722817",
-    htag: [
+    Htag: [
       "#silver",
       "#earrings",
       "#women",
@@ -6499,6 +8263,9 @@ export const data = [
       "#silverearrings",
       "#minimalist",
     ],
+    Category: "Lifestyle",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6506,7 +8273,7 @@ export const data = [
     Event:
       "For Healthy lifestyle\nFOLLOW the expert tips😉\n#health  #o2care #healthylifestyle #HealthcareConsultancy #Medical #HospitalConstruction ",
     URL: "https://twitter.com/O2Care_tur/status/1585200818898481152",
-    htag: [
+    Htag: [
       "#health",
       "#o2care",
       "#healthylifestyle",
@@ -6514,6 +8281,9 @@ export const data = [
       "#medical",
       "#hospitalconstruction",
     ],
+    Category: "Lifestyle",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6521,7 +8291,7 @@ export const data = [
     Event:
       "Housing credit risk in South Korea surges to 19-year high amid rising interest rates\n\n#SKorea #SouthKorea #Korea #Housing #CreditRisk #Mortgage #InterestRates #Seoul ",
     URL: "https://twitter.com/TRTMoneyTalks/status/1585198297567961088",
-    htag: [
+    Htag: [
       "#skorea",
       "#southkorea",
       "#korea",
@@ -6531,6 +8301,9 @@ export const data = [
       "#interestrates",
       "#seoul",
     ],
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6538,14 +8311,20 @@ export const data = [
     Event:
       "Australia's inflation hits 32-year high of 7.3% in three months to September\n\n#Australia #Inflation #Prices ",
     URL: "https://twitter.com/TRTMoneyTalks/status/1585191801799217153",
-    htag: ["#australia", "#inflation", "#prices"],
+    Htag: ["#australia", "#inflation", "#prices"],
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "ishootbw",
     Event: "I received a peer recognition @Viewbug  #photography",
     URL: "https://twitter.com/ishootbw/status/1585260604717244417",
-    htag: ["#photography"],
+    Htag: ["#photography"],
+    Category: "Lifestyle",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6553,7 +8332,7 @@ export const data = [
     Event:
       "One Nation offers vacation packages to Turkey that include visits to some of the most popular tourist destinations in the country. Check out the amazing travel packages at \n\n#turkey #Istanbul #pamukkale #Ankara #Ephesus #Cappadocia #vacation #trip #Travel",
     URL: "https://twitter.com/OneNationTravel/status/1585336207558397953",
-    htag: [
+    Htag: [
       "#turkey",
       "#istanbul",
       "#pamukkale",
@@ -6564,13 +8343,16 @@ export const data = [
       "#trip",
       "#travel",
     ],
+    Category: "Lifestyle",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "businessturkey",
     Event: "#Turkey #travel #traffic #driving #inspection #police #fines",
     URL: "https://twitter.com/businessturkey/status/1585308373846736896",
-    htag: [
+    Htag: [
       "#turkey",
       "#travel",
       "#traffic",
@@ -6579,6 +8361,9 @@ export const data = [
       "#police",
       "#fines",
     ],
+    Category: "Lifestyle",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6586,7 +8371,7 @@ export const data = [
     Event:
       "Car owners beware! Turkey’s Ministry of Interior to take action and start new era in traffic  \n\n#Turkey #travel #traffic #driving #inspection #police #fines",
     URL: "https://twitter.com/businessturkey/status/1585308170393505802",
-    htag: [
+    Htag: [
       "#turkey",
       "#travel",
       "#traffic",
@@ -6595,6 +8380,9 @@ export const data = [
       "#police",
       "#fines",
     ],
+    Category: "Lifestyle",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6602,7 +8390,7 @@ export const data = [
     Event:
       "The camping caravan sector in Turkey is running to 600 million dollars volume  \n\n#travel #Turkey #holidays #camping #caravan #sector #boom",
     URL: "https://twitter.com/businessturkey/status/1585169556993019906",
-    htag: [
+    Htag: [
       "#travel",
       "#turkey",
       "#holidays",
@@ -6611,34 +8399,49 @@ export const data = [
       "#sector",
       "#boom",
     ],
+    Category: "Lifestyle",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "Istanbul set to accept credit cards for mass transit passes",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbul-set-to-accept-credit-cards-for-mass-transit-passes",
-    htag: "",
+    Htag: "",
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "Number of fatal traffic accidents remain high in Istanbul",
     URL: "https://www.dailysabah.com/turkey/istanbul/number-of-fatal-traffic-accidents-remain-high-in-istanbul",
-    htag: "",
+    Htag: "",
+    Category: "Traffic",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "Number of fatal traffic accidents remain high in Istanbul",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbul-witnesses-thousands-of-casualities-over-a-decade",
-    htag: "",
+    Htag: "",
+    Category: "Traffic",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "News for Airlines, Airports and the Aviation Industry",
     URL: "https://centreforaviation.com/news/istanbul-airport-traffic-to-exceed-pre-pandemic-levels-in-2023-1167241",
-    htag: "",
+    Htag: "",
+    Category: "Traffic",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6646,7 +8449,10 @@ export const data = [
     Event:
       "Turkey: Security forces attempt to disperse protesters in Kadikoy area of Istanbul",
     URL: "https://crisis24.garda.com/alerts/2022/10/turkey-security-forces-attempt-to-disperse-protesters-in-kadikoy-area-of-istanbul-oct-26",
-    htag: "",
+    Htag: "",
+    Category: "Traffic",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6654,14 +8460,20 @@ export const data = [
     Event:
       "Number of Vehicles Registered to Traffic in Izmir 1 Million 627 thousand 885",
     URL: "https://raillynews.com/2022/10/izmirde-trafige-kayitli-arac-sayisi-1-milyon-627-bin-885-oldu/",
-    htag: "",
+    Htag: "",
+    Category: "Traffic",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "Monkeypox situation update, as of 25 October 2022",
     URL: "https://www.ecdc.europa.eu/en/news-events/monkeypox-situation-update",
-    htag: "",
+    Htag: "",
+    Category: "Health",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6669,7 +8481,10 @@ export const data = [
     Event:
       "Defence Secretary meets Turkish counterpart at SAHA Expo in Istanbul",
     URL: "https://www.gov.uk/government/news/defence-secretary-meets-turkish-counterpart-at-saha-expo-in-istanbul",
-    htag: "",
+    Htag: "",
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6677,7 +8492,10 @@ export const data = [
     Event:
       "Erdoğan orders Turkish Medical Association head detained: Hands off Fincancı!",
     URL: "https://www.wsws.org/en/articles/2022/10/26/ulyh-o26.html",
-    htag: "",
+    Htag: "",
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6685,21 +8503,30 @@ export const data = [
     Event:
       "Number of Gülen followers in İstanbul prison surpasses all others jailed on terrorism charges",
     URL: "https://stockholmcf.org/number-of-gulenists-in-istanbul-prison-surpasses-all-others-jailed-on-terrorism-charges/",
-    htag: "",
+    Htag: "",
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "‘Basically a Savior’: Why Crypto Is So Popular in Turkey",
     URL: "https://finance.yahoo.com/news/basically-savior-why-crypto-popular-184554952.html",
-    htag: "",
+    Htag: "",
+    Category: "Government",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "Türkiye, Libya sign accords to boost military cooperation",
     URL: "https://www.trtworld.com/turkey/t%C3%BCrkiye-libya-sign-accords-to-boost-military-cooperation-61982",
-    htag: "",
+    Htag: "",
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6707,7 +8534,10 @@ export const data = [
     Event:
       "What the UK ratifying the Istanbul convention on gendered violence means for women and girls",
     URL: "https://uk.news.yahoo.com/uk-ratifying-istanbul-convention-gendered-144615340.html",
-    htag: "",
+    Htag: "",
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6715,7 +8545,10 @@ export const data = [
     Event:
       "Biden called Turkish PM to warn of false accusations against the US, but Turkey remained unmoved",
     URL: "https://nordicmonitor.com/2022/10/biden-called-turkish-pm-to-warn-false-accusations-against-the-us-turkey-unmoved/",
-    htag: "",
+    Htag: "",
+    Category: "Government",
+    SentimentCategory: "Negative",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6723,7 +8556,10 @@ export const data = [
     Event:
       "Former teacher says she was strip-searched in prison and punished for revealing it in letter",
     URL: "https://stockholmcf.org/former-teacher-says-she-was-strip-searched-in-prison-and-punished-for-revealing-it-in-letter/",
-    htag: "",
+    Htag: "",
+    Category: "Government",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6731,21 +8567,30 @@ export const data = [
     Event:
       "Greece should see Türkiye as strong, reliable partner, not threat: Akar",
     URL: "https://www.dailysabah.com/politics/eu-affairs/greece-should-see-turkiye-as-strong-reliable-partner-not-threat-akar",
-    htag: "",
+    Htag: "",
+    Category: "Education",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "Istanbul Economy Summit to shed light on global value chains",
     URL: "https://www.dailysabah.com/business/economy/istanbul-economy-summit-to-shed-light-on-global-value-chains",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "Turkish, EU officials, business leaders tout economic ties",
     URL: "https://www.dailysabah.com/business/economy/turkish-eu-officials-business-leaders-tout-economic-ties",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6753,14 +8598,20 @@ export const data = [
     Event:
       "The ferries of Istanbul: a day at the crossroads of Europe and Asia",
     URL: "https://www.theguardian.com/global-development/2022/oct/25/the-ferries-of-istanbul-a-day-at-the-crossroads-of-europe-and-asia",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "University building collapses due to nearby construction",
     URL: "https://www.hurriyetdailynews.com/university-building-collapses-due-to-nearby-construction-177973",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6768,7 +8619,10 @@ export const data = [
     Event:
       "At EU-Turkish high-level business meeting, officials, business leaders tout economic ties",
     URL: "https://www.aa.com.tr/en/economy/at-eu-turkish-high-level-business-meeting-officials-business-leaders-tout-economic-ties/2721194",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6776,14 +8630,20 @@ export const data = [
     Event:
       "Turkey: Election disruptions loom as social media giants likely to resist Turkey's new law, Marketing & Advertising News, ET BrandEquity",
     URL: "https://brandequity.economictimes.indiatimes.com/news/digital/election-disruptions-loom-as-social-media-giants-likely-to-resist-turkeys-new-law/95056025",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "Istanbul set to accept credit cards for mass transit passes",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbul-set-to-accept-credit-cards-for-mass-transit-passes",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6791,7 +8651,10 @@ export const data = [
     Event:
       "Turkey fines Zuckerberg, 'Meta doesn't respect competition' - Economy - ANSAMed",
     URL: "https://www.ansamed.info/ansamed/en/news/sections/economics/2022/10/26/turkey-fines-zuckerberg-meta-doesnt-respect-competition_345e5e41-5b6b-4d4a-aa59-e534fffde16c.html",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6799,7 +8662,10 @@ export const data = [
     Event:
       "Turkey Wants To Organize Meeting Of Russian, German Energy Ministers In Istanbul",
     URL: "https://www.urdupoint.com/en/world/turkey-wants-to-organize-meeting-of-russian-1584192.html",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6807,14 +8673,20 @@ export const data = [
     Event:
       "Watch: iGA Istanbul Airport CEO Outlines His Network Development Plans",
     URL: "https://www.routesonline.com/news/29/breaking-news/298872/watch-iga-istanbul-airport-ceo-outlines-his-network-development-plans/",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "Saudi investments in Türkiye amount to $18bln: Dr. Al-Qasabi",
     URL: "https://www.zawya.com/en/economy/gcc/saudi-investments-in-turkiye-amount-to-18bln-dr-al-qasabi-rvavdw3r",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6822,21 +8694,30 @@ export const data = [
     Event:
       "Libyan rival premieres Dbeibeh and Bashagha both in Istanbul, report",
     URL: "https://libyaupdate.com/libyan-rival-premieres-dbeibeh-and-bashagha-both-in-istanbul-report/",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "Saudi investments in Türkiye amount to $18 billion: Dr. Al-Qasabi",
     URL: "https://saudigazette.com.sa/article/626316",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "Denver could get direct flights to Turkey and Ireland",
     URL: "https://kdvr.com/news/local/could-denver-get-direct-flights-to-turkey-and-ireland/",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6844,7 +8725,10 @@ export const data = [
     Event:
       "‘Urbanism breakthrough’: Türkiye breaks ground for historic housing push",
     URL: "https://www.dailysabah.com/business/economy/urbanism-breakthrough-turkiye-breaks-ground-for-historic-housing-push",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6852,7 +8736,10 @@ export const data = [
     Event:
       "Dependency in strategic areas on other countries 'threatens sovereignty'",
     URL: "https://www.aa.com.tr/en/economy/dependency-in-strategic-areas-on-other-countries-threatens-sovereignty/2720754",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6860,7 +8747,10 @@ export const data = [
     Event:
       "Food crisis discussed at conference held by Turkish Communications Directorate at European Parliament",
     URL: "https://www.aa.com.tr/en/europe/food-crisis-discussed-at-conference-held-by-turkish-communications-directorate-at-european-parliament/2720782",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6868,14 +8758,20 @@ export const data = [
     Event:
       "Spanish main opposition party stresses mutual trust in Türkiye-EU ties",
     URL: "https://www.dailysabah.com/politics/eu-affairs/spanish-main-opposition-party-stresses-mutual-trust-in-turkiye-eu-ties",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "Turkey doctors’ union leader held over chemical arms comment",
     URL: "https://www.arabnews.com/node/2188621/middle-east",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6883,35 +8779,50 @@ export const data = [
     Event:
       "TAV Havalimanlari : 26.10.2022, TAV announces EUR 753M revenue in the first nine months",
     URL: "https://www.marketscreener.com/quote/stock/TAV-HAVALIMANLARI-HOLDING-6499546/news/TAV-Havalimanlari-26-10-2022-TAV-announces-EUR-753M-revenue-in-the-first-nine-months-42095934/",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Positive",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "“Mixed Rhetoric��? Surrounds Renewal of Black Sea Grain Deal",
     URL: "https://farmpolicynews.illinois.edu/2022/10/mixed-rhetoric-surrounds-renewal-of-black-sea-grain-deal/",
-    htag: "",
+    Htag: "",
+    Category: "Economics",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "On tour: Entering Istanbul's Stanley Kubrick museum",
     URL: "https://www.dailysabah.com/arts/events/on-tour-entering-istanbuls-stanley-kubrick-museum",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "Turkish NGO KADEM’s summit highlights cultural codes and women",
     URL: "https://www.dailysabah.com/turkey/turkish-ngo-kadems-summit-highlights-cultural-codes-and-women/news",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "Dissent and dumplings: Served up at the Istanbul Biennial",
     URL: "https://www.theneweuropean.co.uk/dissent-and-dumplings-served-up-at-the-istanbul-biennial/",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6919,14 +8830,20 @@ export const data = [
     Event:
       "Cat Stevens (now Yusuf Islam) performs for Erdogan in Ankara - Culture - ANSAMed",
     URL: "https://www.ansamed.info/ansamed/en/news/sections/culture/2022/10/25/cat-stevens-now-yusuf-islam-performs-for-erdogan-in-ankara_4f0b0445-f2c3-4dfe-8289-3eb57fe84dab.html",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
     Username: "",
     Event: "2023 Luxury Hotel Openings to Look Forward to",
     URL: "https://www.luxurytravelmagazine.com/news-articles/2023-luxury-hotel-openings-to-look-forward-to",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/26/2022",
@@ -6934,27 +8851,39 @@ export const data = [
     Event:
       "FISU University World Cup 3×3 Basketball ready to entertain Istanbul",
     URL: "https://www.eurosport.co.uk/university-sports/fisu-university-world-cup-33-basketball-ready-to-entertain-istanbul_sto9202721/story.shtml",
-    htag: "",
+    Htag: "",
+    Category: "Culture",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/27/2022",
     Username: "",
     Event: "Robbers walk out of Istanbul bank with millions of lira unnoticed",
     URL: "https://www.dailysabah.com/turkey/istanbul/robbers-walk-out-of-istanbul-bank-with-millions-of-lira-unnoticed",
-    htag: "",
+    Htag: "",
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/27/2022",
     Username: "",
     Event: "Vessels swarm Türkiye’s Marmara Sea as Bosporus traffic heightens",
     URL: "https://www.dailysabah.com/turkey/istanbul/vessels-swarm-turkiyes-marmara-sea-as-bosporus-traffic-heightens",
-    htag: "",
+    Htag: "",
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
   {
     Datetime: "10/27/2022",
     Username: "",
     Event: "Istanbul debates issue of parking fees in shopping malls",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbul-debates-issue-of-parking-fees-in-shopping-malls",
-    htag: "",
+    Htag: "",
+    Category: "General",
+    SentimentCategory: "Neutral",
+    CategoryAll: "All",
   },
 ];

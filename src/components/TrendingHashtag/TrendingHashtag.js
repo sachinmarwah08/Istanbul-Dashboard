@@ -190,6 +190,35 @@ const TrendingHashtag = () => {
                 </div>
               )}
 
+              {selectedCategory === "Traffic" && (
+                <div className="tree-graph">
+                  {treeDataGovernmentLocalState.map((item) => (
+                    <Tree
+                      svgProps={{
+                        className: "custom",
+                      }}
+                      animated={true}
+                      data={item}
+                      nodeRadius={15}
+                      margins={{ top: 100, bottom: 80, left: -10, right: 80 }}
+                      height={`${
+                        isHtagSelected === "istanbulhtag"
+                          ? 550
+                          : 440 && isHtagSelected === "ekkanHTag"
+                          ? 550
+                          : 440 && isHtagSelected === "duybeniHtag"
+                          ? 680
+                          : 440 && isHtagSelected === "turkeyHtag"
+                          ? 460
+                          : 440
+                      }`}
+                      direction="rtl"
+                      width={1050}
+                    />
+                  ))}
+                </div>
+              )}
+
               {selectedCategory === "Health" && (
                 <div className="tree-graph">
                   {healthLocalState.map((item) => (
