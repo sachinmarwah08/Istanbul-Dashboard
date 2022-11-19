@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useSelector } from "react-redux";
 import { useState } from "react";
 import FilterButton from "../Buttons/FilterButton/FilterButton";
 import SearchBar from "../SearchBar/SearchBar";
@@ -24,8 +25,10 @@ import {
   CartesianGrid,
   ReferenceLine,
 } from "recharts";
-import { format, parseISO, subDays } from "date-fns";
+import { format, parsseISO, subDays } from "date-fns";
 import moment from "moment";
+import { data as jsonData } from "./Data/data";
+import { data as stats } from "../GlobeRegions/data";
 
 // const data = [];
 // for (let num = 30; num >= 0; num--) {
@@ -50,13 +53,92 @@ for (let i = 1; i < 7; i++) {
 }
 
 const MapAndLineChart = () => {
+  const selectedCategory = useSelector(
+    (state) => state.globalData.selectedCategory
+  );
   const [show, setShow] = useState("Globe");
   const globeFilterDrodownList = ["Country", "Influencer", "Hashtag"];
   const [globeFilter, setGlobeFilter] = useState("Filters");
 
+  const [localData, setLocalData] = useState([]);
+  const [statatics, setStatatics] = useState({
+    Media_Interest: "",
+    News_Interest: "",
+    Social_Media_Interest: "",
+    Overall_Sentiment: "",
+  });
+
+  useEffect(() => {
+    let category = selectedCategory || "General";
+    let tempData = [];
+
+    for (let i = 0; i < jsonData.length; i++) {
+      let obj = {
+        month: jsonData[i].Dates,
+        value: +jsonData[i][category],
+      };
+      tempData.push(obj);
+    }
+    console.log(tempData);
+    setLocalData(tempData);
+    setStatatics(stats[category]);
+  }, [selectedCategory]);
+
+  function renderTooltip(item) {
+    if (item && item.payload && item.payload.length) {
+      console.log(item.payload[0].payload, "hello");
+      return (
+        <>
+          <div>
+            {/* <p
+              style={{
+                fontSize: "20px",
+                color: "#D0D5DD",
+                fontWeight: 700,
+                marginTop: 0,
+                marginBottom: "0.5rem",
+                width: "max-content",
+              }}
+            >
+              {selectedCategory}
+            </p> */}
+            <p
+              style={{
+                fontSize: "20px",
+                color: "#D0D5DD",
+                fontWeight: 700,
+                marginTop: 0,
+                marginBottom: "0.5rem",
+                width: "max-content",
+              }}
+            >
+              {item.payload[0].payload.month}
+            </p>
+          </div>
+          <div>
+            {item.payload[0].payload.value >= 0 && (
+              <p
+                style={{
+                  fontSize: "20px",
+                  color: "#ffffff",
+                  fontWeight: 700,
+                  marginTop: 0,
+                  margin: 0,
+                  width: "max-content",
+                }}
+              >
+                Index : {item.payload[0].payload.value}
+              </p>
+            )}
+          </div>
+        </>
+      );
+    }
+  }
+
   return (
-    <div className="map-and-line-chart-wrapper">
-      <div className="new-map-chart-wrapper">
+    <>
+      {/* <div className="new-map-chart-wrapper">
         <h1 className="heading">Chart’s name</h1>
 
         <div className="new-map-radio-button">
@@ -88,11 +170,11 @@ const MapAndLineChart = () => {
         <div className="new-map-chart">
           <div className="map-chart-bg"></div>
         </div>
-      </div>
+      </div> */}
       <div className="new-line-chart-wrapper">
         <h1 className="heading">Sentiment Mentions per 100,000 people</h1>
 
-        <div className="new-line-chart-buttons-wrapper">
+        {/* <div className="new-line-chart-buttons-wrapper">
           <div className="left-buttons">
             <button className="country-list">
               Worldwide <FontAwesomeIcon icon={faAngleDown} />
@@ -106,42 +188,42 @@ const MapAndLineChart = () => {
               <FontAwesomeIcon icon={faPlus} /> Compare Country
             </button>
           </div>
-        </div>
+        </div> */}
 
         <div className="media-wrapper">
           <div className="media-content">
             <span className="title">Media Interest</span>
-            <span className="count">11.2K</span>
-          </div>
-          <div className="media-content">
-            <span className="title">News Interest</span>
-            <span className="count">1K</span>
+            <span className="count">{statatics.Media_Interest}</span>
           </div>
           <div className="media-content">
             <span className="title">Social Media Interest</span>
-            <span className="count">11.2K</span>
+            <span className="count">{statatics.Social_Media_Interest}</span>
+          </div>
+          <div className="media-content">
+            <span className="title">News Interest</span>
+            <span className="count">{statatics.News_Interest}</span>
           </div>
           <div className="media-content">
             <span className="title">Overall Sentiment</span>
-            <span className="count">80% (Positive)</span>
+            <span className="count">{statatics.Overall_Sentiment}</span>
           </div>
           <div className="media-content">
             <span className="title">Influencers</span>
-            <span className="count">5.2K</span>
+            <span className="count">{statatics.Influencers}</span>
           </div>
-          <div className="media-content">
+          {/* <div className="media-content">
             <span className="title">Top Related Topics</span>
             <span className="count">50</span>
-          </div>
+          </div> */}
         </div>
 
         <div className="new-line-chart">
-          <ResponsiveContainer width="100%" height="100%" aspect={1.5}>
+          <ResponsiveContainer width="100%" height="100%" aspect={4}>
             <AreaChart
-              width="auto"
+              width="100%"
               height="auto"
-              data={data}
-              margin={{ top: 0, right: 25, left: -35, bottom: 140 }}
+              data={localData}
+              margin={{ top: 10, right: 40, left: -20, bottom: 0 }}
             >
               <defs>
                 <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
@@ -155,14 +237,27 @@ const MapAndLineChart = () => {
                 </linearGradient>
               </defs>
 
+              <Tooltip
+                content={(item, index) => renderTooltip(item, index)}
+                wrapperStyle={{
+                  boxShadow:
+                    "-4px 0px 8px rgba(0, 0, 0, 0.08), 0px 4px 8px rgba(0, 0, 0, 0.1)",
+                  borderRadius: "0.5rem",
+                  zIndex: "99",
+                  border: "1px solid #EEEEEE",
+                  outline: "none",
+                }}
+              />
+
               <XAxis
-                dataKey="year"
+                dataKey="month"
                 // axisLine={true}
                 // tickLine={false}
                 fill="#D0D5DD"
                 fontSize="12px"
                 dy={8}
               />
+
               <ReferenceLine
                 x={month}
                 // x={launchDate}
@@ -213,12 +308,19 @@ const MapAndLineChart = () => {
             scale="auto"
             stroke="#9CA3AF"
           /> */}
-              <YAxis />
-              <CartesianGrid
+              <YAxis
+                type="number"
+                dy={-4}
+                fontWeight={500}
+                fontSize="0.875rem"
+                domain={["dataMin", "dataMax"]}
+                dataKey="value"
+              />
+              {/* <CartesianGrid
                 horizontal={false}
                 strokeDasharray="3 3"
-                opacity={0.4}
-              />
+                opacity={0.2}
+              /> */}
               {/* <Tooltip /> */}
               <Area
                 type="monotone"
@@ -239,7 +341,7 @@ const MapAndLineChart = () => {
           </ResponsiveContainer>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

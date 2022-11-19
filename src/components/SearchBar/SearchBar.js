@@ -42,7 +42,7 @@ const SearchBar = ({
           <div className="search-filter">
             <input
               value={inputValue}
-              onChange={(e) => handleChange(e)}
+              onChange={handleChange}
               type="text"
               placeholder="Search..."
               className="sort-input"
@@ -74,45 +74,49 @@ const SearchBar = ({
             {isFilterActive && (
               <div className="sort-filter-dropwown-wrapper">
                 <div className="sort-filter-dropwown-overflow-wrapper">
+                  {/* {data && */}
                   {data &&
-                    data.map((option, index) => {
-                      if (data && data.length === index + 1) {
-                        return (
-                          <div
-                            ref={lastElement}
-                            key={index}
-                            onClick={() => searchBarDropDownClick(option)}
-                            className="sort-filter-dropdown-filter-item"
-                          >
-                            <ul style={{ margin: "0%", padding: "0%" }}>
-                              <li
-                                style={{ fontFamily: "Sora" }}
-                                className="sort-filter-dropdown-list"
-                              >
-                                {option}
-                              </li>
-                            </ul>
-                          </div>
-                        );
-                      } else {
-                        return (
-                          <div
-                            key={index}
-                            onClick={() => searchBarDropDownClick(option)}
-                            className="sort-filter-dropdown-filter-item"
-                          >
-                            <ul style={{ margin: "0%", padding: "0%" }}>
-                              <li
-                                style={{ fontFamily: "Sora" }}
-                                className="sort-filter-dropdown-list"
-                              >
-                                {option}
-                              </li>
-                            </ul>
-                          </div>
-                        );
-                      }
-                    })}
+                    data.map(
+                      (option, index) => (
+                        // if (data && data.length === index + 1) {
+                        // return (
+                        <div
+                          // ref={lastElement}
+                          // key={index}
+                          onClick={() =>
+                            searchBarDropDownClick(option.Username)
+                          }
+                          className="sort-filter-dropdown-filter-item"
+                        >
+                          <ul style={{ margin: "0%", padding: "0%" }}>
+                            <li
+                              style={{ fontFamily: "Sora" }}
+                              className="sort-filter-dropdown-list"
+                            >
+                              {option.Username}
+                            </li>
+                          </ul>
+                        </div>
+                      )
+                      //   } else {
+                      //     return (
+                      //       <div
+                      //         key={index}
+                      //         onClick={() => searchBarDropDownClick(option)}
+                      //         className="sort-filter-dropdown-filter-item"
+                      //       >
+                      //         <ul style={{ margin: "0%", padding: "0%" }}>
+                      //           <li
+                      //             style={{ fontFamily: "Sora" }}
+                      //             className="sort-filter-dropdown-list"
+                      //           >
+                      //             {option}
+                      //           </li>
+                      //         </ul>
+                      //       </div>
+                      //     );
+                      //   }
+                    )}
                   {loading && (
                     <div className="search-bar-loader-wrapper">
                       <BeatLoader color="#FEC84B" loading={true} size={10} />

@@ -13,7 +13,8 @@ const data = [];
 for (let num = 30; num >= 0; num--) {
   data.push({
     date: subDays(new Date(), num).toISOString().substring(0, 10),
-    value: 1 + Math.random(),
+    General: 1 + Math.random(),
+    Lifestyle: 2 + Math.random(),
   });
 }
 
@@ -164,7 +165,15 @@ const Chart = () => {
           {/* <Tooltip /> */}
           <Area
             type="monotone"
-            dataKey="value"
+            dataKey="General"
+            strokeWidth={3}
+            stroke="#FFB800"
+            fillOpacity={2}
+            fill="url(#colorUv)"
+          />
+          <Area
+            type="monotone"
+            dataKey="Lifestyle"
             strokeWidth={3}
             stroke="#FFB800"
             fillOpacity={2}

@@ -3,7 +3,7 @@
 
   .trending-hashtag-container {
     margin: 1.3rem;
-    height: 100%;
+    height: 43rem;
     border: 4px solid rgba(180, 179, 222, 0.23);
     border-radius: 32px;
 
@@ -85,7 +85,7 @@
     .treding-hashtag-content-wrapper {
       width: auto;
       margin: 1.2rem;
-      height: 100%;
+      height: 34rem;
       padding: 1.2rem;
       padding-top: 0;
       background: linear-gradient(179.84deg, #000c49 43.71%, #0e1226 125.34%);
@@ -99,6 +99,22 @@
         .trending-hashtag-content-left {
           width: 100%;
           height: 100%;
+          .top-hashtags-wrapper {
+            .top-hastag-container {
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 9px;
+              color: #d0d5dd;
+            }
+          }
+        }
+
+        .trending-hashtag-content-left-condition {
+          width: 100%;
+          justify-content: center;
+          height: 35rem;
+          display: flex;
+          flex-direction: column;
           .top-hashtags-wrapper {
             .top-hastag-container {
               font-weight: 600;
@@ -124,6 +140,18 @@
             font-size: 16px;
             text-align: center;
             color: #e4e7ec;
+            cursor: pointer;
+          }
+
+          .top-four-hashtag-one-condition {
+            position: absolute;
+            right: 2rem;
+            top: 13.5rem;
+            font-weight: 600;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+            color: #e4e7ec;
           }
 
           .top-four-hashtag-two {
@@ -132,6 +160,7 @@
             top: 11rem;
             font-weight: 600;
             text-align: center;
+            cursor: pointer;
             font-size: 16px;
             color: #e4e7ec;
           }
@@ -143,6 +172,7 @@
             text-align: center;
             font-size: 16px;
             color: #e4e7ec;
+            cursor: pointer;
           }
           .top-four-hashtag-four {
             position: absolute;
@@ -152,6 +182,7 @@
             text-align: center;
             font-size: 16px;
             color: #e4e7ec;
+            cursor: pointer;
           }
 
           .tree-graph {

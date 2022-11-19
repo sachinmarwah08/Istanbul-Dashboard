@@ -21,9 +21,9 @@ const Main = () => {
         <GlobeRegions />
         <MapAndLineChart />
         <WorldAnalysis />
-        <AreaChart />
         <TrendingHashtag />
         <GeneralIndex />
+        {/* <AreaChart /> */}
         {/* <CountryChart />*/}
         <Footer />
       </FilterProvider>

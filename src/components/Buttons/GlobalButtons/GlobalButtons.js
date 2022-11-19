@@ -1,17 +1,21 @@
 import React from "react";
 import "./GlobalButtons.scss";
 
-const GlobalButtons = () => {
+const GlobalButtons = ({ data, onClick }) => {
   return (
     <div className="global-regions-btn-wrapper">
-      <button className="global-regions-btn">General</button>
-      <button className="global-regions-btn">Environmental</button>
+      {data.map(({ Values }) => (
+        <button onClick={onClick} className="global-regions-btn">
+          {Values}
+        </button>
+      ))}
+      {/* <button className="global-regions-btn">Environmental</button>
       <button className="global-regions-btn">Traffic</button>
       <button className="global-regions-btn">Health</button>
       <button className="global-regions-btn">Education</button>
       <button className="global-regions-btn">Lifestyle</button>
       <button className="global-regions-btn">Economics</button>
-      <button className="global-regions-btn">Culture</button>
+      <button className="global-regions-btn">Culture</button> */}
     </div>
   );
 };

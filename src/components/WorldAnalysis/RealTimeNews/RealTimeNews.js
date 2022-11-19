@@ -1,83 +1,103 @@
 import React, { useState } from "react";
+import { useSelector } from "react-redux";
+import { useEffect } from "react";
 import FilterButton from "../../Buttons/FilterButton/FilterButton";
 import RadioButton from "../../Buttons/RadioButton/RadioButton";
 import SearchBar from "../../SearchBar/SearchBar";
 import "./RealTimeNews.scss";
-
-const data = [
-  {
-    id: 1,
-    date: "1 Day Ago",
-    author: "fticonsulting.com",
-    name: "ESG in India: It’s Time to Take Notice",
-    headline:
-      "Commitment to change and sustainability is imperative for any organisation to evolve into a future-proof business...",
-  },
-  {
-    id: 1,
-    date: "1 Day Ago",
-    author: "prnewswire.com",
-    name: "Fosun International Garners Two Major ESG Reporting Accolades in Hong Kong",
-    headline:
-      "On the evening of 19 October, HKMA held an award ceremony for the Best Annual Reports Awards 2022 in Hong Kong and Fosun International was granted the Excellence Award in Environmental, Social and Governance Reporting...",
-  },
-  {
-    id: 1,
-    date: "1 Day Ago",
-    author: "prnewswire.com",
-    name: "Taranis Releases First Environmental, Social, and Governance (ESG) Report",
-    headline:
-      "The report highlights commitments to drive sustainable, equitable, and prosperous impacts for Taranis' customers, employees, and stakeholders.",
-  },
-  {
-    id: 1,
-    date: "1 Day Ago",
-    author: "businesswire.com",
-    name: "E2open Releases Annual Environmental, Social, and Governance Report",
-    headline:
-      "Report outlines approach to corporate purpose and sustainability, and the value it provides to clients’ ESG goals...",
-  },
-  {
-    id: 1,
-    date: "1 Day Ago",
-    author: "economictimes.indiatimes.com",
-    name: "ESG Investing: Why investors need to add a flavour of sustainability in their portfolios",
-    headline: "The ESG regulation race is on",
-  },
-  {
-    id: 1,
-    date: "1 Day Ago",
-    author: "fticonsulting.com",
-    name: "QuantumScape Publishes Inaugural Environmental, Social and Governance Report",
-    headline:
-      "Commitment to change and sustainability is imperative for any organisation to evolve into a future-proof business...",
-  },
-  {
-    id: 1,
-    date: "1 Day Ago",
-    author: "prnewswire.com",
-    name: "Paychex Releases 2022 Environmental, Social, and Governance (ESG) Report",
-    headline:
-      "On the evening of 19 October, HKMA held an award ceremony for the Best Annual Reports Awards 2022 in Hong Kong and Fosun International was granted the Excellence Award in Environmental, Social and Governance Reporting...",
-  },
-];
+import { data } from "./data";
 
 const RealTimeNews = () => {
-  const globeFilterDrodownList = ["Country", "Influencer", "Hashtag"];
+  const selectedCategory = useSelector(
+    (state) => state.globalData.selectedCategory
+  );
+  const globeFilterDrodownList = ["Influencer", "Hashtag"];
   const [globeFilter, setGlobeFilter] = useState("Filters");
+  const [localData, setLocalData] = useState(data);
+  const [radioCheck, setRadioCheck] = useState("All");
+  const [inputValue, setInputValue] = useState("");
+  const [isFilterActive, setIsFilterActive] = useState(false);
+
+  useEffect(() => {
+    if (selectedCategory) {
+      let tempData = data.filter((item) => item.Category === selectedCategory);
+      setLocalData(tempData);
+    } else {
+      setLocalData(data);
+    }
+  }, [selectedCategory]);
+
+  const onRadioChange = (value) => {
+    if (selectedCategory) {
+      let tempData = data.filter(
+        (item) =>
+          item.Sentiment_Category === value &&
+          item.Category === selectedCategory
+      );
+      setLocalData(tempData);
+    } else {
+      let tempData = data.filter(
+        (item) =>
+          item.CategoryAll === value || item.Sentiment_Category === value
+      );
+      setLocalData(tempData);
+    }
+    setRadioCheck(value);
+  };
+
+  const onHandleChange = (e) => {
+    setInputValue(e.target.value);
+    setIsFilterActive(true);
+    let tempData = data.filter((item) => {
+      return item.News_Source.toLowerCase().includes(inputValue.toLowerCase());
+    });
+    setLocalData(tempData);
+  };
+
+  const onDropDownClick = (option) => {
+    setInputValue(option);
+    setIsFilterActive(false);
+    let tempData = data.filter((item) => item.News_Source === option);
+    setLocalData(tempData);
+  };
+
   return (
     <>
       <div className="second-content-wrapper">
         <div className="radio-btn-wrapper-analysis">
           <>
-            <RadioButton name="All" />
-            <RadioButton name="Positive" />
-            <RadioButton name="Negative" />
+            <RadioButton
+              checked={radioCheck}
+              radioName="realTimeNews"
+              value="All"
+              onRadioChange={onRadioChange}
+              name="All"
+            />
+            <RadioButton
+              checked={radioCheck}
+              radioName="realTimeNews"
+              value="Positive"
+              onRadioChange={onRadioChange}
+              name="Positive"
+            />
+            <RadioButton
+              checked={radioCheck}
+              radioName="realTimeNews"
+              name="Negative"
+              value="Negative"
+              onRadioChange={onRadioChange}
+            />
           </>
         </div>
       </div>
       <div className="searchBar-wrapper-analysis">
-        <SearchBar />
+        <SearchBar
+          isFilterActive={isFilterActive}
+          data={localData}
+          handleChange={onHandleChange}
+          inputValue={inputValue}
+          searchBarDropDownClick={onDropDownClick}
+        />
         <FilterButton
           data={globeFilter}
           setData={setGlobeFilter}
@@ -86,11 +106,11 @@ const RealTimeNews = () => {
       </div>
 
       <div className="left-content-wrapper-news">
-        {data.map((item) => (
-          <div key={item.id} className="left-content-News">
+        {localData.map((item) => (
+          <div className="left-content-News">
             <div className="news-date-title">
-              <p className="date-ago">{item.date}</p>
-              <p className="news-title-content">{item.author}</p>
+              <p className="date-ago">{item.Datetime}</p>
+              <p className="news-title-content">{item.News_Source}</p>
             </div>
 
             <a
@@ -100,7 +120,7 @@ const RealTimeNews = () => {
               className="left-content-heading-news"
             >
               {/* {item.news_source} */}
-              {item.name}
+              {item.Event}
             </a>
             {/* <p className="hashtags-news"> */}
             {/* {item.headline} */}

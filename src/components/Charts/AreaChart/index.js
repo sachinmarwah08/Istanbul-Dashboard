@@ -75,10 +75,10 @@ const AreaChart = () => {
 
             <div className="area-chart-button-wrapper">
               <div className="area-chart-button-container">
-                <button className="area-chart-button">
+                {/* <button className="area-chart-button">
                   Linear scale
                   <FontAwesomeIcon icon={faAngleDown} />
-                </button>
+                </button> */}
                 <button className="area-chart-button">
                   Comparison
                   <FontAwesomeIcon icon={faAngleDown} />

@@ -1,50 +1,70 @@
 import React, { useState } from "react";
 import "./TopInfluencers.scss";
+import { useSelector } from "react-redux";
 import FilterButton from "../../Buttons/FilterButton/FilterButton";
 import RadioButton from "../../Buttons/RadioButton/RadioButton";
 import SearchBar from "../../SearchBar/SearchBar";
-
-const data = [
-  {
-    id: 1,
-    name: "Prof Michael E. Mann",
-    lastThirtyDays: "2.9M",
-    engagement: "5.56%",
-    likePerPost: "2.9K",
-  },
-  {
-    id: 2,
-    name: "Alexander Verbeek",
-    lastThirtyDays: "1.7M",
-    engagement: "2.9%",
-    likePerPost: "25.7K",
-  },
-  {
-    id: 3,
-    name: "Jim McClelland",
-    lastThirtyDays: "1.9M",
-    engagement: "6.7%",
-    likePerPost: "27.6K",
-  },
-  {
-    id: 4,
-    name: "Joel Makower",
-    lastThirtyDays: "2.7M",
-    engagement: "5.56%",
-    likePerPost: "23.8K",
-  },
-  {
-    id: 5,
-    name: "Tim Mohin",
-    lastThirtyDays: "1.1M",
-    engagement: "5.56%",
-    likePerPost: "2.9K",
-  },
-];
+import { useEffect } from "react";
+import { data } from "./data";
 
 const TopInfluencers = () => {
-  const globeFilterDrodownList = ["Country", "Influencer", "Hashtag"];
+  const selectedCategory = useSelector(
+    (state) => state.globalData.selectedCategory
+  );
+  const globeFilterDrodownList = ["Influencer", "Hashtag"];
   const [globeFilter, setGlobeFilter] = useState("Filters");
+  const [localData, setLocalData] = useState(data);
+  const [radioCheck, setRadioCheck] = useState("All");
+  const [inputValue, setInputValue] = useState("");
+  const [isFilterActive, setIsFilterActive] = useState(false);
+  const [droplist, setDropList] = useState(data);
+
+  useEffect(() => {
+    if (selectedCategory) {
+      let tempData = data.filter((item) => item.Category === selectedCategory);
+      console.log(tempData);
+      setLocalData(tempData);
+    } else {
+      setLocalData(data);
+    }
+  }, [selectedCategory]);
+
+  const onRadioChange = (cat) => {
+    let tempData = data.filter(
+      (item) => item.SentimentAll === cat || item.Sentiment_Category === cat
+    );
+    setRadioCheck(cat);
+    setLocalData(tempData);
+  };
+
+  const onHandleChange = (e) => {
+    setInputValue(e.target.value);
+    setIsFilterActive(true);
+    let tempData = data.filter((item) => {
+      return item.Username.toLowerCase().includes(inputValue.toLowerCase());
+    });
+    setDropList(tempData);
+  };
+
+  const onDropDownClick = (option) => {
+    setInputValue(option);
+    setIsFilterActive(false);
+    let tempData = data.filter((item) => item.Username === option);
+    setLocalData(tempData);
+  };
+
+  function nFormatter(num) {
+    if (num >= 1000000000) {
+      return (num / 1000000000).toFixed(1).replace(/\.0$/, "") + "G";
+    }
+    if (num >= 1000000) {
+      return (num / 1000000).toFixed(1).replace(/\.0$/, "") + "M";
+    }
+    if (num >= 1000) {
+      return (num / 1000).toFixed(1).replace(/\.0$/, "") + "k";
+    }
+    return num;
+  }
   return (
     <>
       <div className="second-content-wrapper">
@@ -57,7 +77,13 @@ const TopInfluencers = () => {
         </div>
       </div>
       <div className="searchBar-wrapper-analysis">
-        <SearchBar />
+        <SearchBar
+          isFilterActive={isFilterActive}
+          data={droplist}
+          handleChange={onHandleChange}
+          inputValue={inputValue}
+          searchBarDropDownClick={onDropDownClick}
+        />
         <FilterButton
           data={globeFilter}
           setData={setGlobeFilter}
@@ -77,13 +103,13 @@ const TopInfluencers = () => {
                 >
                   Influencer
                 </th>
-                <th>Last 30 days</th>
+                <th>Media Impact</th>
+                <th>Followers</th>
                 <th>Engagement</th>
-                <th>Likes per post</th>
               </tr>
             </thead>
             <tbody style={{ marginTop: "0.5rem", height: "24.5rem" }}>
-              {data.map((item) => (
+              {localData.map((item) => (
                 <tr
                   key={item.id}
                   style={{
@@ -101,7 +127,7 @@ const TopInfluencers = () => {
                   >
                     <div style={{ display: "flex", alignItems: "center" }}>
                       <p style={{ width: "2rem", margin: 0 }}>{item.id}</p>
-                      {item.name}
+                      {item.Username}
                     </div>
                   </td>
 
@@ -121,7 +147,28 @@ const TopInfluencers = () => {
                           lineHeight: "30px",
                         }}
                       >
-                        {item.lastThirtyDays}
+                        {nFormatter(item.Followers)}
+                      </p>
+                      <p style={{ margin: "0" }}>Media Impact</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        textAlign: "center",
+                      }}
+                    >
+                      <p
+                        style={{
+                          margin: "0",
+                          fontWeight: 600,
+                          fontSize: "24px",
+                          lineHeight: "30px",
+                        }}
+                      >
+                        {nFormatter(item.Engagement)}
                       </p>
                       <p style={{ margin: "0" }}>Followers</p>
                     </div>
@@ -142,30 +189,9 @@ const TopInfluencers = () => {
                           lineHeight: "30px",
                         }}
                       >
-                        {item.engagement}
+                        {nFormatter(item.MediaImpact)}
                       </p>
                       <p style={{ margin: "0" }}>Engagement</p>
-                    </div>
-                  </td>
-                  <td>
-                    <div
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        textAlign: "center",
-                      }}
-                    >
-                      <p
-                        style={{
-                          margin: "0",
-                          fontWeight: 600,
-                          fontSize: "24px",
-                          lineHeight: "30px",
-                        }}
-                      >
-                        {item.likePerPost}
-                      </p>
-                      <p style={{ margin: "0" }}>Likes per post</p>
                     </div>
                   </td>
                 </tr>

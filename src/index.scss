@@ -305,3 +305,20 @@ body {
   backdrop-filter: blur(8px) !important;
   color: #f9fafb !important;
 }
+
+.sentiment-value {
+  font-size: 20px;
+  background: linear-gradient(
+    63.43deg,
+    #73e700 16.67%,
+    #3eb953 60.5%,
+    #3399ff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  margin-top: 0;
+  width: max-content;
+  margin: 0;
+}
