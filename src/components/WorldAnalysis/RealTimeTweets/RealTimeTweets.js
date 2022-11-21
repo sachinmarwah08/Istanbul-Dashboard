@@ -40,11 +40,22 @@ const RealTimeTweets = () => {
 
   const onHandleChange = (e) => {
     setInputValue(e.target.value);
-    setIsFilterActive(true);
-    let tempData = data.filter((item) => {
-      return item.Username.toLowerCase().includes(inputValue.toLowerCase());
-    });
-    setDropList(tempData);
+    if (globeFilter === "Influencer") {
+      setIsFilterActive(true);
+      let tempData = data.filter((item) => {
+        return item.Username.toLowerCase().includes(inputValue.toLowerCase());
+      });
+      setDropList(tempData);
+    } else if (globeFilter === "Filters") {
+      let tempData = data.filter((item) => {
+        return (
+          item.Username.toLowerCase().includes(inputValue.toLowerCase()) ||
+          item.Event.toLowerCase().includes(inputValue.toLowerCase()) ||
+          item.URL.toLowerCase().includes(inputValue.toLowerCase())
+        );
+      });
+      setLocalData(tempData);
+    }
   };
 
   const onDropDownClick = (option) => {

@@ -17,6 +17,7 @@ const SearchBar = ({
   isFilterActive,
   setIsFilterActive,
 }) => {
+  console.log(data, "hello");
   function useOutsideAlerter(ref) {
     useEffect(() => {
       function handleClickOutside(event) {
@@ -47,7 +48,6 @@ const SearchBar = ({
               placeholder="Search..."
               className="sort-input"
             />
-
             <Tippy
               arrow={false}
               theme={"red"}
@@ -70,7 +70,6 @@ const SearchBar = ({
                 src={searchIcon}
               />
             </Tippy>
-
             {isFilterActive && (
               <div className="sort-filter-dropwown-wrapper">
                 <div className="sort-filter-dropwown-overflow-wrapper">

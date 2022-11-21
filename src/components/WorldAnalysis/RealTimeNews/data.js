@@ -6,7 +6,7 @@ export const data = [
     URL: "https://www.al-monitor.com/originals/2022/10/once-safe-haven-iranians-turkey-say-civil-liberties-are-risk",
     Category: "Lifestyle",
     Sentiment_Category: "Positive",
-    News_Source: "Al-Monitor",
+    Username: "Al-Monitor",
     CategoryAll: "All",
   },
   {
@@ -16,7 +16,7 @@ export const data = [
     URL: "https://news.artnet.com/art-world/when-hate-becomes-an-instrument-4-queer-culture-workers-from-turkey-respond-to-the-anti-lgbt-rally-in-istanbul-2187477",
     Category: "Culture",
     Sentiment_Category: "Negative",
-    News_Source: "Artnet News",
+    Username: "Artnet News",
     CategoryAll: "All",
   },
   {
@@ -25,7 +25,7 @@ export const data = [
     URL: "https://thepeninsulaqatar.com/article/06/10/2022/ten-most-popular-street-foods-you-shouldnt-miss-in-istanbul",
     Category: "Culture",
     Sentiment_Category: "Positive",
-    News_Source: "The Peninsula Qatar",
+    Username: "The Peninsula Qatar",
     CategoryAll: "All",
   },
   {
@@ -35,7 +35,7 @@ export const data = [
     URL: "https://www.msn.com/en-in/lifestyle/travel/bengaluru-bound-lufthansa-flight-diverted-to-istanbul-31-hours-later-no-hotel-no-staff-claims-grammy-winner-ricky-kej/ar-AA13a2g7",
     Category: "Lifestyle",
     Sentiment_Category: "Negative",
-    News_Source: "MSN",
+    Username: "MSN",
     CategoryAll: "All",
   },
   {
@@ -45,7 +45,7 @@ export const data = [
     URL: "https://www.msn.com/en-gb/lifestyle/travel/i-feel-dumb-and-ashamed-woman-slams-istanbul-airport-for-not-stocking-a-single-menstrual-product/ar-AA13607h",
     Category: "Lifestyle",
     Sentiment_Category: "Negative",
-    News_Source: "MSN",
+    Username: "MSN",
     CategoryAll: "All",
   },
   {
@@ -54,7 +54,7 @@ export const data = [
     URL: "https://www.luxurytravelmagazine.com/news-articles/the-best-free-economic-zones-for-buying-real-estate-in-istanbul",
     Category: "Economics",
     Sentiment_Category: "Positive",
-    News_Source: "Luxury Travel Magazine",
+    Username: "Luxury Travel Magazine",
     CategoryAll: "All",
   },
   {
@@ -63,7 +63,7 @@ export const data = [
     URL: "https://www.euronews.com/culture/2022/10/17/meet-fatih-tutak-turkeys-first-2-michelin-star-chef-in-istanbul",
     Category: "Culture",
     Sentiment_Category: "Positive",
-    News_Source: "Euronews",
+    Username: "Euronews",
     CategoryAll: "All",
   },
   {
@@ -73,7 +73,7 @@ export const data = [
     URL: "https://www.business-standard.com/article/companies/india-is-important-to-us-turkish-airlines-ceo-bilal-ek%C5%9Fi-122102001028_1.html",
     Category: "Traffic",
     Sentiment_Category: "Positive",
-    News_Source: "Business Standard",
+    Username: "Business Standard",
     CategoryAll: "All",
   },
   {
@@ -83,7 +83,7 @@ export const data = [
     URL: "https://www.lincolnshirelive.co.uk/special-features/rhinoplasty-turkey-explained-clinics-istanbul-7713075",
     Category: "Education",
     Sentiment_Category: "Positive",
-    News_Source: "Lincolnshire Live",
+    Username: "Lincolnshire Live",
     CategoryAll: "All",
   },
   {
@@ -93,7 +93,7 @@ export const data = [
     URL: "https://m.bianet.org/english/law/268853-assassinated-journalist-musa-anter-s-family-applies-to-top-court-following-dismissal-of-case",
     Category: "Culture",
     Sentiment_Category: "Positive",
-    News_Source: "Bianet",
+    Username: "Bianet",
     CategoryAll: "All",
   },
   {
@@ -102,7 +102,7 @@ export const data = [
     URL: "https://www.the-star.co.ke/counties/north-eastern/2022-10-23-be-good-ambassadors-top-mandera-girls-studying-in-turkey-urged/",
     Category: "Education",
     Sentiment_Category: "Positive",
-    News_Source: "The Star",
+    Username: "The Star",
     CategoryAll: "All",
   },
   {
@@ -112,7 +112,7 @@ export const data = [
     URL: "https://www.aa.com.tr/en/asia-pacific/axe-falls-on-japan-s-economy-minister-over-links-to-controversial-unification-church/2720029",
     Category: "Economics",
     Sentiment_Category: "Positive",
-    News_Source: "Anadolu Agency",
+    Username: "Anadolu Agency",
     CategoryAll: "All",
   },
   {
@@ -121,7 +121,7 @@ export const data = [
     URL: "https://www.bbc.com/travel/article/20221024-sweet-temptation-istanbuls-beloved-brothel-dessert",
     Category: "Culture",
     Sentiment_Category: "Positive",
-    News_Source: "BBC",
+    Username: "BBC",
     CategoryAll: "All",
   },
   {
@@ -130,7 +130,7 @@ export const data = [
     URL: "https://finance.yahoo.com/news/basically-savior-why-crypto-popular-184554952.html",
     Category: "Government",
     Sentiment_Category: "Positive",
-    News_Source: "Yahoo Finance",
+    Username: "Yahoo Finance",
     CategoryAll: "All",
   },
   {
@@ -140,7 +140,7 @@ export const data = [
     URL: "https://nordicmonitor.com/2022/10/biden-called-turkish-pm-to-warn-false-accusations-against-the-us-turkey-unmoved/",
     Category: "Government",
     Sentiment_Category: "Negative",
-    News_Source: "Nordic Monitor",
+    Username: "Nordic Monitor",
     CategoryAll: "All",
   },
   {
@@ -150,7 +150,7 @@ export const data = [
     URL: "https://www.dailysabah.com/politics/eu-affairs/greece-should-see-turkiye-as-strong-reliable-partner-not-threat-akar",
     Category: "Education",
     Sentiment_Category: "Positive",
-    News_Source: "Daily Sabah",
+    Username: "Daily Sabah",
     CategoryAll: "All",
   },
   {
@@ -160,7 +160,7 @@ export const data = [
     URL: "https://www.marketscreener.com/quote/stock/TAV-HAVALIMANLARI-HOLDING-6499546/news/TAV-Havalimanlari-26-10-2022-TAV-announces-EUR-753M-revenue-in-the-first-nine-months-42095934/",
     Category: "Economics",
     Sentiment_Category: "Positive",
-    News_Source: "MarketScreener",
+    Username: "MarketScreener",
     CategoryAll: "All",
   },
 ];

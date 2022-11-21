@@ -17,6 +17,7 @@ const RealTimeNews = () => {
   const [radioCheck, setRadioCheck] = useState("All");
   const [inputValue, setInputValue] = useState("");
   const [isFilterActive, setIsFilterActive] = useState(false);
+  const [droplist, setDropList] = useState(data);
 
   useEffect(() => {
     if (selectedCategory) {
@@ -40,6 +41,7 @@ const RealTimeNews = () => {
         (item) =>
           item.CategoryAll === value || item.Sentiment_Category === value
       );
+
       setLocalData(tempData);
     }
     setRadioCheck(value);
@@ -47,17 +49,29 @@ const RealTimeNews = () => {
 
   const onHandleChange = (e) => {
     setInputValue(e.target.value);
-    setIsFilterActive(true);
-    let tempData = data.filter((item) => {
-      return item.News_Source.toLowerCase().includes(inputValue.toLowerCase());
-    });
-    setLocalData(tempData);
+    if (globeFilter === "Influencer") {
+      setIsFilterActive(true);
+      let tempData = data.filter((item) => {
+        return item.Username.toLowerCase().includes(inputValue.toLowerCase());
+      });
+      setDropList(tempData);
+    } else if (globeFilter === "Filters") {
+      let tempData = data.filter((item) => {
+        return (
+          item.Username.toLowerCase().includes(inputValue.toLowerCase()) ||
+          item.Event.toLowerCase().includes(inputValue.toLowerCase()) ||
+          item.URL.toLowerCase().includes(inputValue.toLowerCase()) ||
+          item.Datetime.toLowerCase().includes(inputValue.toLowerCase())
+        );
+      });
+      setLocalData(tempData);
+    }
   };
 
   const onDropDownClick = (option) => {
     setInputValue(option);
     setIsFilterActive(false);
-    let tempData = data.filter((item) => item.News_Source === option);
+    let tempData = data.filter((item) => item.Username === option);
     setLocalData(tempData);
   };
 
@@ -93,7 +107,7 @@ const RealTimeNews = () => {
       <div className="searchBar-wrapper-analysis">
         <SearchBar
           isFilterActive={isFilterActive}
-          data={localData}
+          data={droplist}
           handleChange={onHandleChange}
           inputValue={inputValue}
           searchBarDropDownClick={onDropDownClick}
@@ -110,7 +124,7 @@ const RealTimeNews = () => {
           <div className="left-content-News">
             <div className="news-date-title">
               <p className="date-ago">{item.Datetime}</p>
-              <p className="news-title-content">{item.News_Source}</p>
+              <p className="news-title-content">{item.Username}</p>
             </div>
 
             <a
