@@ -11,7 +11,7 @@ const TopInfluencers = () => {
   const selectedCategory = useSelector(
     (state) => state.globalData.selectedCategory
   );
-  const globeFilterDrodownList = ["Influencer", "Hashtag"];
+  const globeFilterDrodownList = ["Influencer"];
   const [globeFilter, setGlobeFilter] = useState("Filters");
   const [localData, setLocalData] = useState(data);
   const [radioCheck, setRadioCheck] = useState("All");
