@@ -39,20 +39,21 @@ const Chart = ({
   useEffect(() => {
     if (category) {
       let tempData = [];
-      console.log(jsonData);
+
+      let equal_ids = [];
       const dynamicData = jsonData[category];
-      console.log(dynamicData);
-      for (let i = 0; i < 54; i++) {
+      console.log(dynamicData, "dynamicData");
+      for (let i = 0; i < dynamicData.length; i++) {
         let obj = {};
-        if (i < 27) {
+        if (dynamicData[i].Dates) {
           obj["value"] = +dynamicData[i]["IndexValue"];
           obj["sentiment"] =
-            i === 26 ? +dynamicData[0]["IndexValue"] : undefined;
+            i === 14 ? +dynamicData[0]["SentimentValue"] : undefined;
           obj["year"] = dynamicData[i]["Dates"];
         } else {
           obj["value"] = undefined;
-          obj["sentiment"] = +dynamicData[i - 27]["SentimentValue"];
-          obj["year"] = dynamicData[i - 27]["Dates"];
+          obj["sentiment"] = +dynamicData[i - 16]["SentimentValue"];
+          obj["year"] = dynamicData[i - 16]["Dates"];
         }
         tempData.push(obj);
       }
@@ -97,9 +98,9 @@ const Chart = ({
             )}
           </div>
           <div>
-            {item.payload[0].payload.sentiment >= 0 && (
+            {item.payload[0].payload.sentiment && (
               <p className="sentiment-value">
-                Sentiment : {item.payload[0].payload.sentiment}%
+                Sentiment : {item.payload[0].payload.sentiment}
               </p>
             )}
           </div>
@@ -182,7 +183,7 @@ const Chart = ({
           <XAxis dataKey="year" dx={0} dy={30} />
           {/* <YAxis domain={["dataMin", "dataMax"]} /> */}
           <ReferenceLine
-            x={26}
+            x={10}
             strokeDasharray="4 4"
             label={{
               value: "Oct 27",

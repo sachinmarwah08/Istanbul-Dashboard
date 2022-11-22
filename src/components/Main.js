@@ -19,8 +19,8 @@ const Main = () => {
         <Header />
         {/* <GlobalFilter /> */}
         <GlobeRegions />
-        <MapAndLineChart />
         <WorldAnalysis />
+        <MapAndLineChart />
         <TrendingHashtag />
         <GeneralIndex />
         {/* <AreaChart /> */}

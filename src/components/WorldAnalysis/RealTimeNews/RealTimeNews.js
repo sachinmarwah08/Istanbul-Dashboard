@@ -112,11 +112,11 @@ const RealTimeNews = () => {
           inputValue={inputValue}
           searchBarDropDownClick={onDropDownClick}
         />
-        <FilterButton
+        {/* <FilterButton
           data={globeFilter}
           setData={setGlobeFilter}
           dropdownList={globeFilterDrodownList}
-        />
+        /> */}
       </div>
 
       <div className="left-content-wrapper-news">

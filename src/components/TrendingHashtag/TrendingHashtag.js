@@ -15,6 +15,7 @@ import {
   treeDataGovernmnet,
   treeDataHealth,
   treeDataLifestyle,
+  treeDataTraffic,
 } from "./TreeData";
 
 const TrendingHashtag = () => {
@@ -106,28 +107,22 @@ const TrendingHashtag = () => {
               Top 20 Hashtags related and Associations
             </p>
           </div>
-          <div className="trending-hashtag-header-right">
+          {/* <div className="trending-hashtag-header-right">
             <SearchBar />
             <FilterButton
               data={globeFilter}
               setData={setGlobeFilter}
               dropdownList={globeFilterDrodownList}
             />
-          </div>
+          </div> */}
         </div>
 
         <div className="treding-hashtag-content-wrapper">
           <div className="trending-hashtag-content">
-            <div
-              className={`${
-                isHtagSelected
-                  ? "trending-hashtag-content-left-condition"
-                  : "trending-hashtag-content-left"
-              }`}
-            >
+            <div className="trending-hashtag-content-left">
               {selectedHtag.map((item) => (
                 <div className="top-hashtags-wrapper">
-                  <p className="top-hastag-container">#{item}</p>
+                  <p className="top-hastag-container">{item}</p>
                 </div>
               ))}
             </div>
@@ -143,17 +138,7 @@ const TrendingHashtag = () => {
                       data={item}
                       nodeRadius={15}
                       margins={{ top: 100, bottom: 80, left: -10, right: 80 }}
-                      height={`${
-                        isHtagSelected === "istanbulhtag"
-                          ? 640
-                          : 440 && isHtagSelected === "ekkanHTag"
-                          ? 430
-                          : 440 && isHtagSelected === "duybeniHtag"
-                          ? 450
-                          : 440 && isHtagSelected === "turkeyHtag"
-                          ? 410
-                          : 440
-                      }`}
+                      height={`${isHtagSelected ? 730 : 440}`}
                       direction="rtl"
                       width={1050}
                     />
@@ -172,17 +157,7 @@ const TrendingHashtag = () => {
                       data={item}
                       nodeRadius={15}
                       margins={{ top: 100, bottom: 80, left: -10, right: 80 }}
-                      height={`${
-                        isHtagSelected === "istanbulhtag"
-                          ? 550
-                          : 440 && isHtagSelected === "ekkanHTag"
-                          ? 550
-                          : 440 && isHtagSelected === "duybeniHtag"
-                          ? 680
-                          : 440 && isHtagSelected === "turkeyHtag"
-                          ? 460
-                          : 440
-                      }`}
+                      height={`${isHtagSelected ? 730 : 440}`}
                       direction="rtl"
                       width={1050}
                     />
@@ -192,7 +167,7 @@ const TrendingHashtag = () => {
 
               {selectedCategory === "Traffic" && (
                 <div className="tree-graph">
-                  {treeDataGovernmentLocalState.map((item) => (
+                  {treeDataTraffic.map((item) => (
                     <Tree
                       svgProps={{
                         className: "custom",
@@ -201,17 +176,7 @@ const TrendingHashtag = () => {
                       data={item}
                       nodeRadius={15}
                       margins={{ top: 100, bottom: 80, left: -10, right: 80 }}
-                      height={`${
-                        isHtagSelected === "istanbulhtag"
-                          ? 550
-                          : 440 && isHtagSelected === "ekkanHTag"
-                          ? 550
-                          : 440 && isHtagSelected === "duybeniHtag"
-                          ? 680
-                          : 440 && isHtagSelected === "turkeyHtag"
-                          ? 460
-                          : 440
-                      }`}
+                      height={`${isHtagSelected ? 730 : 530}`}
                       direction="rtl"
                       width={1050}
                     />
@@ -230,17 +195,7 @@ const TrendingHashtag = () => {
                       data={item}
                       nodeRadius={15}
                       margins={{ top: 100, bottom: 80, left: -10, right: 80 }}
-                      height={`${
-                        isHtagSelected === "istanbulhtag"
-                          ? 430
-                          : 440 && isHtagSelected === "ekkanHTag"
-                          ? 510
-                          : 440 && isHtagSelected === "duybeniHtag"
-                          ? 430
-                          : 440 && isHtagSelected === "turkeyHtag"
-                          ? 460
-                          : 440
-                      }`}
+                      height={`${isHtagSelected ? 730 : 440}`}
                       direction="rtl"
                       width={1050}
                     />
@@ -259,17 +214,7 @@ const TrendingHashtag = () => {
                       data={item}
                       nodeRadius={15}
                       margins={{ top: 100, bottom: 80, left: -10, right: 80 }}
-                      height={`${
-                        isHtagSelected === "istanbulhtag"
-                          ? 390
-                          : 440 && isHtagSelected === "ekkanHTag"
-                          ? 510
-                          : 440 && isHtagSelected === "duybeniHtag"
-                          ? 430
-                          : 440 && isHtagSelected === "turkeyHtag"
-                          ? 410
-                          : 440
-                      }`}
+                      height={`${isHtagSelected ? 730 : 440}`}
                       direction="rtl"
                       width={1050}
                     />
@@ -288,17 +233,7 @@ const TrendingHashtag = () => {
                       data={item}
                       nodeRadius={15}
                       margins={{ top: 100, bottom: 80, left: -10, right: 80 }}
-                      height={`${
-                        isHtagSelected === "istanbulhtag"
-                          ? 350
-                          : 440 && isHtagSelected === "ekkanHTag"
-                          ? 420
-                          : 440 && isHtagSelected === "duybeniHtag"
-                          ? 490
-                          : 440 && isHtagSelected === "turkeyHtag"
-                          ? 450
-                          : 440
-                      }`}
+                      height={`${isHtagSelected ? 730 : 440}`}
                       direction="rtl"
                       width={1050}
                     />
@@ -317,17 +252,7 @@ const TrendingHashtag = () => {
                       data={item}
                       nodeRadius={15}
                       margins={{ top: 100, bottom: 80, left: -10, right: 80 }}
-                      height={`${
-                        isHtagSelected === "istanbulhtag"
-                          ? 540
-                          : 440 && isHtagSelected === "ekkanHTag"
-                          ? 370
-                          : 440 && isHtagSelected === "duybeniHtag"
-                          ? 420
-                          : 440 && isHtagSelected === "turkeyHtag"
-                          ? 420
-                          : 440
-                      }`}
+                      height={`${isHtagSelected ? 730 : 440}`}
                       direction="rtl"
                       width={1050}
                     />
@@ -346,17 +271,7 @@ const TrendingHashtag = () => {
                       data={item}
                       nodeRadius={15}
                       margins={{ top: 100, bottom: 80, left: -10, right: 80 }}
-                      height={`${
-                        isHtagSelected === "istanbulhtag"
-                          ? 500
-                          : 440 && isHtagSelected === "ekkanHTag"
-                          ? 450
-                          : 440 && isHtagSelected === "duybeniHtag"
-                          ? 440
-                          : 440 && isHtagSelected === "turkeyHtag"
-                          ? 450
-                          : 440
-                      }`}
+                      height={`${isHtagSelected ? 730 : 440}`}
                       direction="rtl"
                       width={1050}
                     />
@@ -383,7 +298,6 @@ const TrendingHashtag = () => {
                   >
                     {Trendingdata[selectedCategory].topFourHasgtag[0]}
                   </p>
-
                   <p
                     onClick={() => onHtagClick("ekkanHTag")}
                     className="top-four-hashtag-two"

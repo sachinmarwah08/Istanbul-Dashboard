@@ -170,7 +170,7 @@ const GlobeRegions = () => {
             <div className="globe-container-wrapper">
               <div className="globe-left">
                 <button className="range-btn">
-                  Range: 1st Oct - 27th Oct 2022
+                  Range: 1st Sep - 20th Nov 2022
                 </button>
 
                 <h1 className="esg-heading-globe">

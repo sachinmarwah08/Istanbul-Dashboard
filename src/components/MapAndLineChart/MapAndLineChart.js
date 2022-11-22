@@ -38,19 +38,19 @@ import { data as stats } from "../GlobeRegions/data";
 //   });
 // }
 
-const month = moment().format("MMM");
+// const month = moment().format("MMM");
 
-const data = [];
+// const data = [];
 
-const rand = 300;
-for (let i = 1; i < 7; i++) {
-  let d = {
-    year: month + " " + i,
-    value: Math.random() * (rand + 50) + 100,
-  };
+// const rand = 300;
+// for (let i = 1; i < 30; i++) {
+//   let d = {
+//     year: month + " " + i,
+//     value: Math.random() * (rand + 50) + 100,
+//   };
 
-  data.push(d);
-}
+//   data.push(d);
+// }
 
 const MapAndLineChart = () => {
   const selectedCategory = useSelector(
@@ -76,6 +76,14 @@ const MapAndLineChart = () => {
       let obj = {
         month: jsonData[i].Dates,
         value: +jsonData[i][category],
+        generalSentiment: +jsonData[i].GeneralSentiment,
+        govermentSentiment: +jsonData[i].GovernmentSentiment,
+        economicsSentiment: +jsonData[i].EconomicsSentiment,
+        lifestyleSentiment: +jsonData[i].LifestyleSentiment,
+        healthSentiment: +jsonData[i].HealthSentiment,
+        cultureSentiment: +jsonData[i].CultureSentiment,
+        educationSentiment: +jsonData[i].EducationSentiment,
+        trafficSentiment: +jsonData[i].TrafficSentiment,
       };
       tempData.push(obj);
     }
@@ -131,6 +139,151 @@ const MapAndLineChart = () => {
               </p>
             )}
           </div>
+
+          {selectedCategory === "General" && (
+            <div>
+              {item.payload[0].payload.generalSentiment && (
+                <p
+                  style={{
+                    fontSize: "20px",
+                    color: "#ffffff",
+                    fontWeight: 700,
+                    marginTop: 0,
+                    margin: 0,
+                    width: "max-content",
+                  }}
+                >
+                  Sentiment : {item.payload[0].payload.generalSentiment}
+                </p>
+              )}
+            </div>
+          )}
+          {selectedCategory === "Government" && (
+            <div>
+              {item.payload[0].payload.govermentSentiment && (
+                <p
+                  style={{
+                    fontSize: "20px",
+                    color: "#ffffff",
+                    fontWeight: 700,
+                    marginTop: 0,
+                    margin: 0,
+                    width: "max-content",
+                  }}
+                >
+                  Sentiment : {item.payload[0].payload.govermentSentiment}
+                </p>
+              )}
+            </div>
+          )}
+          {selectedCategory === "Economics" && (
+            <div>
+              {item.payload[0].payload.economicsSentiment && (
+                <p
+                  style={{
+                    fontSize: "20px",
+                    color: "#ffffff",
+                    fontWeight: 700,
+                    marginTop: 0,
+                    margin: 0,
+                    width: "max-content",
+                  }}
+                >
+                  Sentiment : {item.payload[0].payload.economicsSentiment}
+                </p>
+              )}
+            </div>
+          )}
+          {selectedCategory === "Lifestyle" && (
+            <div>
+              {item.payload[0].payload.lifestyleSentiment && (
+                <p
+                  style={{
+                    fontSize: "20px",
+                    color: "#ffffff",
+                    fontWeight: 700,
+                    marginTop: 0,
+                    margin: 0,
+                    width: "max-content",
+                  }}
+                >
+                  Sentiment : {item.payload[0].payload.lifestyleSentiment}
+                </p>
+              )}
+            </div>
+          )}
+          {selectedCategory === "Health" && (
+            <div>
+              {item.payload[0].payload.healthSentiment && (
+                <p
+                  style={{
+                    fontSize: "20px",
+                    color: "#ffffff",
+                    fontWeight: 700,
+                    marginTop: 0,
+                    margin: 0,
+                    width: "max-content",
+                  }}
+                >
+                  Sentiment : {item.payload[0].payload.healthSentiment}
+                </p>
+              )}
+            </div>
+          )}
+          {selectedCategory === "Culture" && (
+            <div>
+              {item.payload[0].payload.cultureSentiment && (
+                <p
+                  style={{
+                    fontSize: "20px",
+                    color: "#ffffff",
+                    fontWeight: 700,
+                    marginTop: 0,
+                    margin: 0,
+                    width: "max-content",
+                  }}
+                >
+                  Sentiment : {item.payload[0].payload.cultureSentiment}
+                </p>
+              )}
+            </div>
+          )}
+          {selectedCategory === "Education" && (
+            <div>
+              {item.payload[0].payload.educationSentiment && (
+                <p
+                  style={{
+                    fontSize: "20px",
+                    color: "#ffffff",
+                    fontWeight: 700,
+                    marginTop: 0,
+                    margin: 0,
+                    width: "max-content",
+                  }}
+                >
+                  Sentiment : {item.payload[0].payload.educationSentiment}
+                </p>
+              )}
+            </div>
+          )}
+          {selectedCategory === "Traffic" && (
+            <div>
+              {item.payload[0].payload.trafficSentiment && (
+                <p
+                  style={{
+                    fontSize: "20px",
+                    color: "#ffffff",
+                    fontWeight: 700,
+                    marginTop: 0,
+                    margin: 0,
+                    width: "max-content",
+                  }}
+                >
+                  Sentiment : {item.payload[0].payload.trafficSentiment}
+                </p>
+              )}
+            </div>
+          )}
         </>
       );
     }
@@ -172,7 +325,9 @@ const MapAndLineChart = () => {
         </div>
       </div> */}
       <div className="new-line-chart-wrapper">
-        <h1 className="heading">Sentiment Mentions per 100,000 people</h1>
+        <h1 className="heading">
+          Media Interest and Sentiment Analysis Over Time
+        </h1>
 
         {/* <div className="new-line-chart-buttons-wrapper">
           <div className="left-buttons">
@@ -223,7 +378,7 @@ const MapAndLineChart = () => {
               width="100%"
               height="auto"
               data={localData}
-              margin={{ top: 10, right: 40, left: -20, bottom: 0 }}
+              margin={{ top: 10, right: 45, left: -20, bottom: 0 }}
             >
               <defs>
                 <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
@@ -253,27 +408,10 @@ const MapAndLineChart = () => {
                 dataKey="month"
                 // axisLine={true}
                 // tickLine={false}
+                minTickGap={60}
                 fill="#D0D5DD"
                 fontSize="12px"
                 dy={8}
-              />
-
-              <ReferenceLine
-                x={month}
-                // x={launchDate}
-                strokeDasharray="4 4"
-                // label={{
-                //   value: "Sep 26",
-                //   fill: "#F9FAFB",
-                //   fontSize: "12px",
-                //   fontWeight: 300,
-                //   fontFamily: "Sora",
-                //   position: "bottom",
-                // }}
-                color="#D0D5DD"
-                strokeWidth={2}
-                fontWeight={400}
-                fontSize="12px"
               />
 
               {/* <YAxis

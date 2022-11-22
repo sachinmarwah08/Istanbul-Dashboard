@@ -18,7 +18,7 @@ const IndexNewsFeeds = () => {
           jsonData={jsonData}
           category="generel"
           heading="General News Index"
-          description="The index value and sentiment of news that links to the General category"
+          description="The Interest value and sentiment of news that links to the General category"
         />
         <Chart
           sentimentValue={0}
@@ -26,7 +26,7 @@ const IndexNewsFeeds = () => {
           jsonData={jsonData}
           category="goverment"
           heading="Goverment News Index"
-          description="The index value and sentiment of news that links to the Goverment category"
+          description="The Interest value and sentiment of news that links to the Goverment category"
         />
       </div>
 
@@ -37,7 +37,7 @@ const IndexNewsFeeds = () => {
           jsonData={jsonData}
           category="traffic"
           heading="Traffic News Index"
-          description="The index value and sentiment of news that links to the Traffic category"
+          description="The Interest value and sentiment of news that links to the Traffic category"
         />
 
         <Chart
@@ -46,7 +46,7 @@ const IndexNewsFeeds = () => {
           jsonData={jsonData}
           category="health"
           heading="Health News Index"
-          description="The index value and sentiment of news that links to the Health category"
+          description="The Interest value and sentiment of news that links to the Health category"
         />
         <Chart
           sentimentValue={0}
@@ -54,7 +54,7 @@ const IndexNewsFeeds = () => {
           jsonData={jsonData}
           category="education"
           heading="Education News Index"
-          description="The index value and sentiment of news that links to the Education category"
+          description="The Interest value and sentiment of news that links to the Education category"
         />
         <Chart
           sentimentValue={0}
@@ -62,7 +62,7 @@ const IndexNewsFeeds = () => {
           jsonData={jsonData}
           category="lifestyle"
           heading="Lifestyle News Index"
-          description="The index value and sentiment of news that links to the Lifestyle category"
+          description="The Interest value and sentiment of news that links to the Lifestyle category"
         />
         <Chart
           sentimentValue={0}
@@ -70,7 +70,7 @@ const IndexNewsFeeds = () => {
           jsonData={jsonData}
           category="economics"
           heading="Economics News Index"
-          description="The index value and sentiment of news that links to the Economics category"
+          description="The Interest value and sentiment of news that links to the Economics category"
         />
         <Chart
           sentimentValue={0}
@@ -78,7 +78,7 @@ const IndexNewsFeeds = () => {
           jsonData={jsonData}
           category="culture"
           heading="Culture News Index"
-          description="The index value and sentiment of news that links to the Culture category"
+          description="The Interest value and sentiment of news that links to the Culture category"
         />
       </div>
     </>

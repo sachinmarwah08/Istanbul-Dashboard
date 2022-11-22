@@ -18,7 +18,7 @@ const IndexSocialMediaFeeds = () => {
           jsonData={jsonData}
           category="generel"
           heading="General Social Media Index"
-          description="The index value and sentiment of social media that links to the General category"
+          description="The Interest value and sentiment of social media that links to the General category"
         />
         <Chart
           sentimentValue={0}
@@ -26,7 +26,7 @@ const IndexSocialMediaFeeds = () => {
           jsonData={jsonData}
           category="goverment"
           heading="Goverment Social Media Index"
-          description="The index value and sentiment of social media that links to the Goverment category"
+          description="The Interest value and sentiment of social media that links to the Goverment category"
         />
       </div>
 
@@ -37,7 +37,7 @@ const IndexSocialMediaFeeds = () => {
           jsonData={jsonData}
           category="traffic"
           heading="Traffic Social Media Index"
-          description="The index value and sentiment of social media that links to the Traffic category"
+          description="The Interest value and sentiment of social media that links to the Traffic category"
         />
 
         <Chart
@@ -46,7 +46,7 @@ const IndexSocialMediaFeeds = () => {
           jsonData={jsonData}
           category="health"
           heading="Health Social Media Index"
-          description="The index value and sentiment of social media that links to the Health category"
+          description="The Interest value and sentiment of social media that links to the Health category"
         />
         <Chart
           sentimentValue={0}
@@ -54,7 +54,7 @@ const IndexSocialMediaFeeds = () => {
           jsonData={jsonData}
           category="education"
           heading="Education Social Media Index"
-          description="The index value and sentiment of social media that links to the Education category"
+          description="The Interest value and sentiment of social media that links to the Education category"
         />
         <Chart
           sentimentValue={0}
@@ -62,7 +62,7 @@ const IndexSocialMediaFeeds = () => {
           jsonData={jsonData}
           category="lifestyle"
           heading="Lifestyle Social Media Index"
-          description="The index value and sentiment of social media that links to the Lifestyle category"
+          description="The Interest value and sentiment of social media that links to the Lifestyle category"
         />
         <Chart
           sentimentValue={0}
@@ -70,7 +70,7 @@ const IndexSocialMediaFeeds = () => {
           jsonData={jsonData}
           category="economics"
           heading="Economics Social Media Index"
-          description="The index value and sentiment of social media that links to the Economics category"
+          description="The Interest value and sentiment of social media that links to the Economics category"
         />
         <Chart
           sentimentValue={13}
@@ -78,7 +78,7 @@ const IndexSocialMediaFeeds = () => {
           jsonData={jsonData}
           category="culture"
           heading="Culture Social Media Index"
-          description="The index value and sentiment of social media that links to the Culture category"
+          description="The Interest value and sentiment of social media that links to the Culture category"
         />
       </div>
     </>

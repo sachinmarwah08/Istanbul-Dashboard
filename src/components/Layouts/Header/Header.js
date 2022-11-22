@@ -23,36 +23,36 @@ const Header = () => {
           <div className="right-content">
             <div className="date-container">
               <div className="date-one">
-                <p className="date">Oct 01, 2022</p>
+                <p className="date">Sep 01, 2022</p>
                 <div className="date-icon">
                   <FontAwesomeIcon className="fa" icon={faAngleDown} />
                 </div>
               </div>
               <span className="line"></span>
               <div className="date-two">
-                <p className="date">Oct 27, 2022</p>
+                <p className="date">Nov 20, 2022</p>
                 <div className="date-icon">
                   <FontAwesomeIcon className="fa" icon={faAngleDown} />
                 </div>
               </div>
             </div>
 
-            <div className="names-wrapper">
+            {/* <div className="names-wrapper">
               <div className="names-container">
                 <span className="Total-value">{data.IndexValue}</span>
                 <span className="absolute-change-value">
                   +{data.AbsoluteChange}
                 </span>
 
-                {/* <span className="percentage-change-value">
+                <span className="percentage-change-value">
                   +{parseFloat(data.PercentageChange).toFixed(2)}
-                </span> */}
-                <span className="current-date">Current Index Value</span>
+                </span>
+                <span className="current-date">Current Index</span>
 
                 <span className="absolute-change">Previous Period Change</span>
-                {/* <span className="percentage-change">Percentage Change</span> */}
+                <span className="percentage-change">Percentage Change</span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

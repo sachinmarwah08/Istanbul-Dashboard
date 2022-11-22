@@ -22,10 +22,10 @@ const TopInfluencers = () => {
   useEffect(() => {
     if (selectedCategory) {
       let tempData = data.filter((item) => item.Category === selectedCategory);
-      console.log(tempData);
       setLocalData(tempData);
     } else {
-      setLocalData(data);
+      let tempData = data.filter((item) => item.CategoryAll);
+      setLocalData(tempData);
     }
   }, [selectedCategory]);
 
@@ -68,13 +68,13 @@ const TopInfluencers = () => {
   return (
     <>
       <div className="second-content-wrapper">
-        <div className="radio-btn-wrapper-analysis">
+        {/* <div className="radio-btn-wrapper-analysis">
           <>
             <RadioButton name="All" />
             <RadioButton name="Person" />
             <RadioButton name="Organisation" />
           </>
-        </div>
+        </div> */}
       </div>
       <div className="searchBar-wrapper-analysis">
         <SearchBar
@@ -105,10 +105,10 @@ const TopInfluencers = () => {
                 </th>
                 <th>Media Impact</th>
                 <th>Followers</th>
-                <th>Engagement</th>
+                {/* <th>Engagement</th> */}
               </tr>
             </thead>
-            <tbody style={{ marginTop: "0.5rem", height: "24.5rem" }}>
+            <tbody style={{ marginTop: "0.5rem", height: "26rem" }}>
               {localData.map((item) => (
                 <tr
                   key={item.id}
@@ -147,7 +147,7 @@ const TopInfluencers = () => {
                           lineHeight: "30px",
                         }}
                       >
-                        {nFormatter(item.Followers)}
+                        {nFormatter(item.MediaImpact)}
                       </p>
                       <p style={{ margin: "0" }}>Media Impact</p>
                     </div>
@@ -168,12 +168,12 @@ const TopInfluencers = () => {
                           lineHeight: "30px",
                         }}
                       >
-                        {nFormatter(item.Engagement)}
+                        {nFormatter(item.Followers)}
                       </p>
                       <p style={{ margin: "0" }}>Followers</p>
                     </div>
                   </td>
-                  <td>
+                  {/* <td>
                     <div
                       style={{
                         display: "flex",
@@ -193,7 +193,7 @@ const TopInfluencers = () => {
                       </p>
                       <p style={{ margin: "0" }}>Engagement</p>
                     </div>
-                  </td>
+                  </td> */}
                 </tr>
               ))}
             </tbody>
