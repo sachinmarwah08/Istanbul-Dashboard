@@ -23,8 +23,9 @@ const Footer = () => {
           </div>
 
           <p className="footer-title">
-            2022-2022, citiabc, All rights reserved. citiabc and its logo are
-            citiabc trademarks or registered trademarks in the US and elsewhere.
+            2022-2022, citiesabc, All rights reserved. citiesabc and its logo
+            are citiesabc trademarks or registered trademarks in the US and
+            elsewhere.
           </p>
         </div>
       </div>
