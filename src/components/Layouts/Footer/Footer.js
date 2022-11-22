@@ -23,8 +23,8 @@ const Footer = () => {
           </div>
 
           <p className="footer-title">
-            2022-2022, ESG, Inc. All rights reserved. ESG and its logo are ESG’s
-            trademarks or registered trademarks in the US and elsewhere.
+            2022-2022, citiabc, All rights reserved. citiabc and its logo are
+            citiabc trademarks or registered trademarks in the US and elsewhere.
           </p>
         </div>
       </div>
