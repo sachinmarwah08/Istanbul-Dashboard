@@ -9,7 +9,6 @@ import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import "tippy.js/themes/light.css";
 import "tippy.js/dist/svg-arrow.css";
-import infoCircle from "../../Images/infoCircle.svg";
 
 const GlobeRegions = () => {
   const dispatch = useDispatch();
@@ -164,51 +163,131 @@ const GlobeRegions = () => {
                 </h1>
 
                 <>
-                  <div className="media">
-                    <Tippy
-                      arrow={false}
-                      theme={"red"}
-                      interactive={true}
-                      zIndex={9999999999}
-                      content={
-                        <div
-                          style={{
-                            fontWeight: 400,
-                            fontFamily: "Sora",
-                            fontSize: "12px",
-                            zIndex: 999999,
-                          }}
-                        >
-                          This dashboard provides insights on Istanbul tweets,
-                          news stories, top influencers, and trending hashtags,
-                          as well as categorisation of these into General,
-                          Government, Economics, Lifestyle, Health, Culture,
-                          Education, and Traffic segments.
-                        </div>
-                      }
-                    >
-                      <img className="info" src={infoCircle} />
-                    </Tippy>
-                    <p className="interest">Media Interest</p>
-                    <p className="score">{data.Media_Interest}</p>
-                  </div>
+                  <Tippy
+                    arrow={false}
+                    theme={"red"}
+                    interactive={true}
+                    zIndex={9999999999}
+                    content={
+                      <div
+                        style={{
+                          fontWeight: 400,
+                          fontFamily: "Sora",
+                          fontSize: "12px",
+                          zIndex: 999999,
+                        }}
+                      >
+                        This is the count of positive, neutral, and negative
+                        tweets and news stories from Twitter and News media.
+                      </div>
+                    }
+                  >
+                    <div className="media">
+                      <p className="interest">Media Interest</p>
+                      <p className="score">{data.Media_Interest}</p>
+                    </div>
+                  </Tippy>
 
-                  <div className="media">
-                    <p className="interest">Social Media Interest</p>
-                    <p className="score">{data.Social_Media_Interest}</p>
-                  </div>
-                  <div className="media">
-                    <p className="interest">News Interest</p>
-                    <p className="score">{data.News_Interest}</p>
-                  </div>
-                  <div className="media">
-                    <p className="interest">Overall Sentiment</p>
-                    <p className="score">{data.Overall_Sentiment}</p>
-                  </div>
-                  <div className="media">
-                    <p className="interest">Influencers</p>
-                    <p className="score">{data.Influencers}</p>
-                  </div>
+                  <Tippy
+                    arrow={false}
+                    theme={"red"}
+                    interactive={true}
+                    zIndex={9999999999}
+                    content={
+                      <div
+                        style={{
+                          fontWeight: 400,
+                          fontFamily: "Sora",
+                          fontSize: "12px",
+                          zIndex: 999999,
+                        }}
+                      >
+                        This is the count of positive, neutral, and negative
+                        tweets from Twitter.
+                      </div>
+                    }
+                  >
+                    <div className="media">
+                      <p className="interest">Social Media Interest</p>
+                      <p className="score">{data.Social_Media_Interest}</p>
+                    </div>
+                  </Tippy>
+
+                  <Tippy
+                    arrow={false}
+                    theme={"red"}
+                    interactive={true}
+                    zIndex={9999999999}
+                    content={
+                      <div
+                        style={{
+                          fontWeight: 400,
+                          fontFamily: "Sora",
+                          fontSize: "12px",
+                          zIndex: 999999,
+                        }}
+                      >
+                        This is the count of positive, neutral, and negative
+                        news stories from News media.
+                      </div>
+                    }
+                  >
+                    <div className="media">
+                      <p className="interest">News Interest</p>
+                      <p className="score">{data.News_Interest}</p>
+                    </div>
+                  </Tippy>
+
+                  <Tippy
+                    arrow={false}
+                    theme={"red"}
+                    interactive={true}
+                    zIndex={9999999999}
+                    content={
+                      <div
+                        style={{
+                          fontWeight: 400,
+                          fontFamily: "Sora",
+                          fontSize: "12px",
+                          zIndex: 999999,
+                        }}
+                      >
+                        The Sentiment is the numerical value of the tone of
+                        tweets and news stories from Twitter and News media.
+                      </div>
+                    }
+                  >
+                    <div className="media">
+                      <p className="interest">Overall Sentiment</p>
+                      <p className="score">{data.Overall_Sentiment}</p>
+                    </div>
+                  </Tippy>
+
+                  <Tippy
+                    arrow={false}
+                    theme={"red"}
+                    interactive={true}
+                    zIndex={9999999999}
+                    content={
+                      <div
+                        style={{
+                          fontWeight: 400,
+                          fontFamily: "Sora",
+                          fontSize: "12px",
+                          zIndex: 999999,
+                        }}
+                      >
+                        This number represents the number of well-known
+                        influencers whose tweets have a significant impression
+                        and reach.
+                      </div>
+                    }
+                  >
+                    <div className="media">
+                      <p className="interest">Influencers</p>
+                      <p className="score">{data.Influencers}</p>
+                    </div>
+                  </Tippy>
                   {/* <div className="media">
                     <p className="interest">Top Related Topics</p>
                     <p className="score">50</p>

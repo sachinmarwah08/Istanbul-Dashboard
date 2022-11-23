@@ -20,28 +20,6 @@ import "tippy.js/dist/tippy.css";
 import "tippy.js/themes/light.css";
 import "tippy.js/dist/svg-arrow.css";
 
-// const data = [];
-// for (let num = 30; num >= 0; num--) {
-//   data.push({
-//     date: subDays(new Date(), num).toISOString().substring(0, 10),
-//     value: 1 + Math.random(),
-//   });
-// }
-
-// const month = moment().format("MMM");
-
-// const data = [];
-
-// const rand = 300;
-// for (let i = 1; i < 30; i++) {
-//   let d = {
-//     year: month + " " + i,
-//     value: Math.random() * (rand + 50) + 100,
-//   };
-
-//   data.push(d);
-// }
-
 const MapAndLineChart = () => {
   const selectedCategory = useSelector(
     (state) => state.globalData.selectedCategory
@@ -82,6 +60,7 @@ const MapAndLineChart = () => {
 
   function renderTooltip(item) {
     if (item && item.payload && item.payload.length) {
+      console.log(item && item.payload && item.payload.length);
       return (
         <>
           <div>
@@ -127,47 +106,25 @@ const MapAndLineChart = () => {
             )}
           </div>
 
-          {item.payload[0].payload.generalSentiment &&
-            selectedCategory === "General" && (
-              <div>
-                {item.payload[0].payload.generalSentiment && (
-                  <p
-                    style={{
-                      fontSize: "20px",
-                      color: "#ffffff",
-                      fontWeight: 700,
-                      marginTop: 0,
-                      margin: 0,
-                      width: "max-content",
-                    }}
-                  >
-                    Sentiment : {item.payload[0].payload.generalSentiment}
-                  </p>
-                )}
-              </div>
-            )}
-
-          {item.payload[0].payload.govermentSentiment &&
-            selectedCategory === "Government" && (
-              <div>
-                {item.payload[0].payload.govermentSentiment && (
-                  <p
-                    style={{
-                      fontSize: "20px",
-                      color: "#ffffff",
-                      fontWeight: 700,
-                      marginTop: 0,
-                      margin: 0,
-                      width: "max-content",
-                    }}
-                  >
-                    Sentiment : {item.payload[0].payload.govermentSentiment}
-                  </p>
-                )}
-              </div>
-            )}
-
-          {/* {selectedCategory === "Government" && (
+          {selectedCategory === "General" && (
+            <div>
+              {item.payload[0].payload.generalSentiment && (
+                <p
+                  style={{
+                    fontSize: "20px",
+                    color: "#ffffff",
+                    fontWeight: 700,
+                    marginTop: 0,
+                    margin: 0,
+                    width: "max-content",
+                  }}
+                >
+                  Sentiment : {item.payload[0].payload.generalSentiment}
+                </p>
+              )}
+            </div>
+          )}
+          {selectedCategory === "Government" && (
             <div>
               {item.payload[0].payload.govermentSentiment && (
                 <p
@@ -184,7 +141,7 @@ const MapAndLineChart = () => {
                 </p>
               )}
             </div>
-          )} */}
+          )}
           {selectedCategory === "Economics" && (
             <div>
               {item.payload[0].payload.economicsSentiment && (

@@ -128,7 +128,7 @@ const RealTimeNews = () => {
             </div>
 
             <a
-              // href={item.url}
+              href={item.URL}
               rel="noreferrer"
               target="_blank"
               className="left-content-heading-news"

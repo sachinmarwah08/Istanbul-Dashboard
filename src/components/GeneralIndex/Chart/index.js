@@ -33,6 +33,7 @@ const Chart = ({
   indexValue,
   heading,
   description,
+  active,
 }) => {
   const [data, setData] = useState(null);
 
@@ -80,29 +81,91 @@ const Chart = ({
               {item.payload[0].payload.year}
             </p>
           </div>
-          <div>
-            {item.payload[0].payload.value >= 0 && (
-              <p
-                style={{
-                  fontSize: "20px",
-                  color: "#ffffff",
-                  fontWeight: 700,
-                  marginTop: 0,
-                  margin: 0,
-                  width: "max-content",
-                }}
-              >
-                Index : {item.payload[0].payload.value}
-              </p>
-            )}
-          </div>
-          <div>
-            {item.payload[0].payload.sentiment && (
-              <p className="sentiment-value">
-                Sentiment : {item.payload[0].payload.sentiment}
-              </p>
-            )}
-          </div>
+
+          {active === "index-news-feeds" && (
+            <div>
+              {item.payload[0].payload.value >= 0 && (
+                <p
+                  style={{
+                    fontSize: "20px",
+                    color: "#ffffff",
+                    fontWeight: 700,
+                    marginTop: 0,
+                    margin: 0,
+                    width: "max-content",
+                  }}
+                >
+                  News Interest : {item.payload[0].payload.value}
+                </p>
+              )}
+            </div>
+          )}
+
+          {active === "index-social-media-feeds" && (
+            <div>
+              {item.payload[0].payload.value >= 0 && (
+                <p
+                  style={{
+                    fontSize: "20px",
+                    color: "#ffffff",
+                    fontWeight: 700,
+                    marginTop: 0,
+                    margin: 0,
+                    width: "max-content",
+                  }}
+                >
+                  Social Media Interest : {item.payload[0].payload.value}
+                </p>
+              )}
+            </div>
+          )}
+
+          {active === "index-news-and-social-media" && (
+            <div>
+              {item.payload[0].payload.value >= 0 && (
+                <p
+                  style={{
+                    fontSize: "20px",
+                    color: "#ffffff",
+                    fontWeight: 700,
+                    marginTop: 0,
+                    margin: 0,
+                    width: "max-content",
+                  }}
+                >
+                  Media Interest : {item.payload[0].payload.value}
+                </p>
+              )}
+            </div>
+          )}
+
+          {active === "index-news-feeds" && (
+            <div>
+              {item.payload[0].payload.sentiment && (
+                <p className="sentiment-value">
+                  News Sentiment : {item.payload[0].payload.sentiment}
+                </p>
+              )}
+            </div>
+          )}
+          {active === "index-social-media-feeds" && (
+            <div>
+              {item.payload[0].payload.sentiment && (
+                <p className="sentiment-value">
+                  Social Media Sentiment : {item.payload[0].payload.sentiment}
+                </p>
+              )}
+            </div>
+          )}
+          {active === "index-news-and-social-media" && (
+            <div>
+              {item.payload[0].payload.sentiment && (
+                <p className="sentiment-value">
+                  Media Sentiment : {item.payload[0].payload.sentiment}
+                </p>
+              )}
+            </div>
+          )}
         </>
       );
     }

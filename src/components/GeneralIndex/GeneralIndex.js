@@ -118,11 +118,13 @@ const GeneralIndex = () => {
         <div className="border-bottom"></div>
 
         <div className="table-wrapper-analysis">
-          {active === "index-news-feeds" && <IndexNewsFeeds />}
-          {/* {active === "index-social-media-feeds" && <IndexSocialMediaFeeds />}
+          {active === "index-news-feeds" && <IndexNewsFeeds active={active} />}
+          {active === "index-social-media-feeds" && (
+            <IndexSocialMediaFeeds active={active} />
+          )}
           {active === "index-news-and-social-media" && (
-            <IndexNewsAndSocialMedia />
-          )} */}
+            <IndexNewsAndSocialMedia active={active} />
+          )}
         </div>
       </div>
     </div>

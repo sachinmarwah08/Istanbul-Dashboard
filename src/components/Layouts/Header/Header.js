@@ -31,7 +31,7 @@ const Header = () => {
                     style={{
                       fontWeight: 400,
                       fontFamily: "Sora",
-                      fontSize: "12px",
+                      fontSize: "11.5px",
                       zIndex: 999999,
                     }}
                   >

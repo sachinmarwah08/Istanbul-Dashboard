@@ -3,7 +3,7 @@ import "./IndexNewsFeeds.scss";
 import Chart from "../Chart";
 import { data as jsonData } from "./Data/general";
 
-const IndexNewsFeeds = () => {
+const IndexNewsFeeds = ({ active }) => {
   return (
     <>
       <div>
@@ -14,6 +14,7 @@ const IndexNewsFeeds = () => {
       <div className="chart-outside-index-two">
         <Chart
           sentimentValue="Positive"
+          active={active}
           indexValue={17}
           jsonData={jsonData}
           category="generel"
@@ -22,6 +23,7 @@ const IndexNewsFeeds = () => {
         />
         <Chart
           sentimentValue="Positive"
+          active={active}
           indexValue={2}
           jsonData={jsonData}
           category="goverment"
@@ -33,6 +35,7 @@ const IndexNewsFeeds = () => {
       <div className="chart-outside-index">
         <Chart
           sentimentValue="Positive"
+          active={active}
           indexValue={1}
           jsonData={jsonData}
           category="traffic"
@@ -42,6 +45,7 @@ const IndexNewsFeeds = () => {
 
         <Chart
           sentimentValue="Positive"
+          active={active}
           indexValue={0}
           jsonData={jsonData}
           category="health"
@@ -50,6 +54,7 @@ const IndexNewsFeeds = () => {
         />
         <Chart
           sentimentValue="Positive"
+          active={active}
           indexValue={3}
           jsonData={jsonData}
           category="education"
@@ -58,6 +63,7 @@ const IndexNewsFeeds = () => {
         />
         <Chart
           sentimentValue="Positive"
+          active={active}
           indexValue={3}
           jsonData={jsonData}
           category="lifestyle"
@@ -66,6 +72,7 @@ const IndexNewsFeeds = () => {
         />
         <Chart
           sentimentValue="Positive"
+          active={active}
           indexValue={3}
           jsonData={jsonData}
           category="economics"
@@ -74,6 +81,7 @@ const IndexNewsFeeds = () => {
         />
         <Chart
           sentimentValue="Positive"
+          active={active}
           indexValue={5}
           jsonData={jsonData}
           category="culture"

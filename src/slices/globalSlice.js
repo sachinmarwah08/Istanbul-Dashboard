@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 let initialState = {
-  selectedCategory: null,
+  selectedCategory: "General",
 };
 
 export const globalSlice = createSlice({
