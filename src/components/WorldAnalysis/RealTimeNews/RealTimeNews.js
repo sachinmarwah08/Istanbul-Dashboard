@@ -23,8 +23,10 @@ const RealTimeNews = () => {
     if (selectedCategory) {
       let tempData = data.filter((item) => item.Category === selectedCategory);
       setLocalData(tempData);
+      console.log(tempData, "hello news");
     } else {
-      setLocalData(data);
+      let tempData = data.filter((item) => item.CategoryAll);
+      setLocalData(tempData);
     }
   }, [selectedCategory]);
 

@@ -9,7 +9,7 @@ import "tippy.js/themes/light.css";
 import "tippy.js/dist/svg-arrow.css";
 
 const GeneralIndex = () => {
-  const [active, setActive] = useState("index-news-feeds");
+  const [active, setActive] = useState("index-news-and-social-media");
   return (
     <div className="general-analysis-container-wrapper">
       <div className="container-content">
@@ -45,7 +45,7 @@ const GeneralIndex = () => {
                     : "real-time-news"
                 }
               >
-                Index on News feeds
+                News Feeds Analysis
               </div>
             </Tippy>
             <Tippy
@@ -77,7 +77,7 @@ const GeneralIndex = () => {
                     : "real-time-tweets"
                 }
               >
-                Index on Social Media feeds
+                Social Media Feeds Analysis
               </div>
             </Tippy>
             <Tippy
@@ -110,7 +110,7 @@ const GeneralIndex = () => {
                     : "top-influencers"
                 }
               >
-                Indexes on News & Social Media
+                News & Social Media Feeds Analysis
               </div>
             </Tippy>
           </div>

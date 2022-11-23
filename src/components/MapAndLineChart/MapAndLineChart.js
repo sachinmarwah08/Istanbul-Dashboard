@@ -33,6 +33,8 @@ const MapAndLineChart = () => {
     Overall_Sentiment: "",
   });
 
+  let selected = selectedCategory || "General";
+
   useEffect(() => {
     let category = selectedCategory || "General";
     console.log(category, "category");
@@ -56,7 +58,7 @@ const MapAndLineChart = () => {
     console.log(tempData);
     setLocalData(tempData);
     setStatatics(stats[category]);
-  }, [selectedCategory]);
+  }, [selectedCategory, selected]);
 
   function renderTooltip(item) {
     if (item && item.payload && item.payload.length) {
@@ -106,7 +108,7 @@ const MapAndLineChart = () => {
             )}
           </div>
 
-          {selectedCategory === "General" && (
+          {selected === "General" && (
             <div>
               {item.payload[0].payload.generalSentiment && (
                 <p
@@ -119,12 +121,12 @@ const MapAndLineChart = () => {
                     width: "max-content",
                   }}
                 >
-                  Sentiment : {item.payload[0].payload.generalSentiment}
+                  Average Sentiment : {item.payload[0].payload.generalSentiment}
                 </p>
               )}
             </div>
           )}
-          {selectedCategory === "Government" && (
+          {selected === "Government" && (
             <div>
               {item.payload[0].payload.govermentSentiment && (
                 <p
@@ -142,7 +144,7 @@ const MapAndLineChart = () => {
               )}
             </div>
           )}
-          {selectedCategory === "Economics" && (
+          {selected === "Economics" && (
             <div>
               {item.payload[0].payload.economicsSentiment && (
                 <p
@@ -160,7 +162,7 @@ const MapAndLineChart = () => {
               )}
             </div>
           )}
-          {selectedCategory === "Lifestyle" && (
+          {selected === "Lifestyle" && (
             <div>
               {item.payload[0].payload.lifestyleSentiment && (
                 <p
@@ -178,7 +180,7 @@ const MapAndLineChart = () => {
               )}
             </div>
           )}
-          {selectedCategory === "Health" && (
+          {selected === "Health" && (
             <div>
               {item.payload[0].payload.healthSentiment && (
                 <p
@@ -196,7 +198,7 @@ const MapAndLineChart = () => {
               )}
             </div>
           )}
-          {selectedCategory === "Culture" && (
+          {selected === "Culture" && (
             <div>
               {item.payload[0].payload.cultureSentiment && (
                 <p
@@ -214,7 +216,7 @@ const MapAndLineChart = () => {
               )}
             </div>
           )}
-          {selectedCategory === "Education" && (
+          {selected === "Education" && (
             <div>
               {item.payload[0].payload.educationSentiment && (
                 <p
@@ -232,7 +234,7 @@ const MapAndLineChart = () => {
               )}
             </div>
           )}
-          {selectedCategory === "Traffic" && (
+          {selected === "Traffic" && (
             <div>
               {item.payload[0].payload.trafficSentiment && (
                 <p
@@ -336,26 +338,130 @@ const MapAndLineChart = () => {
         </div> */}
 
         <div className="media-wrapper">
-          <div className="media-content">
-            <span className="title">Media Interest</span>
-            <span className="count">{statatics.Media_Interest}</span>
-          </div>
-          <div className="media-content">
-            <span className="title">Social Media Interest</span>
-            <span className="count">{statatics.Social_Media_Interest}</span>
-          </div>
-          <div className="media-content">
-            <span className="title">News Interest</span>
-            <span className="count">{statatics.News_Interest}</span>
-          </div>
-          <div className="media-content">
-            <span className="title">Overall Sentiment</span>
-            <span className="count">{statatics.Overall_Sentiment}</span>
-          </div>
-          <div className="media-content">
-            <span className="title">Influencers</span>
-            <span className="count">{statatics.Influencers}</span>
-          </div>
+          <Tippy
+            arrow={false}
+            theme={"red"}
+            interactive={true}
+            zIndex={9999999999}
+            content={
+              <div
+                style={{
+                  fontWeight: 400,
+                  fontFamily: "Sora",
+                  fontSize: "12px",
+                  zIndex: 999999,
+                }}
+              >
+                This is the count of positive, neutral, and negative tweets and
+                news stories from Twitter and News media.
+              </div>
+            }
+          >
+            <div className="media-content">
+              <span className="title">Media Interest</span>
+              <span className="count">{statatics.Media_Interest}</span>
+            </div>
+          </Tippy>
+
+          <Tippy
+            arrow={false}
+            theme={"red"}
+            interactive={true}
+            zIndex={9999999999}
+            content={
+              <div
+                style={{
+                  fontWeight: 400,
+                  fontFamily: "Sora",
+                  fontSize: "12px",
+                  zIndex: 999999,
+                }}
+              >
+                This is the count of positive, neutral, and negative tweets from
+                Twitter.
+              </div>
+            }
+          >
+            <div className="media-content">
+              <span className="title">Social Media Interest</span>
+              <span className="count">{statatics.Social_Media_Interest}</span>
+            </div>
+          </Tippy>
+
+          <Tippy
+            arrow={false}
+            theme={"red"}
+            interactive={true}
+            zIndex={9999999999}
+            content={
+              <div
+                style={{
+                  fontWeight: 400,
+                  fontFamily: "Sora",
+                  fontSize: "12px",
+                  zIndex: 999999,
+                }}
+              >
+                This is the count of positive, neutral, and negative news
+                stories from News media.
+              </div>
+            }
+          >
+            <div className="media-content">
+              <span className="title">News Interest</span>
+              <span className="count">{statatics.News_Interest}</span>
+            </div>
+          </Tippy>
+
+          <Tippy
+            arrow={false}
+            theme={"red"}
+            interactive={true}
+            zIndex={9999999999}
+            content={
+              <div
+                style={{
+                  fontWeight: 400,
+                  fontFamily: "Sora",
+                  fontSize: "12px",
+                  zIndex: 999999,
+                }}
+              >
+                The Sentiment is the numerical value of the tone of tweets and
+                news stories from Twitter and News media.
+              </div>
+            }
+          >
+            <div className="media-content">
+              <span className="title">Overall Sentiment</span>
+              <span className="count">{statatics.Overall_Sentiment}</span>
+            </div>
+          </Tippy>
+
+          <Tippy
+            arrow={false}
+            theme={"red"}
+            interactive={true}
+            zIndex={9999999999}
+            content={
+              <div
+                style={{
+                  fontWeight: 400,
+                  fontFamily: "Sora",
+                  fontSize: "12px",
+                  zIndex: 999999,
+                }}
+              >
+                This number represents the number of well-known influencers
+                whose tweets have a significant impression and reach.
+              </div>
+            }
+          >
+            <div className="media-content">
+              <span className="title">Influencers</span>
+              <span className="count">{statatics.Influencers}</span>
+            </div>
+          </Tippy>
           {/* <div className="media-content">
             <span className="title">Top Related Topics</span>
             <span className="count">50</span>

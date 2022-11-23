@@ -1,6 +1,6 @@
 export const data = [
   {
-    Datetime: "20-11-22",
+    Datetime: "20-11-2022",
     Event:
       "Turkey Targets Kurdish Militants With Air Strikes in Alleged Retaliation Against Istanbul Attack",
     URL: "https://thewire.in/world/turkey-targets-kurdish-militants-with-air-strikes-in-alleged-retaliation-against-istanbul-attack",
@@ -10,7 +10,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "20-11-22",
+    Datetime: "20-11-2022",
     Event: "Turkey bombs Syria, Iraq in response to Istanbul terror attack",
     URL: "https://www.al-monitor.com/originals/2022/11/turkey-bombs-syria-iraq-response-istanbul-terror-attack",
     Category: "Government",
@@ -19,7 +19,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "20-11-22",
+    Datetime: "20-11-2022",
     Event:
       "Finland regrets possible impact of Istanbul attack on NATO accession talks",
     URL: "https://www.msn.com/en-in/news/world/finland-regrets-possible-impact-of-istanbul-attack-on-nato-accession-talks/ar-AA14kqoZ",
@@ -29,7 +29,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "20-11-22",
+    Datetime: "20-11-2022",
     Event: "Bulgaria Charges Five With Helping Istanbul Bombing Suspect",
     URL: "https://www.rferl.org/a/bulgaria-arrests-turkey-bombing/32138089.html",
     Category: "Government",
@@ -38,7 +38,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "20-11-22",
+    Datetime: "20-11-2022",
     Event: "13 more detained in deadly bomb attack in Istanbul",
     URL: "https://www.hurriyetdailynews.com/13-more-detained-in-deadly-bomb-attack-in-istanbul-178672",
     Category: "Government",
@@ -47,7 +47,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "20-11-22",
+    Datetime: "20-11-2022",
     Event: "Bulgaria detains 5 suspects in deadly Istanbul bombing",
     URL: "https://federalnewsnetwork.com/government-news/2022/11/bulgaria-detains-5-suspects-in-deadly-istanbul-bombing/",
     Category: "Government",
@@ -56,7 +56,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "20-11-22",
+    Datetime: "20-11-2022",
     Event:
       "Istanbul Airport traffic control tower turns blue to mark World Children's Day",
     URL: "https://www.aa.com.tr/en/world/istanbul-airport-traffic-control-tower-turns-blue-to-mark-world-childrens-day/2743385",
@@ -66,7 +66,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "20-11-22",
+    Datetime: "20-11-2022",
     Event: "Istanbul Airport Served Nearly 6 Million Passengers in October",
     URL: "https://www.raillynews.com/2022/11/Istanbul-airport-served-nearly-6-million-passengers-in-October/",
     Category: "Traffic",
@@ -75,7 +75,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "20-11-22",
+    Datetime: "20-11-2022",
     Event: "Bulgaria Charges 5 People For Istanbul Blast That Killed 6: Report",
     URL: "https://www.ndtv.com/world-news/bulgaria-charges-5-people-for-istanbul-blast-that-killed-6-report-3535953",
     Category: "Health",
@@ -84,7 +84,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "20-11-22",
+    Datetime: "20-11-2022",
     Event:
       "World News Roundup: Bulgaria charges five people in connection with Istanbul blast; Women priests, homosexuality, not closed debate in Church, German bishop says and more",
     URL: "https://www.devdiscourse.com/article/law-order/2257774-world-news-roundup-bulgaria-charges-five-people-in-connection-with-istanbul-blast-women-priests-homosexuality-not-closed-d",
@@ -94,7 +94,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "20-11-22",
+    Datetime: "20-11-2022",
     Event:
       "How Istanbul's ancient coffee culture is holding its own in the modern world",
     URL: "https://www.nationalgeographic.co.uk/travel/2022/11/how-istanbuls-ancient-coffee-culture-is-holding-its-own-in-the-modern-world",
@@ -104,7 +104,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "20-11-22",
+    Datetime: "20-11-2022",
     Event: "The Music of East meets West: �sk�dar neighborhood, Istanbul",
     URL: "https://boingboing.net/2022/11/19/the-music-of-east-meets-west-uskudar-neighborhood-istanbul.html",
     Category: "Culture",
@@ -113,7 +113,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "19-11-22",
+    Datetime: "19-11-2022",
     Event: "Turkey detains 17 suspects over deadly Istanbul attack",
     URL: "https://english.alarabiya.net/News/middle-east/2022/11/18/Turkey-detains-17-suspects-over-deadly-Istanbul-attack",
     Category: "Government",
@@ -122,7 +122,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "19-11-22",
+    Datetime: "19-11-2022",
     Event:
       "Istanbul Strait maritime traffic returns to normal after suspension",
     URL: "https://www.trtworld.com/turkey/istanbul-strait-maritime-traffic-returns-to-normal-after-suspension-62694",
@@ -132,7 +132,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "19-11-22",
+    Datetime: "19-11-2022",
     Event: "Turkish court arrests 17 suspects over Istanbul blast",
     URL: "https://cyprus-mail.com/2022/11/18/turkish-court-arrests-17-suspects-over-istanbul-blast/",
     Category: "Health",
@@ -141,7 +141,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "19-11-22",
+    Datetime: "19-11-2022",
     Event: "Turkey Tested New Censorship Powers After Istanbul Blast",
     URL: "https://finance.yahoo.com/news/turkey-tested-censorship-powers-istanbul-050000060.html",
     Category: "Economics",
@@ -150,7 +150,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "18-11-22",
+    Datetime: "18-11-2022",
     Event:
       "Not a tall order: Turkish Airlines removes six seats to make room for comfort of world�s tallest woman on Istanbul-San Francisco flight",
     URL: "https://www.gulftoday.ae/lifestyle/2022/11/17/not-a-tall-order-turkish-airlines-removes-six-seats-to-make-room-for-comfort",
@@ -160,7 +160,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "18-11-22",
+    Datetime: "18-11-2022",
     Event: "A disappointing Western response to the bombing in Istanbul",
     URL: "https://tuftsdaily.com/opinion/2022/11/18/a-disappointing-western-response-to-the-bombing-in-istanbul/",
     Category: "Culture",
@@ -169,7 +169,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "15-11-22",
+    Datetime: "15-11-2022",
     Event: "EXPLAINER: Why Istanbul blast has political implications",
     URL: "https://abcnews.go.com/International/wireStory/explainer-istanbul-blast-political-implications-93281106",
     Category: "Government",
@@ -178,7 +178,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "15-11-22",
+    Datetime: "15-11-2022",
     Event:
       "UK Government updates advice on tourists going to Turkey after Istanbul explosion",
     URL: "https://www.chroniclelive.co.uk/whats-on/travel-tourism/uk-government-updates-advice-tourists-25513016",
@@ -188,7 +188,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "15-11-22",
+    Datetime: "15-11-2022",
     Event:
       "Greece Condemns Any Manifestation Of Terrorism After Blast In Istanbul",
     URL: "https://www.urdupoint.com/en/world/greece-condemns-any-manifestation-of-terroris-1594521.html",
@@ -198,7 +198,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "15-11-22",
+    Datetime: "15-11-2022",
     Event:
       "Istanbul traffic jam ties up 60 empty bulkers waiting for clearance to Ukraine",
     URL: "https://www.tradewindsnews.com/bulkers/istanbul-traffic-jam-ties-up-60-empty-bulkers-waiting-for-clearance-to-ukraine/2-1-1353931",
@@ -208,7 +208,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "15-11-22",
+    Datetime: "15-11-2022",
     Event: "Perpetrator of terror attack in Istanbul caught in 10 hours",
     URL: "https://www.hurriyetdailynews.com/turkiye-makes-more-arrests-in-connection-with-terror-attack-178535",
     Category: "Traffic",
@@ -217,7 +217,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "15-11-22",
+    Datetime: "15-11-2022",
     Event: "Turkey detains Syrian suspect in deadly Istanbul bombing",
     URL: "https://www.berkshireeagle.com/ap/world/turkey-detains-syrian-suspect-in-deadly-istanbul-bombing/article_145b3fa0-f360-57dd-b367-c22f5a49862a.html",
     Category: "Lifestyle",
@@ -226,7 +226,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "14-11-22",
+    Datetime: "14-11-2022",
     Event: "UAE strongly condemns terrorist bombing in Istanbul",
     URL: "https://gulfnews.com/uae/government/uae-strongly-condemns-terrorist-bombing-in-istanbul-1.1668366784060",
     Category: "Government",
@@ -235,7 +235,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "14-11-22",
+    Datetime: "14-11-2022",
     Event:
       "Istanbul's Istiklal Avenue reopens to pedestrian traffic after deadly blast",
     URL: "https://www.trtworld.com/turkey/istanbul-s-istiklal-avenue-reopens-to-pedestrian-traffic-after-deadly-blast-62519",
@@ -245,7 +245,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "14-11-22",
+    Datetime: "14-11-2022",
     Event: "Real Madrid Foundation opens its first football campus in Istanbul",
     URL: "https://www.dailysabah.com/sports/football/real-madrid-foundation-opens-its-first-football-campus-in-istanbul",
     Category: "Education",
@@ -254,7 +254,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "14-11-22",
+    Datetime: "14-11-2022",
     Event:
       "Attack in Istanbul: Erdogan points to terrorism as six die and at least 53 are injured",
     URL: "https://www.marca.com/en/lifestyle/world-news/2022/11/13/63710be746163f425b8b458a.html",
@@ -264,7 +264,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "14-11-22",
+    Datetime: "14-11-2022",
     Event: "European Day of Jewish Culture to be celebrated in Istanbul",
     URL: "https://www.hurriyetdailynews.com/european-day-of-jewish-culture-to-be-celebrated-in-istanbul-178440",
     Category: "Lifestyle",
@@ -273,7 +273,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "14-11-22",
+    Datetime: "14-11-2022",
     Event: "Erdogan condemns 'vile attack' in Istanbul, says six dead",
     URL: "https://economictimes.indiatimes.com/news/international/world-news/erdogan-condemns-vile-attack-in-istanbul-says-six-dead/articleshow/95493174.cms",
     Category: "Economics",
@@ -282,7 +282,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "14-11-22",
+    Datetime: "14-11-2022",
     Event:
       "Business leaders and women entrepreneurs met in Istanbul to promote Gender Responsive Procurement",
     URL: "https://turkiye.un.org/en/206878-business-leaders-and-women-entrepreneurs-met-istanbul-promote-gender-responsive-procurement",
@@ -292,7 +292,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "14-11-22",
+    Datetime: "14-11-2022",
     Event:
       "Istanbul blast: 6 dead and over 50 injured in Turkey explosion; 'smells like terrorism' says Prez Tayyip Erdogan",
     URL: "https://m.economictimes.com/news/international/world-news/istanbul-blast-6-dead-and-over-50-injured-in-turkey-explosion-smells-like-terrorism-says-prez-tayyip-erdogan/videoshow/95493741.cms",
@@ -302,7 +302,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "14-11-22",
+    Datetime: "14-11-2022",
     Event:
       "Blast rocks Istanbul, killing at least 6 and canceling memorial for Jews killed in 2003 attacks",
     URL: "https://www.jta.org/2022/11/13/global/blast-shakes-istanbul-killing-at-least-6-and-disrupting-memorial-for-jews-killed-in-2003-attacks",
@@ -312,7 +312,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "07/11/2022",
+    Datetime: "07-11-2022",
     Event: "2-day Istanbul Education Summit kicks off",
     URL: "https://www.aa.com.tr/en/education/2-day-istanbul-education-summit-kicks-off/2730087",
     Category: "Education",
@@ -321,7 +321,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "07/11/2022",
+    Datetime: "07-11-2022",
     Event: "T�rkiye�s Maarif hosts post-pandemic education summit in Istanbul",
     URL: "https://www.dailysabah.com/turkey/education/turkiyes-maarif-hosts-post-pandemic-education-summit-in-istanbul",
     Category: "Education",
@@ -330,7 +330,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "07/11/2022",
+    Datetime: "07-11-2022",
     Event: "Istanbul summit discusses post-pandemic trends in education",
     URL: "https://www.trtworld.com/turkey/istanbul-summit-discusses-post-pandemic-trends-in-education-62327",
     Category: "Education",
@@ -339,7 +339,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "07/11/2022",
+    Datetime: "07-11-2022",
     Event: "Istanbul Summit discusses 'Women as Agents of Change'",
     URL: "https://www.middleeastmonitor.com/20221104-istanbul-summit-discusses-women-as-agents-of-change/",
     Category: "Education",
@@ -348,7 +348,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "07/11/2022",
+    Datetime: "07-11-2022",
     Event:
       "Women and Justice Summit in Istanbul opposes roles imposed on women",
     URL: "https://www.dailysabah.com/turkey/women-and-justice-summit-in-istanbul-opposes-roles-imposed-on-women/news",
@@ -358,7 +358,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "07/11/2022",
+    Datetime: "07-11-2022",
     Event: "Energy Literacy' Trainings Begin at Schools in Istanbul",
     URL: "https://www.raillynews.com/2022/11/Energy-literacy-training-begins-in-schools-in-Istanbul/",
     Category: "Education",
@@ -367,7 +367,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "07/11/2022",
+    Datetime: "07-11-2022",
     Event:
       "Cultural Codes and Women: Women and Justice Summit opens in Istanbul",
     URL: "https://www.dailysabah.com/turkey/cultural-codes-and-women-women-and-justice-summit-opens-in-istanbul/news",
@@ -377,7 +377,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "07/11/2022",
+    Datetime: "07-11-2022",
     Event: "International Dystopia Film Festival' to break rules in Istanbul",
     URL: "https://www.dailysabah.com/arts/events/international-dystopia-film-festival-to-break-rules-in-istanbul",
     Category: "Culture",
@@ -386,7 +386,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "31-10-22",
+    Datetime: "31-10-2022",
     Event:
       "UK: Istanbul Convention finally comes into force - but the Government stops short of protecting all women",
     URL: "https://www.amnesty.org.uk/press-releases/uk-istanbul-convention-finally-comes-force-government-stops-short-protecting-all",
@@ -396,7 +396,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "31-10-22",
+    Datetime: "31-10-2022",
     Event:
       "Defence Secretary meets Turkish counterpart at SAHA Expo in Istanbul",
     URL: "https://www.gov.uk/government/news/defence-secretary-meets-turkish-counterpart-at-saha-expo-in-istanbul",
@@ -406,7 +406,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "31-10-22",
+    Datetime: "31-10-2022",
     Event: "Traffic worsens in densely populated Istanbul, as does pollution",
     URL: "https://www.dailysabah.com/turkey/istanbul/traffic-worsens-in-densely-populated-istanbul-as-does-pollution",
     Category: "Traffic",
@@ -415,7 +415,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "31-10-22",
+    Datetime: "31-10-2022",
     Event: "Istanbul set to accept credit cards for mass transit passes",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbul-set-to-accept-credit-cards-for-mass-transit-passes",
     Category: "Traffic",
@@ -424,7 +424,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "31-10-22",
+    Datetime: "31-10-2022",
     Event: "Istanbul Airport busiest in Europe in third quarter",
     URL: "https://www.hurriyetdailynews.com/istanbul-airport-busiest-in-europe-in-third-quarter-178108",
     Category: "Traffic",
@@ -433,7 +433,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "31-10-22",
+    Datetime: "31-10-2022",
     Event: "Istanbul debates issue of parking fees in shopping malls",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbul-debates-issue-of-parking-fees-in-shopping-malls",
     Category: "Traffic",
@@ -442,7 +442,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "31-10-22",
+    Datetime: "31-10-2022",
     Event:
       "Turkey: Security forces attempt to disperse protesters in Kadikoy area of Istanbul Oct. 26",
     URL: "https://crisis24.garda.com/alerts/2022/10/turkey-security-forces-attempt-to-disperse-protesters-in-kadikoy-area-of-istanbul-oct-26",
@@ -452,7 +452,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "31-10-22",
+    Datetime: "31-10-2022",
     Event:
       "In search of the celebrity smile: Why this luxury cosmetic dentistry clinic in Istanbul is the place to get the pearly whites you�ve always dreamed of",
     URL: "https://www.luxurylifestylemag.co.uk/health-wellbeing/in-search-of-the-celebrity-smile-why-this-luxury-cosmetic-dentistry-clinic-in-istanbul-is-the-place-to-get-the-pearly-whites-youve-always-dreamed-of/",
@@ -462,7 +462,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "31-10-22",
+    Datetime: "31-10-2022",
     Event: "On tour: Entering Istanbul's Stanley Kubrick museum",
     URL: "https://www.dailysabah.com/arts/events/on-tour-entering-istanbuls-stanley-kubrick-museum",
     Category: "Culture",
@@ -471,7 +471,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "31-10-22",
+    Datetime: "31-10-2022",
     Event:
       "FISU University World Cup 3�3 Basketball ready to entertain Istanbul",
     URL: "https://www.fisu.net/news/university-world-cup-3x3/fisu-university-world-cup-3x3-basketball-ready-to-entertain-istanbul",
@@ -481,7 +481,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/27/2022",
+    Datetime: "27-10-2022",
     Event: "Robbers walk out of Istanbul bank with millions of lira unnoticed",
     URL: "https://www.dailysabah.com/turkey/istanbul/robbers-walk-out-of-istanbul-bank-with-millions-of-lira-unnoticed",
     Category: "General",
@@ -490,7 +490,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/27/2022",
+    Datetime: "27-10-2022",
     Event: "Vessels swarm Türkiye’s Marmara Sea as Bosporus traffic heightens",
     URL: "https://www.dailysabah.com/turkey/istanbul/vessels-swarm-turkiyes-marmara-sea-as-bosporus-traffic-heightens",
     Category: "General",
@@ -499,7 +499,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/27/2022",
+    Datetime: "27-10-2022",
     Event: "Istanbul debates issue of parking fees in shopping malls",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbul-debates-issue-of-parking-fees-in-shopping-malls",
     Category: "General",
@@ -508,7 +508,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "Istanbul set to accept credit cards for mass transit passes",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbul-set-to-accept-credit-cards-for-mass-transit-passes",
     Category: "General",
@@ -517,7 +517,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "Number of fatal traffic accidents remain high in Istanbul",
     URL: "https://www.dailysabah.com/turkey/istanbul/number-of-fatal-traffic-accidents-remain-high-in-istanbul",
     Category: "Traffic",
@@ -526,7 +526,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "Number of fatal traffic accidents remain high in Istanbul",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbul-witnesses-thousands-of-casualities-over-a-decade",
     Category: "Traffic",
@@ -535,7 +535,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "News for Airlines, Airports and the Aviation Industry",
     URL: "https://centreforaviation.com/news/istanbul-airport-traffic-to-exceed-pre-pandemic-levels-in-2023-1167241",
     Category: "Traffic",
@@ -544,7 +544,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "Turkey: Security forces attempt to disperse protesters in Kadikoy area of Istanbul",
     URL: "https://crisis24.garda.com/alerts/2022/10/turkey-security-forces-attempt-to-disperse-protesters-in-kadikoy-area-of-istanbul-oct-26",
@@ -554,7 +554,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "Number of Vehicles Registered to Traffic in Izmir 1 Million 627 thousand 885",
     URL: "https://raillynews.com/2022/10/izmirde-trafige-kayitli-arac-sayisi-1-milyon-627-bin-885-oldu/",
@@ -564,7 +564,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "Monkeypox situation update, as of 25 October 2022",
     URL: "https://www.ecdc.europa.eu/en/news-events/monkeypox-situation-update",
     Category: "Health",
@@ -573,7 +573,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "Defence Secretary meets Turkish counterpart at SAHA Expo in Istanbul",
     URL: "https://www.gov.uk/government/news/defence-secretary-meets-turkish-counterpart-at-saha-expo-in-istanbul",
@@ -583,7 +583,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "Erdoğan orders Turkish Medical Association head detained: Hands off Fincancı!",
     URL: "https://www.wsws.org/en/articles/2022/10/26/ulyh-o26.html",
@@ -593,7 +593,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "Number of Gülen followers in İstanbul prison surpasses all others jailed on terrorism charges",
     URL: "https://stockholmcf.org/number-of-gulenists-in-istanbul-prison-surpasses-all-others-jailed-on-terrorism-charges/",
@@ -603,7 +603,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "‘Basically a Savior’: Why Crypto Is So Popular in Turkey",
     URL: "https://finance.yahoo.com/news/basically-savior-why-crypto-popular-184554952.html",
     Category: "Government",
@@ -612,7 +612,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "Türkiye, Libya sign accords to boost military cooperation",
     URL: "https://www.trtworld.com/turkey/t%C3%BCrkiye-libya-sign-accords-to-boost-military-cooperation-61982",
     Category: "Government",
@@ -621,7 +621,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "What the UK ratifying the Istanbul convention on gendered violence means for women and girls",
     URL: "https://uk.news.yahoo.com/uk-ratifying-istanbul-convention-gendered-144615340.html",
@@ -631,7 +631,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "Biden called Turkish PM to warn of false accusations against the US, but Turkey remained unmoved",
     URL: "https://nordicmonitor.com/2022/10/biden-called-turkish-pm-to-warn-false-accusations-against-the-us-turkey-unmoved/",
@@ -641,7 +641,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "Former teacher says she was strip-searched in prison and punished for revealing it in letter",
     URL: "https://stockholmcf.org/former-teacher-says-she-was-strip-searched-in-prison-and-punished-for-revealing-it-in-letter/",
@@ -651,7 +651,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "Greece should see Türkiye as strong, reliable partner, not threat: Akar",
     URL: "https://www.dailysabah.com/politics/eu-affairs/greece-should-see-turkiye-as-strong-reliable-partner-not-threat-akar",
@@ -661,7 +661,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "Istanbul Economy Summit to shed light on global value chains",
     URL: "https://www.dailysabah.com/business/economy/istanbul-economy-summit-to-shed-light-on-global-value-chains",
     Category: "Economics",
@@ -670,7 +670,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "Turkish, EU officials, business leaders tout economic ties",
     URL: "https://www.dailysabah.com/business/economy/turkish-eu-officials-business-leaders-tout-economic-ties",
     Category: "Economics",
@@ -679,7 +679,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "The ferries of Istanbul: a day at the crossroads of Europe and Asia",
     URL: "https://www.theguardian.com/global-development/2022/oct/25/the-ferries-of-istanbul-a-day-at-the-crossroads-of-europe-and-asia",
@@ -689,7 +689,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "University building collapses due to nearby construction",
     URL: "https://www.hurriyetdailynews.com/university-building-collapses-due-to-nearby-construction-177973",
     Category: "Economics",
@@ -698,7 +698,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "At EU-Turkish high-level business meeting, officials, business leaders tout economic ties",
     URL: "https://www.aa.com.tr/en/economy/at-eu-turkish-high-level-business-meeting-officials-business-leaders-tout-economic-ties/2721194",
@@ -708,7 +708,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "Turkey: Election disruptions loom as social media giants likely to resist Turkey's new law, Marketing & Advertising News, ET BrandEquity",
     URL: "https://brandequity.economictimes.indiatimes.com/news/digital/election-disruptions-loom-as-social-media-giants-likely-to-resist-turkeys-new-law/95056025",
@@ -718,7 +718,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "Istanbul set to accept credit cards for mass transit passes",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbul-set-to-accept-credit-cards-for-mass-transit-passes",
     Category: "Economics",
@@ -727,7 +727,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "Turkey fines Zuckerberg, 'Meta doesn't respect competition' - Economy - ANSAMed",
     URL: "https://www.ansamed.info/ansamed/en/news/sections/economics/2022/10/26/turkey-fines-zuckerberg-meta-doesnt-respect-competition_345e5e41-5b6b-4d4a-aa59-e534fffde16c.html",
@@ -737,7 +737,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "Turkey Wants To Organize Meeting Of Russian, German Energy Ministers In Istanbul",
     URL: "https://www.urdupoint.com/en/world/turkey-wants-to-organize-meeting-of-russian-1584192.html",
@@ -747,7 +747,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "Watch: iGA Istanbul Airport CEO Outlines His Network Development Plans",
     URL: "https://www.routesonline.com/news/29/breaking-news/298872/watch-iga-istanbul-airport-ceo-outlines-his-network-development-plans/",
@@ -757,7 +757,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "Saudi investments in Türkiye amount to $18bln: Dr. Al-Qasabi",
     URL: "https://www.zawya.com/en/economy/gcc/saudi-investments-in-turkiye-amount-to-18bln-dr-al-qasabi-rvavdw3r",
     Category: "Economics",
@@ -766,7 +766,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "Libyan rival premieres Dbeibeh and Bashagha both in Istanbul, report",
     URL: "https://libyaupdate.com/libyan-rival-premieres-dbeibeh-and-bashagha-both-in-istanbul-report/",
@@ -776,7 +776,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "Saudi investments in Türkiye amount to $18 billion: Dr. Al-Qasabi",
     URL: "https://saudigazette.com.sa/article/626316",
     Category: "Economics",
@@ -785,7 +785,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "Denver could get direct flights to Turkey and Ireland",
     URL: "https://kdvr.com/news/local/could-denver-get-direct-flights-to-turkey-and-ireland/",
     Category: "Economics",
@@ -794,7 +794,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "‘Urbanism breakthrough’: Türkiye breaks ground for historic housing push",
     URL: "https://www.dailysabah.com/business/economy/urbanism-breakthrough-turkiye-breaks-ground-for-historic-housing-push",
@@ -804,7 +804,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "Dependency in strategic areas on other countries 'threatens sovereignty'",
     URL: "https://www.aa.com.tr/en/economy/dependency-in-strategic-areas-on-other-countries-threatens-sovereignty/2720754",
@@ -814,7 +814,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "Food crisis discussed at conference held by Turkish Communications Directorate at European Parliament",
     URL: "https://www.aa.com.tr/en/europe/food-crisis-discussed-at-conference-held-by-turkish-communications-directorate-at-european-parliament/2720782",
@@ -824,7 +824,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "Spanish main opposition party stresses mutual trust in Türkiye-EU ties",
     URL: "https://www.dailysabah.com/politics/eu-affairs/spanish-main-opposition-party-stresses-mutual-trust-in-turkiye-eu-ties",
@@ -834,7 +834,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "Turkey doctors’ union leader held over chemical arms comment",
     URL: "https://www.arabnews.com/node/2188621/middle-east",
     Category: "Economics",
@@ -843,7 +843,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "TAV Havalimanlari : 26.10.2022, TAV announces EUR 753M revenue in the first nine months",
     URL: "https://www.marketscreener.com/quote/stock/TAV-HAVALIMANLARI-HOLDING-6499546/news/TAV-Havalimanlari-26-10-2022-TAV-announces-EUR-753M-revenue-in-the-first-nine-months-42095934/",
@@ -853,7 +853,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "“Mixed Rhetoric��? Surrounds Renewal of Black Sea Grain Deal",
     URL: "https://farmpolicynews.illinois.edu/2022/10/mixed-rhetoric-surrounds-renewal-of-black-sea-grain-deal/",
     Category: "Economics",
@@ -862,7 +862,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "On tour: Entering Istanbul's Stanley Kubrick museum",
     URL: "https://www.dailysabah.com/arts/events/on-tour-entering-istanbuls-stanley-kubrick-museum",
     Category: "Culture",
@@ -871,7 +871,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "Turkish NGO KADEM’s summit highlights cultural codes and women",
     URL: "https://www.dailysabah.com/turkey/turkish-ngo-kadems-summit-highlights-cultural-codes-and-women/news",
     Category: "Culture",
@@ -880,7 +880,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "Dissent and dumplings: Served up at the Istanbul Biennial",
     URL: "https://www.theneweuropean.co.uk/dissent-and-dumplings-served-up-at-the-istanbul-biennial/",
     Category: "Culture",
@@ -889,7 +889,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "Cat Stevens (now Yusuf Islam) performs for Erdogan in Ankara - Culture - ANSAMed",
     URL: "https://www.ansamed.info/ansamed/en/news/sections/culture/2022/10/25/cat-stevens-now-yusuf-islam-performs-for-erdogan-in-ankara_4f0b0445-f2c3-4dfe-8289-3eb57fe84dab.html",
@@ -899,7 +899,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event: "2023 Luxury Hotel Openings to Look Forward to",
     URL: "https://www.luxurytravelmagazine.com/news-articles/2023-luxury-hotel-openings-to-look-forward-to",
     Category: "Culture",
@@ -908,7 +908,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/26/2022",
+    Datetime: "26-10-2022",
     Event:
       "FISU University World Cup 3×3 Basketball ready to entertain Istanbul",
     URL: "https://www.eurosport.co.uk/university-sports/fisu-university-world-cup-33-basketball-ready-to-entertain-istanbul_sto9202721/story.shtml",
@@ -918,7 +918,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/25/2022",
+    Datetime: "25-10-2022",
     Event: "Number of fatal traffic accidents remain high in Istanbul",
     URL: "https://www.dailysabah.com/turkey/istanbul/number-of-fatal-traffic-accidents-remain-high-in-istanbul",
     Category: "General",
@@ -927,7 +927,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/25/2022",
+    Datetime: "25-10-2022",
     Event:
       "A hair transplant at this clinic in Istanbul can be a more affordable cost",
     URL: "https://www.mylondon.news/special-features/hair-transplant-clinic-istanbul-can-25281076",
@@ -937,7 +937,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/25/2022",
+    Datetime: "25-10-2022",
     Event:
       "Despite Khashoggi murder, these US universities still flush with Saudi money",
     URL: "https://responsiblestatecraft.org/2022/10/25/us-universities-saudi-income-flourishes-four-years-after-khashoggi-murder/",
@@ -947,7 +947,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/25/2022",
+    Datetime: "25-10-2022",
     Event:
       "Axe falls on Japan’s economy minister over links to controversial Unification Church",
     URL: "https://www.aa.com.tr/en/asia-pacific/axe-falls-on-japan-s-economy-minister-over-links-to-controversial-unification-church/2720029",
@@ -957,7 +957,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/25/2022",
+    Datetime: "25-10-2022",
     Event: "Türkiye's Borsa Istanbul closes Monday with new record",
     URL: "https://www.aa.com.tr/en/economy/turkiyes-borsa-istanbul-closes-monday-with-new-record/2719718",
     Category: "Economics",
@@ -966,7 +966,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/25/2022",
+    Datetime: "25-10-2022",
     Event: "Business forum to focus on war-shadowed food security",
     URL: "https://www.dailysabah.com/business/economy/business-forum-to-focus-on-war-shadowed-food-security",
     Category: "Economics",
@@ -975,7 +975,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/25/2022",
+    Datetime: "25-10-2022",
     Event: "First-time visitors to Istanbul on the rise",
     URL: "https://www.hurriyetdailynews.com/first-time-visitors-to-istanbul-on-the-rise-177959",
     Category: "Culture",
@@ -984,7 +984,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/25/2022",
+    Datetime: "25-10-2022",
     Event:
       "Türkiye to align blockchain growth with its 'result-oriented' work culture",
     URL: "https://www.trtworld.com/magazine/t%C3%BCrkiye-to-align-blockchain-growth-with-its-result-oriented-work-culture-61917",
@@ -994,7 +994,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/25/2022",
+    Datetime: "25-10-2022",
     Event: "Sweet temptation: Istanbul's beloved 'brothel dessert'",
     URL: "https://www.bbc.com/travel/article/20221024-sweet-temptation-istanbuls-beloved-brothel-dessert",
     Category: "Culture",
@@ -1003,7 +1003,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/25/2022",
+    Datetime: "25-10-2022",
     Event: "Century of Türkiye biggest heritage to future generations: Erdoğan",
     URL: "https://www.hurriyetdailynews.com/century-of-turkiye-biggest-heritage-to-future-generations-erdogan-177978",
     Category: "Culture",
@@ -1012,7 +1012,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/25/2022",
+    Datetime: "25-10-2022",
     Event:
       "Archeologists discover grinding stones at Turkish site of Göbeklitepe",
     URL: "https://www.dailysabah.com/arts/archeologists-discover-grinding-stones-at-turkish-site-of-gobeklitepe/news",
@@ -1022,7 +1022,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/25/2022",
+    Datetime: "25-10-2022",
     Event:
       "State Rep. Colleen Burton faces Democrat newcomer Veysel Dokur for state Senate seat",
     URL: "https://www.theledger.com/story/news/politics/elections/candidate-profiles/2022/10/24/district-12-florida-senate-colleen-burton-veysel-dokur/10525655002/",
@@ -1032,7 +1032,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/25/2022",
+    Datetime: "25-10-2022",
     Event: "‘Touched by Humankind’ at Kalyon Kültür",
     URL: "https://www.hurriyetdailynews.com/touched-by-humankind-at-kalyon-kultur-177954",
     Category: "Culture",
@@ -1041,7 +1041,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/25/2022",
+    Datetime: "25-10-2022",
     Event:
       "Recent findings in ancient Turkish site of Gobeklitepe set to shed new light on human history",
     URL: "https://www.aa.com.tr/en/turkiye/recent-findings-in-ancient-turkish-site-of-gobeklitepe-set-to-shed-new-light-on-human-history/2719760",
@@ -1051,7 +1051,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/24/2022",
+    Datetime: "24-10-2022",
     Event: "Pakistani suspects sentenced over ‘TikTok mugging’ in Istanbul",
     URL: "https://www.dailysabah.com/turkey/istanbul/pakistani-suspects-sentenced-over-tiktok-mugging-in-istanbul",
     Category: "General",
@@ -1060,7 +1060,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/24/2022",
+    Datetime: "24-10-2022",
     Event: "Turkey: Hundreds of Refugees Deported to Syria",
     URL: "https://www.hrw.org/news/2022/10/24/turkey-hundreds-refugees-deported-syria",
     Category: "Government",
@@ -1069,7 +1069,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/24/2022",
+    Datetime: "24-10-2022",
     Event: "Istanbul Declaration calls for fighting disinformation",
     URL: "https://tribune.com.pk/story/2383249/istanbul-declaration-calls-for-fighting-disinformation",
     Category: "Government",
@@ -1078,7 +1078,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/24/2022",
+    Datetime: "24-10-2022",
     Event: "Saraç becomes first female president of Istanbul Bar Association",
     URL: "https://www.hurriyetdailynews.com/sarac-becomes-first-female-president-of-istanbul-bar-association-177953",
     Category: "Education",
@@ -1087,7 +1087,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/24/2022",
+    Datetime: "24-10-2022",
     Event: "Be good ambassadors, top Mandera girls studying in Turkey urged",
     URL: "https://www.the-star.co.ke/counties/north-eastern/2022-10-23-be-good-ambassadors-top-mandera-girls-studying-in-turkey-urged/",
     Category: "Education",
@@ -1096,7 +1096,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/24/2022",
+    Datetime: "24-10-2022",
     Event: "Türkiye, EU to convene high-level business meeting after 3.5 years",
     URL: "https://www.hurriyetdailynews.com/turkiye-eu-to-convene-high-level-business-meeting-after-3-5-years-177913",
     Category: "Economics",
@@ -1105,7 +1105,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/24/2022",
+    Datetime: "24-10-2022",
     Event: "MÜSIAD recognizes int'l graduates contributions to Turkish trade",
     URL: "https://www.dailysabah.com/business/economy/musiad-recognizes-intl-graduates-contributions-to-turkish-trade",
     Category: "Economics",
@@ -1114,7 +1114,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/24/2022",
+    Datetime: "24-10-2022",
     Event:
       "Bangladesh eager for Iranian series to replace Turkish, Korean productions",
     URL: "https://www.tehrantimes.com/news/477909/Bangladesh-eager-for-Iranian-series-to-replace-Turkish-Korean",
@@ -1124,7 +1124,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/24/2022",
+    Datetime: "24-10-2022",
     Event: "Exploring the hidden gems of Diyarbakir and Beyoglu in Turkey",
     URL: "https://thepeninsulaqatar.com/article/23/10/2022/exploring-the-hidden-gems-of-diyarbakir-and-beyoglu-in-turkey",
     Category: "Culture",
@@ -1133,7 +1133,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/24/2022",
+    Datetime: "24-10-2022",
     Event:
       "Somalia looks to Turkish support to help fight terror in communications domain",
     URL: "https://www.aa.com.tr/en/africa/somalia-looks-to-turkish-support-to-help-fight-terror-in-communications-domain/2718925",
@@ -1143,7 +1143,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "24-10-22",
+    Datetime: "24-10-2022",
     Event: "Number of fatal traffic accidents remain high in Istanbul",
     URL: "https://www.dailysabah.com/turkey/istanbul/number-of-fatal-traffic-accidents-remain-high-in-istanbul",
     Category: "Traffic",
@@ -1152,7 +1152,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "24-10-22",
+    Datetime: "24-10-2022",
     Event: "Istanbul Economy Summit to shed light on global value chains",
     URL: "https://www.dailysabah.com/business/economy/istanbul-economy-summit-to-shed-light-on-global-value-chains",
     Category: "Economics",
@@ -1161,7 +1161,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "24-10-22",
+    Datetime: "24-10-2022",
     Event: "First-time visitors to Istanbul on the rise",
     URL: "https://www.hurriyetdailynews.com/first-time-visitors-to-istanbul-on-the-rise-177959",
     Category: "Culture",
@@ -1170,7 +1170,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "24-10-22",
+    Datetime: "24-10-2022",
     Event: "Sweet temptation: Istanbul's beloved 'brothel dessert'",
     URL: "https://www.bbc.com/travel/article/20221024-sweet-temptation-istanbuls-beloved-brothel-dessert",
     Category: "Culture",
@@ -1179,7 +1179,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/23/2022",
+    Datetime: "23-10-2022",
     Event:
       "Social media companies might resist Turkey's new 'disinformation law'",
     URL: "https://www.duvarenglish.com/social-media-companies-might-resist-turkeys-new-disinformation-law-news-61458",
@@ -1189,7 +1189,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/23/2022",
+    Datetime: "23-10-2022",
     Event: "Lost hope': Inflation, abuse force doctors to quit Turkey",
     URL: "https://www.france24.com/en/live-news/20221023-lost-hope-inflation-abuse-force-doctors-to-quit-turkey",
     Category: "Economics",
@@ -1198,7 +1198,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/23/2022",
+    Datetime: "23-10-2022",
     Event:
       "What to see and do in Istanbul and Ankara, from culture and art to fat cats",
     URL: "https://www.thestar.com.my/lifestyle/travel/2022/10/23/of-culture-art-and-fat-cats-what-to-see-and-do-in-istanbul-and-ankara",
@@ -1208,7 +1208,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/23/2022",
+    Datetime: "23-10-2022",
     Event:
       "OIC Istanbul moot backs tech innovations to ‘present truth’ about Islam",
     URL: "https://www.aa.com.tr/en/world/oic-istanbul-moot-backs-tech-innovations-to-present-truth-about-islam/2718468",
@@ -1218,7 +1218,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/23/2022",
+    Datetime: "23-10-2022",
     Event:
       "Where did Gulsen study? Turkish popstar appears in court over dig at religious schools",
     URL: "https://www.sportskeeda.com/pop-culture/news-where-gulsen-study-turkish-popstar-appears-court-dig-religious-schools",
@@ -1228,7 +1228,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/22/2022",
+    Datetime: "22-10-2022",
     Event:
       "Turkish Airlines Adds Mid-Afternoon Wave Of Flights To The Far East",
     URL: "https://simpleflying.com/turkish-airlines-mid-afternoon-far-east-flight-wave/",
@@ -1238,7 +1238,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/22/2022",
+    Datetime: "22-10-2022",
     Event: "Turkish singer appears in court over religious schools joke",
     URL: "https://www.airdrietoday.com/lifestyle-news/turkish-singer-appears-in-court-over-religious-schools-joke-5987180",
     Category: "Lifestyle",
@@ -1247,7 +1247,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/22/2022",
+    Datetime: "22-10-2022",
     Event:
       "Acıbadem Healthcare Group: The 10th hospital in Istanbul and 24th in the world",
     URL: "https://www.lbcgroup.tv/news/magazine/669520/acbadem-healthcare-group-the-10th-hospital-in-ista/en",
@@ -1257,7 +1257,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/22/2022",
+    Datetime: "22-10-2022",
     Event:
       "Election disruptions loom as social media giants likely to resist Turkey's new law",
     URL: "https://finance.yahoo.com/news/election-disruptions-loom-social-media-135947815.html",
@@ -1267,7 +1267,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/22/2022",
+    Datetime: "22-10-2022",
     Event: "Turkish singer appears in court over religious schools joke",
     URL: "https://apnews.com/article/entertainment-turkey-middle-east-istanbul-government-and-politics-bbf5d4c349751384fa02983b62eb7c05",
     Category: "Government",
@@ -1276,7 +1276,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/22/2022",
+    Datetime: "22-10-2022",
     Event:
       "Turkey has long been hell for journalists': Reporters slam country's new 'fake news' law",
     URL: "https://www.cnbc.com/2022/10/21/turkish-reporters-slam-countrys-new-fake-news-law.html",
@@ -1286,7 +1286,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/22/2022",
+    Datetime: "22-10-2022",
     Event:
       "Rhinoplasty in Turkey explained - why clinics in Istanbul are so popular",
     URL: "https://www.lincolnshirelive.co.uk/special-features/rhinoplasty-turkey-explained-clinics-istanbul-7713075",
@@ -1296,7 +1296,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/22/2022",
+    Datetime: "22-10-2022",
     Event:
       "Election disruptions loom as social media giants likely to resist Turkey's new law",
     URL: "https://www.reuters.com/world/middle-east/election-disruptions-loom-social-media-giants-likely-resist-turkeys-new-law-2022-10-21/",
@@ -1306,7 +1306,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/22/2022",
+    Datetime: "22-10-2022",
     Event: "Turkish consumer confidence up in October",
     URL: "https://www.aa.com.tr/en/economy/turkish-consumer-confidence-up-in-october/2717155",
     Category: "Economics",
@@ -1315,7 +1315,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/22/2022",
+    Datetime: "22-10-2022",
     Event:
       "World’s oldest Ottoman documents offer window into Empire's early history",
     URL: "https://www.euronews.com/culture/2022/10/21/worlds-oldest-ottoman-documents-offer-window-into-empires-early-history",
@@ -1325,7 +1325,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/22/2022",
+    Datetime: "22-10-2022",
     Event:
       "Assassinated journalist Musa Anter's family applies to top court following dismissal of case",
     URL: "https://m.bianet.org/english/law/268853-assassinated-journalist-musa-anter-s-family-applies-to-top-court-following-dismissal-of-case",
@@ -1335,7 +1335,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/21/2022",
+    Datetime: "21-10-2022",
     Event:
       "Indian market is important to us, says Turkish Airlines CEO Bilal Eksi",
     URL: "https://www.business-standard.com/article/companies/india-is-important-to-us-turkish-airlines-ceo-bilal-ek%C5%9Fi-122102001028_1.html",
@@ -1345,7 +1345,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/21/2022",
+    Datetime: "21-10-2022",
     Event:
       "Capital Hair Center in Istanbul Draws Attention in Turkiye's Rising Hair Transplant Sector With Its Cutting-edge Ozone Therapy",
     URL: "https://www.businesswire.com/news/home/20221020005585/en/Capital-Hair-Center-in-Istanbul-Draws-Attention-in-Turkiyes-Rising-Hair-Transplant-Sector-With-Its-Cutting-edge-Ozone-Therapy",
@@ -1355,7 +1355,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/21/2022",
+    Datetime: "21-10-2022",
     Event: "Turkey slams allegations of chemical weapons use in northern Iraq",
     URL: "https://www.msn.com/en-gb/news/world/turkey-slams-allegations-of-chemical-weapons-use-in-northern-iraq/ar-AA13bmzo",
     Category: "Government",
@@ -1364,7 +1364,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/21/2022",
+    Datetime: "21-10-2022",
     Event: "From Gaza to Istanbul in search of a future",
     URL: "https://electronicintifada.net/content/gaza-istanbul-search-future/36496",
     Category: "Economics",
@@ -1373,7 +1373,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/21/2022",
+    Datetime: "21-10-2022",
     Event: "Turkish central bank cuts rates again as inflation rockets",
     URL: "https://www.khaleejtimes.com/business/turkish-central-bank-cuts-rates-again-as-inflation-rockets",
     Category: "Economics",
@@ -1382,7 +1382,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/21/2022",
+    Datetime: "21-10-2022",
     Event:
       "To Deepen Relations With Uzbekistan, Turkey Leans on Cultural Appeal",
     URL: "https://thediplomat.com/2022/10/to-deepen-relations-with-uzbekistan-turkey-leans-on-cultural-appeal/",
@@ -1392,7 +1392,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/21/2022",
+    Datetime: "21-10-2022",
     Event:
       "The Costs of a Presidential System: The Impact of Hyper-centralization on Turkey’s Educational and Cultural Affairs",
     URL: "https://www.mei.edu/publications/costs-presidential-system-impact-hyper-centralization-turkeys-educational-and-cultural",
@@ -1402,7 +1402,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Istanbul traffic to come to deadlock soon, experts warn",
     URL: "https://www.hurriyetdailynews.com/istanbul-traffic-to-come-to-deadlock-soon-experts-warn-177501",
     Category: "Traffic",
@@ -1411,7 +1411,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Ukraine grain ships stuck in Istanbul traffic jam",
     URL: "https://www.bangkokpost.com/world/2413083/ukraine-grain-ships-stuck-in-istanbul-traffic-jam",
     Category: "Traffic",
@@ -1420,7 +1420,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Experts concerned as Istanbul ranks as �least liveable city�",
     URL: "https://www.hurriyetdailynews.com/experts-concerned-as-istanbul-ranks-as-least-liveable-city-177179",
     Category: "Traffic",
@@ -1429,7 +1429,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Istanbul Strait Closed to Ship Traffic!",
     URL: "https://expatguideturkey.com/istanbul-strait-closed-to-ship-traffic/",
     Category: "Traffic",
@@ -1438,7 +1438,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "IndiGo takes another stab at Istanbul. Will it work?",
     URL: "https://www.moneycontrol.com/news/business/indigo-takes-another-stab-at-istanbul-will-it-work-9322311.html",
     Category: "Traffic",
@@ -1447,7 +1447,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "EBRD loan to support Istanbul metro construction",
     URL: "https://www.ebrd.com/news/2022/ebrd-loan-to-support-istanbul-metro-construction.html",
     Category: "Traffic",
@@ -1456,7 +1456,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Is There a Pet Ban in Public Transport Vehicles in Istanbul?",
     URL: "https://expatguideturkey.com/is-there-a-pet-ban-in-public-transport-vehicles-in-istanbul/",
     Category: "Traffic",
@@ -1465,7 +1465,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Istanbul Airport: Determined to fulfill its potential",
     URL: "https://www.airlines.iata.org/analysis/istanbul-airport-determined-to-fulfill-its-potential",
     Category: "Traffic",
@@ -1474,7 +1474,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Istanbul�s New Metro Opens This Sunday!",
     URL: "https://expatguideturkey.com/istanbuls-new-metro-opens-this-sunday/",
     Category: "Traffic",
@@ -1483,7 +1483,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event:
       "Bengaluru-bound Lufthansa flight diverted to Istanbul for THIS reason, passengers stuck for over 24 hours",
     URL: "https://zeenews.india.com/aviation/breaking-india-bound-lufthansa-flight-diverted-to-istanbul-passengers-stuck-in-turkey-for-over-24-hours-2524359.html",
@@ -1493,7 +1493,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event:
       "B�luru-bound Lufthansa flight diverted to Istanbul due to medical emergency, passengers stuck for over 24 hours",
     URL: "https://www.udayavani.com/english-news/bluru-bound-lufthansa-flight-diverted-to-istanbul-due-to-medical-emergency-passengers-stuck-for-over-24-hours",
@@ -1503,7 +1503,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "AMU historian presents paper in Istanbul",
     URL: "https://indiaeducationdiary.in/amu-historian-presents-paper-in-istanbul/",
     Category: "Education",
@@ -1512,7 +1512,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Istanbul becomes youth capital of Turkic World",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbul-becomes-youth-capital-of-turkic-world",
     Category: "Education",
@@ -1521,7 +1521,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Russian couple finds refuge from war in Istanbul's bookstore",
     URL: "https://www.dailysabah.com/turkey/istanbul/russian-couple-finds-refuge-from-war-in-istanbuls-bookstore",
     Category: "Education",
@@ -1530,7 +1530,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Illegal organ transplant network busted in Istanbul",
     URL: "https://www.dailysabah.com/turkey/illegal-organ-transplant-network-busted-in-istanbul/news",
     Category: "Education",
@@ -1539,7 +1539,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Restoration underway for Istanbul�s Byzantine cistern",
     URL: "https://www.dailysabah.com/turkey/istanbul/restoration-underway-for-istanbuls-byzantine-cistern",
     Category: "Education",
@@ -1548,7 +1548,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Istanbul blast reveals revenge plot, ties to Swiss murders",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbul-blast-reveals-revenge-plot-ties-to-swiss-murders",
     Category: "Education",
@@ -1557,7 +1557,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Turkish police seize marijuana at Istanbul port",
     URL: "https://www.dailysabah.com/turkey/investigations/turkish-police-seize-marijuana-at-istanbul-port",
     Category: "Education",
@@ -1566,7 +1566,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Explore Istanbul, one Michelin-starred restaurant at a time",
     URL: "https://lifestyle.livemint.com/food/discover/explore-istanbul-one-michelin-starred-restaurant-at-a-time-111665540438704.html",
     Category: "Lifestyle",
@@ -1575,7 +1575,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "IndiGo to launch Mumbai-Istanbul flights from Jan 1",
     URL: "https://www.mid-day.com/mumbai/mumbai-news/article/indigo-to-launch-mumbai-istanbul-flights-from-jan-1-23249936",
     Category: "Lifestyle",
@@ -1584,7 +1584,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event:
       "Stranded in Istanbul for nearly two days after flight to Bengaluru was diverted, passengers hit out at Lufthansa",
     URL: "https://indianexpress.com/article/cities/bangalore/stranded-in-istanbul-frankfurt-bengaluru-lufthansa-flight-8220491/",
@@ -1594,7 +1594,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event:
       "IndiGo launches direct flights between Mumbai-Istanbul, strengthens India-Turkey connectivity",
     URL: "https://zeenews.india.com/aviation/indigo-launches-direct-flights-between-mumbai-istanbul-to-strengthen-international-connectivity-2520960.html",
@@ -1604,7 +1604,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event:
       "Turkish Airlines' Istanbul-Singapore flight makes emergency landing in Kolkata after passenger falls ill",
     URL: "https://zeenews.india.com/aviation/turkish-airlines-istanbul-singapore-flight-makes-emergency-landing-in-kolkata-after-passenger-falls-ill-2518745.html",
@@ -1614,7 +1614,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "A deep dive into Istanbul's glorious art offerings",
     URL: "https://www.freepressjournal.in/lifestyle/a-deep-dive-into-istanbuls-glorious-art-offerings",
     Category: "Lifestyle",
@@ -1623,7 +1623,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event:
       "On the road: Istanbul's Caravan Festival to unite adventure seekers",
     URL: "https://www.dailysabah.com/life/on-the-road-istanbuls-caravan-festival-to-unite-adventure-seekers/news",
@@ -1633,7 +1633,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event:
       "Turkey strives to make Istanbul the centre of the global blockchain hype",
     URL: "https://www.financialexpress.com/blockchain/turkey-strives-to-make-istanbul-the-centre-of-the-global-blockchain-hype/2705980/",
@@ -1643,7 +1643,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Istanbul�s 5 Best Hotels Right Now",
     URL: "https://www.forbes.com/sites/breannawilson/2022/10/04/stay-like-a-sultan-istanbuls-5-best-hotels-right-now/",
     Category: "Lifestyle",
@@ -1652,7 +1652,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event:
       "T�rkiye closes 8 more Istanbul districts to foreign residency permits",
     URL: "https://www.dailysabah.com/politics/turkiye-closes-8-more-istanbul-districts-to-foreign-residency-permits/news",
@@ -1662,7 +1662,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event:
       "Turkish, int�l business world to gather in Istanbul for M�SIAD EXPO",
     URL: "https://www.dailysabah.com/business/economy/turkish-intl-business-world-to-gather-in-istanbul-for-musiad-expo",
@@ -1672,7 +1672,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "First lady Zelenska meets with Ukrainian soldiers in Istanbul",
     URL: "https://www.dailysabah.com/politics/diplomacy/first-lady-zelenska-meets-with-ukrainian-soldiers-in-istanbul",
     Category: "Lifestyle",
@@ -1681,7 +1681,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event:
       "To discuss global economic shifts, economists from around the world converge on Istanbul",
     URL: "https://www.middleeastmonitor.com/20220929-to-discuss-global-economic-shifts-economists-from-around-the-world-converge-on-istanbul/",
@@ -1691,7 +1691,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Libya takes part in Turkish-Arab Economic Forum in Istanbul",
     URL: "https://www.libyaobserver.ly/news/libya-takes-part-turkish-arab-economic-forum-istanbul",
     Category: "Economics",
@@ -1700,7 +1700,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "The Culture and Arts Hub at Istanbul Airport",
     URL: "https://travelradar.aero/the-culture-and-arts-hub-at-istanbul-airport/",
     Category: "Culture",
@@ -1709,7 +1709,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Hungarian chef Agnes Toth to cook in Istanbul blending 2 cultures",
     URL: "https://www.dailysabah.com/life/food/hungarian-chef-agnes-toth-to-cook-in-istanbul-blending-2-cultures",
     Category: "Culture",
@@ -1718,7 +1718,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event:
       "When Hate Becomes an Instrument: 4 Queer Culture Workers From Turkey Respond to the Anti-LGBT+ Rally in Istanbul",
     URL: "https://news.artnet.com/art-world/when-hate-becomes-an-instrument-4-queer-culture-workers-from-turkey-respond-to-the-anti-lgbt-rally-in-istanbul-2187477",
@@ -1728,7 +1728,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Meet Fatih Tutak, Turkey's first 2-Michelin Star chef in Istanbul",
     URL: "https://www.euronews.com/culture/2022/10/17/meet-fatih-tutak-turkeys-first-2-michelin-star-chef-in-istanbul",
     Category: "Culture",
@@ -1737,7 +1737,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Istanbul State Opera and Ballet brings 'Don Quixote' to stage",
     URL: "https://www.dailysabah.com/ds-tv/istanbul-state-opera-and-ballet-brings-don-quixote-to-stage/news",
     Category: "Culture",
@@ -1746,7 +1746,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "53 restaurants make it to Michelin�s 1st Istanbul guide",
     URL: "https://www.aa.com.tr/en/culture/53-restaurants-make-it-to-michelin-s-1st-istanbul-guide/2708954",
     Category: "Culture",
@@ -1755,7 +1755,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "Ten most popular street foods you shouldn�t miss in Istanbul",
     URL: "https://thepeninsulaqatar.com/article/06/10/2022/ten-most-popular-street-foods-you-shouldnt-miss-in-istanbul",
     Category: "Culture",
@@ -1764,7 +1764,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event:
       "International Flights: Indigo Announces Direct Flights to Istanbul From Mumbai. Check Full Schedule Here",
     URL: "https://www.india.com/business/international-flights-latest-news-today-12-october-2022-indigo-announces-direct-flights-to-istanbul-from-mumbai-check-air-fare-full-schedule-heres-how-to-book-tickets-5682797/",
@@ -1774,7 +1774,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "244-year-old hammam in Istanbul up for sale for $2.6 mln",
     URL: "https://www.hurriyetdailynews.com/244-year-old-hammam-in-istanbul-up-for-sale-for-2-6-mln-177592",
     Category: "Culture",
@@ -1783,7 +1783,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-10-22",
+    Datetime: "21-10-2022",
     Event: "7th International Arabic Book Fair to start in Istanbul",
     URL: "https://www.dailysabah.com/arts/7th-international-arabic-book-fair-to-start-in-istanbul/news",
     Category: "Culture",
@@ -1792,7 +1792,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/20/2022",
+    Datetime: "20-10-2022",
     Event:
       "Bengaluru-bound Lufthansa flight diverted to Istanbul for THIS reason, passengers stuck for over 24 hours",
     URL: "https://zeenews.india.com/aviation/breaking-india-bound-lufthansa-flight-diverted-to-istanbul-passengers-stuck-in-turkey-for-over-24-hours-2524359.html",
@@ -1802,7 +1802,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/20/2022",
+    Datetime: "20-10-2022",
     Event:
       "Bengaluru-bound Lufthansa flight diverted to Istanbul; '31 hours later - no hotel, no staff,' claims Grammy winner Ricky Kej",
     URL: "https://www.msn.com/en-in/lifestyle/travel/bengaluru-bound-lufthansa-flight-diverted-to-istanbul-31-hours-later-no-hotel-no-staff-claims-grammy-winner-ricky-kej/ar-AA13a2g7",
@@ -1812,7 +1812,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/20/2022",
+    Datetime: "20-10-2022",
     Event:
       "‘I feel dumb and ashamed’: Woman slams Istanbul Airport for not stocking a single menstrual product",
     URL: "https://www.msn.com/en-gb/lifestyle/travel/i-feel-dumb-and-ashamed-woman-slams-istanbul-airport-for-not-stocking-a-single-menstrual-product/ar-AA13607h",
@@ -1822,7 +1822,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/20/2022",
+    Datetime: "20-10-2022",
     Event: "Mask mandatory only in health facilities: Cabinet",
     URL: "https://thepeninsulaqatar.com/article/20/10/2022/mask-mandatory-only-in-health-facilities-cabinet",
     Category: "Health",
@@ -1831,7 +1831,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/20/2022",
+    Datetime: "20-10-2022",
     Event: "Bartın mine fire under control as victim support continues to grow",
     URL: "https://www.dailysabah.com/turkey/bartin-mine-fire-under-control-as-victim-support-continues-to-grow/news",
     Category: "Education",
@@ -1840,7 +1840,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/20/2022",
+    Datetime: "20-10-2022",
     Event: "As the dollar soars, it spreads pain globally",
     URL: "https://www.aljazeera.com/economy/2022/10/18/as-the-dollar-soars-it-spreads-pain-globally",
     Category: "Economics",
@@ -1849,7 +1849,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/20/2022",
+    Datetime: "20-10-2022",
     Event:
       "Professor Max Gillman invited to speak at Turkish summit on 'Economic Transformation and New Paradigms' - UMSL Daily",
     URL: "https://blogs.umsl.edu/news/2022/10/17/max-gillman-speaks-at-turkish-economic-summit/",
@@ -1859,7 +1859,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/20/2022",
+    Datetime: "20-10-2022",
     Event: "The best free economic zones for buying real estate in Istanbul",
     URL: "https://www.luxurytravelmagazine.com/news-articles/the-best-free-economic-zones-for-buying-real-estate-in-istanbul",
     Category: "Economics",
@@ -1868,7 +1868,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/20/2022",
+    Datetime: "20-10-2022",
     Event:
       "Prof Khurshid Ahmad Bestowed With Turkey's Prestigious Islamic Economics Award",
     URL: "https://www.urdupoint.com/en/pakistan/prof-khurshid-ahmad-bestowed-with-turkeys-pr-1579798.html",
@@ -1878,7 +1878,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/20/2022",
+    Datetime: "20-10-2022",
     Event: "Meet Fatih Tutak, Turkey's first 2-Michelin Star chef in Istanbul",
     URL: "https://www.euronews.com/culture/2022/10/17/meet-fatih-tutak-turkeys-first-2-michelin-star-chef-in-istanbul",
     Category: "Culture",
@@ -1887,7 +1887,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/20/2022",
+    Datetime: "20-10-2022",
     Event: "A deep dive into Istanbul's glorious art offerings",
     URL: "https://www.freepressjournal.in/lifestyle/a-deep-dive-into-istanbuls-glorious-art-offerings",
     Category: "Culture",
@@ -1896,7 +1896,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/20/2022",
+    Datetime: "20-10-2022",
     Event: "Istanbul State Opera and Ballet brings 'Don Quixote' to stage",
     URL: "https://www.dailysabah.com/arts/performing-arts/istanbul-state-opera-and-ballet-brings-don-quixote-to-stage",
     Category: "Culture",
@@ -1905,7 +1905,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/20/2022",
+    Datetime: "20-10-2022",
     Event: "Turkish celebrities publish messages of condolences for Bartın",
     URL: "https://www.hurriyetdailynews.com/turkish-celebrities-publish-messages-of-condolences-for-bartin-177743",
     Category: "Culture",
@@ -1914,7 +1914,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/20/2022",
+    Datetime: "20-10-2022",
     Event: "Art meets craftsmanship on 'Tree of Life' as ode to artistry",
     URL: "https://www.dailysabah.com/arts/events/art-meets-craftsmanship-on-tree-of-life-as-ode-to-artistry",
     Category: "Culture",
@@ -1923,7 +1923,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/13/2022",
+    Datetime: "13-10-2022",
     Event: "Ukraine grain ships stuck in Istanbul traffic jam",
     URL: "https://www.bangkokpost.com/world/2413083/ukraine-grain-ships-stuck-in-istanbul-traffic-jam",
     Category: "Traffic",
@@ -1932,7 +1932,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/13/2022",
+    Datetime: "13-10-2022",
     Event: "Ukraine grain ships stuck in Istanbul traffic jam",
     URL: "https://uk.news.yahoo.com/ukraine-grain-ships-stuck-istanbul-152117383.html",
     Category: "Traffic",
@@ -1941,7 +1941,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/13/2022",
+    Datetime: "13-10-2022",
     Event: "Istanbul Strait Closed to Ship Traffic!",
     URL: "https://expatguideturkey.com/istanbul-strait-closed-to-ship-traffic/",
     Category: "Traffic",
@@ -1950,7 +1950,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/13/2022",
+    Datetime: "13-10-2022",
     Event: "Design for Living: The e-scooters of Istanbul",
     URL: "https://www.nzherald.co.nz/nz/design-for-living-the-e-scooters-of-istanbul/NWNV3VQWGXALWEQDIBBDSLXRC4/",
     Category: "Traffic",
@@ -1959,7 +1959,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/13/2022",
+    Datetime: "13-10-2022",
     Event:
       "Indians flocking to Turkiye for destination weddings! Country expected to have most destination weddings in 2022",
     URL: "https://www.financialexpress.com/lifestyle/travel-tourism/indians-flocking-to-turkiye-for-destination-weddings-country-expected-to-have-most-destination-weddings-in-2022/2705920/",
@@ -1969,7 +1969,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/13/2022",
+    Datetime: "13-10-2022",
     Event:
       "Experts of the Committee on the Elimination of Discrimination against Women Commend Armenia on Continuing to Uphold International Obligations Despite the Conflict, Raise Questions on Violence against",
     URL: "https://www.ohchr.org/en/news/2022/10/experts-committee-elimination-discrimination-against-women-commend-armenia-continuing",
@@ -1979,7 +1979,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/13/2022",
+    Datetime: "13-10-2022",
     Event: "Exemplary Turkish exhibition highlights harms of smoking",
     URL: "https://www.dailysabah.com/turkey/education/exemplary-turkish-exhibition-highlights-harms-of-smoking",
     Category: "Education",
@@ -1988,7 +1988,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/13/2022",
+    Datetime: "13-10-2022",
     Event:
       "Turkish scientists develop 'fiber sensor' shoes for early diagnosis",
     URL: "https://www.dailysabah.com/turkey/education/turkish-scientists-develop-fiber-sensor-shoes-for-early-diagnosis",
@@ -1998,7 +1998,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/13/2022",
+    Datetime: "13-10-2022",
     Event: "IndiGo to launch Mumbai-Istanbul flights from Jan 1",
     URL: "https://m.economictimes.com/industry/transportation/airlines-/-aviation/indigo-to-launch-mumbai-istanbul-flights-from-jan-1/articleshow/94794672.cms",
     Category: "Economics",
@@ -2007,7 +2007,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/13/2022",
+    Datetime: "13-10-2022",
     Event:
       "Turkish, int’l business world to gather in Istanbul for MÜSIAD EXPO",
     URL: "https://www.dailysabah.com/business/economy/turkish-intl-business-world-to-gather-in-istanbul-for-musiad-expo",
@@ -2017,7 +2017,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/13/2022",
+    Datetime: "13-10-2022",
     Event:
       "International Flights: Indigo Announces Direct Flights to Istanbul From Mumbai. Check Full Schedule Here",
     URL: "https://www.india.com/business/international-flights-latest-news-today-12-october-2022-indigo-announces-direct-flights-to-istanbul-from-mumbai-check-air-fare-full-schedule-heres-how-to-book-tickets-5682797/",
@@ -2027,7 +2027,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/13/2022",
+    Datetime: "13-10-2022",
     Event: "Show reveals Picasso’s inspiration",
     URL: "https://www.hurriyetdailynews.com/show-reveals-picassos-inspiration-177676",
     Category: "Culture",
@@ -2036,7 +2036,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/12/2022",
+    Datetime: "12-10-2022",
     Event: "Istanbul blast reveals revenge plot, ties to Swiss murders",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbul-blast-reveals-revenge-plot-ties-to-swiss-murders",
     Category: "General",
@@ -2045,7 +2045,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/11/2022",
+    Datetime: "11-10-2022",
     Event: "Russian couple finds refuge from war in Istanbul's bookstore",
     URL: "https://www.dailysabah.com/turkey/istanbul/russian-couple-finds-refuge-from-war-in-istanbuls-bookstore",
     Category: "General",
@@ -2054,7 +2054,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/09/2022",
+    Datetime: "09-10-2022",
     Event: "99 passengers injured in metrobus crash in Istanbul",
     URL: "https://www.dailysabah.com/turkey/istanbul/99-passengers-injured-in-metrobus-crash-in-istanbul",
     Category: "General",
@@ -2063,7 +2063,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/06/2022",
+    Datetime: "06-10-2022",
     Event: "Istanbul traffic to come to deadlock soon, experts warn",
     URL: "https://www.hurriyetdailynews.com/istanbul-traffic-to-come-to-deadlock-soon-experts-warn-177501",
     Category: "Traffic",
@@ -2072,7 +2072,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/06/2022",
+    Datetime: "06-10-2022",
     Event:
       "Once a safe haven, Iranians in Turkey say civil liberties are at risk",
     URL: "https://www.al-monitor.com/originals/2022/10/once-safe-haven-iranians-turkey-say-civil-liberties-are-risk",
@@ -2082,7 +2082,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/06/2022",
+    Datetime: "06-10-2022",
     Event:
       "Soaring inflation and a collapsing currency: Why is Turkey's economy in such a mess?",
     URL: "https://www.euronews.com/2022/10/05/everything-is-overheating-why-is-turkeys-economy-in-such-a-mess",
@@ -2092,7 +2092,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/06/2022",
+    Datetime: "06-10-2022",
     Event: "The Culture and Arts Hub at Istanbul Airport",
     URL: "https://travelradar.aero/the-culture-and-arts-hub-at-istanbul-airport/",
     Category: "Culture",
@@ -2101,7 +2101,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/06/2022",
+    Datetime: "06-10-2022",
     Event:
       "When Hate Becomes an Instrument: 4 Queer Culture Workers From Turkey Respond to the Anti-LGBT+ Rally in Istanbul",
     URL: "https://news.artnet.com/art-world/when-hate-becomes-an-instrument-4-queer-culture-workers-from-turkey-respond-to-the-anti-lgbt-rally-in-istanbul-2187477",
@@ -2111,7 +2111,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/06/2022",
+    Datetime: "06-10-2022",
     Event: "Ten most popular street foods you shouldn’t miss in Istanbul",
     URL: "https://thepeninsulaqatar.com/article/06/10/2022/ten-most-popular-street-foods-you-shouldnt-miss-in-istanbul",
     Category: "Culture",
@@ -2120,7 +2120,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/06/2022",
+    Datetime: "06-10-2022",
     Event: "Türkiye's culture road stretches to Diyarbakır, reviving heritage",
     URL: "https://www.dailysabah.com/arts/events/turkiyes-culture-road-stretches-to-diyarbakir-reviving-heritage",
     Category: "Culture",
@@ -2129,7 +2129,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/06/2022",
+    Datetime: "06-10-2022",
     Event:
       "Türkiye to form institutional body to address Alevi citizens' problems",
     URL: "https://www.dailysabah.com/politics/legislation/turkiye-to-form-institutional-body-to-address-alevi-citizens-problems",
@@ -2139,7 +2139,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/06/2022",
+    Datetime: "06-10-2022",
     Event:
       "Returning to Istanbul, a Place of Competing Identities • T Australia",
     URL: "https://taustralia.com.au/istanbul-competing-identities/",
@@ -2149,7 +2149,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/05/2022",
+    Datetime: "05-10-2022",
     Event: "Restoration underway for Istanbul’s Byzantine cistern",
     URL: "https://www.dailysabah.com/turkey/istanbul/restoration-underway-for-istanbuls-byzantine-cistern",
     Category: "General",
@@ -2158,7 +2158,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/03/2022",
+    Datetime: "03-10-2022",
     Event: "Istanbul now allows pets on mass transportation",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbul-now-allows-pets-on-mass-transportation",
     Category: "General",
@@ -2167,7 +2167,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/03/2022",
+    Datetime: "03-10-2022",
     Event: "Two wheels, two worlds: Turkish mufti rides high with youth",
     URL: "https://www.dailysabah.com/turkey/istanbul/two-wheels-two-worlds-turkish-mufti-rides-high-with-youth",
     Category: "General",
@@ -2176,7 +2176,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "09/30/2022",
+    Datetime: "30-09-2022",
     Event: "Istanbul becomes youth capital of Turkic World",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbul-becomes-youth-capital-of-turkic-world",
     Category: "General",
@@ -2185,7 +2185,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "25-09-22",
+    Datetime: "25-09-2022",
     Event: "Russian men flock to Istanbul, fearing call-up to fight in Ukraine",
     URL: "https://www.dailysabah.com/business/economy/russian-men-flock-to-istanbul-fearing-call-up-to-fight-in-ukraine",
     Category: "Lifestyle",
@@ -2194,7 +2194,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "24-09-22",
+    Datetime: "24-09-2022",
     Event:
       "Malayali doctor invited for international paper presentation at Istanbul",
     URL: "https://www.onmanorama.com/lifestyle/health/2022/09/24/kerala-doctor-invited-international-paper-presentationat-istanbul-dr-bibin-mathew.html",
@@ -2204,7 +2204,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "23-09-22",
+    Datetime: "23-09-2022",
     Event: "In Istanbul�s private retreats of the sultans, time stands still",
     URL: "https://indianexpress.com/article/lifestyle/destination-of-the-week/in-istanbuls-private-retreats-of-the-sultans-time-stands-still-8168627/",
     Category: "Lifestyle",
@@ -2213,7 +2213,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "23-09-22",
+    Datetime: "23-09-2022",
     Event: "Countdown to 'Beyo?lu Culture Road' to insoul Istanbul",
     URL: "https://www.dailysabah.com/arts/events/countdown-to-beyoglu-culture-road-to-insoul-istanbul",
     Category: "Culture",
@@ -2222,7 +2222,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "22-09-22",
+    Datetime: "22-09-2022",
     Event: "Istanbul to host Economic Transformation Summit",
     URL: "https://www.aa.com.tr/en/economy/istanbul-to-host-economic-transformation-summit/2692490",
     Category: "Economics",
@@ -2231,7 +2231,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "22-09-22",
+    Datetime: "22-09-2022",
     Event: "T�rkiye set for Istanbul summit to review post-Covid economy",
     URL: "https://www.trtworld.com/turkey/t%C3%BCrkiye-set-for-istanbul-summit-to-review-post-covid-economy-61037",
     Category: "Economics",
@@ -2240,7 +2240,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "22-09-22",
+    Datetime: "22-09-2022",
     Event:
       "Discover the Most Captivating Installations from Istanbul Art Week 2022",
     URL: "https://galeriemagazine.com/istanbul-art-week-2022/",
@@ -2250,7 +2250,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-09-22",
+    Datetime: "21-09-2022",
     Event: "Long-awaited Istanbul Modern museum nears completion",
     URL: "https://www.theartnewspaper.com/2022/09/21/istanbuls-museum-sector-pushes-on",
     Category: "Culture",
@@ -2259,7 +2259,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "21-09-22",
+    Datetime: "21-09-2022",
     Event: "Mariza, passionate voice of fado, to perform in Istanbul, Ankara",
     URL: "https://www.dailysabah.com/arts/music/mariza-passionate-voice-of-fado-to-perform-in-istanbul-ankara",
     Category: "Culture",
@@ -2268,7 +2268,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "09/19/2022",
+    Datetime: "19-09-2022",
     Event: "Gunman wanted after killing 2, attack on police in Istanbul",
     URL: "https://www.dailysabah.com/turkey/istanbul/gunman-wanted-after-killing-2-attack-on-police-in-istanbul",
     Category: "General",
@@ -2277,7 +2277,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "19-09-22",
+    Datetime: "19-09-2022",
     Event: "Gunman wanted after killing 2, attack on police in Istanbul",
     URL: "https://www.dailysabah.com/turkey/istanbul/gunman-wanted-after-killing-2-attack-on-police-in-istanbul",
     Category: "Education",
@@ -2286,7 +2286,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "16-09-22",
+    Datetime: "16-09-2022",
     Event: "Istanbul police arrest 4 Iranians on espionage charges",
     URL: "https://www.dailysabah.com/turkey/istanbul-police-arrest-4-iranians-on-espionage-charges/news",
     Category: "Education",
@@ -2295,7 +2295,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "15-09-22",
+    Datetime: "15-09-2022",
     Event: "No filter: Istanbul Coffee Festival to kick off on Oct. 6",
     URL: "https://www.dailysabah.com/life/no-filter-istanbul-coffee-festival-to-kick-off-on-oct-6/news",
     Category: "Lifestyle",
@@ -2304,7 +2304,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "15-09-22",
+    Datetime: "15-09-2022",
     Event:
       "Ambitious exhibition explores �Life, Death, Love and Justice� in Istanbul",
     URL: "https://www.trtworld.com/art-culture/ambitious-exhibition-explores-life-death-love-and-justice-in-istanbul-60804",
@@ -2314,7 +2314,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "15-09-22",
+    Datetime: "15-09-2022",
     Event:
       "Jazz state of city: 32nd Akbank Jazz Festival to kickoff in Istanbul",
     URL: "https://www.dailysabah.com/arts/events/jazz-state-of-city-32nd-akbank-jazz-festival-to-kickoff-in-istanbul",
@@ -2324,7 +2324,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "15-09-22",
+    Datetime: "15-09-2022",
     Event: "Istanbul Biennial to open on the weekend",
     URL: "https://www.hurriyetdailynews.com/istanbul-biennial-to-open-on-the-weekend-176921",
     Category: "Culture",
@@ -2333,7 +2333,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "10/09/2022",
+    Datetime: "09-10-2022",
     Event: "99 passengers injured in metrobus crash in Istanbul",
     URL: "https://www.dailysabah.com/turkey/istanbul/99-passengers-injured-in-metrobus-crash-in-istanbul",
     Category: "Education",
@@ -2342,7 +2342,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "09/09/2022",
+    Datetime: "09-09-2022",
     Event:
       "The Istanbul Biennale and Contemporary Istanbul Art Fair to Open in September in Turkey's Largest City",
     URL: "https://www.archdaily.com/988702/the-17th-istanbul-biennale-announces-line-up-for-its-2022-edition",
@@ -2352,7 +2352,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "08/09/2022",
+    Datetime: "08-09-2022",
     Event: "Europe�s biggest burn center in Istanbul caters to health tourism",
     URL: "https://www.dailysabah.com/turkey/europes-biggest-burn-center-in-istanbul-caters-to-health-tourism/news",
     Category: "Health",
@@ -2361,7 +2361,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "08/09/2022",
+    Datetime: "08-09-2022",
     Event:
       "Asia Lounge Cafe, Restaurant and Cultural Center Brings Bangladesh to Istanbul",
     URL: "https://culinarybackstreets.com/cities-category/istanbul/2022/asia-lounge-a-community-of-biryani/",
@@ -2371,7 +2371,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "09/06/2022",
+    Datetime: "06-09-2022",
     Event: "Istanbul's overcharging parking lots draw fire",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbuls-overcharging-parking-lots-draw-fire",
     Category: "General",
@@ -2380,7 +2380,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "06/09/2022",
+    Datetime: "06-09-2022",
     Event: "Istanbul's overcharging parking lots draw fire",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbuls-overcharging-parking-lots-draw-fire",
     Category: "Education",
@@ -2389,7 +2389,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "09/05/2022",
+    Datetime: "05-09-2022",
     Event:
       "Ministry denies ‘disappearance’ of Istanbul landmark Maiden’s Tower",
     URL: "https://www.dailysabah.com/turkey/istanbul/ministry-denies-disappearance-of-istanbul-landmark-maidens-tower",
@@ -2399,7 +2399,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "05/09/2022",
+    Datetime: "05-09-2022",
     Event:
       "Ministry denies �disappearance� of Istanbul landmark Maiden�s Tower",
     URL: "https://www.dailysabah.com/turkey/istanbul/ministry-denies-disappearance-of-istanbul-landmark-maidens-tower",
@@ -2409,7 +2409,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "09/02/2022",
+    Datetime: "02-09-2022",
     Event: "West Nile virus in Greece also threatens Türkiye",
     URL: "https://www.dailysabah.com/turkey/istanbul/west-nile-virus-in-greece-also-threatens-turkiye",
     Category: "General",
@@ -2418,7 +2418,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "09/02/2022",
+    Datetime: "02-09-2022",
     Event: "Istanbul’s ‘haunted’ mansion sells for nearly $24.7 million",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbuls-haunted-mansion-sells-for-nearly-247-million",
     Category: "General",
@@ -2427,7 +2427,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "02/09/2022",
+    Datetime: "02-09-2022",
     Event: "Istanbul�s �haunted� mansion sells for nearly $24.7 million",
     URL: "https://www.dailysabah.com/turkey/istanbul/istanbuls-haunted-mansion-sells-for-nearly-247-million",
     Category: "Education",
@@ -2436,7 +2436,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "02/09/2022",
+    Datetime: "02-09-2022",
     Event:
       "Ship bound for Istanbul from Ukraine runs aground in Bosphorus Strait in Turkey",
     URL: "https://www.aninews.in/news/world/us/ship-bound-for-istanbul-from-ukraine-runs-aground-in-bosphorus-strait-in-turkey20220902013107",
@@ -2446,7 +2446,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "09/01/2022",
+    Datetime: "01-09-2022",
     Event: "Grain ship from Ukraine drifts aground in Istanbul",
     URL: "https://www.dailysabah.com/business/economy/grain-ship-from-ukraine-drifts-aground-in-istanbul",
     Category: "General",
@@ -2455,7 +2455,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "01/09/2022",
+    Datetime: "01-09-2022",
     Event:
       "Grain ship from Ukraine towed to anchorage in Istanbul, traffic reopened",
     URL: "https://www.reuters.com/world/russia-ukraine-seal-landmark-grains-export-deal-istanbul-2022-07-22/",
@@ -2465,7 +2465,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "01/09/2022",
+    Datetime: "01-09-2022",
     Event: "All aboard: Historical Orient Express train reaches Istanbul",
     URL: "https://www.dailysabah.com/life/history/all-aboard-historical-orient-express-train-reaches-istanbul",
     Category: "Lifestyle",
@@ -2474,7 +2474,7 @@ export const data = [
     CategoryAll: "All",
   },
   {
-    Datetime: "01/09/2022",
+    Datetime: "01-09-2022",
     Event: "7 Sizzling Hot Istanbul Restaurants To Visit Right Now",
     URL: "https://www.forbes.com/sites/isabellekliger/2022/09/01/7-sizzling-hot-istanbul-restaurants-to-visit-right-now/",
     Category: "Lifestyle",

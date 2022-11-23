@@ -10,6 +10,8 @@ import {
 } from "recharts";
 import { useEffect } from "react";
 import { useState } from "react";
+import { data as stats } from "../../GlobeRegions/data";
+import { useSelector } from "react-redux";
 
 function nFormatter(num) {
   if (num >= 1000000000) {
@@ -95,7 +97,7 @@ const Chart = ({
                     width: "max-content",
                   }}
                 >
-                  News Interest : {item.payload[0].payload.value}
+                  News Interest : {item.payload[0].payload.value}%
                 </p>
               )}
             </div>
@@ -114,7 +116,7 @@ const Chart = ({
                     width: "max-content",
                   }}
                 >
-                  Social Media Interest : {item.payload[0].payload.value}
+                  Social Media Interest : {item.payload[0].payload.value}%
                 </p>
               )}
             </div>
@@ -133,7 +135,7 @@ const Chart = ({
                     width: "max-content",
                   }}
                 >
-                  Media Interest : {item.payload[0].payload.value}
+                  Media Interest : {item.payload[0].payload.value}%
                 </p>
               )}
             </div>
@@ -176,7 +178,8 @@ const Chart = ({
       <div className="index-score">
         <div className="score-wrapper">
           <p className="score-white">{indexValue}</p>
-          <p className="title">Index Value</p>
+
+          <p className="title">Interest Value</p>
         </div>
         {sentimentValue < 0 ? (
           <div className="score-wrapper">

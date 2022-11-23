@@ -9,7 +9,7 @@ import "tippy.js/themes/light.css";
 import "tippy.js/dist/svg-arrow.css";
 
 const WorldAnalysis = () => {
-  const [active, setActive] = useState("top-influencers");
+  const [active, setActive] = useState("real-time-news");
 
   return (
     <div className="analysis-container-wrapper">

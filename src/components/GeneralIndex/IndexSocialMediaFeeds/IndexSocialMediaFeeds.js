@@ -7,15 +7,15 @@ const IndexSocialMediaFeeds = ({ active }) => {
   return (
     <>
       <div>
-        <h1 className="General-index-heading">
+        {/* <h1 className="General-index-heading">
           General indexes based on news feeds and social media sentiment
-        </h1>
+        </h1> */}
       </div>
       <div className="chart-outside-index-two">
         <Chart
           sentimentValue="Positive"
           active={active}
-          indexValue={17}
+          indexValue="5K"
           jsonData={jsonData}
           category="generel"
           heading="General Social Media Index"
@@ -24,7 +24,7 @@ const IndexSocialMediaFeeds = ({ active }) => {
         <Chart
           sentimentValue="Positive"
           active={active}
-          indexValue={3}
+          indexValue="854"
           jsonData={jsonData}
           category="goverment"
           heading="Goverment Social Media Index"
@@ -36,7 +36,7 @@ const IndexSocialMediaFeeds = ({ active }) => {
         <Chart
           sentimentValue="Positive"
           active={active}
-          indexValue={0}
+          indexValue="275"
           jsonData={jsonData}
           category="traffic"
           heading="Traffic Social Media Index"
@@ -46,7 +46,7 @@ const IndexSocialMediaFeeds = ({ active }) => {
         <Chart
           sentimentValue="Positive"
           active={active}
-          indexValue={1}
+          indexValue="516"
           jsonData={jsonData}
           category="health"
           heading="Health Social Media Index"
@@ -55,7 +55,7 @@ const IndexSocialMediaFeeds = ({ active }) => {
         <Chart
           sentimentValue="Positive"
           active={active}
-          indexValue={4}
+          indexValue="176"
           jsonData={jsonData}
           category="education"
           heading="Education Social Media Index"
@@ -64,7 +64,7 @@ const IndexSocialMediaFeeds = ({ active }) => {
         <Chart
           sentimentValue="Positive"
           active={active}
-          indexValue={9}
+          indexValue="279"
           jsonData={jsonData}
           category="lifestyle"
           heading="Lifestyle Social Media Index"
@@ -73,7 +73,7 @@ const IndexSocialMediaFeeds = ({ active }) => {
         <Chart
           sentimentValue="Positive"
           active={active}
-          indexValue={1}
+          indexValue="140"
           jsonData={jsonData}
           category="economics"
           heading="Economics Social Media Index"
@@ -82,7 +82,7 @@ const IndexSocialMediaFeeds = ({ active }) => {
         <Chart
           sentimentValue="Positive"
           active={active}
-          indexValue={14}
+          indexValue="195"
           jsonData={jsonData}
           category="culture"
           heading="Culture Social Media Index"
