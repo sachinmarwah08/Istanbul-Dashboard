@@ -10,21 +10,6 @@ import {
 } from "recharts";
 import { useEffect } from "react";
 import { useState } from "react";
-import { data as stats } from "../../GlobeRegions/data";
-import { useSelector } from "react-redux";
-
-function nFormatter(num) {
-  if (num >= 1000000000) {
-    return (num / 1000000000).toFixed(1).replace(/\.0$/, "") + "G";
-  }
-  if (num >= 1000000) {
-    return (num / 1000000).toFixed(1).replace(/\.0$/, "") + "M";
-  }
-  if (num >= 1000) {
-    return (num / 1000).toFixed(1).replace(/\.0$/, "") + "k";
-  }
-  return num;
-}
 
 const type = "monotone";
 
@@ -143,7 +128,7 @@ const Chart = ({
 
           {active === "index-news-feeds" && (
             <div>
-              {item.payload[0].payload.sentiment && (
+              {item.payload[0].payload.sentiment === 0 && (
                 <p className="sentiment-value">
                   News Sentiment : {item.payload[0].payload.sentiment}
                 </p>

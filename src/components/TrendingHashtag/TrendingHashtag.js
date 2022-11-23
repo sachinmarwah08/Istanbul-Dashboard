@@ -43,6 +43,7 @@ const TrendingHashtag = () => {
   const [economicsLocalState, setEconomicsLocalState] =
     useState(treeDataEconomics);
   const [cultureLocalState, setCultureLocalState] = useState(treeDataCulture);
+  const [trafficLocalState, setTrafficLocalState] = useState(treeDataTraffic);
   const [isHtagSelected, setIsHtagSelected] = useState();
 
   const onHtagClick = (category) => {
@@ -54,6 +55,7 @@ const TrendingHashtag = () => {
       setLifestyleLocalState([treeDataLifestyle[0]]);
       setEconomicsLocalState([treeDataEconomics[0]]);
       setCultureLocalState([treeDataCulture[0]]);
+      setTrafficLocalState([treeDataTraffic[0]]);
     } else if (category === "ekkanHTag") {
       setTreeDataLocalState([treeData[1]]);
       setTreeDataGovernmentLocalState([treeDataGovernmnet[1]]);
@@ -62,6 +64,7 @@ const TrendingHashtag = () => {
       setLifestyleLocalState([treeDataLifestyle[1]]);
       setEconomicsLocalState([treeDataEconomics[1]]);
       setCultureLocalState([treeDataCulture[1]]);
+      setTrafficLocalState([treeDataTraffic[1]]);
     } else if (category === "duybeniHtag") {
       setTreeDataLocalState([treeData[2]]);
       setTreeDataGovernmentLocalState([treeDataGovernmnet[2]]);
@@ -70,6 +73,7 @@ const TrendingHashtag = () => {
       setLifestyleLocalState([treeDataLifestyle[2]]);
       setEconomicsLocalState([treeDataEconomics[2]]);
       setCultureLocalState([treeDataCulture[2]]);
+      setTrafficLocalState([treeDataTraffic[2]]);
     } else if (category === "turkeyHtag") {
       setTreeDataLocalState([treeData[3]]);
       setTreeDataGovernmentLocalState([treeDataGovernmnet[3]]);
@@ -78,6 +82,7 @@ const TrendingHashtag = () => {
       setLifestyleLocalState([treeDataLifestyle[3]]);
       setEconomicsLocalState([treeDataEconomics[3]]);
       setCultureLocalState([treeDataCulture[3]]);
+      setTrafficLocalState([treeDataTraffic[3]]);
     }
     setSelectedHtag(Trendingdata[selectedCategory][category]);
     setIsHtagSelected(category);
@@ -100,6 +105,7 @@ const TrendingHashtag = () => {
     setLifestyleLocalState(treeDataLifestyle);
     setEconomicsLocalState(treeDataEconomics);
     setCultureLocalState(treeDataCulture);
+    setTrafficLocalState(treeDataTraffic);
   };
 
   return (
@@ -196,7 +202,7 @@ const TrendingHashtag = () => {
 
               {selectedCategory === "Traffic" && (
                 <div className="tree-graph">
-                  {treeDataTraffic.map((item) => (
+                  {trafficLocalState.map((item) => (
                     <Tree
                       svgProps={{
                         className: "custom",
@@ -205,7 +211,7 @@ const TrendingHashtag = () => {
                       data={item}
                       nodeRadius={15}
                       margins={{ top: 100, bottom: 80, left: -10, right: 80 }}
-                      height={`${isHtagSelected ? 730 : 530}`}
+                      height={`${isHtagSelected ? 730 : 440}`}
                       direction="rtl"
                       width={1050}
                     />

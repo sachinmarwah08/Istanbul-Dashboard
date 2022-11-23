@@ -34,7 +34,7 @@ const IndexNewsAndSocialMedia = ({ active }) => {
 
       <div className="chart-outside-index">
         <Chart
-          sentimentValue="Positive"
+          sentimentValue="Neutral"
           active={active}
           indexValue="630"
           jsonData={jsonData}
@@ -84,7 +84,7 @@ const IndexNewsAndSocialMedia = ({ active }) => {
         />
 
         <Chart
-          sentimentValue="Positive"
+          sentimentValue="Neutral"
           active={active}
           indexValue="455"
           jsonData={jsonData}
