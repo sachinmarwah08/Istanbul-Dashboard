@@ -13,7 +13,7 @@ const IndexNewsFeeds = () => {
       </div>
       <div className="chart-outside-index-two">
         <Chart
-          sentimentValue={0}
+          sentimentValue="Positive"
           indexValue={17}
           jsonData={jsonData}
           category="generel"
@@ -21,7 +21,7 @@ const IndexNewsFeeds = () => {
           description="The Interest value and sentiment of news that links to the General category"
         />
         <Chart
-          sentimentValue={0}
+          sentimentValue="Positive"
           indexValue={2}
           jsonData={jsonData}
           category="goverment"
@@ -32,7 +32,7 @@ const IndexNewsFeeds = () => {
 
       <div className="chart-outside-index">
         <Chart
-          sentimentValue={0}
+          sentimentValue="Positive"
           indexValue={1}
           jsonData={jsonData}
           category="traffic"
@@ -41,7 +41,7 @@ const IndexNewsFeeds = () => {
         />
 
         <Chart
-          sentimentValue={0}
+          sentimentValue="Positive"
           indexValue={0}
           jsonData={jsonData}
           category="health"
@@ -49,7 +49,7 @@ const IndexNewsFeeds = () => {
           description="The Interest value and sentiment of news that links to the Health category"
         />
         <Chart
-          sentimentValue={0}
+          sentimentValue="Positive"
           indexValue={3}
           jsonData={jsonData}
           category="education"
@@ -57,7 +57,7 @@ const IndexNewsFeeds = () => {
           description="The Interest value and sentiment of news that links to the Education category"
         />
         <Chart
-          sentimentValue={0}
+          sentimentValue="Positive"
           indexValue={3}
           jsonData={jsonData}
           category="lifestyle"
@@ -65,7 +65,7 @@ const IndexNewsFeeds = () => {
           description="The Interest value and sentiment of news that links to the Lifestyle category"
         />
         <Chart
-          sentimentValue={0}
+          sentimentValue="Positive"
           indexValue={3}
           jsonData={jsonData}
           category="economics"
@@ -73,7 +73,7 @@ const IndexNewsFeeds = () => {
           description="The Interest value and sentiment of news that links to the Economics category"
         />
         <Chart
-          sentimentValue={0}
+          sentimentValue="Positive"
           indexValue={5}
           jsonData={jsonData}
           category="culture"

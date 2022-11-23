@@ -1,10 +1,12 @@
 import React from "react";
 import "./Header.scss";
 import logo from "../../../Images/logo.svg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown, faAngleUp } from "@fortawesome/free-solid-svg-icons";
-import { data } from "./data";
+import infoCircle from "../../../Images/infoCircle.svg";
 import moment from "moment";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
+import "tippy.js/themes/light.css";
+import "tippy.js/dist/svg-arrow.css";
 
 const Header = () => {
   const formatDate = moment().format("DD");
@@ -15,25 +17,51 @@ const Header = () => {
         <img className="logo" src={logo} />
         <div className="header-container">
           <div className="left-content-header">
-            <p className="header-heading">
-              Istanbul Real time Data Sentiment Index
-            </p>
+            <div className="heading-info">
+              <p className="header-heading">
+                Istanbul Real time Data Sentiment Index
+              </p>
+              <Tippy
+                arrow={false}
+                theme={"red"}
+                interactive={true}
+                zIndex={9999999999}
+                content={
+                  <div
+                    style={{
+                      fontWeight: 400,
+                      fontFamily: "Sora",
+                      fontSize: "12px",
+                      zIndex: 999999,
+                    }}
+                  >
+                    This dashboard provides insights on Istanbul tweets, news
+                    stories, top influencers, and trending hashtags, as well as
+                    categorisation of these into General, Government, Economics,
+                    Lifestyle, Health, Culture, Education, and Traffic segments.
+                  </div>
+                }
+              >
+                <img className="info" src={infoCircle} />
+              </Tippy>
+            </div>
+
             <p className="header-title">Powered by ztudium blocksdna</p>
           </div>
           <div className="right-content">
             <div className="date-container">
               <div className="date-one">
                 <p className="date">Sep 01, 2022</p>
-                <div className="date-icon">
+                {/* <div className="date-icon">
                   <FontAwesomeIcon className="fa" icon={faAngleDown} />
-                </div>
+                </div> */}
               </div>
               <span className="line"></span>
               <div className="date-two">
                 <p className="date">Nov 20, 2022</p>
-                <div className="date-icon">
+                {/* <div className="date-icon">
                   <FontAwesomeIcon className="fa" icon={faAngleDown} />
-                </div>
+                </div> */}
               </div>
             </div>
 

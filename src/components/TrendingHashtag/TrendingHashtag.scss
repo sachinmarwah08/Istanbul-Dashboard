@@ -54,12 +54,22 @@
       .trending-hashtag-header-left {
         width: 100%;
 
+        .heading-info {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          padding-bottom: 0.5rem;
+        }
+
+        .info {
+          cursor: pointer;
+        }
+
         .trending-hashtag-heading {
           margin: 0;
           padding: 0;
           font-weight: 700;
           font-size: 24px;
-          padding-bottom: 0.5rem;
           line-height: 18px;
           color: #f9fafb;
         }

@@ -13,7 +13,7 @@ const TopInfluencers = () => {
   );
   const globeFilterDrodownList = ["Influencer"];
   const [globeFilter, setGlobeFilter] = useState("Filters");
-  const [localData, setLocalData] = useState(data);
+  const [localData, setLocalData] = useState(data["General"]);
   const [radioCheck, setRadioCheck] = useState("All");
   const [inputValue, setInputValue] = useState("");
   const [isFilterActive, setIsFilterActive] = useState(false);
@@ -21,11 +21,10 @@ const TopInfluencers = () => {
 
   useEffect(() => {
     if (selectedCategory) {
-      let tempData = data.filter((item) => item.Category === selectedCategory);
+      let tempData = data[selectedCategory];
       setLocalData(tempData);
     } else {
-      let tempData = data.filter((item) => item.CategoryAll);
-      setLocalData(tempData);
+      setLocalData(data["General"]);
     }
   }, [selectedCategory]);
 
@@ -40,17 +39,31 @@ const TopInfluencers = () => {
   const onHandleChange = (e) => {
     setInputValue(e.target.value);
     setIsFilterActive(true);
-    let tempData = data.filter((item) => {
-      return item.Username.toLowerCase().includes(inputValue.toLowerCase());
-    });
-    setDropList(tempData);
+    if (selectedCategory) {
+      let tempData = data[selectedCategory].filter((item) => {
+        return item.Username.toLowerCase().includes(inputValue.toLowerCase());
+      });
+      setDropList(tempData);
+    } else {
+      let tempData = data["General"].filter((item) => {
+        return item.Username.toLowerCase().includes(inputValue.toLowerCase());
+      });
+      setDropList(tempData);
+    }
   };
 
   const onDropDownClick = (option) => {
     setInputValue(option);
     setIsFilterActive(false);
-    let tempData = data.filter((item) => item.Username === option);
-    setLocalData(tempData);
+    if (selectedCategory) {
+      let tempData = data[selectedCategory].filter(
+        (item) => item.Username === option
+      );
+      setLocalData(tempData);
+    } else {
+      let tempData = data["General"].filter((item) => item.Username === option);
+      setLocalData(tempData);
+    }
   };
 
   function nFormatter(num) {
@@ -84,11 +97,11 @@ const TopInfluencers = () => {
           inputValue={inputValue}
           searchBarDropDownClick={onDropDownClick}
         />
-        <FilterButton
+        {/* <FilterButton
           data={globeFilter}
           setData={setGlobeFilter}
           dropdownList={globeFilterDrodownList}
-        />
+        /> */}
       </div>
 
       <div className="table-wrapper">

@@ -39,21 +39,20 @@ const Chart = ({
   useEffect(() => {
     if (category) {
       let tempData = [];
-
-      let equal_ids = [];
+      console.log(jsonData);
       const dynamicData = jsonData[category];
-      console.log(dynamicData, "dynamicData");
-      for (let i = 0; i < dynamicData.length; i++) {
+      console.log(dynamicData, "he");
+      for (let i = 0; i < 162; i++) {
         let obj = {};
-        if (dynamicData[i].Dates) {
+        if (i < 81) {
           obj["value"] = +dynamicData[i]["IndexValue"];
           obj["sentiment"] =
-            i === 14 ? +dynamicData[0]["SentimentValue"] : undefined;
+            i === 80 ? +dynamicData[0]["SentimentValue"] : undefined;
           obj["year"] = dynamicData[i]["Dates"];
         } else {
           obj["value"] = undefined;
-          obj["sentiment"] = +dynamicData[i - 16]["SentimentValue"];
-          obj["year"] = dynamicData[i - 16]["Dates"];
+          obj["sentiment"] = +dynamicData[i - 81]["SentimentValue"];
+          obj["year"] = dynamicData[i - 81]["Dates"];
         }
         tempData.push(obj);
       }
@@ -118,12 +117,12 @@ const Chart = ({
         </div>
         {sentimentValue < 0 ? (
           <div className="score-wrapper">
-            <p className="score-red">{sentimentValue}%</p>
+            <p className="score-red">{sentimentValue}</p>
             <p className="title-red">Sentiment Value</p>
           </div>
         ) : (
           <div className="score-wrapper">
-            <p className="score-green">+{sentimentValue}%</p>
+            <p className="score-green">{sentimentValue}</p>
             <p className="title-green">Sentiment Value</p>
           </div>
         )}
@@ -183,10 +182,10 @@ const Chart = ({
           <XAxis dataKey="year" dx={0} dy={30} />
           {/* <YAxis domain={["dataMin", "dataMax"]} /> */}
           <ReferenceLine
-            x={10}
+            x={80}
             strokeDasharray="4 4"
             label={{
-              value: "Oct 27",
+              value: "Nov 20",
               fill: "#F9FAFB",
               fontSize: "12px",
               fontWeight: 300,

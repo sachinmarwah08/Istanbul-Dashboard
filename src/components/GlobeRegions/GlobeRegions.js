@@ -1,36 +1,21 @@
 import React from "react";
-// import FilterButton from "../Buttons/FilterButton/FilterButton";
-// import earthIcon from "../../Images/Earth-icon.svg";
-// import earthIconColored from "../../Images/Earth-iconColored.svg";
-// import tableIcon from "../../Images/Table-icon.svg";
-// import arrowIcon from "../../Images/Arrow-icon.svg";
-// import SearchBar from "../SearchBar/SearchBar";
 import bar from "../../Images/istanbul-bar.png";
 import { useDispatch, useSelector } from "react-redux";
 import "./GlobeRegions.scss";
-// import GlobalButtons from "../Buttons/GlobalButtons/GlobalButtons";
 import { useState } from "react";
-// import {
-//   Culture,
-//   Economics,
-//   Education,
-//   General,
-//   Government,
-//   Health,
-//   Lifestyle,
-//   Traffic,
-// } from "./data"
 import { data as jsonData } from "./data";
 import { onSelectCategory } from "../../slices/globalSlice";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
+import "tippy.js/themes/light.css";
+import "tippy.js/dist/svg-arrow.css";
+import infoCircle from "../../Images/infoCircle.svg";
 
 const GlobeRegions = () => {
   const dispatch = useDispatch();
   const selectedCategory = useSelector(
     (state) => state.globalData.selectedCategory
   );
-  // const [show, setShow] = useState("Globe");
-  // const globeFilterDrodownList = ["Country", "Influencer", "Hashtag"];
-  // const [globeFilter, setGlobeFilter] = useState("Filters");
 
   const [data, setData] = useState(jsonData["General"]);
 
@@ -46,6 +31,7 @@ const GlobeRegions = () => {
         <img className="global-bar" src={bar}></img>
         <div className="globar-bar-text-wrapper">
           <span className="globar-bar-text">Media Interest</span>
+
           <span className="globar-bar-text-count">{data.Media_Interest}</span>
         </div>
         <img className="global-bar-two" src={bar}></img>
@@ -105,34 +91,14 @@ const GlobeRegions = () => {
                 Government
               </button>
               <button
-                onClick={() => onButtonsClick("Traffic")}
+                onClick={() => onButtonsClick("Economics")}
                 className={`${
-                  selectedCategory === "Traffic"
+                  selectedCategory === "Economics"
                     ? "global-regions-btn-colored"
                     : "global-regions-btn"
                 }`}
               >
-                Traffic
-              </button>
-              <button
-                onClick={() => onButtonsClick("Health")}
-                className={`${
-                  selectedCategory === "Health"
-                    ? "global-regions-btn-colored"
-                    : "global-regions-btn"
-                }`}
-              >
-                Health
-              </button>
-              <button
-                onClick={() => onButtonsClick("Education")}
-                className={`${
-                  selectedCategory === "Education"
-                    ? "global-regions-btn-colored"
-                    : "global-regions-btn"
-                }`}
-              >
-                Education
+                Economics
               </button>
               <button
                 // onClick={() => setData(Lifestyle)}
@@ -146,14 +112,14 @@ const GlobeRegions = () => {
                 Lifestyle
               </button>
               <button
-                onClick={() => onButtonsClick("Economics")}
+                onClick={() => onButtonsClick("Health")}
                 className={`${
-                  selectedCategory === "Economics"
+                  selectedCategory === "Health"
                     ? "global-regions-btn-colored"
                     : "global-regions-btn"
                 }`}
               >
-                Economics
+                Health
               </button>
               <button
                 onClick={() => onButtonsClick("Culture")}
@@ -164,6 +130,26 @@ const GlobeRegions = () => {
                 }`}
               >
                 Culture
+              </button>
+              <button
+                onClick={() => onButtonsClick("Education")}
+                className={`${
+                  selectedCategory === "Education"
+                    ? "global-regions-btn-colored"
+                    : "global-regions-btn"
+                }`}
+              >
+                Education
+              </button>
+              <button
+                onClick={() => onButtonsClick("Traffic")}
+                className={`${
+                  selectedCategory === "Traffic"
+                    ? "global-regions-btn-colored"
+                    : "global-regions-btn"
+                }`}
+              >
+                Traffic
               </button>
             </div>
 
@@ -179,9 +165,34 @@ const GlobeRegions = () => {
 
                 <>
                   <div className="media">
+                    <Tippy
+                      arrow={false}
+                      theme={"red"}
+                      interactive={true}
+                      zIndex={9999999999}
+                      content={
+                        <div
+                          style={{
+                            fontWeight: 400,
+                            fontFamily: "Sora",
+                            fontSize: "12px",
+                            zIndex: 999999,
+                          }}
+                        >
+                          This dashboard provides insights on Istanbul tweets,
+                          news stories, top influencers, and trending hashtags,
+                          as well as categorisation of these into General,
+                          Government, Economics, Lifestyle, Health, Culture,
+                          Education, and Traffic segments.
+                        </div>
+                      }
+                    >
+                      <img className="info" src={infoCircle} />
+                    </Tippy>
                     <p className="interest">Media Interest</p>
                     <p className="score">{data.Media_Interest}</p>
                   </div>
+
                   <div className="media">
                     <p className="interest">Social Media Interest</p>
                     <p className="score">{data.Social_Media_Interest}</p>

@@ -74,6 +74,7 @@ const SearchBar = ({
               <div className="sort-filter-dropwown-wrapper">
                 <div className="sort-filter-dropwown-overflow-wrapper">
                   {/* {data && */}
+
                   {data &&
                     data.map(
                       (option, index) => (

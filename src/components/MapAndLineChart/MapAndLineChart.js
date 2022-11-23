@@ -1,20 +1,7 @@
 import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { useState } from "react";
-import FilterButton from "../Buttons/FilterButton/FilterButton";
-import SearchBar from "../SearchBar/SearchBar";
-import earthIcon from "../../Images/Earth-icon.svg";
-import earthIconColored from "../../Images/Earth-iconColored.svg";
-import tableIcon from "../../Images/Table-icon.svg";
-import arrowIcon from "../../Images/Arrow-icon.svg";
 import "./MapAndLineChart.scss";
-import RadioButton from "../Buttons/RadioButton/RadioButton";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faAngleDown,
-  faAngleUp,
-  faPlus,
-} from "@fortawesome/free-solid-svg-icons";
 import {
   XAxis,
   YAxis,
@@ -22,13 +9,16 @@ import {
   ResponsiveContainer,
   AreaChart,
   Area,
-  CartesianGrid,
-  ReferenceLine,
 } from "recharts";
 import { format, parsseISO, subDays } from "date-fns";
 import moment from "moment";
 import { data as jsonData } from "./Data/data";
 import { data as stats } from "../GlobeRegions/data";
+import infoCircle from "../../Images/infoCircle.svg";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
+import "tippy.js/themes/light.css";
+import "tippy.js/dist/svg-arrow.css";
 
 // const data = [];
 // for (let num = 30; num >= 0; num--) {
@@ -56,9 +46,6 @@ const MapAndLineChart = () => {
   const selectedCategory = useSelector(
     (state) => state.globalData.selectedCategory
   );
-  const [show, setShow] = useState("Globe");
-  const globeFilterDrodownList = ["Country", "Influencer", "Hashtag"];
-  const [globeFilter, setGlobeFilter] = useState("Filters");
 
   const [localData, setLocalData] = useState([]);
   const [statatics, setStatatics] = useState({
@@ -70,6 +57,7 @@ const MapAndLineChart = () => {
 
   useEffect(() => {
     let category = selectedCategory || "General";
+    console.log(category, "category");
     let tempData = [];
 
     for (let i = 0; i < jsonData.length; i++) {
@@ -94,7 +82,6 @@ const MapAndLineChart = () => {
 
   function renderTooltip(item) {
     if (item && item.payload && item.payload.length) {
-      console.log(item.payload[0].payload, "hello");
       return (
         <>
           <div>
@@ -135,30 +122,52 @@ const MapAndLineChart = () => {
                   width: "max-content",
                 }}
               >
-                Index : {item.payload[0].payload.value}
+                Media Interest : {item.payload[0].payload.value}
               </p>
             )}
           </div>
 
-          {selectedCategory === "General" && (
-            <div>
-              {item.payload[0].payload.generalSentiment && (
-                <p
-                  style={{
-                    fontSize: "20px",
-                    color: "#ffffff",
-                    fontWeight: 700,
-                    marginTop: 0,
-                    margin: 0,
-                    width: "max-content",
-                  }}
-                >
-                  Sentiment : {item.payload[0].payload.generalSentiment}
-                </p>
-              )}
-            </div>
-          )}
-          {selectedCategory === "Government" && (
+          {item.payload[0].payload.generalSentiment &&
+            selectedCategory === "General" && (
+              <div>
+                {item.payload[0].payload.generalSentiment && (
+                  <p
+                    style={{
+                      fontSize: "20px",
+                      color: "#ffffff",
+                      fontWeight: 700,
+                      marginTop: 0,
+                      margin: 0,
+                      width: "max-content",
+                    }}
+                  >
+                    Sentiment : {item.payload[0].payload.generalSentiment}
+                  </p>
+                )}
+              </div>
+            )}
+
+          {item.payload[0].payload.govermentSentiment &&
+            selectedCategory === "Government" && (
+              <div>
+                {item.payload[0].payload.govermentSentiment && (
+                  <p
+                    style={{
+                      fontSize: "20px",
+                      color: "#ffffff",
+                      fontWeight: 700,
+                      marginTop: 0,
+                      margin: 0,
+                      width: "max-content",
+                    }}
+                  >
+                    Sentiment : {item.payload[0].payload.govermentSentiment}
+                  </p>
+                )}
+              </div>
+            )}
+
+          {/* {selectedCategory === "Government" && (
             <div>
               {item.payload[0].payload.govermentSentiment && (
                 <p
@@ -175,7 +184,7 @@ const MapAndLineChart = () => {
                 </p>
               )}
             </div>
-          )}
+          )} */}
           {selectedCategory === "Economics" && (
             <div>
               {item.payload[0].payload.economicsSentiment && (
@@ -325,9 +334,33 @@ const MapAndLineChart = () => {
         </div>
       </div> */}
       <div className="new-line-chart-wrapper">
-        <h1 className="heading">
-          Media Interest and Sentiment Analysis Over Time
-        </h1>
+        <div className="heading-info">
+          <h1 className="heading">
+            Media Interest and Sentiment Analysis Over Time
+          </h1>
+          <Tippy
+            arrow={false}
+            theme={"red"}
+            interactive={true}
+            zIndex={9999999999}
+            content={
+              <div
+                style={{
+                  fontWeight: 400,
+                  fontFamily: "Sora",
+                  fontSize: "12px",
+                  zIndex: 999999,
+                }}
+              >
+                This graph displays the average sentiment score and the trend of
+                the number of positive, neutral, and negative tweets and news
+                stories from Twitter and News media.
+              </div>
+            }
+          >
+            <img className="info" src={infoCircle} />
+          </Tippy>
+        </div>
 
         {/* <div className="new-line-chart-buttons-wrapper">
           <div className="left-buttons">

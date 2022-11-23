@@ -17,6 +17,11 @@ import {
   treeDataLifestyle,
   treeDataTraffic,
 } from "./TreeData";
+import infoCircle from "../../Images/infoCircle.svg";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
+import "tippy.js/themes/light.css";
+import "tippy.js/dist/svg-arrow.css";
 
 const TrendingHashtag = () => {
   const selectedCategory =
@@ -102,7 +107,31 @@ const TrendingHashtag = () => {
       <div className="trending-hashtag-container">
         <div className="trending-hashtag-header">
           <div className="trending-hashtag-header-left">
-            <h1 className="trending-hashtag-heading">Trending Hashtags</h1>
+            <div className="heading-info">
+              <h1 className="trending-hashtag-heading">Trending Hashtags</h1>
+              <Tippy
+                arrow={false}
+                theme={"red"}
+                interactive={true}
+                zIndex={9999999999}
+                content={
+                  <div
+                    style={{
+                      fontWeight: 400,
+                      fontFamily: "Sora",
+                      fontSize: "12px",
+                      zIndex: 999999,
+                    }}
+                  >
+                    This graph displays the top trending hashtags used in tweets
+                    along with their associations.
+                  </div>
+                }
+              >
+                <img className="info" src={infoCircle} />
+              </Tippy>
+            </div>
+
             <p className="trending-hashtag-title">
               Top 20 Hashtags related and Associations
             </p>
