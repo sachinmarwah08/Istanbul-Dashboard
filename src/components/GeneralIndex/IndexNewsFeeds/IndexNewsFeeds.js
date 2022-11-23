@@ -36,11 +36,21 @@ const IndexNewsFeeds = ({ active }) => {
         <Chart
           sentimentValue="Positive"
           active={active}
-          indexValue="180"
+          indexValue="490"
           jsonData={jsonData}
-          category="traffic"
-          heading="Traffic News Index"
-          description="The Interest value and sentiment of news that links to the Traffic category"
+          category="economics"
+          heading="Economics News Index"
+          description="The Interest value and sentiment of news that links to the Economics category"
+        />
+
+        <Chart
+          sentimentValue="Positive"
+          active={active}
+          indexValue="270"
+          jsonData={jsonData}
+          category="lifestyle"
+          heading="Lifestyle News Index"
+          description="The Interest value and sentiment of news that links to the Lifestyle category"
         />
 
         <Chart
@@ -52,6 +62,17 @@ const IndexNewsFeeds = ({ active }) => {
           heading="Health News Index"
           description="The Interest value and sentiment of news that links to the Health category"
         />
+
+        <Chart
+          sentimentValue="Positive"
+          active={active}
+          indexValue="325"
+          jsonData={jsonData}
+          category="culture"
+          heading="Culture News Index"
+          description="The Interest value and sentiment of news that links to the Culture category"
+        />
+
         <Chart
           sentimentValue="Positive"
           active={active}
@@ -61,32 +82,15 @@ const IndexNewsFeeds = ({ active }) => {
           heading="Education News Index"
           description="The Interest value and sentiment of news that links to the Education category"
         />
+
         <Chart
           sentimentValue="Positive"
           active={active}
-          indexValue="270"
+          indexValue="180"
           jsonData={jsonData}
-          category="lifestyle"
-          heading="Lifestyle News Index"
-          description="The Interest value and sentiment of news that links to the Lifestyle category"
-        />
-        <Chart
-          sentimentValue="Positive"
-          active={active}
-          indexValue="490"
-          jsonData={jsonData}
-          category="economics"
-          heading="Economics News Index"
-          description="The Interest value and sentiment of news that links to the Economics category"
-        />
-        <Chart
-          sentimentValue="Positive"
-          active={active}
-          indexValue="325"
-          jsonData={jsonData}
-          category="culture"
-          heading="Culture News Index"
-          description="The Interest value and sentiment of news that links to the Culture category"
+          category="traffic"
+          heading="Traffic News Index"
+          description="The Interest value and sentiment of news that links to the Traffic category"
         />
       </div>
     </>

@@ -21,6 +21,7 @@ const IndexSocialMediaFeeds = ({ active }) => {
           heading="General Social Media Index"
           description="The Interest value and sentiment of social media that links to the General category"
         />
+
         <Chart
           sentimentValue="Positive"
           active={active}
@@ -36,11 +37,21 @@ const IndexSocialMediaFeeds = ({ active }) => {
         <Chart
           sentimentValue="Positive"
           active={active}
-          indexValue="275"
+          indexValue="140"
           jsonData={jsonData}
-          category="traffic"
-          heading="Traffic Social Media Index"
-          description="The Interest value and sentiment of social media that links to the Traffic category"
+          category="economics"
+          heading="Economics Social Media Index"
+          description="The Interest value and sentiment of social media that links to the Economics category"
+        />
+
+        <Chart
+          sentimentValue="Positive"
+          active={active}
+          indexValue="279"
+          jsonData={jsonData}
+          category="lifestyle"
+          heading="Lifestyle Social Media Index"
+          description="The Interest value and sentiment of social media that links to the Lifestyle category"
         />
 
         <Chart
@@ -52,6 +63,17 @@ const IndexSocialMediaFeeds = ({ active }) => {
           heading="Health Social Media Index"
           description="The Interest value and sentiment of social media that links to the Health category"
         />
+
+        <Chart
+          sentimentValue="Positive"
+          active={active}
+          indexValue="195"
+          jsonData={jsonData}
+          category="culture"
+          heading="Culture Social Media Index"
+          description="The Interest value and sentiment of social media that links to the Culture category"
+        />
+
         <Chart
           sentimentValue="Positive"
           active={active}
@@ -61,32 +83,15 @@ const IndexSocialMediaFeeds = ({ active }) => {
           heading="Education Social Media Index"
           description="The Interest value and sentiment of social media that links to the Education category"
         />
+
         <Chart
           sentimentValue="Positive"
           active={active}
-          indexValue="279"
+          indexValue="275"
           jsonData={jsonData}
-          category="lifestyle"
-          heading="Lifestyle Social Media Index"
-          description="The Interest value and sentiment of social media that links to the Lifestyle category"
-        />
-        <Chart
-          sentimentValue="Positive"
-          active={active}
-          indexValue="140"
-          jsonData={jsonData}
-          category="economics"
-          heading="Economics Social Media Index"
-          description="The Interest value and sentiment of social media that links to the Economics category"
-        />
-        <Chart
-          sentimentValue="Positive"
-          active={active}
-          indexValue="195"
-          jsonData={jsonData}
-          category="culture"
-          heading="Culture Social Media Index"
-          description="The Interest value and sentiment of social media that links to the Culture category"
+          category="traffic"
+          heading="Traffic Social Media Index"
+          description="The Interest value and sentiment of social media that links to the Traffic category"
         />
       </div>
     </>
